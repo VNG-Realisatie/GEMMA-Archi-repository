@@ -13,7 +13,7 @@
       fillColor="#e1e1e1"
       content="Besloten kanaal voor klanten">
     <bounds
-        x="140"
+        x="24"
         y="453"
         width="447"
         height="493"/>
@@ -40,7 +40,7 @@
           href="FlowRelationship_id-37667.xml#id-37667"/>
     </sourceConnections>
     <bounds
-        x="193"
+        x="77"
         y="780"
         width="336"
         height="92"/>
@@ -58,7 +58,7 @@
       fillColor="#daeef3"
       type="1">
     <bounds
-        x="193"
+        x="77"
         y="520"
         width="336"
         height="92"/>
@@ -76,7 +76,7 @@
       fillColor="#e1e1e1"
       content="Publiek kanaal voor klanten">
     <bounds
-        x="140"
+        x="24"
         y="73"
         width="447"
         height="333"/>
@@ -91,7 +91,7 @@
       fillColor="#daeef3"
       type="1">
     <bounds
-        x="193"
+        x="77"
         y="273"
         width="336"
         height="92"/>
@@ -109,7 +109,7 @@
       fillColor="#daeef3"
       type="1">
     <bounds
-        x="193"
+        x="77"
         y="133"
         width="336"
         height="92"/>
@@ -127,9 +127,9 @@
       fillColor="#e1e1e1"
       content="Gemeentelijke Informatievoorziening">
     <bounds
-        x="713"
+        x="828"
         y="73"
-        width="1540"
+        width="1765"
         height="1053"/>
   </children>
   <children
@@ -147,8 +147,14 @@
         font="1|Arial|14.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial"
         fontColor="#000000"
         lineColor="#000000"
+        textPosition="2"
         source="id-37631"
         target="id-37638">
+      <bendpoints
+          startX="-65"
+          startY="-81"
+          endX="-65"
+          endY="94"/>
       <archimateRelationship
           xsi:type="archimate:FlowRelationship"
           href="FlowRelationship_id-37643.xml#id-37643"/>
@@ -159,14 +165,20 @@
         font="1|Arial|14.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial"
         fontColor="#000000"
         lineColor="#000000"
+        textPosition="0"
         source="id-37631"
         target="id-37638">
+      <bendpoints
+          startX="91"
+          startY="-93"
+          endX="91"
+          endY="82"/>
       <archimateRelationship
           xsi:type="archimate:FlowRelationship"
           href="FlowRelationship_id-37645.xml#id-37645"/>
     </sourceConnections>
     <bounds
-        x="1313"
+        x="1428"
         y="695"
         width="336"
         height="92"/>
@@ -192,20 +204,15 @@
         source="id-37632"
         target="id-37633">
       <bendpoints
-          startX="192"
-          startY="1"
-          endX="1172"
-          endY="-459"/>
-      <bendpoints
           startX="186"
           startY="381"
           endX="1166"
           endY="-79"/>
       <bendpoints
-          startX="-881"
-          startY="381"
-          endX="99"
-          endY="-79"/>
+          startX="-1116"
+          startY="382"
+          endX="100"
+          endY="-78"/>
       <archimateRelationship
           xsi:type="archimate:FlowRelationship"
           href="FlowRelationship_id-27335.xml#id-27335"/>
@@ -219,10 +226,10 @@
         source="id-37632"
         target="id-37635">
       <bendpoints
-          startX="-1"
-          startY="-119"
-          endX="979"
-          endY="-119"/>
+          startX="-84"
+          startY="-122"
+          endX="1132"
+          endY="-122"/>
       <bendpoints
           startX="-921"
           startY="-126"
@@ -241,15 +248,15 @@
         source="id-37632"
         target="id-37638">
       <bendpoints
-          startX="-101"
-          startY="-79"
-          endX="359"
-          endY="-79"/>
+          startX="-120"
+          startY="-86"
+          endX="576"
+          endY="-86"/>
       <bendpoints
-          startX="-361"
-          startY="-79"
-          endX="99"
-          endY="-79"/>
+          startX="-612"
+          startY="-86"
+          endX="84"
+          endY="-86"/>
       <archimateRelationship
           xsi:type="archimate:FlowRelationship"
           href="FlowRelationship_id-27337.xml#id-27337"/>
@@ -284,7 +291,7 @@
           href="FlowRelationship_id-27331.xml#id-27331"/>
     </sourceConnections>
     <bounds
-        x="1773"
+        x="2124"
         y="520"
         width="336"
         height="92"/>
@@ -319,7 +326,7 @@
           href="FlowRelationship_id-37664.xml#id-37664"/>
     </sourceConnections>
     <bounds
-        x="793"
+        x="908"
         y="980"
         width="336"
         height="92"/>
@@ -381,7 +388,7 @@
           href="FlowRelationship_id-37660.xml#id-37660"/>
     </sourceConnections>
     <bounds
-        x="793"
+        x="908"
         y="780"
         width="336"
         height="92"/>
@@ -406,6 +413,11 @@
         lineColor="#000000"
         source="id-37635"
         target="id-37668">
+      <bendpoints
+          startX="-301"
+          startY="22"
+          endX="299"
+          endY="22"/>
       <archimateRelationship
           xsi:type="archimate:FlowRelationship"
           href="FlowRelationship_id-37670.xml#id-37670"/>
@@ -418,12 +430,17 @@
         lineColor="#000000"
         source="id-37635"
         target="id-37668">
+      <bendpoints
+          startX="-301"
+          startY="-26"
+          endX="299"
+          endY="-26"/>
       <archimateRelationship
           xsi:type="archimate:FlowRelationship"
           href="FlowRelationship_id-37672.xml#id-37672"/>
     </sourceConnections>
     <bounds
-        x="793"
+        x="908"
         y="520"
         width="336"
         height="92"/>
@@ -453,7 +470,7 @@
           href="FlowRelationship_id-37677.xml#id-37677"/>
     </sourceConnections>
     <bounds
-        x="793"
+        x="908"
         y="133"
         width="336"
         height="92"/>
@@ -487,29 +504,30 @@
         font="1|Arial|14.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial"
         fontColor="#000000"
         lineColor="#000000"
+        textPosition="2"
         source="id-37637"
         target="id-37635">
       <bendpoints
-          startX="232"
-          startY="-26"
-          endX="1212"
-          endY="434"/>
+          startX="216"
+          startY="-6"
+          endX="1432"
+          endY="454"/>
       <bendpoints
-          startX="239"
-          startY="-613"
-          endX="1219"
-          endY="-153"/>
+          startX="216"
+          startY="-618"
+          endX="1432"
+          endY="-158"/>
       <bendpoints
-          startX="-1021"
-          startY="-613"
-          endX="-41"
-          endY="-153"/>
+          startX="-1320"
+          startY="-618"
+          endX="-104"
+          endY="-158"/>
       <archimateRelationship
           xsi:type="archimate:FlowRelationship"
           href="FlowRelationship_id-37650.xml#id-37650"/>
     </sourceConnections>
     <bounds
-        x="1773"
+        x="2124"
         y="980"
         width="336"
         height="92"/>
@@ -539,7 +557,7 @@
           href="FlowRelationship_id-37653.xml#id-37653"/>
     </sourceConnections>
     <bounds
-        x="1313"
+        x="1428"
         y="520"
         width="336"
         height="92"/>
@@ -568,7 +586,7 @@
           href="FlowRelationship_id-37656.xml#id-37656"/>
     </sourceConnections>
     <bounds
-        x="1313"
+        x="1668"
         y="133"
         width="336"
         height="92"/>
@@ -598,7 +616,7 @@
           href="FlowRelationship_id-37662.xml#id-37662"/>
     </sourceConnections>
     <bounds
-        x="793"
+        x="908"
         y="273"
         width="336"
         height="92"/>
@@ -632,7 +650,7 @@
           href="FlowRelationship_id-37361.xml#id-37361"/>
     </sourceConnections>
     <bounds
-        x="193"
+        x="77"
         y="1100"
         width="336"
         height="92"/>
