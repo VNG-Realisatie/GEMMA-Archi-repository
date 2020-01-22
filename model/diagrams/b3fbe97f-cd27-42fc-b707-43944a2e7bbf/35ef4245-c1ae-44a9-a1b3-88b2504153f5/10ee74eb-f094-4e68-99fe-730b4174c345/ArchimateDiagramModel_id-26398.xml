@@ -5,6 +5,21 @@
     id="id-26398">
   <children
       xsi:type="archimate:DiagramModelNote"
+      id="id-101518"
+      font="1|Arial|12.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Arial"
+      fontColor="#000000"
+      lineColor="#000000"
+      textAlignment="1"
+      fillColor="#f4f4f4"
+      content="EU lidstaat">
+    <bounds
+        x="207"
+        y="13"
+        width="247"
+        height="713"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
       id="id-101466"
       font="1|Arial|12.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Arial"
       fontColor="#000000"
@@ -85,6 +100,11 @@
             lineColor="#000000"
             source="id-35448"
             target="id-35455">
+          <bendpoints
+              startX="-452"
+              startY="51"
+              endX="432"
+              endY="51"/>
           <archimateRelationship
               xsi:type="archimate:FlowRelationship"
               href="FlowRelationship_id-35437.xml#id-35437"/>
@@ -171,6 +191,11 @@
             lineColor="#000000"
             source="id-35452"
             target="id-35455">
+          <bendpoints
+              startX="-342"
+              startY="180"
+              endX="288"
+              endY="207"/>
           <archimateRelationship
               xsi:type="archimate:FlowRelationship"
               href="FlowRelationship_id-35445.xml#id-35445"/>
@@ -214,21 +239,6 @@
         y="40"
         width="240"
         height="67"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-101518"
-      font="1|Arial|12.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Arial"
-      fontColor="#000000"
-      lineColor="#000000"
-      textAlignment="1"
-      fillColor="#f4f4f4"
-      content="EU lidstaat">
-    <bounds
-        x="207"
-        y="13"
-        width="247"
-        height="713"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -291,6 +301,11 @@
             lineColor="#000000"
             source="id-35455"
             target="id-35448">
+          <bendpoints
+              startX="252"
+              startY="-21"
+              endX="-632"
+              endY="-21"/>
           <archimateRelationship
               xsi:type="archimate:FlowRelationship"
               href="FlowRelationship_id-35435.xml#id-35435"/>
@@ -303,6 +318,11 @@
             lineColor="#000000"
             source="id-35455"
             target="id-35448">
+          <bendpoints
+              startX="252"
+              startY="-57"
+              endX="-632"
+              endY="-57"/>
           <archimateRelationship
               xsi:type="archimate:FlowRelationship"
               href="FlowRelationship_id-35439.xml#id-35439"/>
@@ -315,6 +335,11 @@
             lineColor="#000000"
             source="id-35455"
             target="id-35452">
+          <bendpoints
+              startX="312"
+              startY="-129"
+              endX="-318"
+              endY="-156"/>
           <archimateRelationship
               xsi:type="archimate:FlowRelationship"
               href="FlowRelationship_id-35443.xml#id-35443"/>
@@ -324,22 +349,6 @@
             y="40"
             width="113"
             height="573"/>
-        <children
-            xsi:type="archimate:DiagramModelArchimateObject"
-            id="id-35456"
-            font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
-            fontColor="#000000"
-            lineColor="#000000"
-            fillColor="#fefeb4">
-          <bounds
-              x="13"
-              y="193"
-              width="133"
-              height="53"/>
-          <archimateElement
-              xsi:type="archimate:Representation"
-              href="Representation_id-35457.xml#id-35457"/>
-        </children>
         <archimateElement
             xsi:type="archimate:ApplicationComponent"
             href="ApplicationComponent_id-30101.xml#id-30101"/>
@@ -351,6 +360,22 @@
     <archimateElement
         xsi:type="archimate:BusinessActor"
         href="BusinessActor_id-29789.xml#id-29789"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-35456"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      fontColor="#000000"
+      lineColor="#000000"
+      fillColor="#fefeb4">
+    <bounds
+        x="240"
+        y="168"
+        width="133"
+        height="53"/>
+    <archimateElement
+        xsi:type="archimate:Representation"
+        href="Representation_id-35457.xml#id-35457"/>
   </children>
   <properties
       key="Object ID"
