@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="API-landschap ZGW"
     id="9172cdb8-2d66-4a82-9ac4-20046b534e03"
-    documentation="De standaard &quot;API's voor Zaakgericht Werken&quot;. &#xD;&#xA;&#xD;&#xA;We beschouwen de Notificaties en Autorisaties API als onderdeel van de standaard, maar verwachten een doorontwikkeling als generieke API's voor het gemeentelijk gegevenslandschap. Dat geldt ook voor de Documenten API en Besluiten API.">
+    documentation="De standaard &quot;API's voor Zaakgericht Werken&quot;. &#xA;&#xA;We beschouwen de Notificaties en Autorisaties API als onderdeel van de standaard, maar verwachten een doorontwikkeling als generieke API's voor het gemeentelijk gegevenslandschap. Dat geldt ook voor de Documenten API en Besluiten API.">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="e4d20de6-9757-4230-9c17-640535b6116a"
@@ -39,9 +39,9 @@
           href="AggregationRelationship_589a41fb-65e3-4db2-89c8-91c1cf7a8e54.xml#589a41fb-65e3-4db2-89c8-91c1cf7a8e54"/>
     </sourceConnections>
     <bounds
-        x="30"
+        x="24"
         y="50"
-        width="1291"
+        width="1297"
         height="120"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -49,8 +49,8 @@
         targetConnections="5c2301e1-c558-4744-a373-1f158349e0ed"
         type="1">
       <bounds
-          x="320"
-          y="30"
+          x="498"
+          y="24"
           width="130"
           height="60"/>
       <archimateElement
@@ -63,8 +63,8 @@
         targetConnections="797ab89e-400b-43e7-b9df-a8b1ef235aac"
         type="1">
       <bounds
-          x="840"
-          y="30"
+          x="810"
+          y="24"
           width="130"
           height="60"/>
       <archimateElement
@@ -77,8 +77,8 @@
         targetConnections="0b25eb4a-d095-4463-8fea-91d3eb04229d"
         type="1">
       <bounds
-          x="580"
-          y="30"
+          x="654"
+          y="24"
           width="130"
           height="60"/>
       <archimateElement
@@ -132,9 +132,9 @@
           href="AggregationRelationship_5c121223-0895-4604-9eb7-7c8de7ded9b4.xml#5c121223-0895-4604-9eb7-7c8de7ded9b4"/>
     </sourceConnections>
     <bounds
-        x="30"
+        x="24"
         y="190"
-        width="1291"
+        width="1297"
         height="141"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -189,7 +189,7 @@
             href="AggregationRelationship_18a4a562-dd8d-4946-8c14-3f33805c89b8.xml#18a4a562-dd8d-4946-8c14-3f33805c89b8"/>
       </sourceConnections>
       <bounds
-          x="350"
+          x="356"
           y="20"
           width="771"
           height="110"/>
@@ -218,7 +218,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="88abeace-ccb0-447a-ba6a-10bddd3b1be7"
-          targetConnections="0e9c520f-e966-4789-8458-0211c2db37b4">
+          targetConnections="0e9c520f-e966-4789-8458-0211c2db37b4 b4c91741-3fc2-403c-adfe-d67b94829a2c">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="43a5a92f-31a1-4b30-b2a8-b994bfae681f"
@@ -321,7 +321,7 @@
             href="ServingRelationship_1f7561bf-9dae-49b5-8674-90377e76ea30.xml#1f7561bf-9dae-49b5-8674-90377e76ea30"/>
       </sourceConnections>
       <bounds
-          x="180"
+          x="186"
           y="50"
           width="130"
           height="60"/>
@@ -343,7 +343,7 @@
             href="ServingRelationship_8d1a9c1d-874c-4ae9-a203-19b7ebee5f4d.xml#8d1a9c1d-874c-4ae9-a203-19b7ebee5f4d"/>
       </sourceConnections>
       <bounds
-          x="30"
+          x="36"
           y="50"
           width="130"
           height="60"/>
@@ -366,7 +366,7 @@
             href="ServingRelationship_9096cc47-ee9d-43c9-8c18-da7d4fca9945.xml#9096cc47-ee9d-43c9-8c18-da7d4fca9945"/>
       </sourceConnections>
       <bounds
-          x="1140"
+          x="1146"
           y="50"
           width="130"
           height="60"/>
@@ -439,9 +439,9 @@
           href="AggregationRelationship_8e7fa0ea-acfe-4d54-84bf-0580c17b9fdd.xml#8e7fa0ea-acfe-4d54-84bf-0580c17b9fdd"/>
     </sourceConnections>
     <bounds
-        x="30"
+        x="24"
         y="350"
-        width="1291"
+        width="1297"
         height="121"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -458,7 +458,7 @@
             href="RealizationRelationship_19713e33-c46f-4e3a-adbe-4ab21f1e845a.xml#19713e33-c46f-4e3a-adbe-4ab21f1e845a"/>
       </sourceConnections>
       <bounds
-          x="180"
+          x="186"
           y="40"
           width="130"
           height="60"/>
@@ -480,8 +480,12 @@
             xsi:type="archimate:RealizationRelationship"
             href="RealizationRelationship_b8420d4d-85ed-43de-9a20-527fe7e9d958.xml#b8420d4d-85ed-43de-9a20-527fe7e9d958"/>
       </sourceConnections>
+      <sourceConnections
+          id="38d5916d-b0b1-4b4b-b6d5-0a2ac907c5a4"
+          source="fb8e4ba2-578f-4d66-b183-58a432a4e4ea"
+          target="e1c3a1d2-110d-4ef7-9bd2-2b768e59e274"/>
       <bounds
-          x="30"
+          x="36"
           y="40"
           width="130"
           height="60"/>
@@ -504,7 +508,7 @@
             href="RealizationRelationship_12658331-89fb-42c1-9c8e-04100351fdf8.xml#12658331-89fb-42c1-9c8e-04100351fdf8"/>
       </sourceConnections>
       <bounds
-          x="1140"
+          x="1146"
           y="40"
           width="130"
           height="60"/>
@@ -527,7 +531,7 @@
             href="RealizationRelationship_5841132e-03f7-4187-b8a5-52e5ed288bb2.xml#5841132e-03f7-4187-b8a5-52e5ed288bb2"/>
       </sourceConnections>
       <bounds
-          x="520"
+          x="526"
           y="40"
           width="130"
           height="60"/>
@@ -550,7 +554,7 @@
             href="RealizationRelationship_a527b2cc-2759-43aa-a0bd-cfe329094f45.xml#a527b2cc-2759-43aa-a0bd-cfe329094f45"/>
       </sourceConnections>
       <bounds
-          x="370"
+          x="376"
           y="40"
           width="130"
           height="60"/>
@@ -573,7 +577,7 @@
             href="RealizationRelationship_3f142ee3-f5aa-472c-9d55-d32e79c8016d.xml#3f142ee3-f5aa-472c-9d55-d32e79c8016d"/>
       </sourceConnections>
       <bounds
-          x="670"
+          x="676"
           y="40"
           width="130"
           height="60"/>
@@ -585,7 +589,55 @@
         xsi:type="archimate:Grouping"
         href="Grouping_90dcb159-e3c2-4792-87b9-99f74b051100.xml#90dcb159-e3c2-4792-87b9-99f74b051100"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="e1c3a1d2-110d-4ef7-9bd2-2b768e59e274"
+      targetConnections="38d5916d-b0b1-4b4b-b6d5-0a2ac907c5a4"
+      textAlignment="1"
+      content="Een referentiecomponent kan meerdere standaarden of interfaces aanbieden. Hoe gaan we weergeven dat een zaakregistratiecomponent naast de Zaken API ook een StUF ZDS koppelvlak aanbiedt? Nu realiseert een referentiecomponent:&#xD;&#xA;- een standaard, zoals StUF ZDS&#xD;&#xA;- een applicatie-service, die we Zaken API noemen&#xD;&#xA;&#xD;&#xA;Zouden we de Zaken API OAS specificatie niet als Standaard in de GEMMA moeten opnemen?">
+    <bounds
+        x="132"
+        y="11"
+        width="372"
+        height="146"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="1060a9fe-8f9c-4c1f-82d6-c53a969aa244"
+      textAlignment="1"
+      content="We geven nu een API weer als een applicatie-service. De applicatie-service verwijst via de eigenschap URI naar de plek waar de API zich bevindt:&#xD;&#xA;- als OAS specificatie&#xD;&#xA;- als referentieimplementatie">
+    <sourceConnections
+        id="b4c91741-3fc2-403c-adfe-d67b94829a2c"
+        source="1060a9fe-8f9c-4c1f-82d6-c53a969aa244"
+        target="88abeace-ccb0-447a-ba6a-10bddd3b1be7"/>
+    <bounds
+        x="1020"
+        y="11"
+        width="278"
+        height="114"/>
+  </children>
   <properties
       key="URL"
       value="https://github.com/VNG-Realisatie/gemma-zaken/blob/master/docs/_content/standaard/index.md"/>
+  <properties
+      key="Detailniveau"
+      value="Samenhang"/>
+  <properties
+      key="Publiceren"
+      value="GEMMA Online en redactie"/>
+  <properties
+      key="Scope"
+      value="Gemeente"/>
+  <properties
+      key="GEMMA thema"
+      value="Common Ground"/>
+  <properties
+      key="Architectuurlaag"
+      value="Applicatiearchitectuur"/>
+  <properties
+      key="Domein"
+      value="Niet domeingebonden"/>
+  <properties
+      key="Object ID"
+      value="9172cdb8-2d66-4a82-9ac4-20046b534e03"/>
 </archimate:ArchimateDiagramModel>
