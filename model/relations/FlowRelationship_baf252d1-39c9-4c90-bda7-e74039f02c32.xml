@@ -1,11 +1,12 @@
 <archimate:FlowRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="8c2f612b-05a2-4580-ae7f-e3ef129a5c77">
+    name="Leestoegang (beoordelen en/of opnemen teksten)"
+    id="baf252d1-39c9-4c90-bda7-e74039f02c32">
   <source
-      xsi:type="archimate:BusinessProcess"
-      href="BusinessProcess_ffb5df68-cf36-43af-8be0-c9d3d2ec7d2b.xml#ffb5df68-cf36-43af-8be0-c9d3d2ec7d2b"/>
-  <target
       xsi:type="archimate:ApplicationComponent"
       href="ApplicationComponent_1b8db2df-80ae-45a2-a3e9-2fb127c1dacd.xml#1b8db2df-80ae-45a2-a3e9-2fb127c1dacd"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_4bb677ff-5c4c-4d14-90b7-226c6afcf367.xml#4bb677ff-5c4c-4d14-90b7-226c6afcf367"/>
 </archimate:FlowRelationship>

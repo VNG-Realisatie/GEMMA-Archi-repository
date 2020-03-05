@@ -9,8 +9,8 @@
       textAlignment="1"
       content="Scenario’s: aansluiten op landelijke portalen​&#xD;&#xA;&#xD;&#xA;Uitgangspunt: content uitwisseling via Samenwerkende Catalogi, inclusief links naar transactiemogelijkheden, waar vereist&#xD;&#xA;&#xD;&#xA;1. centrale redactie: landelijke partij stelt productinformatie op en stemt af met verantwoordelijke dienstverlener (-s)​&#xD;&#xA;2. Opt-out: landelijke partij stelt productinformatie beschikbaar, dienstverlener bepaalt of dit voldoet, of dat een eigen tekst gewenst is​&#xD;&#xA;3. Co-productie: (landelijke?) partij stelt generieke tekst op, dienstverlener vult deze op gestandaardiseerde onderdelen aan met lokale informatie​&#xD;&#xA;4. Eigen verantwoordelijkheid: elke dienstverlener stelt haar eigen productinformatie op">
     <bounds
-        x="1850"
-        y="940"
+        x="2440"
+        y="-190"
         width="350"
         height="261"/>
   </children>
@@ -20,8 +20,8 @@
       textAlignment="1"
       content="Scenario’s (ondernemers-) transacties&#xD;&#xA;&#xD;&#xA;1. Standaard ontwerp van een formulier, in te bouwen door meerdere bestaande marktpartijen die leveren aan 355 gemeenten​&#xD;&#xA;2. Departementen stimuleren om landelijke aanvraagmogelijkheden te faciliteren (zie OLO en ELOVOG)​&#xD;&#xA;&#xD;&#xA;Specifiek voor het ondernemersdeel:​&#xD;&#xA;3. Herinterpretatie: exploiteren van een bedrijf toestaan door middel van een contactformulier en account management​&#xD;&#xA;4. Inzet berichtenbox: start van de transactie met een vereenvoudigd (PDF?) formulier en laat de afhandeling verlopen langs dit digitale kanaal, conform de dienstenrichtlijn 2009">
     <bounds
-        x="1950"
-        y="310"
+        x="2000"
+        y="-180"
         width="351"
         height="261"/>
   </children>
@@ -229,6 +229,15 @@
           <archimateRelationship
               xsi:type="archimate:FlowRelationship"
               href="FlowRelationship_id-31788.xml#id-31788"/>
+        </sourceConnections>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="44ba58ed-a1c3-47b1-9219-fc210080be05"
+            source="192f4b02-25c9-4ec3-ab7b-03848a5baeb2"
+            target="f947c52f-fa28-4854-b905-7899a3bd9135">
+          <archimateRelationship
+              xsi:type="archimate:AccessRelationship"
+              href="AccessRelationship_c63406d9-2393-45ef-865d-d3018bb7a7a4.xml#c63406d9-2393-45ef-865d-d3018bb7a7a4"/>
         </sourceConnections>
         <bounds
             x="30"
@@ -518,7 +527,7 @@
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="722b3911-dae2-469b-b6a9-6d8b9f6f253a"
-            targetConnections="ac98449b-bebc-424a-8ede-438508990db7 068c3cd0-1419-420b-af79-f15053ef8205"
+            targetConnections="ac98449b-bebc-424a-8ede-438508990db7"
             type="1">
           <sourceConnections
               xsi:type="archimate:DiagramModelArchimateConnection"
@@ -600,15 +609,6 @@
               <archimateRelationship
                   xsi:type="archimate:AccessRelationship"
                   href="AccessRelationship_5ff72ece-2144-40b3-bf0e-593337179d58.xml#5ff72ece-2144-40b3-bf0e-593337179d58"/>
-            </sourceConnections>
-            <sourceConnections
-                xsi:type="archimate:DiagramModelArchimateConnection"
-                id="44ba58ed-a1c3-47b1-9219-fc210080be05"
-                source="d49912e3-4fc5-4ec3-a759-c8e379c7adb0"
-                target="f947c52f-fa28-4854-b905-7899a3bd9135">
-              <archimateRelationship
-                  xsi:type="archimate:AccessRelationship"
-                  href="AccessRelationship_c63406d9-2393-45ef-865d-d3018bb7a7a4.xml#c63406d9-2393-45ef-865d-d3018bb7a7a4"/>
             </sourceConnections>
             <bounds
                 x="230"
@@ -887,15 +887,6 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="ac8d1078-b256-4964-acc9-cc6ffff9bba4"
         targetConnections="b338da50-2b86-4509-b101-459d8de29bab 23ad6dba-2c99-4136-bbdf-e1a804830f2a">
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="068c3cd0-1419-420b-af79-f15053ef8205"
-          source="ac8d1078-b256-4964-acc9-cc6ffff9bba4"
-          target="722b3911-dae2-469b-b6a9-6d8b9f6f253a">
-        <archimateRelationship
-            xsi:type="archimate:FlowRelationship"
-            href="FlowRelationship_8c2f612b-05a2-4580-ae7f-e3ef129a5c77.xml#8c2f612b-05a2-4580-ae7f-e3ef129a5c77"/>
-      </sourceConnections>
       <bounds
           x="1180"
           y="90"
