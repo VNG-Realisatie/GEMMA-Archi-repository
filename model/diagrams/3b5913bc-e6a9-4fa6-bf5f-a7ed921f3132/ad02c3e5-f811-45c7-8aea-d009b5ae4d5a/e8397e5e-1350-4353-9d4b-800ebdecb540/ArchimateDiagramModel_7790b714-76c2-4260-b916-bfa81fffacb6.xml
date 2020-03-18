@@ -1,8 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    xmlns:canvas="http://www.archimatetool.com/archimate/canvas"
-    name="Architectuurplaten aansluiten op SDG"
+    name="Landelijk aansluiten op SDG"
     id="7790b714-76c2-4260-b916-bfa81fffacb6"
     documentation="Uitwerking op hoofdlijnen van de nu onderkende aansluitscenario’s SDG. De uitwerking is gericht op gemeenten, maar kan ook inzicht bieden aan andere lokale overheden">
   <children
@@ -12,45 +11,33 @@
       textAlignment="1"
       type="1">
     <bounds
-        x="24"
-        y="376"
+        x="20"
+        y="180"
         width="631"
         height="101"/>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="8bc00c2b-e821-42e6-b6ca-d987687f49df">
+        id="5620bb17-e5d1-41f4-9ca1-3cffc5f18484">
       <bounds
-          x="15"
-          y="18"
+          x="27"
+          y="20"
+          width="144"
+          height="55"/>
+      <referencedModel
+          xsi:type="archimate:ArchimateDiagramModel"
+          href="ArchimateDiagramModel_601c9693-748c-42f5-9348-7d79bcb37b98.xml#601c9693-748c-42f5-9348-7d79bcb37b98"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelReference"
+        id="da0d3bbc-cfaf-4e8a-ad82-822015559184">
+      <bounds
+          x="400"
+          y="20"
           width="120"
           height="55"/>
       <referencedModel
           xsi:type="archimate:ArchimateDiagramModel"
           href="ArchimateDiagramModel_ec73806f-b6a3-4d4d-be61-ae44a551bada.xml#ec73806f-b6a3-4d4d-be61-ae44a551bada"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelReference"
-        id="622086a2-5ecc-4612-9d2f-e7e6a997e969">
-      <bounds
-          x="172"
-          y="21"
-          width="120"
-          height="55"/>
-      <referencedModel
-          xsi:type="archimate:ArchimateDiagramModel"
-          href="ArchimateDiagramModel_40a0e87c-a098-41fb-8abb-8d0fec8291f9.xml#40a0e87c-a098-41fb-8abb-8d0fec8291f9"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelReference"
-        id="b7337378-d3ac-4b79-ac3d-f4807a9b7514">
-      <bounds
-          x="325"
-          y="19"
-          width="120"
-          height="55"/>
-      <referencedModel
-          xsi:type="archimate:ArchimateDiagramModel"
-          href="ArchimateDiagramModel_601c9693-748c-42f5-9348-7d79bcb37b98.xml#601c9693-748c-42f5-9348-7d79bcb37b98"/>
     </children>
     <archimateElement
         xsi:type="archimate:Grouping"
@@ -59,7 +46,6 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="856049b7-f2c9-4e36-9f4f-4ab757f7bb9b"
-      targetConnections="ce54bac8-d600-4aa6-8e48-63e0f2ecf9ad"
       textAlignment="1"
       type="1">
     <sourceConnections
@@ -72,8 +58,8 @@
           href="TriggeringRelationship_542eab19-4162-4757-9a5f-ec5fa3fee6f2.xml#542eab19-4162-4757-9a5f-ec5fa3fee6f2"/>
     </sourceConnections>
     <bounds
-        x="24"
-        y="216"
+        x="20"
+        y="20"
         width="631"
         height="100"/>
     <children
@@ -82,7 +68,7 @@
       <bounds
           x="30"
           y="30"
-          width="120"
+          width="181"
           height="55"/>
       <referencedModel
           xsi:type="archimate:ArchimateDiagramModel"
@@ -92,44 +78,10 @@
         xsi:type="archimate:Grouping"
         href="Grouping_b5a3c84f-b063-4761-bd05-88b408529ff2.xml#b5a3c84f-b063-4761-bd05-88b408529ff2"/>
   </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="720b5e5e-ed2c-4d0c-8c08-eca032c28530"
-      textAlignment="1">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="ce54bac8-d600-4aa6-8e48-63e0f2ecf9ad"
-        source="720b5e5e-ed2c-4d0c-8c08-eca032c28530"
-        target="856049b7-f2c9-4e36-9f4f-4ab757f7bb9b">
-      <archimateRelationship
-          xsi:type="archimate:TriggeringRelationship"
-          href="TriggeringRelationship_98eb0894-80bd-435f-9d3a-feb15b5ecae8.xml#98eb0894-80bd-435f-9d3a-feb15b5ecae8"/>
-    </sourceConnections>
-    <bounds
-        x="28"
-        y="34"
-        width="621"
-        height="111"/>
-    <children
-        xsi:type="archimate:DiagramModelReference"
-        id="81829926-44c9-4f02-8e38-3310fa2442bf">
-      <bounds
-          x="24"
-          y="36"
-          width="120"
-          height="55"/>
-      <referencedModel
-          xsi:type="canvas:CanvasModel"
-          href="CanvasModel_ec26af40-7e0a-4312-b4c4-ff8071b435dc.xml#ec26af40-7e0a-4312-b4c4-ff8071b435dc"/>
-    </children>
-    <archimateElement
-        xsi:type="archimate:Grouping"
-        href="Grouping_61bbfcc3-4878-436b-98c4-1e56c49ebc2e.xml#61bbfcc3-4878-436b-98c4-1e56c49ebc2e"/>
-  </children>
   <properties
-      key="ExcludeViewElements"
-      value="Als deze bestaat, geen tabel"/>
+      key="IncludeViewElements"
+      value="false"/>
   <properties
-      key="IncludeAphabeticalTable"
-      value="Als deze bestaat, achterin en alfabetische tabel"/>
+      key="IncludeAppendix"
+      value="false"/>
 </archimate:ArchimateDiagramModel>
