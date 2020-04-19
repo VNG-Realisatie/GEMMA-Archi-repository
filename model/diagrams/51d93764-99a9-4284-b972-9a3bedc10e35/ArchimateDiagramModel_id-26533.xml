@@ -530,7 +530,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-39218"
-      targetConnections="id-39241 id-39198"
+      targetConnections="id-39241 id-39198 b957c609-aa76-491a-93ef-a9df88173d8a"
       font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
       fontColor="#000000"
       lineColor="#000000"
@@ -601,6 +601,27 @@
     <archimateElement
         xsi:type="archimate:ApplicationService"
         href="ApplicationService_id-31794.xml#id-31794"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="2dafb9ce-7f4b-40eb-8129-0ec16ce3e123">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="b957c609-aa76-491a-93ef-a9df88173d8a"
+        source="2dafb9ce-7f4b-40eb-8129-0ec16ce3e123"
+        target="id-39218">
+      <archimateRelationship
+          xsi:type="archimate:SpecializationRelationship"
+          href="SpecializationRelationship_id-40566.xml#id-40566"/>
+    </sourceConnections>
+    <bounds
+        x="820"
+        y="440"
+        width="140"
+        height="60"/>
+    <archimateElement
+        xsi:type="archimate:Constraint"
+        href="Constraint_id-40027.xml#id-40027"/>
   </children>
   <properties
       key="Architectuurlaag"
