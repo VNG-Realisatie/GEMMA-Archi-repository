@@ -1,37 +1,26 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Landelijk aansluiten op SDG"
-    id="7790b714-76c2-4260-b916-bfa81fffacb6"
+    xmlns:canvas="http://www.archimatetool.com/archimate/canvas"
+    name="Gemeenten aansluiten op SDG (copy)"
+    id="2ba81a7d-7b8b-42f9-847d-8f0aa00077d3"
     documentation="Uitwerking op hoofdlijnen van de nu onderkende aansluitscenario’s SDG. De uitwerking is gericht op gemeenten, maar kan ook inzicht bieden aan andere lokale overheden">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="3c8d15bf-31a2-420d-8bd0-9860fae25f88"
-      targetConnections="2f1f519e-2657-491d-acce-06c52517e983"
+      id="a1d51aa9-0637-4694-8bb6-2f88563c429f"
+      targetConnections="0007770f-fd41-41c2-a30b-2ff9c610c576"
       textAlignment="1"
       type="1">
     <bounds
-        x="20"
-        y="180"
+        x="24"
+        y="376"
         width="631"
         height="101"/>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="5620bb17-e5d1-41f4-9ca1-3cffc5f18484">
+        id="426462ee-de61-42da-98bc-6ea5f53126b3">
       <bounds
-          x="27"
-          y="20"
-          width="144"
-          height="55"/>
-      <referencedModel
-          xsi:type="archimate:ArchimateDiagramModel"
-          href="ArchimateDiagramModel_601c9693-748c-42f5-9348-7d79bcb37b98.xml#601c9693-748c-42f5-9348-7d79bcb37b98"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelReference"
-        id="da0d3bbc-cfaf-4e8a-ad82-822015559184">
-      <bounds
-          x="400"
+          x="210"
           y="20"
           width="120"
           height="55"/>
@@ -45,46 +34,42 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="856049b7-f2c9-4e36-9f4f-4ab757f7bb9b"
-      textAlignment="1"
-      type="1">
+      id="2366f422-0bb4-45ef-80e0-1ff1f93195e1"
+      textAlignment="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="2f1f519e-2657-491d-acce-06c52517e983"
-        source="856049b7-f2c9-4e36-9f4f-4ab757f7bb9b"
-        target="3c8d15bf-31a2-420d-8bd0-9860fae25f88">
+        id="0007770f-fd41-41c2-a30b-2ff9c610c576"
+        source="2366f422-0bb4-45ef-80e0-1ff1f93195e1"
+        target="a1d51aa9-0637-4694-8bb6-2f88563c429f">
       <archimateRelationship
           xsi:type="archimate:TriggeringRelationship"
-          href="TriggeringRelationship_542eab19-4162-4757-9a5f-ec5fa3fee6f2.xml#542eab19-4162-4757-9a5f-ec5fa3fee6f2"/>
+          href="TriggeringRelationship_15d235a0-9f7a-48f9-b32b-bf7e665d0b55.xml#15d235a0-9f7a-48f9-b32b-bf7e665d0b55"/>
     </sourceConnections>
     <bounds
-        x="20"
-        y="20"
-        width="631"
-        height="100"/>
+        x="28"
+        y="34"
+        width="621"
+        height="111"/>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="b26948d2-0912-479e-969b-9db850c08eb7">
+        id="e2e70caa-dc10-4c19-829e-40160af8a6e3">
       <bounds
-          x="30"
-          y="30"
-          width="181"
+          x="24"
+          y="36"
+          width="177"
           height="55"/>
       <referencedModel
-          xsi:type="archimate:ArchimateDiagramModel"
-          href="ArchimateDiagramModel_3134402e-e05c-4027-9986-b665a2d76215.xml#3134402e-e05c-4027-9986-b665a2d76215"/>
+          xsi:type="canvas:CanvasModel"
+          href="CanvasModel_ec26af40-7e0a-4312-b4c4-ff8071b435dc.xml#ec26af40-7e0a-4312-b4c4-ff8071b435dc"/>
     </children>
     <archimateElement
         xsi:type="archimate:Grouping"
-        href="Grouping_b5a3c84f-b063-4761-bd05-88b408529ff2.xml#b5a3c84f-b063-4761-bd05-88b408529ff2"/>
+        href="Grouping_61bbfcc3-4878-436b-98c4-1e56c49ebc2e.xml#61bbfcc3-4878-436b-98c4-1e56c49ebc2e"/>
   </children>
   <properties
       key="IncludeViewElements"
-      value="true"/>
+      value="false"/>
   <properties
       key="IncludeAppendix"
-      value="true"/>
-  <properties
-      key="IncludeProperties"
       value="false"/>
 </archimate:ArchimateDiagramModel>
