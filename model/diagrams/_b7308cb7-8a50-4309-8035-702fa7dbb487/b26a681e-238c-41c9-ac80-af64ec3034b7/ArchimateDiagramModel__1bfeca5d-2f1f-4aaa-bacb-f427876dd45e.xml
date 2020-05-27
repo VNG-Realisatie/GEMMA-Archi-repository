@@ -32,6 +32,16 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
+        id="647ea829-6110-4327-8116-f5fc93ca81e6"
+        lineColor="#000000"
+        source="00ca7190-9815-4ef4-be7f-ef7cf750eaad"
+        target="3837cbdf-a4f3-4b92-a543-13ff5a799fc4">
+      <archimateRelationship
+          xsi:type="archimate:RealizationRelationship"
+          href="RealizationRelationship__91337a3e-a577-4669-b1d2-e0e6758b469a.xml#_91337a3e-a577-4669-b1d2-e0e6758b469a"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
         id="77d32ef8-93fd-43e0-9fb0-994b34550356"
         lineColor="#000000"
         source="00ca7190-9815-4ef4-be7f-ef7cf750eaad"
@@ -60,16 +70,6 @@
           xsi:type="archimate:AssignmentRelationship"
           href="AssignmentRelationship__fcaa023c-ab29-4c89-a438-0beb340a7580.xml#_fcaa023c-ab29-4c89-a438-0beb340a7580"/>
     </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="647ea829-6110-4327-8116-f5fc93ca81e6"
-        lineColor="#000000"
-        source="00ca7190-9815-4ef4-be7f-ef7cf750eaad"
-        target="3837cbdf-a4f3-4b92-a543-13ff5a799fc4">
-      <archimateRelationship
-          xsi:type="archimate:RealizationRelationship"
-          href="RealizationRelationship__91337a3e-a577-4669-b1d2-e0e6758b469a.xml#_91337a3e-a577-4669-b1d2-e0e6758b469a"/>
-    </sourceConnections>
     <bounds
         x="72"
         y="168"
@@ -83,16 +83,6 @@
         fillColor="#b7dee8">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="ad573465-25b0-4fb7-90ef-894fb1260a43"
-          lineColor="#000000"
-          source="8795388c-ccc2-4266-accd-22187be8d736"
-          target="011322d1-0149-4f30-bd99-79f2d0f04f7e">
-        <archimateRelationship
-            xsi:type="archimate:CompositionRelationship"
-            href="CompositionRelationship__4d9a9a51-bfd5-41e2-b03b-69e998c6875b.xml#_4d9a9a51-bfd5-41e2-b03b-69e998c6875b"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
           id="699266a0-dda8-4886-9b8c-e52d99181ace"
           lineColor="#000000"
           source="8795388c-ccc2-4266-accd-22187be8d736"
@@ -100,6 +90,16 @@
         <archimateRelationship
             xsi:type="archimate:CompositionRelationship"
             href="CompositionRelationship__d77d6b15-37e1-424c-8f48-76886dcbb5a9.xml#_d77d6b15-37e1-424c-8f48-76886dcbb5a9"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="ad573465-25b0-4fb7-90ef-894fb1260a43"
+          lineColor="#000000"
+          source="8795388c-ccc2-4266-accd-22187be8d736"
+          target="011322d1-0149-4f30-bd99-79f2d0f04f7e">
+        <archimateRelationship
+            xsi:type="archimate:CompositionRelationship"
+            href="CompositionRelationship__4d9a9a51-bfd5-41e2-b03b-69e998c6875b.xml#_4d9a9a51-bfd5-41e2-b03b-69e998c6875b"/>
       </sourceConnections>
       <bounds
           x="24"
@@ -227,4 +227,13 @@
   <properties
       key="Object ID"
       value="1bfeca5d-2f1f-4aaa-bacb-f427876dd45e"/>
+  <properties
+      key="Publiceren"
+      value="GEMMA Online en redactie"/>
+  <properties
+      key="GEMMA thema"
+      value="Omgevingswet"/>
+  <properties
+      key="Viewtype"
+      value="Contentfilter"/>
 </archimate:ArchimateDiagramModel>
