@@ -1,0 +1,18 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="OW-validatieservice"
+    id="_ba05cb9a-d373-4cd7-98cb-104e5b74d52c"
+    documentation="De OW-validatieservice is een generieke service voor het valideren van Omgevingswet (OW) gegevens tegen het Informatiemodel Omgevingswet (IMOW).">
+  <properties
+      key="Object ID"
+      value="ba05cb9a-d373-4cd7-98cb-104e5b74d52c"/>
+  <properties
+      key="Toelichting"
+      value="De OW-validatie-service maakt het mogelijk om het Omgevingswet-domein van een registratieverzoek te valideren. De gebruiker stuurt een verzoek tot het OW-valideren van zijn gegevens, met een verwijzing naar de plaats waar zijn gegevens en bijbehorende configuratie te vinden zijn. Vervolgens worden deze gegevens gevalideerd, en wordt een rapport opgesteld waarin de uitkomst van zijn verzoek beschreven staat met een opsomming van eventueel gevonden fouten. Dit rapport is door de gebruiker op te vragen, en wordt als hier mogelijkheid toe is naar de gebruiker verstuurd."/>
+  <properties
+      key="GEMMA status"
+      value="In gebruik"/>
+  <properties
+      key="GEMMA type"
+      value="Buitengemeentelijke service"/>
+</archimate:ApplicationService>
