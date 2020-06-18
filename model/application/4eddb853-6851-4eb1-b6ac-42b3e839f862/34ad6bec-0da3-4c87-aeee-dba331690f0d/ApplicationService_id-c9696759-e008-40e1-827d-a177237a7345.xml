@@ -1,0 +1,18 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Verzoeknotificatie ontvangen"
+    id="id-c9696759-e008-40e1-827d-a177237a7345"
+    documentation="De service Verzoeknotificatie ontvangen verstuurt een bericht naar een bevoegd gezag zodra in de werkmap in het digitaal stelsel een vergunningaanvraag of melding klaar staat voor verwerking.">
+  <properties
+      key="Object ID"
+      value="c9696759-e008-40e1-827d-a177237a7345"/>
+  <properties
+      key="Toelichting"
+      value="Wanneer er in het Omgevingsloket een vergunningsaanvraag of melding is gedaan krijgt het bevoegde gezag hiervan een melding. Het bevoegd gezag kan de aanvraag of melding vervolgens ophalen uit de werkmap van het digitaal stelsel en inladen in het lokale zaaksysteem of vergunningensysteem.&#xA;&#xA;In het digitaal stelsel wordt een ingediende vergunningaanvraag of melding een verzoek genoemd. De verzoeknotificatie is een XML bericht. Het bericht voldoet aan Standaard Aanvragen en Meldingen (STAM).&#xA;&#xA;In de verzoeknotificatie is een VerzoekNummer opgenomen. Met dit VerzoekNummer kan het verzoek worden opgehaald via de service Verzoek afhandelen."/>
+  <properties
+      key="GEMMA status"
+      value="In gebruik"/>
+  <properties
+      key="GEMMA type"
+      value="Buitengemeentelijke service"/>
+</archimate:ApplicationService>

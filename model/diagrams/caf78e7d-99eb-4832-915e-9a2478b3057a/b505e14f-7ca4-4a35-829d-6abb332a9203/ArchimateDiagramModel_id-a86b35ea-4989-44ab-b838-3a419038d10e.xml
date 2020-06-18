@@ -1,0 +1,133 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Proceshiërarchie - samenstelling"
+    id="id-a86b35ea-4989-44ab-b838-3a419038d10e">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-27593"
+      font="1|Segoe UI|8.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      fontColor="#000000"
+      lineColor="#000000"
+      fillColor="#e3ab82">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-27598"
+        font="1|Segoe UI|8.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+        fontColor="#000000"
+        lineColor="#000000"
+        source="id-27593"
+        target="id-27594">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-c1360980-84b0-417c-af76-a94dba1fd73a.xml#id-c1360980-84b0-417c-af76-a94dba1fd73a"/>
+    </sourceConnections>
+    <bounds
+        x="33"
+        y="33"
+        width="101"
+        height="46"/>
+    <archimateElement
+        xsi:type="archimate:BusinessProcess"
+        href="BusinessProcess_id-ad7e9a1d-bd32-4cd5-a764-779324db7eaf.xml#id-ad7e9a1d-bd32-4cd5-a764-779324db7eaf"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-27594"
+      targetConnections="id-27598"
+      font="1|Segoe UI|8.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      fontColor="#000000"
+      lineColor="#000000"
+      fillColor="#e3ab82">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-27599"
+        font="1|Segoe UI|8.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+        fontColor="#000000"
+        lineColor="#000000"
+        source="id-27594"
+        target="id-27595">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-848d2a41-1fa9-46eb-bd1f-ca1f955682eb.xml#id-848d2a41-1fa9-46eb-bd1f-ca1f955682eb"/>
+    </sourceConnections>
+    <bounds
+        x="33"
+        y="105"
+        width="101"
+        height="46"/>
+    <archimateElement
+        xsi:type="archimate:BusinessProcess"
+        href="BusinessProcess_id-ede0cf17-21dd-45a4-9482-5c399163dae4.xml#id-ede0cf17-21dd-45a4-9482-5c399163dae4"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-27595"
+      targetConnections="id-27599"
+      font="1|Segoe UI|8.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      fontColor="#000000"
+      lineColor="#000000"
+      fillColor="#e3ab82">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-27600"
+        font="1|Segoe UI|8.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+        fontColor="#000000"
+        lineColor="#000000"
+        source="id-27595"
+        target="id-27596">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-d375d340-535d-453d-bf16-88f557da3767.xml#id-d375d340-535d-453d-bf16-88f557da3767"/>
+    </sourceConnections>
+    <bounds
+        x="33"
+        y="176"
+        width="101"
+        height="46"/>
+    <archimateElement
+        xsi:type="archimate:BusinessProcess"
+        href="BusinessProcess_id-f5bd6aa7-6160-44d2-aa8c-21f08e6ac3e6.xml#id-f5bd6aa7-6160-44d2-aa8c-21f08e6ac3e6"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-27596"
+      targetConnections="id-27600"
+      font="1|Segoe UI|8.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      fontColor="#000000"
+      lineColor="#000000"
+      fillColor="#e3ab82">
+    <bounds
+        x="33"
+        y="247"
+        width="101"
+        height="46"/>
+    <archimateElement
+        xsi:type="archimate:BusinessProcess"
+        href="BusinessProcess_id-c0964193-c9e9-466f-8696-3dddc4171bb4.xml#id-c0964193-c9e9-466f-8696-3dddc4171bb4"/>
+  </children>
+  <properties
+      key="Architectuurlaag"
+      value="Bedrijfsarchitectuur"/>
+  <properties
+      key="Domein"
+      value="Niet domeingebonden"/>
+  <properties
+      key="Object ID"
+      value="a86b35ea-4989-44ab-b838-3a419038d10e"/>
+  <properties
+      key="Detailniveau"
+      value="Detailview"/>
+  <properties
+      key="Publiceren"
+      value="GEMMA Online en redactie"/>
+  <properties
+      key="Scope"
+      value="Gemeente"/>
+  <properties
+      key="Viewtype"
+      value="Illustratie"/>
+  <properties
+      key="GEMMA thema"
+      value="Geen"/>
+</archimate:ArchimateDiagramModel>
