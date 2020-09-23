@@ -1,0 +1,16 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="notificatie bijgewerkte zaak"
+    id="id-8b59d61a-9c15-452c-85d4-e6377d6c226c"
+    documentation="2. De notificatierouteringscomponent stuurt de notificatie door aan Mijnoverheid.nl, via het Statusupdate Lopende Zaken-koppelvak. (Eventueel kan de Notificatierouteringscomponent hier achterwege blijven en kan de zaakregistratiecomponent rechtstreeks de status van een lopende zaak bijwerken)">
+  <properties
+      key="Object ID"
+      value="8b59d61a-9c15-452c-85d4-e6377d6c226c"/>
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-5060f0fc-6198-4936-99d3-1c5a35aae8de.xml#id-5060f0fc-6198-4936-99d3-1c5a35aae8de"/>
+  <target
+      xsi:type="archimate:ApplicationService"
+      href="ApplicationService_id-5689f256-8504-4c7a-86c7-a7b909cd1769.xml#id-5689f256-8504-4c7a-86c7-a7b909cd1769"/>
+</archimate:FlowRelationship>

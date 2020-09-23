@@ -1,0 +1,16 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="3. Ophalen bijbehorend zaaktype"
+    id="id-bc270116-5315-4003-9c35-8e33bef940d3"
+    documentation="De Documentregistratiecomponent vraagt aan de Zaaktypecataloguscomponent welk zaaktype bij de betreffende productaanvraag behoort en (eventueel) in welk systeem deze afgehandeld wordt. Dit laatste is optioneel. Wordt dit niet in de ZTC bijgehouden, dan moet de Servicebuscomponent over een tabel beschikken van zaaktypen en systemen waari deze afgehandeld worden.">
+  <properties
+      key="Object ID"
+      value="bc270116-5315-4003-9c35-8e33bef940d3"/>
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-3ef9cdd9-631c-4d3e-88c3-f756423d6314.xml#id-3ef9cdd9-631c-4d3e-88c3-f756423d6314"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-25ee9ea7-be66-4bdd-b40c-191777a88b35.xml#id-25ee9ea7-be66-4bdd-b40c-191777a88b35"/>
+</archimate:FlowRelationship>

@@ -1,0 +1,121 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="view tbv relaties"
+    id="id-516ce81e-fd58-4d9a-a1df-6a4095b5dc0e">
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-62418"
+      font="1|arial|10.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|arial"
+      fontColor="#000000"
+      lineColor="#000000"
+      textAlignment="1"
+      fillColor="#ffffff"
+      alpha="0"
+      content="Dit is een tijdelijke view die aangeeft welke relaties er additioneel in de GEMMA 2 repository moeten worden opgenomen..">
+    <features
+        name="lineAlpha"
+        value="0"/>
+    <bounds
+        x="53"
+        y="27"
+        width="760"
+        height="60"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-61085"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
+      fontColor="#000000"
+      lineColor="#000000"
+      fillColor="#b7dee8">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-61080"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
+        fontColor="#000000"
+        lineColor="#000000"
+        source="id-61085"
+        target="id-61081">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-48740c1b-d818-4cc0-8b8b-16f04e6f0a05.xml#id-48740c1b-d818-4cc0-8b8b-16f04e6f0a05"/>
+    </sourceConnections>
+    <bounds
+        x="140"
+        y="110"
+        width="188"
+        height="53"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationFunction"
+        href="ApplicationFunction_id-04e68515-89bc-11e3-67ab-0050568a6153.xml#id-04e68515-89bc-11e3-67ab-0050568a6153"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-61081"
+      targetConnections="id-61080"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
+      fontColor="#000000"
+      lineColor="#000000"
+      fillColor="#b7dee8">
+    <bounds
+        x="140"
+        y="250"
+        width="188"
+        height="53"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationFunction"
+        href="ApplicationFunction_id-3efd83d6-80d4-4e71-a37d-0c38fd11e03c.xml#id-3efd83d6-80d4-4e71-a37d-0c38fd11e03c"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-61082"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
+      fontColor="#000000"
+      lineColor="#000000"
+      fillColor="#b7dee8">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-61083"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
+        fontColor="#000000"
+        lineColor="#000000"
+        source="id-61082"
+        target="id-61084">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-2fbb1f5a-6667-4fa2-87f9-8bd98721cd01.xml#id-2fbb1f5a-6667-4fa2-87f9-8bd98721cd01"/>
+    </sourceConnections>
+    <bounds
+        x="390"
+        y="110"
+        width="188"
+        height="53"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationFunction"
+        href="ApplicationFunction_id-ae894a91-7ecf-11e3-67ab-0050568a6153.xml#id-ae894a91-7ecf-11e3-67ab-0050568a6153"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-61084"
+      targetConnections="id-61083"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
+      fontColor="#000000"
+      lineColor="#000000"
+      fillColor="#b7dee8">
+    <bounds
+        x="390"
+        y="250"
+        width="188"
+        height="53"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationFunction"
+        href="ApplicationFunction_id-6a37b4a5-ff1e-4145-981f-a1357e98388d.xml#id-6a37b4a5-ff1e-4145-981f-a1357e98388d"/>
+  </children>
+  <properties
+      key="Object ID"
+      value="516ce81e-fd58-4d9a-a1df-6a4095b5dc0e"/>
+  <properties
+      key="Publiceren"
+      value="Redactie"/>
+</archimate:ArchimateDiagramModel>

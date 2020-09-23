@@ -1,0 +1,16 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="3. Opzoeken zaaktype"
+    id="id-d173282c-f763-47aa-a2b3-aa3181713bd3"
+    documentation="De medewerker inkomende Post zoekt met de Documentbeheercomponent naar een zaaktype waarbij het binnengekomen document kan horen (optioneel, indien de bijbehorende zaak niet direct duidelijk is). Ook kan hier worden opgezocht welke Zaakafhandelcomponent zaken van dit type behandelt, indien dit niet al uit de Zakenregistratiecomponent blijkt.">
+  <properties
+      key="Object ID"
+      value="d173282c-f763-47aa-a2b3-aa3181713bd3"/>
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-3ef9cdd9-631c-4d3e-88c3-f756423d6314.xml#id-3ef9cdd9-631c-4d3e-88c3-f756423d6314"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-25ee9ea7-be66-4bdd-b40c-191777a88b35.xml#id-25ee9ea7-be66-4bdd-b40c-191777a88b35"/>
+</archimate:FlowRelationship>
