@@ -12,21 +12,6 @@
       type="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="b2e03efa-ded6-4a1b-8c79-c98bb6e7bd9b"
-        textPosition="2"
-        source="4fc10181-c58a-4785-a8b2-6babad4bf387"
-        target="cf74eeef-5b63-48d8-881e-db9e6241c687">
-      <bendpoints
-          startX="64"
-          startY="102"
-          endX="4"
-          endY="-108"/>
-      <archimateRelationship
-          xsi:type="archimate:RealizationRelationship"
-          href="RealizationRelationship_c70a0e18-ca19-4d2b-8f9a-03f0cef68e84.xml#c70a0e18-ca19-4d2b-8f9a-03f0cef68e84"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="60247248-faf4-4738-9c0b-bae22b4c5635"
         textPosition="0"
         source="4fc10181-c58a-4785-a8b2-6babad4bf387"
@@ -69,6 +54,21 @@
       <archimateRelationship
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_39bd3e92-61d2-44e9-839e-5acd0d7e9cfc.xml#39bd3e92-61d2-44e9-839e-5acd0d7e9cfc"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="b2e03efa-ded6-4a1b-8c79-c98bb6e7bd9b"
+        textPosition="2"
+        source="4fc10181-c58a-4785-a8b2-6babad4bf387"
+        target="cf74eeef-5b63-48d8-881e-db9e6241c687">
+      <bendpoints
+          startX="64"
+          startY="102"
+          endX="4"
+          endY="-108"/>
+      <archimateRelationship
+          xsi:type="archimate:RealizationRelationship"
+          href="RealizationRelationship_c70a0e18-ca19-4d2b-8f9a-03f0cef68e84.xml#c70a0e18-ca19-4d2b-8f9a-03f0cef68e84"/>
     </sourceConnections>
     <bounds
         x="50"
@@ -192,7 +192,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="cf74eeef-5b63-48d8-881e-db9e6241c687"
-        targetConnections="b2e03efa-ded6-4a1b-8c79-c98bb6e7bd9b cc0dea1c-5658-49ce-bdfd-32d18c22e0a5"
+        targetConnections="cc0dea1c-5658-49ce-bdfd-32d18c22e0a5 b2e03efa-ded6-4a1b-8c79-c98bb6e7bd9b"
         textPosition="1">
       <bounds
           x="200"
