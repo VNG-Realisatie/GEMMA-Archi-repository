@@ -808,16 +808,6 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="b2ece375-efc9-401b-8174-236518e95116"
-        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
-        source="id-36796"
-        target="id-36811">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-7469df9a-784a-436c-a262-be0e20705270.xml#id-7469df9a-784a-436c-a262-be0e20705270"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="56af1441-6249-4072-bc99-d091dba2bd57"
         font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
         source="id-36796"
@@ -966,6 +956,16 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-f583fc9c-954c-4c47-b638-a6f16341ebac.xml#id-f583fc9c-954c-4c47-b638-a6f16341ebac"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="b2ece375-efc9-401b-8174-236518e95116"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
+        source="id-36796"
+        target="id-36811">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-7469df9a-784a-436c-a262-be0e20705270.xml#id-7469df9a-784a-436c-a262-be0e20705270"/>
+    </sourceConnections>
     <bounds
         x="53"
         y="980"
@@ -1062,7 +1062,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-36811"
-        targetConnections="b2ece375-efc9-401b-8174-236518e95116 e4cf25f4-400a-406d-bf99-1094c2b160fa"
+        targetConnections="e4cf25f4-400a-406d-bf99-1094c2b160fa b2ece375-efc9-401b-8174-236518e95116"
         font="1|Segoe UI|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
         fontColor="#000000"
         lineColor="#000000"

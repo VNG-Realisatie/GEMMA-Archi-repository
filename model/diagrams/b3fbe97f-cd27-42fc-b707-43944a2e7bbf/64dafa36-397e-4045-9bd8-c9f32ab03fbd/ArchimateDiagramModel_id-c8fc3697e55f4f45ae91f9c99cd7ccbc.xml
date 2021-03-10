@@ -859,16 +859,6 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-2a5aec4027194942a0e05c45cfdebb1c"
-        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
-        source="id-3fc541f0fb2f4c9ca67ea85d8687e74e"
-        target="id-fd877cdae96f4d6091952f8e9d56bfb7">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-7469df9a-784a-436c-a262-be0e20705270.xml#id-7469df9a-784a-436c-a262-be0e20705270"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-61c9241958f1458cb4b56bfd4e0a931f"
         font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
         source="id-3fc541f0fb2f4c9ca67ea85d8687e74e"
@@ -1017,6 +1007,16 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-f583fc9c-954c-4c47-b638-a6f16341ebac.xml#id-f583fc9c-954c-4c47-b638-a6f16341ebac"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-2a5aec4027194942a0e05c45cfdebb1c"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
+        source="id-3fc541f0fb2f4c9ca67ea85d8687e74e"
+        target="id-fd877cdae96f4d6091952f8e9d56bfb7">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-7469df9a-784a-436c-a262-be0e20705270.xml#id-7469df9a-784a-436c-a262-be0e20705270"/>
+    </sourceConnections>
     <bounds
         x="53"
         y="980"
@@ -1109,7 +1109,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-fd877cdae96f4d6091952f8e9d56bfb7"
-        targetConnections="id-2a5aec4027194942a0e05c45cfdebb1c id-b7e5cf24bc7945dd9662b59e310f1fed"
+        targetConnections="id-b7e5cf24bc7945dd9662b59e310f1fed id-2a5aec4027194942a0e05c45cfdebb1c"
         font="1|Segoe UI|10.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
         lineColor="#000000"
         fillColor="#ff8080">

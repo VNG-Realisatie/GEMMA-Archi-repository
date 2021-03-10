@@ -3372,16 +3372,6 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="47a5e116-b130-4f83-a66e-5aa106665859"
-        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
-        source="id-30159"
-        target="id-30194">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-7469df9a-784a-436c-a262-be0e20705270.xml#id-7469df9a-784a-436c-a262-be0e20705270"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="3ec38bf8-3c51-4756-a789-cc8127d7684f"
         font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
         source="id-30159"
@@ -3530,6 +3520,16 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-f583fc9c-954c-4c47-b638-a6f16341ebac.xml#id-f583fc9c-954c-4c47-b638-a6f16341ebac"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="47a5e116-b130-4f83-a66e-5aa106665859"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
+        source="id-30159"
+        target="id-30194">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-7469df9a-784a-436c-a262-be0e20705270.xml#id-7469df9a-784a-436c-a262-be0e20705270"/>
+    </sourceConnections>
     <bounds
         x="67"
         y="1380"
@@ -3626,7 +3626,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-30194"
-        targetConnections="47a5e116-b130-4f83-a66e-5aa106665859 a5f3ea76-04d9-4b21-986e-2d918fc7d2ff"
+        targetConnections="a5f3ea76-04d9-4b21-986e-2d918fc7d2ff 47a5e116-b130-4f83-a66e-5aa106665859"
         font="1|Segoe UI|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
         fontColor="#000000"
         lineColor="#000000"
