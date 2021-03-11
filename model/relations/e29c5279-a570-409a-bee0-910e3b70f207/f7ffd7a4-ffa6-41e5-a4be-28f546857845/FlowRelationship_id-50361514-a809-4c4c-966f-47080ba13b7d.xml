@@ -1,0 +1,16 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="1. Notificatie nieuwe of bijgewerkte zaak"
+    id="id-50361514-a809-4c4c-966f-47080ba13b7d"
+    documentation="De Zakenregistratiecomponent stuurt bij bepaalde wijzigingen (statusupdates, ..) een notificatie naar de Notificatierouteringscomponent.">
+  <properties
+      key="Object ID"
+      value="50361514-a809-4c4c-966f-47080ba13b7d"/>
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-a97b6545-d5a7-485d-9b13-3ce22db5b9cf.xml#id-a97b6545-d5a7-485d-9b13-3ce22db5b9cf"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-5060f0fc-6198-4936-99d3-1c5a35aae8de.xml#id-5060f0fc-6198-4936-99d3-1c5a35aae8de"/>
+</archimate:FlowRelationship>

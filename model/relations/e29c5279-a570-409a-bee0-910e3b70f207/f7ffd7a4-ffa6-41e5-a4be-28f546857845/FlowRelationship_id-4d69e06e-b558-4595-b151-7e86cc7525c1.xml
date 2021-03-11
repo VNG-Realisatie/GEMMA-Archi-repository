@@ -1,0 +1,16 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="2b. opvragen zaaktype"
+    id="id-4d69e06e-b558-4595-b151-7e86cc7525c1"
+    documentation="De Servicebuscomponent vraagt aan de Zaaktypecataloguscomponent welk zaaktype bij de betreffende productaanvraag behoort en (eventueel) in welk systeem deze afgehandeld wordt. Dit laatste is optioneel. Wordt dit niet in de ZTC bijgehouden, dan moet de Servicebuscomponent over een tabel beschikken van zaaktypen en systemen waari deze afgehandeld worden.">
+  <properties
+      key="Object ID"
+      value="4d69e06e-b558-4595-b151-7e86cc7525c1"/>
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-3ef9cdd9-631c-4d3e-88c3-f756423d6314.xml#id-3ef9cdd9-631c-4d3e-88c3-f756423d6314"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-8c2cf498-380a-4fc1-b8ce-becf802d6371.xml#id-8c2cf498-380a-4fc1-b8ce-becf802d6371"/>
+</archimate:FlowRelationship>

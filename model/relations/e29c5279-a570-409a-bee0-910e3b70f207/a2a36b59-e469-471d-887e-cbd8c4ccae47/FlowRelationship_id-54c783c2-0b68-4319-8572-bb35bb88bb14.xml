@@ -1,0 +1,16 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="1a. opvragen uniek zaaknummer"
+    id="id-54c783c2-0b68-4319-8572-bb35bb88bb14"
+    documentation="De e-formulieren publicatie- en beheercomponent vraagt via de servicebus een uniek zaaknummer op bij de zaakregistratiecomponent.">
+  <properties
+      key="Object ID"
+      value="54c783c2-0b68-4319-8572-bb35bb88bb14"/>
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-8c2cf498-380a-4fc1-b8ce-becf802d6371.xml#id-8c2cf498-380a-4fc1-b8ce-becf802d6371"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-5c9f683b-4454-4e3e-b93c-da50dfd6934a.xml#id-5c9f683b-4454-4e3e-b93c-da50dfd6934a"/>
+</archimate:FlowRelationship>

@@ -1,0 +1,16 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="notificatie nieuwe zaak door document"
+    id="id-8bc3ad4d-d0bb-4acd-9eb3-79e197ef3929"
+    documentation="Indien dit document aanleiding geeft tot het starten van een nieuwe zaak, stuurt de documentbeheercomponent een notificatie naar de notificatierouteringscomonent.">
+  <properties
+      key="Object ID"
+      value="8bc3ad4d-d0bb-4acd-9eb3-79e197ef3929"/>
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-25ee9ea7-be66-4bdd-b40c-191777a88b35.xml#id-25ee9ea7-be66-4bdd-b40c-191777a88b35"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-5060f0fc-6198-4936-99d3-1c5a35aae8de.xml#id-5060f0fc-6198-4936-99d3-1c5a35aae8de"/>
+</archimate:FlowRelationship>
