@@ -2347,7 +2347,6 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-29544"
-      targetConnections="9ce1a77e-f799-42ab-ac4e-535e0619a190"
       font="1|Segoe UI|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
       fontColor="#000000"
       lineColor="#000000"
@@ -2372,6 +2371,16 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-b9f27ea0-fd08-4c36-ba66-0ac75a3e451c.xml#id-b9f27ea0-fd08-4c36-ba66-0ac75a3e451c"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="9ce1a77e-f799-42ab-ac4e-535e0619a190"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
+        source="id-29544"
+        target="id-29550">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-2d27b3a6-a7cc-456a-aae1-6f86b32f8e27.xml#id-2d27b3a6-a7cc-456a-aae1-6f86b32f8e27"/>
+    </sourceConnections>
     <bounds
         x="53"
         y="1620"
@@ -2380,20 +2389,11 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-29550"
+        targetConnections="9ce1a77e-f799-42ab-ac4e-535e0619a190"
         font="1|Segoe UI|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
         fontColor="#000000"
         lineColor="#000000"
         fillColor="#e8f5f8">
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="9ce1a77e-f799-42ab-ac4e-535e0619a190"
-          font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
-          source="id-29550"
-          target="id-29544">
-        <archimateRelationship
-            xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_id-2d27b3a6-a7cc-456a-aae1-6f86b32f8e27.xml#id-2d27b3a6-a7cc-456a-aae1-6f86b32f8e27"/>
-      </sourceConnections>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="62dbec3d-22a0-44b5-a6a4-c9a8c59f29d8"

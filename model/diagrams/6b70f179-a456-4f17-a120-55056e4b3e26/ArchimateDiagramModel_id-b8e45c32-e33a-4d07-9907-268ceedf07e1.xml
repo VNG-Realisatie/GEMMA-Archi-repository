@@ -6,7 +6,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-31695"
-      targetConnections="id-31683 id-31703"
+      targetConnections="id-31685 id-31703 id-31683"
       font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
       fontColor="#000000"
       lineColor="#000000"
@@ -24,8 +24,8 @@
           href="ServingRelationship_id-46daf055-6df0-41f8-ad82-b2a0d92e4f64.xml#id-46daf055-6df0-41f8-ad82-b2a0d92e4f64"/>
     </sourceConnections>
     <bounds
-        x="67"
-        y="306"
+        x="190"
+        y="310"
         width="187"
         height="53"/>
     <archimateElement
@@ -138,35 +138,6 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-31712"
-      targetConnections="id-31685"
-      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
-      fontColor="#000000"
-      lineColor="#000000"
-      fillColor="#b7dee8">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-31681"
-        font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
-        fontColor="#000000"
-        lineColor="#000000"
-        source="id-31712"
-        target="id-31733">
-      <archimateRelationship
-          xsi:type="archimate:ServingRelationship"
-          href="ServingRelationship_id-fecb6b9e-2d64-48cb-bb60-fbabcb4d4b70.xml#id-fecb6b9e-2d64-48cb-bb60-fbabcb4d4b70"/>
-    </sourceConnections>
-    <bounds
-        x="320"
-        y="307"
-        width="133"
-        height="53"/>
-    <archimateElement
-        xsi:type="archimate:ApplicationFunction"
-        href="ApplicationFunction_id-dddc1957-e99a-4e6e-85ba-939e7bf86cb6.xml#id-dddc1957-e99a-4e6e-85ba-939e7bf86cb6"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
       id="id-31716"
       font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
       fontColor="#000000"
@@ -209,7 +180,7 @@
         fontColor="#000000"
         lineColor="#000000"
         source="id-31721"
-        target="id-31712">
+        target="id-31695">
       <archimateRelationship
           xsi:type="archimate:AssignmentRelationship"
           href="AssignmentRelationship_id-90288e35-59e2-40bf-86c3-dad873241c55.xml#id-90288e35-59e2-40bf-86c3-dad873241c55"/>
@@ -457,7 +428,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-31733"
-      targetConnections="id-31681 id-31707 id-31722"
+      targetConnections="id-31722 id-31707"
       font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
       fontColor="#000000"
       lineColor="#000000"

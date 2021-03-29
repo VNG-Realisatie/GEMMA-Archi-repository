@@ -3618,6 +3618,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-34537"
+      targetConnections="dfbf7d5a-5b7a-42c7-9aeb-42006b2f5822"
       font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
       fontColor="#000000"
       lineColor="#000000"
@@ -3661,16 +3662,6 @@
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-2694c7f8-06be-448c-b9a7-a293833041a4.xml#id-2694c7f8-06be-448c-b9a7-a293833041a4"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="dfbf7d5a-5b7a-42c7-9aeb-42006b2f5822"
-        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
-        source="id-34537"
-        target="id-34618">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-2d27b3a6-a7cc-456a-aae1-6f86b32f8e27.xml#id-2d27b3a6-a7cc-456a-aae1-6f86b32f8e27"/>
     </sourceConnections>
     <bounds
         x="50"
@@ -4017,7 +4008,6 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-34618"
-        targetConnections="dfbf7d5a-5b7a-42c7-9aeb-42006b2f5822"
         font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
         fontColor="#000000"
         lineColor="#000000"
@@ -4041,6 +4031,16 @@
         <archimateRelationship
             xsi:type="archimate:AggregationRelationship"
             href="AggregationRelationship_id-b9f27ea0-fd08-4c36-ba66-0ac75a3e451c.xml#id-b9f27ea0-fd08-4c36-ba66-0ac75a3e451c"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="dfbf7d5a-5b7a-42c7-9aeb-42006b2f5822"
+          font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
+          source="id-34618"
+          target="id-34537">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-2d27b3a6-a7cc-456a-aae1-6f86b32f8e27.xml#id-2d27b3a6-a7cc-456a-aae1-6f86b32f8e27"/>
       </sourceConnections>
       <bounds
           x="50"
