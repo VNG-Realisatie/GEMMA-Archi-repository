@@ -5,20 +5,20 @@
     id="id-b90836bb-347f-4243-a214-74cb76bd1fce">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-65c16c1756403d16f294f2d84b4308f5"
-      font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+      id="id-32030"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
       fontColor="#000000"
       lineColor="#000000"
       fillColor="#daeef3"
       type="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-9a82e9883b34470f937904fc51de088a"
-        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+        id="id-32036"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
         fontColor="#000000"
         lineColor="#000000"
-        source="id-65c16c1756403d16f294f2d84b4308f5"
-        target="id-2e0ec420571b968297c55d2ac5495a1f">
+        source="id-32030"
+        target="id-32031">
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-82cd1100-7ee1-467b-9e03-51431facb5a5.xml#id-82cd1100-7ee1-467b-9e03-51431facb5a5"/>
@@ -34,20 +34,20 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-2e0ec420571b968297c55d2ac5495a1f"
-      targetConnections="id-564a312f6bc7e6653d870b375243e5c8 id-9a82e9883b34470f937904fc51de088a"
-      font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+      id="id-32031"
+      targetConnections="id-32036 b87d8511-0a57-4996-a74e-ea7b6f400850"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
       fontColor="#000000"
       lineColor="#000000"
       fillColor="#ffffef">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-a165b1d4da9f512068f4f9cc69f339f0"
-        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+        id="id-32038"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
         fontColor="#000000"
         lineColor="#000000"
-        source="id-2e0ec420571b968297c55d2ac5495a1f"
-        target="id-5b036a8bcb0790be14b087ad46c758c4">
+        source="id-32031"
+        target="id-32033">
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-e9f475ae-d4dc-47b5-a744-7a98437d69a5.xml#id-e9f475ae-d4dc-47b5-a744-7a98437d69a5"/>
@@ -63,9 +63,9 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-5b036a8bcb0790be14b087ad46c758c4"
-      targetConnections="id-a165b1d4da9f512068f4f9cc69f339f0"
-      font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+      id="id-32033"
+      targetConnections="id-32038"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
       fontColor="#000000"
       lineColor="#000000"
       fillColor="#daeef3"
@@ -81,19 +81,17 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-645d14edec333792f6d342d252a770bb"
-      font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+      id="id-32034"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
       fontColor="#000000"
       lineColor="#000000"
       fillColor="#a0e4ad">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-564a312f6bc7e6653d870b375243e5c8"
-        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
-        fontColor="#000000"
-        lineColor="#1d1d1d"
-        source="id-645d14edec333792f6d342d252a770bb"
-        target="id-2e0ec420571b968297c55d2ac5495a1f">
+        id="b87d8511-0a57-4996-a74e-ea7b6f400850"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
+        source="id-32034"
+        target="id-32031">
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-56e7ddc8-5547-4d8f-8314-90b23c30a7e2.xml#id-56e7ddc8-5547-4d8f-8314-90b23c30a7e2"/>
