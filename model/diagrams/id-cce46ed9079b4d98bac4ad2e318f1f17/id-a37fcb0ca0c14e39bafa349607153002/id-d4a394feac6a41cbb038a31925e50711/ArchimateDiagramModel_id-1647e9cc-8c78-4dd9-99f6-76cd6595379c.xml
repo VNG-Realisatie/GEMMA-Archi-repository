@@ -1,0 +1,72 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Klanten API"
+    id="id-1647e9cc-8c78-4dd9-99f6-76cd6595379c">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-af7998a9b0d4865b82d3afaa0b7019c3"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+      fontColor="#000000"
+      lineColor="#000000"
+      fillColor="#daeef3">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-2c6bb41d2894ab2239b5b11520edb992"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+        fontColor="#000000"
+        lineColor="#1d1d1d"
+        source="id-af7998a9b0d4865b82d3afaa0b7019c3"
+        target="id-bcf3f080392e9703ec51516c6e7980da">
+      <archimateRelationship
+          xsi:type="archimate:RealizationRelationship"
+          href="RealizationRelationship_id-b2353efafc5449e48cfa7e97e8d7e8b7.xml#id-b2353efafc5449e48cfa7e97e8d7e8b7"/>
+    </sourceConnections>
+    <bounds
+        x="20"
+        y="100"
+        width="120"
+        height="60"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationInterface"
+        href="ApplicationInterface_id-04a909ec727d4d829204d21136ce7a68.xml#id-04a909ec727d4d829204d21136ce7a68"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-bcf3f080392e9703ec51516c6e7980da"
+      targetConnections="id-2c6bb41d2894ab2239b5b11520edb992"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+      fontColor="#000000"
+      lineColor="#4f4f4f"
+      fillColor="#ccccff">
+    <bounds
+        x="170"
+        y="100"
+        width="120"
+        height="60"/>
+    <archimateElement
+        xsi:type="archimate:Constraint"
+        href="Constraint_id-26b33f18-9b23-4201-bc86-a6233576fa7e.xml#id-26b33f18-9b23-4201-bc86-a6233576fa7e"/>
+  </children>
+  <properties
+      key="Object ID"
+      value="80476acb-0dc1-444c-aec3-b58784eabb5b"/>
+  <properties
+      key="Publiceren"
+      value="GEMMA Online en redactie"/>
+  <properties
+      key="Viewtype"
+      value="Toelichting"/>
+  <properties
+      key="Detailniveau"
+      value="Detailview"/>
+  <properties
+      key="Scope"
+      value="Gemeente"/>
+  <properties
+      key="Architectuurlaag"
+      value="Applicatiearchitectuur"/>
+  <properties
+      key="Domein"
+      value="Niet domeingebonden"/>
+</archimate:ArchimateDiagramModel>

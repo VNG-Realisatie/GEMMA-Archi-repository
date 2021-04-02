@@ -1,0 +1,128 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="KV04 Registreren en delen van basisgegevens view"
+    id="id-30b9db52-e68b-4d36-b2e2-738ebdd8c1d9">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-b4859659912fc7f4e473c009ccdebec9"
+      targetConnections="id-85e57b5b425748b6827589a310bb7cfd"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+      fontColor="#000000"
+      lineColor="#000000"
+      fillColor="#b7dee8">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-41536d0bcc6642d6ad2fbd032b06997c"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+        fontColor="#000000"
+        lineColor="#000000"
+        source="id-b4859659912fc7f4e473c009ccdebec9"
+        target="id-cee893b42f7617c17c1429d3919b47ab">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-49aad5f9-08dc-4908-9499-09103eae2647.xml#id-49aad5f9-08dc-4908-9499-09103eae2647"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-9f075e68fcb385cecbd2274a6aa80e5e"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+        fontColor="#000000"
+        lineColor="#000000"
+        source="id-b4859659912fc7f4e473c009ccdebec9"
+        target="id-91cfdc8f2c300fac8425fb8d3fc38e47">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-535f395a-5fcc-4cf8-860c-c2f6c26d5b1f.xml#id-535f395a-5fcc-4cf8-860c-c2f6c26d5b1f"/>
+    </sourceConnections>
+    <bounds
+        x="149"
+        y="164"
+        width="133"
+        height="53"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationFunction"
+        href="ApplicationFunction_id-bafa0216-44ba-11e4-67ab-0050568a6153.xml#id-bafa0216-44ba-11e4-67ab-0050568a6153"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-cee893b42f7617c17c1429d3919b47ab"
+      targetConnections="id-41536d0bcc6642d6ad2fbd032b06997c"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+      fontColor="#000000"
+      lineColor="#000000"
+      fillColor="#b7dee8">
+    <bounds
+        x="55"
+        y="55"
+        width="133"
+        height="53"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationFunction"
+        href="ApplicationFunction_id-4887a468-a8c9-11e5-11ba-005056a85f9c.xml#id-4887a468-a8c9-11e5-11ba-005056a85f9c"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-91cfdc8f2c300fac8425fb8d3fc38e47"
+      targetConnections="id-9f075e68fcb385cecbd2274a6aa80e5e"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+      fontColor="#000000"
+      lineColor="#000000"
+      fillColor="#b7dee8">
+    <bounds
+        x="244"
+        y="55"
+        width="133"
+        height="53"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationFunction"
+        href="ApplicationFunction_id-4887a46e-a8c9-11e5-11ba-005056a85f9c.xml#id-4887a46e-a8c9-11e5-11ba-005056a85f9c"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-0b0bd8778399565eeace8e50628cb10b"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+      fontColor="#000000"
+      lineColor="#000000"
+      fillColor="#daeef3"
+      type="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-85e57b5b425748b6827589a310bb7cfd"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+        fontColor="#000000"
+        lineColor="#000000"
+        source="id-0b0bd8778399565eeace8e50628cb10b"
+        target="id-b4859659912fc7f4e473c009ccdebec9">
+      <archimateRelationship
+          xsi:type="archimate:AssignmentRelationship"
+          href="AssignmentRelationship_id-d44a4b9a-5fd0-42bd-ad3a-891f138a9d32.xml#id-d44a4b9a-5fd0-42bd-ad3a-891f138a9d32"/>
+    </sourceConnections>
+    <bounds
+        x="149"
+        y="273"
+        width="133"
+        height="53"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_id-06321658-50d1-4153-b007-6630ffabcd80.xml#id-06321658-50d1-4153-b007-6630ffabcd80"/>
+  </children>
+  <properties
+      key="Object ID"
+      value="30b9db52-e68b-4d36-b2e2-738ebdd8c1d9"/>
+  <properties
+      key="Publiceren"
+      value="GEMMA Online en redactie"/>
+  <properties
+      key="GEMMA thema"
+      value="Katern - Verbinden"/>
+  <properties
+      key="Viewtype"
+      value="Illustratie"/>
+  <properties
+      key="Architectuurlaag"
+      value="Applicatiearchitectuur"/>
+  <properties
+      key="Domein"
+      value="Niet domeingebonden"/>
+</archimate:ArchimateDiagramModel>
