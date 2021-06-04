@@ -1,0 +1,66 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Klanten API"
+    id="id-80476acb-0dc1-444c-aec3-b58784eabb5b">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="8a23b3b8-6266-4115-b164-b1c4fb8f404a"
+      lineColor="#000000"
+      fillColor="#daeef3"
+      textPosition="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="5073ad37-bdfc-495d-8cb9-79697fa31567"
+        source="8a23b3b8-6266-4115-b164-b1c4fb8f404a"
+        target="84e55eb2-400e-453c-8bc1-acd8f6997e22">
+      <archimateRelationship
+          xsi:type="archimate:RealizationRelationship"
+          href="RealizationRelationship_id-e7bc1a8c-5342-449e-acf5-6a70da7a9da9.xml#id-e7bc1a8c-5342-449e-acf5-6a70da7a9da9"/>
+    </sourceConnections>
+    <bounds
+        x="20"
+        y="100"
+        width="120"
+        height="60"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationInterface"
+        href="ApplicationInterface_id-8c66a7d4-80a4-413f-87e0-42964d232d9d.xml#id-8c66a7d4-80a4-413f-87e0-42964d232d9d"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="84e55eb2-400e-453c-8bc1-acd8f6997e22"
+      targetConnections="5073ad37-bdfc-495d-8cb9-79697fa31567"
+      fillColor="#ccccff"
+      textPosition="1">
+    <bounds
+        x="170"
+        y="100"
+        width="120"
+        height="60"/>
+    <archimateElement
+        xsi:type="archimate:Constraint"
+        href="Constraint_id-9f901f77-fed1-4312-8924-7d928ce757f0.xml#id-9f901f77-fed1-4312-8924-7d928ce757f0"/>
+  </children>
+  <properties
+      key="Object ID"
+      value="80476acb-0dc1-444c-aec3-b58784eabb5b"/>
+  <properties
+      key="Publiceren"
+      value="GEMMA Online en redactie"/>
+  <properties
+      key="Viewtype"
+      value="Toelichting"/>
+  <properties
+      key="Detailniveau"
+      value="Detailview"/>
+  <properties
+      key="Scope"
+      value="Gemeente"/>
+  <properties
+      key="Architectuurlaag"
+      value="Applicatiearchitectuur"/>
+  <properties
+      key="Domein"
+      value="Niet domeingebonden"/>
+</archimate:ArchimateDiagramModel>

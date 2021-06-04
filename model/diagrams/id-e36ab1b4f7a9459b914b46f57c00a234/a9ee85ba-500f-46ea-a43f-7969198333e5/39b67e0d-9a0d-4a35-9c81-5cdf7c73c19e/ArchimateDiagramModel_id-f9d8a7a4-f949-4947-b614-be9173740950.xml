@@ -1,0 +1,69 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Contactmomenten API"
+    id="id-f9d8a7a4-f949-4947-b614-be9173740950">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="cfebe6ff-e2f3-458e-bf14-f65664b1fa7e"
+      lineColor="#000000"
+      fillColor="#daeef3"
+      textPosition="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="553a5c24-2b35-4c7c-a0c5-760636313234"
+        source="cfebe6ff-e2f3-458e-bf14-f65664b1fa7e"
+        target="7cfd4b85-9a02-404d-8241-dd6880f9ce3d">
+      <archimateRelationship
+          xsi:type="archimate:RealizationRelationship"
+          href="RealizationRelationship_id-0ff38668-a2cc-42de-85fd-dce5ce1dab82.xml#id-0ff38668-a2cc-42de-85fd-dce5ce1dab82"/>
+    </sourceConnections>
+    <bounds
+        x="20"
+        y="100"
+        width="120"
+        height="60"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationInterface"
+        href="ApplicationInterface_id-f7d5cfe6-c0a0-4bf8-b65f-a2c0e3aac42c.xml#id-f7d5cfe6-c0a0-4bf8-b65f-a2c0e3aac42c"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="7cfd4b85-9a02-404d-8241-dd6880f9ce3d"
+      targetConnections="553a5c24-2b35-4c7c-a0c5-760636313234"
+      fillColor="#ccccff"
+      textPosition="1">
+    <bounds
+        x="170"
+        y="100"
+        width="120"
+        height="60"/>
+    <archimateElement
+        xsi:type="archimate:Constraint"
+        href="Constraint_id-1f113cff-f949-4146-b9f5-b0b1b11c3ea0.xml#id-1f113cff-f949-4146-b9f5-b0b1b11c3ea0"/>
+  </children>
+  <properties
+      key="Object ID"
+      value="f9d8a7a4-f949-4947-b614-be9173740950"/>
+  <properties
+      key="Publiceren"
+      value="GEMMA Online en redactie"/>
+  <properties
+      key="Viewtype"
+      value="Toelichting"/>
+  <properties
+      key="GEMMA thema"
+      value="Zaakgericht werken"/>
+  <properties
+      key="Detailniveau"
+      value="Detailview"/>
+  <properties
+      key="Scope"
+      value="Gemeente"/>
+  <properties
+      key="Architectuurlaag"
+      value="Applicatiearchitectuur"/>
+  <properties
+      key="Domein"
+      value="Niet domeingebonden"/>
+</archimate:ArchimateDiagramModel>
