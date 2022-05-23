@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Domeinarchitectuur"
+    name="Van GEMMA - Domeinarchitectuur"
     id="id-dbabaffe8b3742dba3d957edd6804a26">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -1322,6 +1322,21 @@
     <archimateElement
         xsi:type="archimate:Grouping"
         href="Grouping_id-0ad4674a57134009a26f4a68c9d02cd4.xml#id-0ad4674a57134009a26f4a68c9d02cd4"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-bff7cf5a653e4ad6a5b627e9bae3045b"
+      font="1|arial|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|arial"
+      fontColor="#000000"
+      lineColor="#000000"
+      textAlignment="1"
+      fillColor="#ffffc8"
+      content="De objecten op deze view worden in de GEMMA beheerd voor gebruik in het import- en publicatietestmodel&#xA;&#xA;Als het GEMMA kennismodel wordt gewijzigd, zorg dan de daaruit voortkomende wijzigingen ook in het testmodel terechtkomen&#xA;&#xD;&#xA;Als één of meer van deze objecten in de GEMMA wijzigen, synchroniseer dan deze view met het import- en testmodel.">
+    <bounds
+        x="16"
+        y="16"
+        width="321"
+        height="221"/>
   </children>
   <properties
       key="Object ID"
