@@ -1111,6 +1111,15 @@
               xsi:type="archimate:AggregationRelationship"
               href="AggregationRelationship_id-6ed62ac1b7264f89a61f02a3bc102d76.xml#id-6ed62ac1b7264f89a61f02a3bc102d76"/>
         </sourceConnections>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-6c7b71b9ac994796bbf7862001ad0634"
+            source="id-39308"
+            target="id-463f5d5f212543d7b08f4717dc518478">
+          <archimateRelationship
+              xsi:type="archimate:AggregationRelationship"
+              href="AggregationRelationship_id-78f2297173d845afbb9c079d49d2533d.xml#id-78f2297173d845afbb9c079d49d2533d"/>
+        </sourceConnections>
         <bounds
             x="280"
             y="32"
@@ -1262,7 +1271,7 @@
             font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
             fontColor="#000000"
             lineColor="#000000"
-            fillColor="#ffffcc"
+            fillColor="#ffffe6"
             textPosition="1">
           <bounds
               x="248"
@@ -1362,6 +1371,24 @@
           <archimateElement
               xsi:type="archimate:BusinessFunction"
               href="BusinessFunction_id-3c6baa05c6904cfbba03880e2e4c5cd6.xml#id-3c6baa05c6904cfbba03880e2e4c5cd6"/>
+        </children>
+        <children
+            xsi:type="archimate:DiagramModelArchimateObject"
+            id="id-463f5d5f212543d7b08f4717dc518478"
+            targetConnections="id-6c7b71b9ac994796bbf7862001ad0634"
+            font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+            fontColor="#000000"
+            lineColor="#000000"
+            fillColor="#ffffe6"
+            textPosition="1">
+          <bounds
+              x="248"
+              y="520"
+              width="217"
+              height="65"/>
+          <archimateElement
+              xsi:type="archimate:BusinessFunction"
+              href="BusinessFunction_id-78c7f400aba04feca562818c4b411625.xml#id-78c7f400aba04feca562818c4b411625"/>
         </children>
         <archimateElement
             xsi:type="archimate:BusinessFunction"
