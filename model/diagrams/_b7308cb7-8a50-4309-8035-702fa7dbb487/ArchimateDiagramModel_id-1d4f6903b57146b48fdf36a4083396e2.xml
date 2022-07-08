@@ -5,19 +5,6 @@
     id="id-1d4f6903b57146b48fdf36a4083396e2">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-d18c229c7ad64ccf9e34201603b0ed55"
-      type="1">
-    <bounds
-        x="300"
-        y="50"
-        width="130"
-        height="60"/>
-    <archimateElement
-        xsi:type="archimate:ApplicationComponent"
-        href="ApplicationComponent_id-89b02223ee4f40a188a6be5a66578b0b.xml#id-89b02223ee4f40a188a6be5a66578b0b"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
       id="id-c0d4f292dc5a4558b14cbc1a6d740268"
       targetConnections="id-6af4e503e882448c9663d3ac9017850a id-326a27a411f34a4c8435a9312c208e85"
       font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
@@ -37,8 +24,8 @@
           href="ServingRelationship_id-eff47fa5-9346-4679-92f7-50b09130f478.xml#id-eff47fa5-9346-4679-92f7-50b09130f478"/>
     </sourceConnections>
     <bounds
-        x="340"
-        y="450"
+        x="860"
+        y="310"
         width="133"
         height="53"/>
     <archimateElement
@@ -65,8 +52,8 @@
           href="AggregationRelationship_id-2ec40683-8c59-4e7b-bb8c-2a9c9bd9cb14.xml#id-2ec40683-8c59-4e7b-bb8c-2a9c9bd9cb14"/>
     </sourceConnections>
     <bounds
-        x="340"
-        y="190"
+        x="860"
+        y="50"
         width="133"
         height="53"/>
     <archimateElement
@@ -82,8 +69,8 @@
       lineColor="#000000"
       fillColor="#ffffcc">
     <bounds
-        x="340"
-        y="310"
+        x="860"
+        y="170"
         width="133"
         height="53"/>
     <archimateElement
@@ -115,8 +102,8 @@
           href="AggregationRelationship_id-fcde40bfc87940208eb65f8da4b22984.xml#id-fcde40bfc87940208eb65f8da4b22984"/>
     </sourceConnections>
     <bounds
-        x="140"
-        y="310"
+        x="660"
+        y="170"
         width="133"
         height="53"/>
     <archimateElement
@@ -144,13 +131,61 @@
           href="RealizationRelationship_id-478526188d2542aeb6d11c5cd4bd004e.xml#id-478526188d2542aeb6d11c5cd4bd004e"/>
     </sourceConnections>
     <bounds
-        x="533"
-        y="450"
+        x="1053"
+        y="310"
         width="133"
         height="53"/>
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_id-dcebbee5-864e-488e-b9e6-82f7544fc8a6.xml#id-dcebbee5-864e-488e-b9e6-82f7544fc8a6"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-674c3bef85e140a09d758d5b5b51e8b9"
+      name="Verwijderen"
+      textAlignment="1">
+    <bounds
+        x="140"
+        y="730"
+        width="400"
+        height="140"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-ebc03487d8d0441ba3b8eb35308d8d92"
+        type="1">
+      <bounds
+          x="120"
+          y="70"
+          width="201"
+          height="61"/>
+      <archimateElement
+          xsi:type="archimate:ApplicationComponent"
+          href="ApplicationComponent_id-a28ce566-8955-4c8b-bc98-7d44e1b4d86e.xml#id-a28ce566-8955-4c8b-bc98-7d44e1b4d86e"/>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-de619dc365e04909a0a6ed666a1a7df3"
+      name="Toevoegen"
+      textAlignment="1">
+    <bounds
+        x="120"
+        y="23"
+        width="400"
+        height="140"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-d18c229c7ad64ccf9e34201603b0ed55"
+        type="1">
+      <bounds
+          x="70"
+          y="60"
+          width="130"
+          height="60"/>
+      <archimateElement
+          xsi:type="archimate:ApplicationComponent"
+          href="ApplicationComponent_id-89b02223ee4f40a188a6be5a66578b0b.xml#id-89b02223ee4f40a188a6be5a66578b0b"/>
+    </children>
   </children>
   <properties
       key="Object ID"
