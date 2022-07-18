@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Haal Centraal BRP bevragen"
     id="id-a87f4782de274d6e8dfc6fe79f5a72f4"
-    documentation="View genereated with these settings and selections&#xA;&#xA;Parameter: &#xA;{&#xA;  &quot;action&quot;: &quot;GENERATE_SINGLE&quot;,&#xA;  &quot;graphDepth&quot;: 1,&#xA;  &quot;elementFilter&quot;: [],&#xA;  &quot;relationFilter&quot;: [],&#xA;  &quot;drawReversed&quot;: [&#xA;    &quot;realization-relationship&quot;,&#xA;    &quot;serving-relationship&quot;,&#xA;    &quot;specialization-relationship&quot;&#xA;  ],&#xA;  &quot;drawNested&quot;: [],&#xA;  &quot;graphDirection&quot;: &quot;LR&quot;,&#xA;  &quot;ranker&quot;: &quot;network-simplex&quot;,&#xA;  &quot;nodeWidth&quot;: 200,&#xA;  &quot;nodeHeight&quot;: 60,&#xA;  &quot;hSep&quot;: 20,&#xA;  &quot;vSep&quot;: 180,&#xA;  &quot;debug&quot;: true,&#xA;  &quot;viewName&quot;: &quot;Haal Centraal BRP bevragen&quot;&#xA;}&#xA;&#xA;Selection: &#xA;[&#xA;  &quot;application-interface: Haal Centraal BRP bevragen&quot;,&#xA;  &quot;application-interface: Haal Centraal BRP Bewoning API&quot;,&#xA;  &quot;application-interface: Haal Centraal BRP Historie bevragen API&quot;,&#xA;  &quot;application-interface: Haal Centraal BRP Personen bevragen API&quot;,&#xA;  &quot;application-interface: Haal Centraal BRP Reisdocumenten bevragen API&quot;,&#xA;  &quot;application-interface: Haal Centraal BRP Tabellen bevragen API&quot;&#xA;]&#xA;&#xA;Result filtered elements: &#xA;[&#xA;  &quot;application-interface: Haal Centraal BRP bevragen&quot;,&#xA;  &quot;application-interface: Haal Centraal BRP Bewoning API&quot;,&#xA;  &quot;application-interface: Haal Centraal BRP Historie bevragen API&quot;,&#xA;  &quot;application-interface: Haal Centraal BRP Personen bevragen API&quot;,&#xA;  &quot;application-interface: Haal Centraal BRP Reisdocumenten bevragen API&quot;,&#xA;  &quot;application-interface: Haal Centraal BRP Tabellen bevragen API&quot;&#xA;]">
+    documentation="In de view wordt aan de linkerkant weergegeven door welke basisregistratie de Haal Centraal API's worden aangeboden.  &#xA;&#xA;Aan de rechterkant is weergegeven met welke referentiecomponenten de Haal Centraal API's kunnen worden afgenomen. Het gebruik van de API's door gemeenten is aanbevolen, niet verplicht.">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-09d15c030b7e4ac1b722dc9cfe5a0400"
@@ -37,7 +37,7 @@
     </sourceConnections>
     <bounds
         x="410"
-        y="210"
+        y="130"
         width="201"
         height="61"/>
     <archimateElement
@@ -57,9 +57,36 @@
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-eee189dc6b5e43b7a45da959ac9e33de.xml#id-eee189dc6b5e43b7a45da959ac9e33de"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-6fec63c2794a42209b79f5add8ecbb51"
+        source="id-bf669e744c4a4150b39574e31f8f693e"
+        target="id-b4d3c7ffb12247ccbc5af70146b29779">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-1386edee793b4445b2a85da0844dba03.xml#id-1386edee793b4445b2a85da0844dba03"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-aaa901757467424294bda1e32c22b58c"
+        source="id-bf669e744c4a4150b39574e31f8f693e"
+        target="id-e3d1901653ba422fbc4309e470dc5b02">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-00067e98da7b47ebb9863a228d8e1942.xml#id-00067e98da7b47ebb9863a228d8e1942"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-84a0b5a227764b31a1726ca5096459a5"
+        source="id-bf669e744c4a4150b39574e31f8f693e"
+        target="id-5d53c163d7a14a0398710f1ba5bf38a7">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-f972469019044b699eee3a327f9ddadc.xml#id-f972469019044b699eee3a327f9ddadc"/>
+    </sourceConnections>
     <bounds
         x="410"
-        y="1380"
+        y="1690"
         width="201"
         height="61"/>
     <archimateElement
@@ -99,7 +126,7 @@
     </sourceConnections>
     <bounds
         x="410"
-        y="1110"
+        y="1270"
         width="201"
         height="61"/>
     <archimateElement
@@ -166,7 +193,7 @@
     </sourceConnections>
     <bounds
         x="410"
-        y="440"
+        y="360"
         width="201"
         height="61"/>
     <archimateElement
@@ -354,7 +381,7 @@
       targetConnections="id-639a493f0bad4531a20ab9f66f7b21a2">
     <bounds
         x="410"
-        y="350"
+        y="270"
         width="201"
         height="61"/>
     <archimateElement
@@ -368,7 +395,7 @@
       type="1">
     <bounds
         x="810"
-        y="100"
+        y="40"
         width="201"
         height="61"/>
     <archimateElement
@@ -382,7 +409,7 @@
       type="1">
     <bounds
         x="810"
-        y="180"
+        y="120"
         width="201"
         height="61"/>
     <archimateElement
@@ -396,7 +423,7 @@
       type="1">
     <bounds
         x="810"
-        y="280"
+        y="220"
         width="201"
         height="61"/>
     <archimateElement
@@ -410,7 +437,7 @@
       type="1">
     <bounds
         x="810"
-        y="360"
+        y="300"
         width="201"
         height="61"/>
     <archimateElement
@@ -424,7 +451,7 @@
       type="1">
     <bounds
         x="810"
-        y="440"
+        y="380"
         width="201"
         height="61"/>
     <archimateElement
@@ -495,7 +522,7 @@
       targetConnections="id-b6d865e3d498466796aec82fb9410480">
     <bounds
         x="410"
-        y="120"
+        y="40"
         width="201"
         height="61"/>
     <archimateElement
@@ -665,7 +692,7 @@
       type="1">
     <bounds
         x="810"
-        y="1400"
+        y="1450"
         width="201"
         height="61"/>
     <archimateElement
@@ -693,7 +720,7 @@
       type="1">
     <bounds
         x="810"
-        y="1480"
+        y="1530"
         width="201"
         height="61"/>
     <archimateElement
@@ -734,7 +761,7 @@
       targetConnections="id-46497dd48f744208a2a9943752776aab">
     <bounds
         x="410"
-        y="1020"
+        y="1180"
         width="201"
         height="61"/>
     <archimateElement
@@ -747,14 +774,71 @@
       targetConnections="id-9f692e116d404d0f8fcab344a5e1016d">
     <bounds
         x="410"
-        y="1290"
+        y="1600"
         width="201"
         height="61"/>
     <archimateElement
         xsi:type="archimate:Constraint"
         href="Constraint_id-68fe77d984cc457c92e0768272188a6f.xml#id-68fe77d984cc457c92e0768272188a6f"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-5d53c163d7a14a0398710f1ba5bf38a7"
+      targetConnections="id-84a0b5a227764b31a1726ca5096459a5"
+      font="1|Segoe UI|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      fontColor="#000000"
+      lineColor="#000000"
+      fillColor="#daeef3"
+      type="1">
+    <bounds
+        x="810"
+        y="1810"
+        width="201"
+        height="61"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_id-a69a3d2f-6129-423d-9e7b-12f82f1e6f66.xml#id-a69a3d2f-6129-423d-9e7b-12f82f1e6f66"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-e3d1901653ba422fbc4309e470dc5b02"
+      targetConnections="id-aaa901757467424294bda1e32c22b58c"
+      font="1|Segoe UI|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      fontColor="#000000"
+      lineColor="#000000"
+      fillColor="#daeef3"
+      type="1">
+    <bounds
+        x="810"
+        y="1730"
+        width="201"
+        height="61"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_id-7b27736a-da81-47ce-90fc-c768876129bc.xml#id-7b27736a-da81-47ce-90fc-c768876129bc"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-b4d3c7ffb12247ccbc5af70146b29779"
+      targetConnections="id-6fec63c2794a42209b79f5add8ecbb51"
+      font="1|Segoe UI|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      fontColor="#000000"
+      lineColor="#000000"
+      fillColor="#daeef3"
+      type="1">
+    <bounds
+        x="810"
+        y="1650"
+        width="201"
+        height="61"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_id-6a282e83-5d30-4815-a0c5-ad7538f7e5f6.xml#id-6a282e83-5d30-4815-a0c5-ad7538f7e5f6"/>
+  </children>
   <properties
       key="generate_view_param"
       value="{&#xA; &quot;action&quot;: &quot;LAYOUT&quot;,&#xA; &quot;elementFilter&quot;: [],&#xA; &quot;relationFilter&quot;: [],&#xA; &quot;drawReversed&quot;: [&#xA;  &quot;realization-relationship&quot;,&#xA;  &quot;specialization-relationship&quot;&#xA; ],&#xA; &quot;drawNested&quot;: [],&#xA; &quot;graphDepth&quot;: 0,&#xA; &quot;graphDirection&quot;: &quot;LR&quot;,&#xA; &quot;ranker&quot;: &quot;network-simplex&quot;,&#xA; &quot;nodeWidth&quot;: 200,&#xA; &quot;nodeHeight&quot;: 60,&#xA; &quot;hSep&quot;: 20,&#xA; &quot;vSep&quot;: 200,&#xA; &quot;debug&quot;: false,&#xA; &quot;viewName&quot;: &quot;Haal Centraal BRP bevragen (copy)&quot;&#xA;}"/>
+  <properties
+      key="Object ID"
+      value="16f6a58f-07d2-469c-bcb8-895e36a73570"/>
 </archimate:ArchimateDiagramModel>

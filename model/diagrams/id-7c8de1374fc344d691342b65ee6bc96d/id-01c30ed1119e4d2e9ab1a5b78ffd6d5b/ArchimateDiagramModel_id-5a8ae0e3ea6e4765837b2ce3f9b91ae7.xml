@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Haal Centraal BAG, WOZ en BRK bevragen"
     id="id-5a8ae0e3ea6e4765837b2ce3f9b91ae7"
-    documentation="View genereated with these settings and selections&#xA;&#xA;Parameter: &#xA;{&#xA;  &quot;action&quot;: &quot;GENERATE_SINGLE&quot;,&#xA;  &quot;graphDepth&quot;: 1,&#xA;  &quot;elementFilter&quot;: [],&#xA;  &quot;relationFilter&quot;: [],&#xA;  &quot;drawReversed&quot;: [&#xA;    &quot;realization-relationship&quot;,&#xA;    &quot;serving-relationship&quot;,&#xA;    &quot;specialization-relationship&quot;&#xA;  ],&#xA;  &quot;drawNested&quot;: [],&#xA;  &quot;graphDirection&quot;: &quot;LR&quot;,&#xA;  &quot;ranker&quot;: &quot;network-simplex&quot;,&#xA;  &quot;nodeWidth&quot;: 200,&#xA;  &quot;nodeHeight&quot;: 60,&#xA;  &quot;hSep&quot;: 20,&#xA;  &quot;vSep&quot;: 180,&#xA;  &quot;debug&quot;: true,&#xA;  &quot;viewName&quot;: &quot;Haal Centraal BAG bevragen API&quot;&#xA;}&#xA;&#xA;Selection: &#xA;[&#xA;  &quot;application-interface: Haal Centraal BAG bevragen API&quot;,&#xA;  &quot;application-interface: Haal Centraal BRK bevragen API&quot;&#xA;]&#xA;&#xA;Result filtered elements: &#xA;[&#xA;  &quot;application-interface: Haal Centraal BAG bevragen API&quot;,&#xA;  &quot;application-interface: Haal Centraal BRK bevragen API&quot;&#xA;]">
+    documentation="In de view wordt aan de linkerkant weergegeven door welke basisregistratie de Haal Centraal API's worden aangeboden.  &#xA;&#xA;Aan de rechterkant is weergegeven met welke referentiecomponenten de Haal Centraal API's kunnen worden afgenomen. Het gebruik van de API's door gemeenten is aanbevolen, niet verplicht.">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-afd3fd17e68c4f0abf9565d50f9aa2de"
@@ -60,7 +60,7 @@
       type="1">
     <bounds
         x="810"
-        y="140"
+        y="210"
         width="201"
         height="61"/>
     <archimateElement
@@ -74,7 +74,7 @@
       type="1">
     <bounds
         x="810"
-        y="240"
+        y="310"
         width="201"
         height="61"/>
     <archimateElement
@@ -190,7 +190,7 @@
     </sourceConnections>
     <bounds
         x="410"
-        y="490"
+        y="620"
         width="201"
         height="61"/>
     <archimateElement
@@ -203,7 +203,7 @@
       targetConnections="id-bad0deba9fcc44f9ba70ea792c50ea08">
     <bounds
         x="410"
-        y="400"
+        y="530"
         width="201"
         height="61"/>
     <archimateElement
@@ -217,7 +217,7 @@
       type="1">
     <bounds
         x="810"
-        y="550"
+        y="650"
         width="201"
         height="61"/>
     <archimateElement
@@ -231,7 +231,7 @@
       type="1">
     <bounds
         x="810"
-        y="470"
+        y="570"
         width="201"
         height="61"/>
     <archimateElement
@@ -245,7 +245,7 @@
       type="1">
     <bounds
         x="810"
-        y="340"
+        y="410"
         width="201"
         height="61"/>
     <archimateElement
@@ -267,7 +267,7 @@
     </sourceConnections>
     <bounds
         x="70"
-        y="490"
+        y="620"
         width="201"
         height="61"/>
     <archimateElement
@@ -316,7 +316,7 @@
     </sourceConnections>
     <bounds
         x="410"
-        y="250"
+        y="310"
         width="201"
         height="61"/>
     <archimateElement
@@ -329,7 +329,7 @@
       targetConnections="id-d1c2fc22a1484a1283c91670284f903f">
     <bounds
         x="410"
-        y="160"
+        y="220"
         width="201"
         height="61"/>
     <archimateElement
@@ -351,7 +351,7 @@
     </sourceConnections>
     <bounds
         x="70"
-        y="250"
+        y="310"
         width="201"
         height="61"/>
     <archimateElement
@@ -361,4 +361,7 @@
   <properties
       key="generate_view_param"
       value="{&#xA; &quot;action&quot;: &quot;LAYOUT&quot;,&#xA; &quot;elementFilter&quot;: [],&#xA; &quot;relationFilter&quot;: [],&#xA; &quot;drawReversed&quot;: [&#xA;  &quot;realization-relationship&quot;,&#xA;  &quot;specialization-relationship&quot;&#xA; ],&#xA; &quot;drawNested&quot;: [],&#xA; &quot;graphDepth&quot;: 0,&#xA; &quot;graphDirection&quot;: &quot;LR&quot;,&#xA; &quot;ranker&quot;: &quot;network-simplex&quot;,&#xA; &quot;nodeWidth&quot;: 200,&#xA; &quot;nodeHeight&quot;: 60,&#xA; &quot;hSep&quot;: 20,&#xA; &quot;vSep&quot;: 200,&#xA; &quot;debug&quot;: false,&#xA; &quot;viewName&quot;: &quot;Haal Centraal BAG, WOZ en BRK bevragen&quot;&#xA;}"/>
+  <properties
+      key="Object ID"
+      value="6779acbd-82aa-4af6-8cfd-2513b7ef0a5e"/>
 </archimate:ArchimateDiagramModel>
