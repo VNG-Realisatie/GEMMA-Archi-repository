@@ -6,7 +6,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-32613"
-      targetConnections="id-32599 id-32651 id-32655 id-32661 id-32667"
+      targetConnections="id-32651 id-32655 id-32661 id-32667"
       font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
       fontColor="#000000"
       lineColor="#000000"
@@ -35,7 +35,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-32616"
-      targetConnections="id-32601 id-32649 id-32652 id-32658 id-32664"
+      targetConnections="id-32649 id-32652 id-32658 id-32664"
       font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
       fontColor="#000000"
       lineColor="#000000"
@@ -76,23 +76,11 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-32619"
-      targetConnections="id-32626 id-32620 id-32629 id-32623"
+      targetConnections="id-32620 id-32623"
       font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
       fontColor="#000000"
       lineColor="#000000"
       fillColor="#b7dee8">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-32599"
-        font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
-        fontColor="#000000"
-        lineColor="#000000"
-        source="id-32619"
-        target="id-32613">
-      <archimateRelationship
-          xsi:type="archimate:ServingRelationship"
-          href="ServingRelationship_id-596d4105-c33d-41fd-a860-e9a5c92de8db.xml#id-596d4105-c33d-41fd-a860-e9a5c92de8db"/>
-    </sourceConnections>
     <bounds
         x="667"
         y="320"
@@ -110,18 +98,6 @@
       fontColor="#000000"
       lineColor="#000000"
       fillColor="#b7dee8">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-32601"
-        font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
-        fontColor="#000000"
-        lineColor="#000000"
-        source="id-32622"
-        target="id-32616">
-      <archimateRelationship
-          xsi:type="archimate:ServingRelationship"
-          href="ServingRelationship_id-e9b43f35-8d40-494b-a81c-2dbec74ed4b1.xml#id-e9b43f35-8d40-494b-a81c-2dbec74ed4b1"/>
-    </sourceConnections>
     <bounds
         x="190"
         y="320"
@@ -374,18 +350,6 @@
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-6f504a321ad247378d7e3b9c4390973c.xml#id-6f504a321ad247378d7e3b9c4390973c"/>
     </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-32626"
-        font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
-        fontColor="#000000"
-        lineColor="#000000"
-        source="id-32640"
-        target="id-32619">
-      <archimateRelationship
-          xsi:type="archimate:RealizationRelationship"
-          href="RealizationRelationship_id-bea4515624604b0cb5f01a46b5204a8c.xml#id-bea4515624604b0cb5f01a46b5204a8c"/>
-    </sourceConnections>
     <bounds
         x="187"
         y="467"
@@ -414,18 +378,6 @@
       <archimateRelationship
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-f244c54de2354c48b98006dffc6c5e0a.xml#id-f244c54de2354c48b98006dffc6c5e0a"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-32629"
-        font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
-        fontColor="#000000"
-        lineColor="#000000"
-        source="id-32643"
-        target="id-32619">
-      <archimateRelationship
-          xsi:type="archimate:RealizationRelationship"
-          href="RealizationRelationship_id-5fa994ad9a554d1eb7f0dc4eb846bf4c.xml#id-5fa994ad9a554d1eb7f0dc4eb846bf4c"/>
     </sourceConnections>
     <bounds
         x="7"

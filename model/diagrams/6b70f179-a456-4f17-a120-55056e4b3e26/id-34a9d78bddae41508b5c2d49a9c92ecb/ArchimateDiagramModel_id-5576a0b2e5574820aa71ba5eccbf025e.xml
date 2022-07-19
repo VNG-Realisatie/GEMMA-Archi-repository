@@ -42,7 +42,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-eb957ec9a53345648b376d386a93c107"
-      targetConnections="id-e5a9c48fed4b4a2c9902e135b405c306 id-bc24f0810c3843e28e744b3ad7a6f086"
+      targetConnections="id-e5a9c48fed4b4a2c9902e135b405c306 id-71be6e3767834c04b6fc2d48b2e9fe5c"
       lineColor="#4f4f4f"
       fillColor="#ffffcc"
       textPosition="1">
@@ -78,7 +78,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-ebacb01eb3f847bbad1d7c706467e3bb"
-      targetConnections="id-20b9b9eb931f457288ac85d473ec827e id-34dba81ed3c448cd97bc518e81517eb1"
+      targetConnections="id-20b9b9eb931f457288ac85d473ec827e id-60129b26a5854474a0c5a02181a63c11"
       lineColor="#4f4f4f"
       fillColor="#ffffcc"
       textPosition="1">
@@ -160,32 +160,6 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-1caa4e7afe4b4a6a82a5673ee8f4de65"
-      targetConnections="id-9934f108228a4300b2e3721bf113744c"
-      lineColor="#4f4f4f"
-      fillColor="#b7dee8"
-      textPosition="1">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-bc24f0810c3843e28e744b3ad7a6f086"
-        lineColor="#000000"
-        source="id-1caa4e7afe4b4a6a82a5673ee8f4de65"
-        target="id-eb957ec9a53345648b376d386a93c107">
-      <archimateRelationship
-          xsi:type="archimate:ServingRelationship"
-          href="ServingRelationship_id-e9b43f35-8d40-494b-a81c-2dbec74ed4b1.xml#id-e9b43f35-8d40-494b-a81c-2dbec74ed4b1"/>
-    </sourceConnections>
-    <bounds
-        x="136"
-        y="472"
-        width="273"
-        height="81"/>
-    <archimateElement
-        xsi:type="archimate:ApplicationService"
-        href="ApplicationService_id-fcf9e7bec99d4b8eb2dcc6469ebd1fa4.xml#id-fcf9e7bec99d4b8eb2dcc6469ebd1fa4"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
       id="id-f222ec502c2945179e28dfe98113bf98"
       lineColor="#4f4f4f"
       fillColor="#daeef3"
@@ -193,23 +167,23 @@
       type="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-9934f108228a4300b2e3721bf113744c"
+        id="id-cbcc209a51a34922a1d119d2348c3f10"
         lineColor="#000000"
         source="id-f222ec502c2945179e28dfe98113bf98"
-        target="id-1caa4e7afe4b4a6a82a5673ee8f4de65">
+        target="id-fbfa195c040a4061abb0280e97d43037">
       <archimateRelationship
           xsi:type="archimate:RealizationRelationship"
-          href="RealizationRelationship_id-224cc8a115dd412c8914f4dd439bde24.xml#id-224cc8a115dd412c8914f4dd439bde24"/>
+          href="RealizationRelationship_id-8031da5bc94a4641bb2e2f60a0f234c7.xml#id-8031da5bc94a4641bb2e2f60a0f234c7"/>
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-5bd44003aff04757b19e16eda45b2532"
+        id="id-9e569e799fa844469964edb50a8812d0"
         lineColor="#000000"
         source="id-f222ec502c2945179e28dfe98113bf98"
-        target="id-0020ac39478544b7800f1ade8a4781dd">
+        target="id-5895e05b9a8d4f5c938b131f461d801a">
       <archimateRelationship
           xsi:type="archimate:RealizationRelationship"
-          href="RealizationRelationship_id-bc36389c402e436e9248e582f78db478.xml#id-bc36389c402e436e9248e582f78db478"/>
+          href="RealizationRelationship_id-ac2d358fdb524f878605bf978bf3120c.xml#id-ac2d358fdb524f878605bf978bf3120c"/>
     </sourceConnections>
     <bounds
         x="136"
@@ -237,17 +211,30 @@
         href="BusinessFunction_id-23811066-6b79-4457-a28a-05ccf6de36b1.xml#id-23811066-6b79-4457-a28a-05ccf6de36b1"/>
   </children>
   <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-353612b30e6b4e00be80f7d755de6272"
+      lineColor="#4f4f4f"
+      textAlignment="1"
+      fillColor="#ffffff"
+      content="Is het treffen van handhavingsmaatregel wel een subfunctie?">
+    <bounds
+        x="608"
+        y="360"
+        width="185"
+        height="81"/>
+  </children>
+  <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-0020ac39478544b7800f1ade8a4781dd"
-      targetConnections="id-5bd44003aff04757b19e16eda45b2532"
+      id="id-fbfa195c040a4061abb0280e97d43037"
+      targetConnections="id-cbcc209a51a34922a1d119d2348c3f10"
       lineColor="#4f4f4f"
       fillColor="#b7dee8"
       textPosition="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-34dba81ed3c448cd97bc518e81517eb1"
+        id="id-60129b26a5854474a0c5a02181a63c11"
         lineColor="#000000"
-        source="id-0020ac39478544b7800f1ade8a4781dd"
+        source="id-fbfa195c040a4061abb0280e97d43037"
         target="id-ebacb01eb3f847bbad1d7c706467e3bb">
       <bendpoints
           startX="96"
@@ -268,20 +255,33 @@
         height="81"/>
     <archimateElement
         xsi:type="archimate:ApplicationService"
-        href="ApplicationService_id-5db42fbea5f741d1af61f2be2627ec57.xml#id-5db42fbea5f741d1af61f2be2627ec57"/>
+        href="ApplicationService_id-6a4700cfbb454d98a9825f688ebe0e30.xml#id-6a4700cfbb454d98a9825f688ebe0e30"/>
   </children>
   <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-353612b30e6b4e00be80f7d755de6272"
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-5895e05b9a8d4f5c938b131f461d801a"
+      targetConnections="id-9e569e799fa844469964edb50a8812d0"
       lineColor="#4f4f4f"
-      textAlignment="1"
-      fillColor="#ffffff"
-      content="Is het treffen van handhavingsmaatregel wel een subfunctie?">
+      fillColor="#b7dee8"
+      textPosition="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-71be6e3767834c04b6fc2d48b2e9fe5c"
+        lineColor="#000000"
+        source="id-5895e05b9a8d4f5c938b131f461d801a"
+        target="id-eb957ec9a53345648b376d386a93c107">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-d4f19a46027c451aae2b4665ab78a0d3.xml#id-d4f19a46027c451aae2b4665ab78a0d3"/>
+    </sourceConnections>
     <bounds
-        x="608"
-        y="360"
-        width="185"
+        x="136"
+        y="472"
+        width="273"
         height="81"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationService"
+        href="ApplicationService_id-3899e300aded488aadc9672cf0a01270.xml#id-3899e300aded488aadc9672cf0a01270"/>
   </children>
   <properties
       key="Architectuurlaag"
@@ -304,4 +304,7 @@
   <properties
       key="Viewtype"
       value="Toelichting"/>
+  <properties
+      key="Object ID"
+      value="d0a94fd4-3e56-4688-adba-8b29a94b1130"/>
 </archimate:ArchimateDiagramModel>

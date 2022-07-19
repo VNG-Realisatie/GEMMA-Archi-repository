@@ -87,7 +87,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-26ab01af83a94ac4836f30af6aa450d9"
-      targetConnections="id-c4baa19eae31479987b77501d21e4d16"
+      targetConnections="id-c4baa19eae31479987b77501d21e4d16 id-03ad200d5ae6417da9bee0155dbd96d6"
       lineColor="#4f4f4f"
       fillColor="#ffffcc"
       textPosition="1">
@@ -200,6 +200,58 @@
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_id-fe60b335-3b0a-431b-963e-ae38adea4ae1.xml#id-fe60b335-3b0a-431b-963e-ae38adea4ae1"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-5755072b4aeb44bab4a384d812ae0796"
+      targetConnections="id-91c95063126f44698539ba6e3fe75398"
+      lineColor="#4f4f4f"
+      fillColor="#b7dee8"
+      textPosition="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-03ad200d5ae6417da9bee0155dbd96d6"
+        lineColor="#000000"
+        source="id-5755072b4aeb44bab4a384d812ae0796"
+        target="id-26ab01af83a94ac4836f30af6aa450d9">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-ef2bdd7be97c4ef0b0b97815d2c63b00.xml#id-ef2bdd7be97c4ef0b0b97815d2c63b00"/>
+    </sourceConnections>
+    <bounds
+        x="64"
+        y="272"
+        width="129"
+        height="81"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationService"
+        href="ApplicationService_id-18fe9708ad474c1c86a2f1e44300dadd.xml#id-18fe9708ad474c1c86a2f1e44300dadd"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-a15b9820a27e4a0b8bcdf8d20bc68976"
+      lineColor="#4f4f4f"
+      fillColor="#daeef3"
+      textPosition="1"
+      type="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-91c95063126f44698539ba6e3fe75398"
+        lineColor="#000000"
+        source="id-a15b9820a27e4a0b8bcdf8d20bc68976"
+        target="id-5755072b4aeb44bab4a384d812ae0796">
+      <archimateRelationship
+          xsi:type="archimate:RealizationRelationship"
+          href="RealizationRelationship_id-ea319e41d4df4a77b6e235407e329b4b.xml#id-ea319e41d4df4a77b6e235407e329b4b"/>
+    </sourceConnections>
+    <bounds
+        x="64"
+        y="384"
+        width="129"
+        height="81"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_id-0777c4b6-e7c5-4d42-9fe8-9b98e6bca8a6.xml#id-0777c4b6-e7c5-4d42-9fe8-9b98e6bca8a6"/>
+  </children>
   <properties
       key="Domein"
       value="Fysieke leefomgeving"/>
@@ -221,4 +273,7 @@
   <properties
       key="Viewtype"
       value="Toelichting"/>
+  <properties
+      key="Object ID"
+      value="f047529c-a067-4ac2-a75c-039e6e578c96"/>
 </archimate:ArchimateDiagramModel>
