@@ -193,7 +193,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-e9eb3ff310004f4587354dd0cea6663f"
-      targetConnections="id-8d7570a7afd6478aacae762c4df62194 id-869e6455fdf94437a974ec2c307be3e5 id-fdeef1be022b4384bdb673a402c192be id-33333d663ec44c258dff6dcbb2b78fcd"
+      targetConnections="id-8d7570a7afd6478aacae762c4df62194 id-869e6455fdf94437a974ec2c307be3e5 id-fdeef1be022b4384bdb673a402c192be"
       lineColor="#4f4f4f"
       fillColor="#ffffcc"
       textPosition="1">
@@ -377,20 +377,9 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-260715cb863040e8b99e89ab245054be"
-      targetConnections="id-6c3d1f50867c44bbaa4a034064255161"
       lineColor="#4f4f4f"
       fillColor="#b7dee8"
       textPosition="1">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-33333d663ec44c258dff6dcbb2b78fcd"
-        lineColor="#000000"
-        source="id-260715cb863040e8b99e89ab245054be"
-        target="id-e9eb3ff310004f4587354dd0cea6663f">
-      <archimateRelationship
-          xsi:type="archimate:ServingRelationship"
-          href="ServingRelationship_id-be13dc71764a47ec996c3b951099ce72.xml#id-be13dc71764a47ec996c3b951099ce72"/>
-    </sourceConnections>
     <bounds
         x="336"
         y="360"
@@ -459,16 +448,6 @@
       fillColor="#daeef3"
       textPosition="1"
       type="1">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-6c3d1f50867c44bbaa4a034064255161"
-        lineColor="#000000"
-        source="id-958a88d48a384e6c8ed4414e39c52d5e"
-        target="id-260715cb863040e8b99e89ab245054be">
-      <archimateRelationship
-          xsi:type="archimate:RealizationRelationship"
-          href="RealizationRelationship_id-a9f457eb2b4645488b23a77225cc653f.xml#id-a9f457eb2b4645488b23a77225cc653f"/>
-    </sourceConnections>
     <bounds
         x="336"
         y="472"
