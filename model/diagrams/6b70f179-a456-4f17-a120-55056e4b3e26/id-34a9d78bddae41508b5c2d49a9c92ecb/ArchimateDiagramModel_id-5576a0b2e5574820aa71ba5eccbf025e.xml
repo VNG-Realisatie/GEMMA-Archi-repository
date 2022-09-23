@@ -129,7 +129,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-db8310d2920a42a8938282d7087c3348"
-      targetConnections="id-8c38df3249d54504bc98f6d0f50fbe93"
+      targetConnections="id-8c38df3249d54504bc98f6d0f50fbe93 id-49eba7c6c770413a9048afb86b4f7921"
       lineColor="#4f4f4f"
       fillColor="#ffffcc"
       textPosition="1">
@@ -145,7 +145,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-5600159de2a04f83b37f22949b6b5110"
-      targetConnections="id-0c69ed3adf3d440baed54ee0a68880c4"
+      targetConnections="id-0c69ed3adf3d440baed54ee0a68880c4 id-ae2f127cbf1a4eed96292178838d1e6b"
       lineColor="#4f4f4f"
       fillColor="#ffffcc"
       textPosition="1">
@@ -197,7 +197,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-43bd518b2faf47e39250376b50de94a6"
-      targetConnections="id-e01109bc4e9f400a96b8c94146d49e49"
+      targetConnections="id-e01109bc4e9f400a96b8c94146d49e49 id-fb8859109a2d49f0b6ebe6de8700448b"
       lineColor="#4f4f4f"
       fillColor="#ffffcc"
       textPosition="1">
@@ -269,6 +269,34 @@
     <archimateElement
         xsi:type="archimate:ApplicationService"
         href="ApplicationService_id-3899e300aded488aadc9672cf0a01270.xml#id-3899e300aded488aadc9672cf0a01270"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-abc787f7bfab4675a38f6ebe897028f8"
+      lineColor="#4f4f4f"
+      textAlignment="1"
+      fillColor="#ffffff"
+      content="Voorstel om deze te verwijderen. Heeft consequenties voor alle domeinarchitecturen">
+    <sourceConnections
+        id="id-fb8859109a2d49f0b6ebe6de8700448b"
+        lineColor="#000000"
+        source="id-abc787f7bfab4675a38f6ebe897028f8"
+        target="id-43bd518b2faf47e39250376b50de94a6"/>
+    <sourceConnections
+        id="id-ae2f127cbf1a4eed96292178838d1e6b"
+        lineColor="#000000"
+        source="id-abc787f7bfab4675a38f6ebe897028f8"
+        target="id-5600159de2a04f83b37f22949b6b5110"/>
+    <sourceConnections
+        id="id-49eba7c6c770413a9048afb86b4f7921"
+        lineColor="#000000"
+        source="id-abc787f7bfab4675a38f6ebe897028f8"
+        target="id-db8310d2920a42a8938282d7087c3348"/>
+    <bounds
+        x="600"
+        y="488"
+        width="185"
+        height="80"/>
   </children>
   <properties
       key="Architectuurlaag"
