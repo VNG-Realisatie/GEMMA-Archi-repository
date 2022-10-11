@@ -37,9 +37,9 @@
           href="CompositionRelationship_id-ac640a4c3c044af7b64311f007d7c27b.xml#id-ac640a4c3c044af7b64311f007d7c27b"/>
     </sourceConnections>
     <bounds
-        x="180"
-        y="10"
-        width="711"
+        x="120"
+        y="770"
+        width="971"
         height="61"/>
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
@@ -59,8 +59,8 @@
           href="RealizationRelationship_id-548066d3-90ef-4c0f-8b4b-21f86d09f698.xml#id-548066d3-90ef-4c0f-8b4b-21f86d09f698"/>
     </sourceConnections>
     <bounds
-        x="180"
-        y="150"
+        x="120"
+        y="910"
         width="141"
         height="61"/>
     <archimateElement
@@ -90,8 +90,8 @@
           href="RealizationRelationship_id-e17a8936-32d7-404d-b3cd-893524a0306f.xml#id-e17a8936-32d7-404d-b3cd-893524a0306f"/>
     </sourceConnections>
     <bounds
-        x="330"
-        y="150"
+        x="270"
+        y="910"
         width="141"
         height="61"/>
     <archimateElement
@@ -130,8 +130,8 @@
           href="ServingRelationship_id-bccfc18a436a49999f61f076a1d1ecbf.xml#id-bccfc18a436a49999f61f076a1d1ecbf"/>
     </sourceConnections>
     <bounds
-        x="750"
-        y="310"
+        x="950"
+        y="1070"
         width="141"
         height="61"/>
     <archimateElement
@@ -148,17 +148,11 @@
         lineWidth="2"
         lineColor="#0000ff"
         source="id-c392edfcdcc94576ac8ebb82ba5bf8ad"
-        target="id-5e6f1fe9d72b43efa6aab3ef732db146">
-      <bendpoints
-          startX="-40"
-          startY="-40"
-          endX="-9"
-          endY="25"/>
-    </sourceConnections>
+        target="id-5e6f1fe9d72b43efa6aab3ef732db146"/>
     <bounds
-        x="590"
-        y="460"
-        width="141"
+        x="550"
+        y="1270"
+        width="251"
         height="61"/>
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
@@ -170,8 +164,8 @@
       targetConnections="id-a083c4103454418bb500b4ae621237fe"
       type="1">
     <bounds
-        x="750"
-        y="460"
+        x="950"
+        y="1270"
         width="141"
         height="61"/>
     <archimateElement
@@ -201,9 +195,9 @@
           href="AggregationRelationship_id-9e0b4f2a-9cb8-47f8-8c62-83c31f9600b1.xml#id-9e0b4f2a-9cb8-47f8-8c62-83c31f9600b1"/>
     </sourceConnections>
     <bounds
-        x="340"
-        y="260"
-        width="361"
+        x="330"
+        y="1020"
+        width="571"
         height="131"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -221,15 +215,37 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-305d33cecf3f42288fb36b9d2b857655"
-        targetConnections="id-fd9fd40a1f6f43249fc9383294a5b9da id-6c7a7fe635784a9ea7179d678b9f7582 id-38b05d5bd43c4d469ad4d3ab4dcc02a3 id-81afe8d57efe4293b38988fac3047815">
+        targetConnections="id-fd9fd40a1f6f43249fc9383294a5b9da id-6c7a7fe635784a9ea7179d678b9f7582 id-81afe8d57efe4293b38988fac3047815 id-d23e475d5c3b4e87b4f74a8c0c35775e">
       <bounds
-          x="200"
+          x="380"
           y="50"
           width="141"
           height="61"/>
       <archimateElement
           xsi:type="archimate:Constraint"
           href="Constraint_id-cd03d983b72b41c696f9e262afc5cc21.xml#id-cd03d983b72b41c696f9e262afc5cc21"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-941b53d68a2c484496f66946ff10e5a0"
+        targetConnections="id-38b05d5bd43c4d469ad4d3ab4dcc02a3">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-d23e475d5c3b4e87b4f74a8c0c35775e"
+          source="id-941b53d68a2c484496f66946ff10e5a0"
+          target="id-305d33cecf3f42288fb36b9d2b857655">
+        <archimateRelationship
+            xsi:type="archimate:SpecializationRelationship"
+            href="SpecializationRelationship_id-a92fa7073cb44324a21bbd47289cc827.xml#id-a92fa7073cb44324a21bbd47289cc827"/>
+      </sourceConnections>
+      <bounds
+          x="220"
+          y="51"
+          width="130"
+          height="60"/>
+      <archimateElement
+          xsi:type="archimate:Constraint"
+          href="Constraint_id-2391abc528d0420b9fa2ac8e79245fef.xml#id-2391abc528d0420b9fa2ac8e79245fef"/>
     </children>
     <archimateElement
         xsi:type="archimate:Grouping"
@@ -258,9 +274,9 @@
           href="RealizationRelationship_id-d11d014c-cdf9-47a4-93e2-f36b5f88f77a.xml#id-d11d014c-cdf9-47a4-93e2-f36b5f88f77a"/>
     </sourceConnections>
     <bounds
-        x="240"
-        y="460"
-        width="141"
+        x="120"
+        y="1270"
+        width="281"
         height="61"/>
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
@@ -281,7 +297,7 @@
     </sourceConnections>
     <bounds
         x="120"
-        y="260"
+        y="1020"
         width="181"
         height="131"/>
     <children
@@ -305,7 +321,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="id-cab818d22bd741cb90b8a33618571b0f"
       textAlignment="1"
-      content="Afleiden voor LV aanbieder">
+      content="Afleiden relatie naar API-standaard voor door LV aangeboden API">
     <sourceConnections
         id="id-6fe75cb799984d1ab42cd446a23f8631"
         lineWidth="2"
@@ -332,16 +348,16 @@
           endY="-90"/>
     </sourceConnections>
     <bounds
-        x="550"
-        y="150"
+        x="660"
+        y="910"
         width="221"
-        height="31"/>
+        height="61"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
       id="id-890bb6a2be8143c8bd3325b68f5123f6"
       textAlignment="1"
-      content="Blijven afleiden voor LV">
+      content="Blijven afleiden voor door LV aangeboden applicatie-services (deze modellering is oud)">
     <sourceConnections
         id="id-f1958bcb113a49a599f0ba8a301aaa03"
         lineWidth="2"
@@ -350,9 +366,9 @@
         target="id-e0219ba6b924490f9a81abeb0c14cf6d">
       <bendpoints
           startX="-15"
-          startY="-25"
-          endX="40"
-          endY="40"/>
+          startY="-55"
+          endX="-115"
+          endY="70"/>
     </sourceConnections>
     <sourceConnections
         id="id-13c89d3a95664e48bb2be4095cef7a00"
@@ -369,28 +385,34 @@
     </sourceConnections>
     <bounds
         x="430"
-        y="90"
-        width="171"
-        height="31"/>
+        y="890"
+        width="211"
+        height="81"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
       id="id-5e6f1fe9d72b43efa6aab3ef732db146"
       targetConnections="id-7b436ed9befa4c68808aa57bde2eea9a"
       textAlignment="1"
-      content="Afleiden voor RC afnemer">
+      content="Afleiden voor RC afnemer. Let op: relatie op standaardversie ipv standaard. ">
     <sourceConnections
         id="id-38b05d5bd43c4d469ad4d3ab4dcc02a3"
         lineWidth="2"
         lineColor="#0000ff"
         source="id-5e6f1fe9d72b43efa6aab3ef732db146"
-        target="id-305d33cecf3f42288fb36b9d2b857655"
-        type="16"/>
+        target="id-941b53d68a2c484496f66946ff10e5a0"
+        type="16">
+      <bendpoints
+          startX="31"
+          startY="-35"
+          endX="5"
+          endY="49"/>
+    </sourceConnections>
     <bounds
         x="490"
-        y="410"
-        width="198"
-        height="31"/>
+        y="1170"
+        width="221"
+        height="71"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -425,9 +447,9 @@
           href="RealizationRelationship_id-204b6c54-be08-4eea-b115-a3cb34e1e7b2.xml#id-204b6c54-be08-4eea-b115-a3cb34e1e7b2"/>
     </sourceConnections>
     <bounds
-        x="960"
-        y="460"
-        width="560"
+        x="120"
+        y="579"
+        width="820"
         height="61"/>
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
@@ -460,8 +482,8 @@
           href="RealizationRelationship_id-32f429c0-6960-4620-9cb8-dc924456ccd2.xml#id-32f429c0-6960-4620-9cb8-dc924456ccd2"/>
     </sourceConnections>
     <bounds
-        x="1380"
-        y="296"
+        x="800"
+        y="415"
         width="140"
         height="60"/>
     <archimateElement
@@ -507,9 +529,9 @@
         source="id-c3e52ff0d6a84180b6d6c84257cdd8dc"
         target="id-65736b09b72a470884ff660eaf79f1b7"/>
     <bounds
-        x="960"
-        y="11"
-        width="560"
+        x="120"
+        y="130"
+        width="820"
         height="60"/>
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
@@ -518,19 +540,12 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-9443d67e6b0741b2821b98cc0d08e0f3"
-      targetConnections="id-5f10d7a30dfa4071b248714516d6d42d id-e3707793a1ad4ba0bfe33a69e58d3ed9 id-4a71f37b15aa418bab1daa78d2d84cd9 id-4832d24f841344d19f93f8cad7499708">
-    <sourceConnections
-        id="id-a4cc4c5552b24061994f063b65b19b61"
-        lineWidth="2"
-        lineColor="#3584e4"
-        source="id-9443d67e6b0741b2821b98cc0d08e0f3"
-        target="id-d56c3898fe944ff18731ed910034f9be"
-        type="32"/>
+      targetConnections="id-5f10d7a30dfa4071b248714516d6d42d id-e3707793a1ad4ba0bfe33a69e58d3ed9 id-4a71f37b15aa418bab1daa78d2d84cd9 id-37788beb217e48b680e5d61aac0b16d4">
     <bounds
-        x="950"
-        y="306"
-        width="221"
-        height="60"/>
+        x="370"
+        y="425"
+        width="191"
+        height="66"/>
     <archimateElement
         xsi:type="archimate:Constraint"
         href="Constraint_id-3a597286-4edc-47ed-b19a-14d7497db340.xml#id-3a597286-4edc-47ed-b19a-14d7497db340"/>
@@ -548,9 +563,9 @@
         source="id-d56c3898fe944ff18731ed910034f9be"
         target="id-c308055289a549f7b78a06d16d9fc861"/>
     <bounds
-        x="880"
-        y="410"
-        width="201"
+        x="120"
+        y="520"
+        width="191"
         height="31"/>
   </children>
   <children
@@ -564,12 +579,12 @@
         lineWidth="2"
         lineColor="#3584e4"
         source="id-65736b09b72a470884ff660eaf79f1b7"
-        target="id-9443d67e6b0741b2821b98cc0d08e0f3"
+        target="id-ba250bd3582b49cdbec9d5fdb32f7083"
         type="16"/>
     <bounds
-        x="870"
-        y="150"
-        width="216"
+        x="120"
+        y="270"
+        width="191"
         height="31"/>
   </children>
   <children
@@ -577,7 +592,7 @@
       id="id-a2168090c0c54fe0a6d6418d58cb9bcd"
       targetConnections="id-756af93bb7234f7f9563305f27545acb"
       textAlignment="1"
-      content="Deze GEMMA2 directe relaties  zijn een dubbeling met de af te leiden relaties. &#xA;&#xA;Als er een directe relatie is, de afgeleide relatie niet aanmaken (dit werkt al zo in de list API)">
+      content="In de GEMMA worden de verplichte / aanbevolen relaties gedefinieerd op de standaard.&#xA;&#xA;Voor de Softwarecatalogus zijn de verplicht / aanbevolen relaties  gedefinieerd op de standaardversie (reden hiervoor is historie, zo was het gedefinieerd in de GEMMA 1)">
     <sourceConnections
         id="id-6b7d209dae074cbcb72164621037aea9"
         source="id-a2168090c0c54fe0a6d6418d58cb9bcd"
@@ -589,10 +604,75 @@
           endY="-28"/>
     </sourceConnections>
     <bounds
-        x="1190"
-        y="100"
-        width="211"
-        height="173"/>
+        x="540"
+        y="220"
+        width="301"
+        height="151"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-ba250bd3582b49cdbec9d5fdb32f7083"
+      targetConnections="id-4832d24f841344d19f93f8cad7499708">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-37788beb217e48b680e5d61aac0b16d4"
+        source="id-ba250bd3582b49cdbec9d5fdb32f7083"
+        target="id-9443d67e6b0741b2821b98cc0d08e0f3">
+      <archimateRelationship
+          xsi:type="archimate:SpecializationRelationship"
+          href="SpecializationRelationship_id-7245f1c3-c5a6-4f0a-ae4d-17b7317174d2.xml#id-7245f1c3-c5a6-4f0a-ae4d-17b7317174d2"/>
+    </sourceConnections>
+    <sourceConnections
+        id="id-a4cc4c5552b24061994f063b65b19b61"
+        lineWidth="2"
+        lineColor="#3584e4"
+        source="id-ba250bd3582b49cdbec9d5fdb32f7083"
+        target="id-d56c3898fe944ff18731ed910034f9be"
+        type="32"/>
+    <bounds
+        x="120"
+        y="425"
+        width="191"
+        height="66"/>
+    <archimateElement
+        xsi:type="archimate:Constraint"
+        href="Constraint_id-9ee2936a-01e8-4d54-8ec6-43ae374f1313.xml#id-9ee2936a-01e8-4d54-8ec6-43ae374f1313"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-f7def7cefb7745dfa4591252c1845de6"
+      font="1|Sans|12.0|1|GTK|1|"
+      content="standaardversies voor referentiecomponenten "
+      borderType="2">
+    <bounds
+        x="120"
+        y="90"
+        width="820"
+        height="31"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-9e01bcadacad4d578aa5fd05929ee9ab"
+      font="1|Sans|12.0|1|GTK|1|"
+      content="Af te leiden relaties voor de Softwarecatalgous "
+      borderType="2">
+    <bounds
+        x="120"
+        y="38"
+        width="820"
+        height="43"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-4e136867a5d84082aff9a3444f83d068"
+      font="1|Sans|12.0|1|GTK|1|"
+      content="standaarden voor landelijke voorzieningen "
+      borderType="2">
+    <bounds
+        x="120"
+        y="730"
+        width="970"
+        height="31"/>
   </children>
   <properties
       key="generate_view_param"
