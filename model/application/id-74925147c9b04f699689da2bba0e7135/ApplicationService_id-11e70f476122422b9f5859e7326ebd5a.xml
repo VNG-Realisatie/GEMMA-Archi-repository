@@ -1,0 +1,9 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Opvragen verwerkingenlogging"
+    id="id-11e70f476122422b9f5859e7326ebd5a"
+    documentation="Deze applicatieservice is een verzameling van meerdere functies die betrekking hebben op het opvragen een verwerkingsacties. Afhankelijk van de gewenste set aan gegevens wordt een specifieke functie gebruikt. Bij de functies 'Opvragen Verwerkingsacties - Beperkte set velden, niet vetrouwelijk' en de functie 'Opvragen Verwerkingsacties - Beperkte set velden, vetrouwelijkheid opgeheven' worden niet alle velden geretourneerd. Zo wordt om privacy redenen de gebruiker niet geretourneerd en om wille van de veiligheid het systeem en de gegevensopslag niet. De functies 'Opvragen Verwerkingsacties - Alle velden, niet vertrouwelijk' en de functie 'Opvragen Verwerkingsacties - Alle velden, vertrouwelijk' retourneren deze informatie wel. Alleen een bevoegde functionaris zoals bijvoorbeeld een Privacy Officer zou hiervoor geautoriseerd mogen worden. De ‘niet vertrouwelijke’ functies retourneren alleen verwerkingsacties over verwerkingen die niet vertrouwelijk zijn en die dit ook nooit geweest zijn. De ‘vertrouwelijkheid opgeheven’ functies retourneren ook verwerkingsacties die ooit vertrouwelijk geweest zijn. Verwerkingsacties acties die ooit vertrouwelijk waren, moet ook na het opheffen van die vertrouwelijkheid vaak gezien worden als ‘bijzondere persoonsgegevens’. Denk aan een fraudeonderzoek. Zelfs als een dergelijk onderzoek uiteindelijk niets opgeleverd heeft, kan het aantreffen van verwerkingsacties over een onderzoek leiden tot een vooroordeel. Ook deze functies mogen dus alleen door bevoegde functionarissen zoals Privacy Officers gebruikt worden.">
+  <properties
+      key="Object ID"
+      value="9d6934c3-a922-4100-8b23-f5d8e598ae18"/>
+</archimate:ApplicationService>
