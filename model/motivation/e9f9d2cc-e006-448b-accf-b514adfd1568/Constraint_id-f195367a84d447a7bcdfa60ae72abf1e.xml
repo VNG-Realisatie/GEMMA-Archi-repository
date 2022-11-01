@@ -1,0 +1,24 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Verzoeknotificatie ontvangen ebMS-standaard"
+    id="id-f195367a84d447a7bcdfa60ae72abf1e"
+    documentation="De API 'Verzoeknotificatie ontvangen ebMS' ontvangt een SOAP/XML bericht van het DSO-LV zodra in de werkmap in het digitaal stelsel een vergunningaanvraag of melding klaar staat voor verwerking.">
+  <properties
+      key="GEMMA status"
+      value="In gebruik"/>
+  <properties
+      key="GEMMA type"
+      value="Standaard"/>
+  <properties
+      key="Beheerder"
+      value="Kadaster"/>
+  <properties
+      key="URL"
+      value="https://aandeslagmetdeomgevingswet.nl/ontwikkelaarsportaal/api-register/api/verzoeknotificatie/"/>
+  <properties
+      key="Object ID"
+      value="2ffdf1bb-9274-4722-beec-dafd74148508"/>
+  <properties
+      key="Toelichting"
+      value="Wanneer in het Omgevingsloket een vergunningsaanvraag of melding is gedaan, krijgen zowel het bevoegde gezag als de behandeldienst (indien ingesteld) hiervan een melding. Deze melding wordt ook wel verzoeknotificatie genoemd. Het bevoegd gezag en/of behandeldienst kan het verzoek vervolgens ophalen uit de werkmap van het digitaal stelsel en inladen in het lokale zaaksysteem of VTH-systeem."/>
+</archimate:Constraint>
