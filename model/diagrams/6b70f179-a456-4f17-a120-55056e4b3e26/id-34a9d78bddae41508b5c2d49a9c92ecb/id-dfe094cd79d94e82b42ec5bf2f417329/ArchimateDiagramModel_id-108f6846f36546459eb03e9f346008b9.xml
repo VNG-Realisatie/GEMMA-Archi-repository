@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Generated View for Erfpachtrechtcomponent"
+    name="Generated View for Erfpachtrechtcomponent-done"
     id="id-108f6846f36546459eb03e9f346008b9">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -19,6 +19,16 @@
       <archimateRelationship
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-d665cfc7c30d4a4abf39eec3f70d6e41.xml#id-d665cfc7c30d4a4abf39eec3f70d6e41"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-af77b1b11d8f423c8f8e8ee700472a3b"
+        lineColor="#000000"
+        source="id-e8f497fd73484232a9240dcfd2523bc4"
+        target="id-d1feb06dd7e345eeb1ab027fdbc49d36">
+      <archimateRelationship
+          xsi:type="archimate:RealizationRelationship"
+          href="RealizationRelationship_id-e319b068c0eb47ddb03e357073b9e6a8.xml#id-e319b068c0eb47ddb03e357073b9e6a8"/>
     </sourceConnections>
     <bounds
         x="192"
@@ -44,5 +54,34 @@
     <archimateElement
         xsi:type="archimate:ApplicationService"
         href="ApplicationService_id-3499d877677641d08c44b0b0dc6d653f.xml#id-3499d877677641d08c44b0b0dc6d653f"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-d1feb06dd7e345eeb1ab027fdbc49d36"
+      targetConnections="id-af77b1b11d8f423c8f8e8ee700472a3b"
+      lineColor="#4f4f4f"
+      fillColor="#cab5ea"
+      textPosition="1">
+    <bounds
+        x="192"
+        y="384"
+        width="129"
+        height="81"/>
+    <archimateElement
+        xsi:type="archimate:Constraint"
+        href="Constraint_id-ba45e471-8db0-11e3-67ab-0050568a6153.xml#id-ba45e471-8db0-11e3-67ab-0050568a6153"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-f1a1e3f1506c4faa9a0400c15b9fa03c"
+      lineColor="#4f4f4f"
+      textAlignment="1"
+      fillColor="#ffffff"
+      content="Heeft nog een relatie met RSGB maar is niet meer op elkaar afgestemd!">
+    <bounds
+        x="344"
+        y="384"
+        width="185"
+        height="81"/>
   </children>
 </archimate:ArchimateDiagramModel>
