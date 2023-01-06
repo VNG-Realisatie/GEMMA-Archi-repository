@@ -20,10 +20,30 @@
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-7395d54c92a04b7bba97611c09354435.xml#id-7395d54c92a04b7bba97611c09354435"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-8d9172dddb8f40b1bcab4e64970f65bb"
+        lineColor="#000000"
+        source="id-5233b468fec747bc8a2c4900a85455e7"
+        target="id-6a9a4f025bf34c4680c54e5079e1ca82">
+      <archimateRelationship
+          xsi:type="archimate:RealizationRelationship"
+          href="RealizationRelationship_id-5caf9c4ea48e4e5ea3ac4e586c5a4f31.xml#id-5caf9c4ea48e4e5ea3ac4e586c5a4f31"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-7b38039a756d4b5d9dc72ec6ea0a3e11"
+        lineColor="#000000"
+        source="id-5233b468fec747bc8a2c4900a85455e7"
+        target="id-b76f55a634604c9f9955cadfa4455f10">
+      <archimateRelationship
+          xsi:type="archimate:RealizationRelationship"
+          href="RealizationRelationship_id-ed98ed9c6e644f198acd541799f6e7a6.xml#id-ed98ed9c6e644f198acd541799f6e7a6"/>
+    </sourceConnections>
     <bounds
         x="272"
         y="224"
-        width="129"
+        width="265"
         height="81"/>
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
@@ -37,7 +57,7 @@
       fillColor="#b7dee8"
       textPosition="1">
     <bounds
-        x="272"
+        x="340"
         y="80"
         width="129"
         height="81"/>
@@ -46,16 +66,35 @@
         href="ApplicationService_id-e46dd3d653904490af85779211e682df.xml#id-e46dd3d653904490af85779211e682df"/>
   </children>
   <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-f818f981835c42229d9045c6dd6a4ef9"
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-6a9a4f025bf34c4680c54e5079e1ca82"
+      targetConnections="id-8d9172dddb8f40b1bcab4e64970f65bb"
       lineColor="#4f4f4f"
-      textAlignment="1"
-      fillColor="#ffffff"
-      content="Afstemmen met Arno">
+      fillColor="#cab5ea"
+      textPosition="1">
     <bounds
-        x="432"
-        y="224"
-        width="185"
+        x="272"
+        y="376"
+        width="129"
         height="81"/>
+    <archimateElement
+        xsi:type="archimate:Constraint"
+        href="Constraint_id-f5d6886136eb479d9f64777da85cb52b.xml#id-f5d6886136eb479d9f64777da85cb52b"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-b76f55a634604c9f9955cadfa4455f10"
+      targetConnections="id-7b38039a756d4b5d9dc72ec6ea0a3e11"
+      lineColor="#4f4f4f"
+      fillColor="#cab5ea"
+      textPosition="1">
+    <bounds
+        x="408"
+        y="376"
+        width="129"
+        height="81"/>
+    <archimateElement
+        xsi:type="archimate:Constraint"
+        href="Constraint_id-e5358653-dfab-439c-b179-2af701ea52ce.xml#id-e5358653-dfab-439c-b179-2af701ea52ce"/>
   </children>
 </archimate:ArchimateDiagramModel>
