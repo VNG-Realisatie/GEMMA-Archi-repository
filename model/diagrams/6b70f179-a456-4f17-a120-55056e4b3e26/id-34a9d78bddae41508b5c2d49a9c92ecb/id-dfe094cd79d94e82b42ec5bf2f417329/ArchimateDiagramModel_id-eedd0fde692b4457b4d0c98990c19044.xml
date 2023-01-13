@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Generated View for Mobiel-toezicht-en-handhavingcomponent-niek"
+    name="Generated View for Mobiel-toezicht-en-handhavingcomponent-done"
     id="id-eedd0fde692b4457b4d0c98990c19044">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -31,10 +31,20 @@
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-bea4515624604b0cb5f01a46b5204a8c.xml#id-bea4515624604b0cb5f01a46b5204a8c"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-5313189b8701428991422e3e4343e586"
+        lineColor="#000000"
+        source="id-4cd9535bd3cd451da1828706a4bd2830"
+        target="id-bdd28dafa7c2418dba44114e7364ffab">
+      <archimateRelationship
+          xsi:type="archimate:RealizationRelationship"
+          href="RealizationRelationship_id-2bd698533746411d9fd926aa6c408002.xml#id-2bd698533746411d9fd926aa6c408002"/>
+    </sourceConnections>
     <bounds
         x="64"
         y="240"
-        width="809"
+        width="945"
         height="81"/>
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
@@ -299,21 +309,6 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-5cc6c0e8af204669902fc0aa853302ef"
-      lineColor="#4f4f4f"
-      fillColor="#ff8000"
-      textPosition="1">
-    <bounds
-        x="880"
-        y="416"
-        width="129"
-        height="81"/>
-    <archimateElement
-        xsi:type="archimate:Constraint"
-        href="Constraint_id-c677ba20-f15b-11e3-67ab-0050568a6153.xml#id-c677ba20-f15b-11e3-67ab-0050568a6153"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
       id="id-8df442c93d30432995dec2261e01e456"
       lineColor="#4f4f4f"
       fillColor="#daeef3"
@@ -337,4 +332,23 @@
         xsi:type="archimate:ApplicationInterface"
         href="ApplicationInterface_id-702c75f80dec4714ae4c9390e42dd799.xml#id-702c75f80dec4714ae4c9390e42dd799"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-bdd28dafa7c2418dba44114e7364ffab"
+      targetConnections="id-5313189b8701428991422e3e4343e586"
+      lineColor="#4f4f4f"
+      fillColor="#cab5ea"
+      textPosition="1">
+    <bounds
+        x="880"
+        y="416"
+        width="129"
+        height="81"/>
+    <archimateElement
+        xsi:type="archimate:Constraint"
+        href="Constraint_id-95f07a91-f15b-11e3-67ab-0050568a6153.xml#id-95f07a91-f15b-11e3-67ab-0050568a6153"/>
+  </children>
+  <properties
+      key="Object ID"
+      value="b15711b3-9c4b-4b26-abaf-ed03d9485464"/>
 </archimate:ArchimateDiagramModel>
