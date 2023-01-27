@@ -1,13 +1,14 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Generated View for Verkeer- en vervoerinformatiecomponent"
+    name="Generated View for Verkeer- en vervoerinformatiecomponent-done"
     id="id-6e67a2c6ceee49278dd846b32c159bb3">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-5049adee912a4e6c9e3ff120f42b46dc"
+      targetConnections="id-df986866356b4ce4a1611e9b56dc2da4"
       lineColor="#4f4f4f"
-      fillColor="#daeef3"
+      fillColor="#ff8000"
       textPosition="1"
       type="1">
     <sourceConnections
@@ -23,7 +24,7 @@
     <bounds
         x="304"
         y="208"
-        width="129"
+        width="265"
         height="81"/>
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
@@ -44,6 +45,57 @@
     <archimateElement
         xsi:type="archimate:ApplicationService"
         href="ApplicationService_id-9c039e1bab124f83b320ea4f6103e823.xml#id-9c039e1bab124f83b320ea4f6103e823"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-e4e12ed73b3b4f64a929f15de8724645"
+      lineColor="#4f4f4f"
+      fillColor="#00ff00"
+      textPosition="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-df986866356b4ce4a1611e9b56dc2da4"
+        lineColor="#000000"
+        source="id-e4e12ed73b3b4f64a929f15de8724645"
+        target="id-5049adee912a4e6c9e3ff120f42b46dc">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-a0bbb5139bfe45468c998b2b730a5927.xml#id-a0bbb5139bfe45468c998b2b730a5927"/>
+    </sourceConnections>
+    <bounds
+        x="440"
+        y="56"
+        width="129"
+        height="81"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationInterface"
+        href="ApplicationInterface_id-c531bd5827444959b03e6fca94646529.xml#id-c531bd5827444959b03e6fca94646529"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-34ce7b745a864b48bee06fcda6990a68"
+      lineColor="#4f4f4f"
+      textAlignment="1"
+      fillColor="#ffffff"
+      content="20-1. Ons zijn geen standaarden bekend. De NL markt is zeer klein, Er zijn een aantal spelers die zelf standaarden hebben ontwikkeld (aanname). De softwareleveranciers (er zijn er twee; PTV Visum en OmniTRANS ) hebben onderling afgesproken dat zijn 'de standaard' zijn.">
+    <bounds
+        x="304"
+        y="336"
+        width="265"
+        height="121"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-176ce8d9bc064fda90dbdcfc17cb31de"
+      lineColor="#4f4f4f"
+      textAlignment="1"
+      fillColor="#ffffff"
+      content="https://www.crow.nl/thema-s/smart-mobility/landelijke-ivri-standaarden/ivri-specificaties: nog uitzoeken welke API's dit precies zijn">
+    <bounds
+        x="624"
+        y="56"
+        width="257"
+        height="81"/>
   </children>
   <properties
       key="Object ID"
