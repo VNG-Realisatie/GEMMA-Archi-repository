@@ -6,7 +6,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-92cba7d9e52b4ed687cdbeef6ce885f2"
-      targetConnections="id-69eaabebc31b4bf4b9a1adc5217d3273 id-ad68998dec2f405abb4f7c6b22368b6a id-8097974b71e84f67bf7381be66dd7bbf id-99f386fcd302456f979b44e6edc16637 id-6e8a07a0f00b49eca667c3f101713792 id-95d30161e3eb4e8ea01db1b41315a815"
+      targetConnections="id-69eaabebc31b4bf4b9a1adc5217d3273 id-ad68998dec2f405abb4f7c6b22368b6a id-8097974b71e84f67bf7381be66dd7bbf id-99f386fcd302456f979b44e6edc16637 id-6e8a07a0f00b49eca667c3f101713792 id-95d30161e3eb4e8ea01db1b41315a815 id-8259a2ff8999477d921d126b8a373f54 id-fc3fcf9d87f84b0e96e31610a9b5737f id-c7dbc99ca789460bb3c226651bdf04fd"
       lineColor="#4f4f4f"
       fillColor="#ff8000"
       textPosition="1"
@@ -230,10 +230,85 @@
       fillColor="#ffffff"
       content="20-1: Toepasbare regels archiveren. Werkgroep WP DUTO van Bynette Stam heeft vastgesteld dat toepasbare regels ook archiefwaardig (zorgplicht) zijn. Dit staat ook op het iplo (zie link). Verder is er een overkoepelend proces tussen Toepasbare regels en het Wijzigen omgevingsplan. Dit kan ondersteund worden met zaakgericht werken zoals we dat in 2018 ook al eens besproken hadden in de KBA. Documenten API (verplicht) en eventueel Zaak API en Catalogus API (beide aanbevolen).&#xD;&#xA;&#xD;&#xA;https://iplo.nl/digitaal-stelsel/introductie/duto/#:~:text=Toepasbare%20regels%20archiveren,bent%20voor%20de%20archivering%20hiervan.">
     <bounds
-        x="280"
-        y="584"
+        x="272"
+        y="704"
         width="785"
         height="105"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-3a03a31e055348c5990379d63ec77ed7"
+      lineColor="#4f4f4f"
+      fillColor="#00ff00"
+      textPosition="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-c7dbc99ca789460bb3c226651bdf04fd"
+        lineColor="#000000"
+        source="id-3a03a31e055348c5990379d63ec77ed7"
+        target="id-92cba7d9e52b4ed687cdbeef6ce885f2">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-8691ff3f1646467db94a8c004ce6ae12.xml#id-8691ff3f1646467db94a8c004ce6ae12"/>
+    </sourceConnections>
+    <bounds
+        x="664"
+        y="608"
+        width="129"
+        height="81"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationInterface"
+        href="ApplicationInterface_id-33e0a195-bbe3-411c-9619-556bdc33d867.xml#id-33e0a195-bbe3-411c-9619-556bdc33d867"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-2e34a001841a4d98b9e4227f5b690a93"
+      lineColor="#4f4f4f"
+      fillColor="#00ff00"
+      textPosition="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-fc3fcf9d87f84b0e96e31610a9b5737f"
+        lineColor="#000000"
+        source="id-2e34a001841a4d98b9e4227f5b690a93"
+        target="id-92cba7d9e52b4ed687cdbeef6ce885f2">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-71d03cb0425e4fdba8ec79648113ac3b.xml#id-71d03cb0425e4fdba8ec79648113ac3b"/>
+    </sourceConnections>
+    <bounds
+        x="800"
+        y="608"
+        width="129"
+        height="81"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationInterface"
+        href="ApplicationInterface_id-76f359d9-0fe9-45a5-99a9-d6bacf22155e.xml#id-76f359d9-0fe9-45a5-99a9-d6bacf22155e"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-ef623997f54c4f3cbfa773f49b281179"
+      lineColor="#4f4f4f"
+      fillColor="#00ff00"
+      textPosition="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-8259a2ff8999477d921d126b8a373f54"
+        lineColor="#000000"
+        source="id-ef623997f54c4f3cbfa773f49b281179"
+        target="id-92cba7d9e52b4ed687cdbeef6ce885f2">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-dafb3e95c73348a0938b9f2d0e68d43d.xml#id-dafb3e95c73348a0938b9f2d0e68d43d"/>
+    </sourceConnections>
+    <bounds
+        x="936"
+        y="608"
+        width="129"
+        height="81"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationInterface"
+        href="ApplicationInterface_id-cfb9872c-1a5d-468d-ab97-a90bbbaf4d0e.xml#id-cfb9872c-1a5d-468d-ab97-a90bbbaf4d0e"/>
   </children>
   <properties
       key="Object ID"

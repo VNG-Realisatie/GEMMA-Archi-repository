@@ -6,7 +6,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-3f9e043fce4342748bf55bf72a1a6b84"
-      targetConnections="id-f02d16e3c77c4efa9edb75e0f81fbeba id-68ee84362f0745899799bb803360bc0c id-ce36486c8c44494e99b9816e232bab55 id-fd448faaeebb49509ed6712805c03f09 id-8d7c4f606176441d813db9e8de3efbf8"
+      targetConnections="id-f02d16e3c77c4efa9edb75e0f81fbeba id-68ee84362f0745899799bb803360bc0c id-ce36486c8c44494e99b9816e232bab55 id-fd448faaeebb49509ed6712805c03f09 id-8d7c4f606176441d813db9e8de3efbf8 id-9170aa79da5c4737bc47eb2ebac641cf"
       lineColor="#4f4f4f"
       fillColor="#daeef3"
       textPosition="1"
@@ -101,10 +101,20 @@
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-f023cd52-e0cc-4fe0-95cb-43632352858e.xml#id-f023cd52-e0cc-4fe0-95cb-43632352858e"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-00619973f50b4d908cd3bc90524fcea6"
+        lineColor="#000000"
+        source="id-3f9e043fce4342748bf55bf72a1a6b84"
+        target="id-c20ea834aaae40049ad5510d7506a960">
+      <archimateRelationship
+          xsi:type="archimate:RealizationRelationship"
+          href="RealizationRelationship_id-6eb0d7c72c20489585b6cc09fe0dbdca.xml#id-6eb0d7c72c20489585b6cc09fe0dbdca"/>
+    </sourceConnections>
     <bounds
         x="104"
         y="224"
-        width="945"
+        width="1081"
         height="81"/>
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
@@ -272,7 +282,7 @@
           href="ServingRelationship_id-4fe9d63a04634fe5a461653e520263ac.xml#id-4fe9d63a04634fe5a461653e520263ac"/>
     </sourceConnections>
     <bounds
-        x="376"
+        x="512"
         y="64"
         width="129"
         height="81"/>
@@ -297,7 +307,7 @@
           href="ServingRelationship_id-65ccd1fde44b40b9ac1eaa1799b48bf4.xml#id-65ccd1fde44b40b9ac1eaa1799b48bf4"/>
     </sourceConnections>
     <bounds
-        x="512"
+        x="648"
         y="64"
         width="129"
         height="81"/>
@@ -322,7 +332,7 @@
           href="ServingRelationship_id-9db3322b83d4407f9a5f86f5d27d4ab4.xml#id-9db3322b83d4407f9a5f86f5d27d4ab4"/>
     </sourceConnections>
     <bounds
-        x="648"
+        x="784"
         y="64"
         width="129"
         height="81"/>
@@ -347,7 +357,7 @@
           href="ServingRelationship_id-bccfc18a436a49999f61f076a1d1ecbf.xml#id-bccfc18a436a49999f61f076a1d1ecbf"/>
     </sourceConnections>
     <bounds
-        x="784"
+        x="920"
         y="64"
         width="129"
         height="81"/>
@@ -372,7 +382,7 @@
           href="ServingRelationship_id-f5c5126a0ad147a8886bce18375c1c09.xml#id-f5c5126a0ad147a8886bce18375c1c09"/>
     </sourceConnections>
     <bounds
-        x="920"
+        x="1056"
         y="64"
         width="129"
         height="81"/>
@@ -382,27 +392,14 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
-      id="id-8cff3e13901040c1a7995f8105356383"
-      lineColor="#4f4f4f"
-      textAlignment="1"
-      fillColor="#ffffff"
-      content="WRO-besluiten zijn archiefwaardig. De Documenten API ontbreekt.">
-    <bounds
-        x="1104"
-        y="184"
-        width="185"
-        height="81"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
       id="id-97e06c67587545d694d0eec8a37c5ac5"
       lineColor="#4f4f4f"
       textAlignment="1"
       fillColor="#ffffff"
       content="https://www.ruimtelijkeplannen.nl/web-roo/docs/bronhouders/Stappenplan_bronhouders_RO-Online.pdf In dit document in hoofdstuk is beschreven hoe gemeenten WRO-belsuiten uitwisselen. Het komt erop neer dat gemeenten een netwerk-map opestellen voor SFTP met de 'harvester' bij het Kadaster.&#xD;&#xA;&#xD;&#xA;Is dit de service Ruitelijke Plannen service die gemeenten ter beschikking stellen aan RP? En moet daar een SFTP interface aan gekoppeld worden?">
     <bounds
-        x="1104"
-        y="264"
+        x="1072"
+        y="488"
         width="185"
         height="281"/>
   </children>
@@ -418,6 +415,47 @@
         y="-64"
         width="185"
         height="112"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-93b754da3ef44f43aa1bdaf4ac35e57a"
+      lineColor="#4f4f4f"
+      fillColor="#00ff00"
+      textPosition="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-9170aa79da5c4737bc47eb2ebac641cf"
+        lineColor="#000000"
+        source="id-93b754da3ef44f43aa1bdaf4ac35e57a"
+        target="id-3f9e043fce4342748bf55bf72a1a6b84">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-ffc1f043fa5e48d58316720bba0c7d83.xml#id-ffc1f043fa5e48d58316720bba0c7d83"/>
+    </sourceConnections>
+    <bounds
+        x="1056"
+        y="392"
+        width="129"
+        height="81"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationInterface"
+        href="ApplicationInterface_id-76f359d9-0fe9-45a5-99a9-d6bacf22155e.xml#id-76f359d9-0fe9-45a5-99a9-d6bacf22155e"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-c20ea834aaae40049ad5510d7506a960"
+      targetConnections="id-00619973f50b4d908cd3bc90524fcea6"
+      lineColor="#4f4f4f"
+      fillColor="#b7dee8"
+      textPosition="1">
+    <bounds
+        x="376"
+        y="64"
+        width="129"
+        height="81"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationService"
+        href="ApplicationService_id-38d4ff4fa4e24ea38fb24dc4cc23e1fb.xml#id-38d4ff4fa4e24ea38fb24dc4cc23e1fb"/>
   </children>
   <properties
       key="Object ID"
