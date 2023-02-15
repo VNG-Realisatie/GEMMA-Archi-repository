@@ -73,16 +73,6 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-54dc96e799ff4dad89a887424622988f"
-        lineColor="#000000"
-        source="id-e7154e9a96e74af68fde357545c0b15e"
-        target="id-3e7b4a73b143424083fb5f2659c0c251">
-      <archimateRelationship
-          xsi:type="archimate:RealizationRelationship"
-          href="RealizationRelationship_id-ffa9656b-7354-485b-a2f3-859aa60487a7.xml#id-ffa9656b-7354-485b-a2f3-859aa60487a7"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-1965a0995c47491582384fc9521269a4"
         lineColor="#000000"
         source="id-e7154e9a96e74af68fde357545c0b15e"
@@ -195,22 +185,6 @@
     <archimateElement
         xsi:type="archimate:Constraint"
         href="Constraint_id-b86c1b61-8db0-11e3-67ab-0050568a6153.xml#id-b86c1b61-8db0-11e3-67ab-0050568a6153"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-3e7b4a73b143424083fb5f2659c0c251"
-      targetConnections="id-54dc96e799ff4dad89a887424622988f"
-      lineColor="#4f4f4f"
-      fillColor="#ff0000"
-      textPosition="1">
-    <bounds
-        x="24"
-        y="344"
-        width="129"
-        height="81"/>
-    <archimateElement
-        xsi:type="archimate:Constraint"
-        href="Constraint_id-bc302841-8db0-11e3-67ab-0050568a6153.xml#id-bc302841-8db0-11e3-67ab-0050568a6153"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -377,6 +351,19 @@
     <archimateElement
         xsi:type="archimate:ApplicationInterface"
         href="ApplicationInterface_id-378e36dcdd3541148d10898dcbf4a2c2.xml#id-378e36dcdd3541148d10898dcbf4a2c2"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-54075fec16604e4ba691368037bf0f56"
+      lineColor="#4f4f4f"
+      textAlignment="1"
+      fillColor="#ffffff"
+      content="Met onze kennis lijkt dit de juiste API">
+    <bounds
+        x="1656"
+        y="33"
+        width="185"
+        height="80"/>
   </children>
   <properties
       key="Object ID"
