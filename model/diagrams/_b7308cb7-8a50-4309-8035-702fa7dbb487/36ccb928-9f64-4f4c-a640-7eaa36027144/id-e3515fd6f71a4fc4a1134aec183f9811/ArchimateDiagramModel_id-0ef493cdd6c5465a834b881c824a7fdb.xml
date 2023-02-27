@@ -383,6 +383,17 @@
           xsi:type="archimate:InfluenceRelationship"
           href="InfluenceRelationship_id-d2f5d528ae004e83b9ff8123617c0a0b.xml#id-d2f5d528ae004e83b9ff8123617c0a0b"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-bfad1befa09d43b29a8bc0767f7ad592"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+        lineColor="#000000"
+        source="id-d5dfc7bd2b41425da3d09226bae0b8f7"
+        target="id-f430d3590a2c4a5886fea6bfa70d5f8c">
+      <archimateRelationship
+          xsi:type="archimate:InfluenceRelationship"
+          href="InfluenceRelationship_id-09f5a9817020454d9b20fd9d375cb976.xml#id-09f5a9817020454d9b20fd9d375cb976"/>
+    </sourceConnections>
     <bounds
         x="36"
         y="562"
@@ -831,32 +842,6 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-77e496119f0a4a25aea9a9da4d331e61"
-      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
-      lineColor="#4f4f4f"
-      fillColor="#cab5ea">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-bfad1befa09d43b29a8bc0767f7ad592"
-        font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
-        lineColor="#000000"
-        source="id-77e496119f0a4a25aea9a9da4d331e61"
-        target="id-f430d3590a2c4a5886fea6bfa70d5f8c">
-      <archimateRelationship
-          xsi:type="archimate:InfluenceRelationship"
-          href="InfluenceRelationship_id-09f5a9817020454d9b20fd9d375cb976.xml#id-09f5a9817020454d9b20fd9d375cb976"/>
-    </sourceConnections>
-    <bounds
-        x="36"
-        y="1242"
-        width="505"
-        height="43"/>
-    <archimateElement
-        xsi:type="archimate:Driver"
-        href="Driver_id-104bd59460254f79b259955b31d1cf71.xml#id-104bd59460254f79b259955b31d1cf71"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
       id="id-b4a1c0a3bd8a46ecbfaf252a0714a38c"
       font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
       lineColor="#4f4f4f"
@@ -874,7 +859,7 @@
     </sourceConnections>
     <bounds
         x="36"
-        y="1290"
+        y="1240"
         width="505"
         height="43"/>
     <archimateElement
@@ -900,7 +885,7 @@
     </sourceConnections>
     <bounds
         x="36"
-        y="1338"
+        y="1288"
         width="505"
         height="43"/>
     <archimateElement
