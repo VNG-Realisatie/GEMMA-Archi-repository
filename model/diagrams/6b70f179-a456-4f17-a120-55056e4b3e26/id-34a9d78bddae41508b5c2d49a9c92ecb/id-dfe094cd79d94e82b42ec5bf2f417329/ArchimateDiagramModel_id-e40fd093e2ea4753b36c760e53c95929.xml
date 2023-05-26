@@ -9,8 +9,7 @@
       targetConnections="id-758d9a31461145d1b4b535a2bb97f165"
       lineColor="#4f4f4f"
       fillColor="#daeef3"
-      textPosition="1"
-      type="1">
+      textPosition="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-8a570c791b0e4ca6ba3e6f9214a12bf2"
@@ -60,16 +59,6 @@
       <archimateRelationship
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-a39dc985-b2c6-461e-b47b-4d94fa372a8a.xml#id-a39dc985-b2c6-461e-b47b-4d94fa372a8a"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-47c502e1a1b843a28232577d459f5827"
-        lineColor="#000000"
-        source="id-19d9af982efd49e19e1e7e41bea1e5cd"
-        target="id-d8a3223a4966423e90100d0e4e6e513d">
-      <archimateRelationship
-          xsi:type="archimate:RealizationRelationship"
-          href="RealizationRelationship_id-eaf347d6-b63e-42b3-8f2f-cee53306ac71.xml#id-eaf347d6-b63e-42b3-8f2f-cee53306ac71"/>
     </sourceConnections>
     <bounds
         x="48"
@@ -162,22 +151,6 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-d8a3223a4966423e90100d0e4e6e513d"
-      targetConnections="id-47c502e1a1b843a28232577d459f5827"
-      lineColor="#4f4f4f"
-      fillColor="#ff0000"
-      textPosition="1">
-    <bounds
-        x="592"
-        y="352"
-        width="129"
-        height="81"/>
-    <archimateElement
-        xsi:type="archimate:Constraint"
-        href="Constraint_id-b630d161-8db0-11e3-67ab-0050568a6153.xml#id-b630d161-8db0-11e3-67ab-0050568a6153"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
       id="id-7edb78ec18234dac881d97b694a95b96"
       lineColor="#4f4f4f"
       fillColor="#daeef3"
@@ -226,19 +199,6 @@
     <archimateElement
         xsi:type="archimate:Constraint"
         href="Constraint_id-a4f46cd3a7a34798859ea010e19e7d73.xml#id-a4f46cd3a7a34798859ea010e19e7d73"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-f6cd1440ec6e45ca93b6c266f53b7acc"
-      lineColor="#4f4f4f"
-      textAlignment="1"
-      fillColor="#ffffff"
-      content="Is de betalingservice ook nodig bij het opvragen van gegevens bij het Kadaster?">
-    <bounds
-        x="736"
-        y="352"
-        width="177"
-        height="81"/>
   </children>
   <properties
       key="Object ID"

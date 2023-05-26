@@ -9,8 +9,7 @@
       targetConnections="id-7f006b4034914a4a820527f6b731f8bd id-47712660bccc4ec0ae4e81f1ac56785d id-2680749207554c358dfd8a23f5fd60c0"
       lineColor="#4f4f4f"
       fillColor="#daeef3"
-      textPosition="1"
-      type="1">
+      textPosition="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-0ef3743dc8634f3bae4953e85004c339"
@@ -150,16 +149,6 @@
       <archimateRelationship
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-4e1aba2bc56341bebc5c2b0f05504bb4.xml#id-4e1aba2bc56341bebc5c2b0f05504bb4"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-a81b13196edd4065898e3ef186605392"
-        lineColor="#000000"
-        source="id-3523e41f033a4627ad720b7550db82c5"
-        target="id-9afbe7744481452cbb933eb06c8605a6">
-      <archimateRelationship
-          xsi:type="archimate:CompositionRelationship"
-          href="CompositionRelationship_id-9eea275680084473b17c10e808c545dc.xml#id-9eea275680084473b17c10e808c545dc"/>
     </sourceConnections>
     <bounds
         x="88"
@@ -319,7 +308,7 @@
       id="id-4f7a5f2167004a169655b15adf89c4e2"
       targetConnections="id-ba33b5d708d54804a5d0595f001767bc"
       lineColor="#4f4f4f"
-      fillColor="#ff8040"
+      fillColor="#cab5ea"
       textPosition="1">
     <bounds
         x="632"
@@ -335,7 +324,7 @@
       id="id-0157f3ea0cf74a38a6ed2cb33e063372"
       targetConnections="id-d388d8c694054e5e809de7e139c8daf1"
       lineColor="#4f4f4f"
-      fillColor="#ff8040"
+      fillColor="#cab5ea"
       textPosition="1">
     <bounds
         x="768"
@@ -393,22 +382,6 @@
     <archimateElement
         xsi:type="archimate:ApplicationService"
         href="ApplicationService_id-0987f2f08bda469dbed48c190a2d54ff.xml#id-0987f2f08bda469dbed48c190a2d54ff"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-9afbe7744481452cbb933eb06c8605a6"
-      targetConnections="id-a81b13196edd4065898e3ef186605392"
-      lineColor="#4f4f4f"
-      fillColor="#ff8040"
-      textPosition="1">
-    <bounds
-        x="1040"
-        y="88"
-        width="129"
-        height="81"/>
-    <archimateElement
-        xsi:type="archimate:ApplicationInterface"
-        href="ApplicationInterface_id-caf623ceee82481ebdbe2035e107f3b2.xml#id-caf623ceee82481ebdbe2035e107f3b2"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -484,31 +457,6 @@
     <archimateElement
         xsi:type="archimate:ApplicationInterface"
         href="ApplicationInterface_id-cfb9872c-1a5d-468d-ab97-a90bbbaf4d0e.xml#id-cfb9872c-1a5d-468d-ab97-a90bbbaf4d0e"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-c345214641b440ffa363023e15da5e4f"
-      lineColor="#4f4f4f"
-      textAlignment="1"
-      fillColor="#ffffff"
-      content="Eigenlijk is dit de API tbv de landelijke voorziening">
-    <bounds
-        x="1040"
-        width="129"
-        height="73"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-defc0029934c4d6e81f719d46d95b87f"
-      lineColor="#4f4f4f"
-      textAlignment="1"
-      fillColor="#ffffff"
-      content="LET OP: DIT LIJKT EEN INFORMATIEMODEL EN IS KLEINER GEMAAKT DAN OORSPRONKELIJK IN DE RSGB STAAT. DIT IM IS PER WET VASTGESTELD">
-    <bounds
-        x="594"
-        y="-16"
-        width="205"
-        height="96"/>
   </children>
   <properties
       key="Object ID"
