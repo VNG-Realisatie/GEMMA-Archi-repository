@@ -1,3 +1,5 @@
+<img align="right" src="GEMMA_icon.jpg"  alt="GEMMA logo">
+
 # GEMMA ArchiMate-repository
 
 Dit is de officiële repository voor het GEMMA ArchiMate-model, onderhouden door VNG Realistie met behulp van de tool Archi. Het doel van dit model is om gemeenten te ondersteunen bij het modelleren van hun enterprise-architectuur volgens de GEMMA-richtlijnen.
