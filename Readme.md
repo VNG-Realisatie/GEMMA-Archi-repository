@@ -2,11 +2,11 @@
 
 # GEMMA ArchiMate-repository
 
-Dit is de officiële repository voor het GEMMA ArchiMate-model, onderhouden door VNG Realistie met behulp van de tool Archi. Het doel van dit model is om gemeenten te ondersteunen bij het modelleren van hun enterprise-architectuur volgens de GEMMA-richtlijnen.
+Dit is de officiële repository voor het GEMMA ArchiMate-model, onderhouden door VNG Realistie met behulp van de tool Archi. Het doel van dit model is om gemeenten te ondersteunen bij het modelleren van hun enterprise-architectuur volgens de GEMMA-referentiearchitectuur.
 
 ## Inhoud
 
-Deze repository bevat het GEMMA ArchiMate-model en bijbehorende documentatie. Het model is opgesteld in de ArchiMate-notatie, een internationale standaard voor het modelleren van enterprise-architecturen. Het model is uitgebreid gedocumenteerd en bevat verschillende weergaven van de enterprise-architectuur, zoals strategische, operationele en technische perspectieven.
+Deze repository bevat het GEMMA ArchiMate-model. Het model is opgesteld in de ArchiMate-notatie, een internationale standaard voor het modelleren van enterprise-architecturen. Het model bevat verschillende weergaven van de enterprise-architectuur, zoals strategische, operationele en technische perspectieven.
 
 ## Bijdragen
 
