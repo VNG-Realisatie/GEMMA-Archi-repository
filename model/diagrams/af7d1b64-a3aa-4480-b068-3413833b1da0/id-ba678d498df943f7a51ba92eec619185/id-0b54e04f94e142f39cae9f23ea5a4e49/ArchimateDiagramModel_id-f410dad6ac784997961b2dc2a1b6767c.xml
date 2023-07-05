@@ -1,0 +1,52 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Naar GEMMA - GGM temp"
+    id="id-f410dad6ac784997961b2dc2a1b6767c">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-1ee0c6752dfe435f83717eb0148cba08"
+      targetConnections="id-4dc19f0c0197426a878ea9c3675e491e">
+    <bounds
+        x="130"
+        y="220"
+        width="141"
+        height="61"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-93af729fea5a4c0998a23421a106d2c0.xml#id-93af729fea5a4c0998a23421a106d2c0"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-a480d861de48405cb71027d8ef173be2"
+      textAlignment="1"
+      content="Aanmaken te gebruiken folders voor synchronisatie&#xD;&#xA;">
+    <bounds
+        x="88"
+        y="19"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-4c981a73ae4f4bf4b98b76c42a29ac78"
+      textAlignment="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-4dc19f0c0197426a878ea9c3675e491e"
+        source="id-4c981a73ae4f4bf4b98b76c42a29ac78"
+        target="id-1ee0c6752dfe435f83717eb0148cba08">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-282f40f5a46f4b7fa3904c24191c280f.xml#id-282f40f5a46f4b7fa3904c24191c280f"/>
+    </sourceConnections>
+    <bounds
+        x="370"
+        y="200"
+        width="400"
+        height="140"/>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-cfd15a61840c4000a18b9a0b9d1653b3.xml#id-cfd15a61840c4000a18b9a0b9d1653b3"/>
+  </children>
+</archimate:ArchimateDiagramModel>
