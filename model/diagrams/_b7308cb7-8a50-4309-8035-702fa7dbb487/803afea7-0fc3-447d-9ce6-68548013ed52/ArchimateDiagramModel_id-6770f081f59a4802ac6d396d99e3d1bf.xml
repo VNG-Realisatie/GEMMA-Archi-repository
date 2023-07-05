@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Standaardversies"
+    name="Generated standaardversies"
     id="id-6770f081f59a4802ac6d396d99e3d1bf">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -445,15 +445,6 @@
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-3a85dc9c-6cc2-4dc9-bf4a-7c9c5cda5f8a.xml#id-3a85dc9c-6cc2-4dc9-bf4a-7c9c5cda5f8a"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-a416031c61b7484faefb8b9f5ed11130"
-        source="id-d5ecd34d12004d8dadf795ceb4314625"
-        target="id-4e321e297ab44899ac0d4ae6f5c0bd5a">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-569082f2-b7d5-41ac-b7cf-138153ec1642.xml#id-569082f2-b7d5-41ac-b7cf-138153ec1642"/>
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -1253,7 +1244,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-4e321e297ab44899ac0d4ae6f5c0bd5a"
-        targetConnections="id-a416031c61b7484faefb8b9f5ed11130 id-d5e983887af64fabb46b91ff58cf1166">
+        targetConnections="id-d5e983887af64fabb46b91ff58cf1166 id-a416031c61b7484faefb8b9f5ed11130">
       <bounds
           x="300"
           y="360"
@@ -1941,6 +1932,15 @@
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-ba827b4865ac46e7aa511f2384ec042e.xml#id-ba827b4865ac46e7aa511f2384ec042e"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-a416031c61b7484faefb8b9f5ed11130"
+        source="id-d7f4398c6f2342fdbf94c74d2c04bf64"
+        target="id-4e321e297ab44899ac0d4ae6f5c0bd5a">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-569082f2-b7d5-41ac-b7cf-138153ec1642.xml#id-569082f2-b7d5-41ac-b7cf-138153ec1642"/>
     </sourceConnections>
     <bounds
         x="730"
@@ -9169,4 +9169,7 @@
   <properties
       key="generate_view_param"
       value="{&#xA; &quot;action&quot;: &quot;LAYOUT&quot;,&#xA; &quot;includeElementType&quot;: [],&#xA; &quot;includeRelationType&quot;: [],&#xA; &quot;layoutReversed&quot;: [&#xA;  &quot;realization-relationship&quot;,&#xA;  &quot;specialization-relationship&quot;&#xA; ],&#xA; &quot;layoutNested&quot;: [&#xA;  &quot;aggregation-relationship&quot;,&#xA;  &quot;realization-relationship&quot;,&#xA;  &quot;specialization-relationship&quot;&#xA; ],&#xA; &quot;graphDirection&quot;: &quot;LR&quot;,&#xA; &quot;ranker&quot;: &quot;network-simplex&quot;,&#xA; &quot;nodeWidth&quot;: 200,&#xA; &quot;nodeHeight&quot;: 60,&#xA; &quot;hSep&quot;: 20,&#xA; &quot;vSep&quot;: 40,&#xA; &quot;debug&quot;: false,&#xA; &quot;viewName&quot;: &quot;Standaardversies&quot;,&#xA; &quot;graphDepth&quot;: 1&#xA;}"/>
+  <properties
+      key="Object ID"
+      value="24fa547f-dd0f-4fc3-8522-c9dae465adfc"/>
 </archimate:ArchimateDiagramModel>
