@@ -1,0 +1,84 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IMBOR vs IMGeo"
+    id="id-662afd40791f434fb14d86e4c57a7b2c">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-731084108ca742298500466a500929a2"
+      font="1|Lucida Grande|11.0|0|COCOA|1|"
+      fontColor="#000000"
+      lineColor="#4f4f4f"
+      textAlignment="1"
+      fillColor="#fffffe">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-9065a86dc4394c24abe813e723e0ee35"
+        source="id-731084108ca742298500466a500929a2"
+        target="id-b51e338cfef54a339347b16ba1ba4eec">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-b49f85543bb84b06996d9bfea891aadf.xml#id-b49f85543bb84b06996d9bfea891aadf"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-fdd9f0c60c624008b8e63917d47b9433"
+        source="id-731084108ca742298500466a500929a2"
+        target="id-ef882ddddfcd441fbb4f91fdd0618122">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-cda0e2d153ef4c6c8fcc2355a77069f3.xml#id-cda0e2d153ef4c6c8fcc2355a77069f3"/>
+    </sourceConnections>
+    <bounds
+        x="12"
+        y="12"
+        width="541"
+        height="157"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-b51e338cfef54a339347b16ba1ba4eec"
+        targetConnections="id-9065a86dc4394c24abe813e723e0ee35"
+        font="1|Lucida Grande|11.0|0|COCOA|1|"
+        fontColor="#000000"
+        lineColor="#4f4f4f"
+        fillColor="#fefeb4">
+      <bounds
+          x="48"
+          y="60"
+          width="145"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-4da0eb59-963c-4558-b763-44f542bc8d89.xml#id-4da0eb59-963c-4558-b763-44f542bc8d89"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-ef882ddddfcd441fbb4f91fdd0618122"
+        targetConnections="id-fdd9f0c60c624008b8e63917d47b9433"
+        font="1|Lucida Grande|11.0|0|COCOA|1|"
+        fontColor="#000000"
+        lineColor="#4f4f4f"
+        fillColor="#fefeb4">
+      <bounds
+          x="276"
+          y="60"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-83a942f7-5291-42f0-afb1-9a57d0fb2f1.xml#id-83a942f7-5291-42f0-afb1-9a57d0fb2f1"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-ab29e330e01c4d67b777a77f9278caf9.xml#id-ab29e330e01c4d67b777a77f9278caf9"/>
+  </children>
+  <properties
+      key="Viewtype"
+      value="BOM"/>
+  <properties
+      key="Publiceren"
+      value="GEMMA Online en redactie"/>
+  <properties
+      key="Model"
+      value="GEMMA"/>
+</archimate:ArchimateDiagramModel>
