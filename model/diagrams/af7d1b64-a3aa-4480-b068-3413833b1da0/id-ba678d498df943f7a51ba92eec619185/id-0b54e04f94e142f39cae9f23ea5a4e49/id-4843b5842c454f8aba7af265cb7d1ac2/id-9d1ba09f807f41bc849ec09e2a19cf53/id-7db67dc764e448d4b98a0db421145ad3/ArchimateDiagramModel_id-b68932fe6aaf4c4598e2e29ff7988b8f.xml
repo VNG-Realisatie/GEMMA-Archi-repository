@@ -22,12 +22,12 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-57a97bed7c074c2ea8a7084240f2db4c"
+        id="id-304f874004064e39bd8cace632cb115d"
         source="id-e0dc01fd409348a89f27f270e7837be4"
-        target="id-0ca28a5feba94cf79f199882319840f5">
+        target="id-55f1d1be8d60462db3ef19942e044c92">
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-01e81d1a929a4a558e7dabeba67f38f5.xml#id-01e81d1a929a4a558e7dabeba67f38f5"/>
+          href="AggregationRelationship_id-0b3cc5e50b074a1d99f3d55fbac8b887.xml#id-0b3cc5e50b074a1d99f3d55fbac8b887"/>
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -40,12 +40,12 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-304f874004064e39bd8cace632cb115d"
+        id="id-57a97bed7c074c2ea8a7084240f2db4c"
         source="id-e0dc01fd409348a89f27f270e7837be4"
-        target="id-55f1d1be8d60462db3ef19942e044c92">
+        target="id-0ca28a5feba94cf79f199882319840f5">
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-0b3cc5e50b074a1d99f3d55fbac8b887.xml#id-0b3cc5e50b074a1d99f3d55fbac8b887"/>
+          href="AggregationRelationship_id-01e81d1a929a4a558e7dabeba67f38f5.xml#id-01e81d1a929a4a558e7dabeba67f38f5"/>
     </sourceConnections>
     <bounds
         x="12"
@@ -55,7 +55,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-e646c3858327464ca0fa5d1603af3140"
-        targetConnections="id-41f927ffdd3242998e6f094b8d340af3 id-39cdfbf5c6e34a758314739ac80395a8 id-7fdc12048fcb47bba4618dfcdef3b477"
+        targetConnections="id-41f927ffdd3242998e6f094b8d340af3 id-7fdc12048fcb47bba4618dfcdef3b477 id-39cdfbf5c6e34a758314739ac80395a8"
         font="1|Lucida Grande|11.0|0|COCOA|1|"
         fontColor="#000000"
         lineColor="#4f4f4f"
@@ -79,6 +79,18 @@
         fillColor="#fefeb4">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-7fdc12048fcb47bba4618dfcdef3b477"
+          font="1|Lucida Grande|11.0|0|COCOA|1|"
+          fontColor="#000000"
+          lineColor="#000000"
+          source="id-0ca28a5feba94cf79f199882319840f5"
+          target="id-e646c3858327464ca0fa5d1603af3140">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-bec330d64aa341e28f63a5f12abc5ca7.xml#id-bec330d64aa341e28f63a5f12abc5ca7"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-a970f9e632c742ffb59b4ad2993e4888"
           font="1|Lucida Grande|11.0|0|COCOA|1|"
           fontColor="#000000"
@@ -100,18 +112,6 @@
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_id-ede2b8c5936d4d7982552175bc74a399.xml#id-ede2b8c5936d4d7982552175bc74a399"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-7fdc12048fcb47bba4618dfcdef3b477"
-          font="1|Lucida Grande|11.0|0|COCOA|1|"
-          fontColor="#000000"
-          lineColor="#000000"
-          source="id-0ca28a5feba94cf79f199882319840f5"
-          target="id-e646c3858327464ca0fa5d1603af3140">
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_id-bec330d64aa341e28f63a5f12abc5ca7.xml#id-bec330d64aa341e28f63a5f12abc5ca7"/>
       </sourceConnections>
       <bounds
           x="372"
@@ -183,5 +183,5 @@
       value="GEMMA"/>
   <properties
       key="Object ID"
-      value="373c0d9c-1032-46f4-aa53-e8e9e003c508"/>
+      value="7c458edd-9a50-40a2-81c9-c68a72864361"/>
 </archimate:ArchimateDiagramModel>

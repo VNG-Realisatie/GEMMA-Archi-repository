@@ -13,15 +13,6 @@
       fillColor="#fffffe">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-794fb2faf1f14089939cf889616c29b5"
-        source="id-17e7dcff2fde4a348640ddb3ae786e97"
-        target="id-6478dc9c035a4fb28be410596c58ac5e">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-2faa16a1d72b442bbd8ad5756757680d.xml#id-2faa16a1d72b442bbd8ad5756757680d"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-8d85dba3308946878802a2084dadf47b"
         source="id-17e7dcff2fde4a348640ddb3ae786e97"
         target="id-d823e5e5bd3c41d2be2759bb0a41d004">
@@ -38,6 +29,15 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-f1ca8e22a0f24130b3923069d7cd95ed.xml#id-f1ca8e22a0f24130b3923069d7cd95ed"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-794fb2faf1f14089939cf889616c29b5"
+        source="id-17e7dcff2fde4a348640ddb3ae786e97"
+        target="id-6478dc9c035a4fb28be410596c58ac5e">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-2faa16a1d72b442bbd8ad5756757680d.xml#id-2faa16a1d72b442bbd8ad5756757680d"/>
+    </sourceConnections>
     <bounds
         x="12"
         y="24"
@@ -46,7 +46,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-d823e5e5bd3c41d2be2759bb0a41d004"
-        targetConnections="id-97adb98ad82c415f807c13688ade19cf id-56683996922b4730a775fc3fcb0472a4 id-8d85dba3308946878802a2084dadf47b"
+        targetConnections="id-97adb98ad82c415f807c13688ade19cf id-8d85dba3308946878802a2084dadf47b id-56683996922b4730a775fc3fcb0472a4"
         font="1|Lucida Grande|11.0|0|COCOA|1|"
         fontColor="#000000"
         lineColor="#4f4f4f"
@@ -160,5 +160,5 @@
       value="GEMMA"/>
   <properties
       key="Object ID"
-      value="d484d31b-3425-4712-b287-c2f249cbcd93"/>
+      value="39956ef6-b69c-458d-8fd9-f51d3627b28c"/>
 </archimate:ArchimateDiagramModel>

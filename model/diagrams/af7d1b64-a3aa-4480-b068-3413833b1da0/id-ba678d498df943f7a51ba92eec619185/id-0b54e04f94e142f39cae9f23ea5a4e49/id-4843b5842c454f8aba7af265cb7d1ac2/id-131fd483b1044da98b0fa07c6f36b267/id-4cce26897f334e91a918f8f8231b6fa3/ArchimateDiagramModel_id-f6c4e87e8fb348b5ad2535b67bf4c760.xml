@@ -13,6 +13,24 @@
       fillColor="#fffffe">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-131e176d9b754e058bf35806fcfaad23"
+        source="id-280053f6cd34416fa6bccac63c55592b"
+        target="id-4ea7510797214bd29accd6868feff432">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-df75a81924df48fa83e2c3bc9aa19345.xml#id-df75a81924df48fa83e2c3bc9aa19345"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-25c59d23781342688d9ad93481c11b35"
+        source="id-280053f6cd34416fa6bccac63c55592b"
+        target="id-78b2393f78fb4e3b99ec4135d2a87562">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-52092e17ca2a4848b05c1d91a63a6118.xml#id-52092e17ca2a4848b05c1d91a63a6118"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-6f94dcb16d73426f8bee2ae25f15d68e"
         source="id-280053f6cd34416fa6bccac63c55592b"
         target="id-d33cb772b5454ccd9c67651e0c2f89b0">
@@ -29,24 +47,6 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-fc13d05915934cf3a9dd60c8609324b9.xml#id-fc13d05915934cf3a9dd60c8609324b9"/>
     </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-25c59d23781342688d9ad93481c11b35"
-        source="id-280053f6cd34416fa6bccac63c55592b"
-        target="id-78b2393f78fb4e3b99ec4135d2a87562">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-52092e17ca2a4848b05c1d91a63a6118.xml#id-52092e17ca2a4848b05c1d91a63a6118"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-131e176d9b754e058bf35806fcfaad23"
-        source="id-280053f6cd34416fa6bccac63c55592b"
-        target="id-4ea7510797214bd29accd6868feff432">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-df75a81924df48fa83e2c3bc9aa19345.xml#id-df75a81924df48fa83e2c3bc9aa19345"/>
-    </sourceConnections>
     <bounds
         x="24"
         y="12"
@@ -55,7 +55,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-4ea7510797214bd29accd6868feff432"
-        targetConnections="id-0a2f0e80efa44990abdf630c82c7f717 id-131e176d9b754e058bf35806fcfaad23"
+        targetConnections="id-131e176d9b754e058bf35806fcfaad23 id-0a2f0e80efa44990abdf630c82c7f717"
         font="1|Lucida Grande|11.0|0|COCOA|1|"
         fontColor="#000000"
         lineColor="#4f4f4f"
@@ -130,7 +130,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-fcbfbce529884de1b59a6b5c42e0a0ff"
-        targetConnections="id-ea0d662075764de09e190052e7eef549 id-e8145936d0734294b76cbe2e1ce952f7"
+        targetConnections="id-e8145936d0734294b76cbe2e1ce952f7 id-ea0d662075764de09e190052e7eef549"
         font="1|Lucida Grande|11.0|0|COCOA|1|"
         fontColor="#000000"
         lineColor="#4f4f4f"
@@ -159,5 +159,5 @@
       value="GEMMA"/>
   <properties
       key="Object ID"
-      value="d4240ece-3a23-4440-aa2d-fc1da9f10e9d"/>
+      value="f9a2e58a-e5ef-4f25-969f-c1464c6e5bd8"/>
 </archimate:ArchimateDiagramModel>

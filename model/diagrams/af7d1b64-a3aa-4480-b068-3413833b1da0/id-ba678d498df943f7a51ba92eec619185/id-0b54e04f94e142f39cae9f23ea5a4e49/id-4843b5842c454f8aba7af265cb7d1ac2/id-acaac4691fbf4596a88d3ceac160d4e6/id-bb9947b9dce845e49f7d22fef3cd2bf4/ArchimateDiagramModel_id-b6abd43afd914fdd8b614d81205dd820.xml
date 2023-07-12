@@ -13,6 +13,15 @@
       fillColor="#fffffe">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-7259ed7fa5f84170a7bdf725d2f3dc7b"
+        source="id-a8770bf722674e338b6c3b4aa5256341"
+        target="id-3970ad6e1d9c4e3aafe386247376805e">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-7efa196c1f21424ca679085fa0d6257d.xml#id-7efa196c1f21424ca679085fa0d6257d"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-1673aaee888e4fa199488bddd7177104"
         source="id-a8770bf722674e338b6c3b4aa5256341"
         target="id-cf1adf5bd0d24e1fa205e472fd326c19">
@@ -28,15 +37,6 @@
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-22c1cc0860fe44b4a91c828ae83e2542.xml#id-22c1cc0860fe44b4a91c828ae83e2542"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-7259ed7fa5f84170a7bdf725d2f3dc7b"
-        source="id-a8770bf722674e338b6c3b4aa5256341"
-        target="id-3970ad6e1d9c4e3aafe386247376805e">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-7efa196c1f21424ca679085fa0d6257d.xml#id-7efa196c1f21424ca679085fa0d6257d"/>
     </sourceConnections>
     <bounds
         x="24"
@@ -87,7 +87,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-cf1adf5bd0d24e1fa205e472fd326c19"
-        targetConnections="id-1673aaee888e4fa199488bddd7177104 id-13ba1026a83846cc8b559eb01773f038"
+        targetConnections="id-13ba1026a83846cc8b559eb01773f038 id-1673aaee888e4fa199488bddd7177104"
         font="1|Lucida Grande|11.0|0|COCOA|1|"
         fontColor="#000000"
         lineColor="#4f4f4f"
@@ -116,7 +116,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-3970ad6e1d9c4e3aafe386247376805e"
-        targetConnections="id-f712343e7a1549b5a1df0d0bf7221142 id-7259ed7fa5f84170a7bdf725d2f3dc7b id-b7df4f08977c406da47e3f77799d233a"
+        targetConnections="id-7259ed7fa5f84170a7bdf725d2f3dc7b id-f712343e7a1549b5a1df0d0bf7221142 id-b7df4f08977c406da47e3f77799d233a"
         font="1|Lucida Grande|11.0|0|COCOA|1|"
         fontColor="#000000"
         lineColor="#4f4f4f"
@@ -145,5 +145,5 @@
       value="GEMMA"/>
   <properties
       key="Object ID"
-      value="a7c8072f-9707-4606-9507-1ff53031ddae"/>
+      value="3801604d-1dc7-4ea8-af09-0e7229368a82"/>
 </archimate:ArchimateDiagramModel>

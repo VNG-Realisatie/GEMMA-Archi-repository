@@ -22,21 +22,21 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-8888ed1b7e994f22b6b71cc4d0c3c6ce"
-        source="id-0434ccc4b60245eba5adf8779577c1d7"
-        target="id-e30757976518407e905dcdcf837672a5">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-028e74b0e5d74f3999ac9f0ae2dfaa30.xml#id-028e74b0e5d74f3999ac9f0ae2dfaa30"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-2687780572a7464795d05479073f5533"
         source="id-0434ccc4b60245eba5adf8779577c1d7"
         target="id-dc457f2f83d94b36bd31a00c63420a0d">
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-6a5ee23b204d4459b943b4b31ca1b65f.xml#id-6a5ee23b204d4459b943b4b31ca1b65f"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-8888ed1b7e994f22b6b71cc4d0c3c6ce"
+        source="id-0434ccc4b60245eba5adf8779577c1d7"
+        target="id-e30757976518407e905dcdcf837672a5">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-028e74b0e5d74f3999ac9f0ae2dfaa30.xml#id-028e74b0e5d74f3999ac9f0ae2dfaa30"/>
     </sourceConnections>
     <bounds
         x="24"
@@ -90,7 +90,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-e30757976518407e905dcdcf837672a5"
-        targetConnections="id-c2aa75889e364684ad2ea465d4287593 id-8888ed1b7e994f22b6b71cc4d0c3c6ce"
+        targetConnections="id-8888ed1b7e994f22b6b71cc4d0c3c6ce id-c2aa75889e364684ad2ea465d4287593"
         font="1|Lucida Grande|11.0|0|COCOA|1|"
         fontColor="#000000"
         lineColor="#4f4f4f"
@@ -160,5 +160,5 @@
       value="GEMMA"/>
   <properties
       key="Object ID"
-      value="523a19c8-023d-49b0-96f6-8dff8d11176e"/>
+      value="1fb6cfcd-9407-4b4e-8e13-1594ebc3c62f"/>
 </archimate:ArchimateDiagramModel>
