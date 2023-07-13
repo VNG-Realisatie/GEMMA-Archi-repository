@@ -147,20 +147,19 @@
     <bounds
         x="140"
         y="730"
-        width="400"
-        height="140"/>
+        width="501"
+        height="301"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-ebc03487d8d0441ba3b8eb35308d8d92"
-        type="1">
+        id="id-0dee7ee363184d60aac5ad3a6734fbb0">
       <bounds
-          x="120"
-          y="70"
-          width="201"
+          x="40"
+          y="60"
+          width="141"
           height="61"/>
       <archimateElement
           xsi:type="archimate:ApplicationComponent"
-          href="ApplicationComponent_id-a28ce566-8955-4c8b-bc98-7d44e1b4d86e.xml#id-a28ce566-8955-4c8b-bc98-7d44e1b4d86e"/>
+          href="ApplicationComponent_id-87db78a1-92f0-45a2-8a73-27f0a92a7620.xml#id-87db78a1-92f0-45a2-8a73-27f0a92a7620"/>
     </children>
   </children>
   <children
@@ -186,6 +185,154 @@
           xsi:type="archimate:ApplicationComponent"
           href="ApplicationComponent_id-89b02223ee4f40a188a6be5a66578b0b.xml#id-89b02223ee4f40a188a6be5a66578b0b"/>
     </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-33a0c35882ed4202b511ed17fa99505b"
+      targetConnections="id-851f92993b514427beae9ab4090df2a2">
+    <sourceConnections
+        id="id-6205dd4b67c24d06aeed7dc7a498c958"
+        source="id-33a0c35882ed4202b511ed17fa99505b"
+        target="id-d8459fbe60dc4ad5b2bc86719b2c5e5c"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-f1324ab3450842c2a51cb7dad6e9ae3c"
+        source="id-33a0c35882ed4202b511ed17fa99505b"
+        target="id-1222f6f43c434ddcb0f1d36d6a937e5d">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-17dfdec473e04b4c99ddb4aa84662e66.xml#id-17dfdec473e04b4c99ddb4aa84662e66"/>
+    </sourceConnections>
+    <bounds
+        x="740"
+        y="460"
+        width="241"
+        height="141"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-4bc5462f4c434183b6693cc8a7d9d8ea">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-851f92993b514427beae9ab4090df2a2"
+          source="id-4bc5462f4c434183b6693cc8a7d9d8ea"
+          target="id-33a0c35882ed4202b511ed17fa99505b">
+        <archimateRelationship
+            xsi:type="archimate:RealizationRelationship"
+            href="RealizationRelationship_id-e8f4f9f6-ad55-4820-89f8-76db46952df9.xml#id-e8f4f9f6-ad55-4820-89f8-76db46952df9"/>
+      </sourceConnections>
+      <bounds
+          x="20"
+          y="60"
+          width="201"
+          height="61"/>
+      <archimateElement
+          xsi:type="archimate:ApplicationComponent"
+          href="ApplicationComponent_id-aca87ca1-7ecf-11e3-67ab-0050568a6153.xml#id-aca87ca1-7ecf-11e3-67ab-0050568a6153"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:ApplicationService"
+        href="ApplicationService_id-04605cd5-a55a-46eb-9a71-a2c3f1dc967b.xml#id-04605cd5-a55a-46eb-9a71-a2c3f1dc967b"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-47abf1f93bfe4df393313cd1ce556199"
+      name="Status einde ondersteuning"
+      textAlignment="1">
+    <bounds
+        x="760"
+        y="700"
+        width="871"
+        height="331"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-14132a9dcc6f407e886d2c5e7a635054"
+        targetConnections="id-5d60879011c74d7a84738cbd6dddb695 id-62b292b8c94c4e81bb30d1466ce1cb7d">
+      <bounds
+          x="60"
+          y="80"
+          width="141"
+          height="61"/>
+      <archimateElement
+          xsi:type="archimate:Constraint"
+          href="Constraint_id-0607a550-adbf-11e3-67ab-0050568a6153.xml#id-0607a550-adbf-11e3-67ab-0050568a6153"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-1e31166d0ea448b89b30084999346657">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-5d60879011c74d7a84738cbd6dddb695"
+          source="id-1e31166d0ea448b89b30084999346657"
+          target="id-14132a9dcc6f407e886d2c5e7a635054">
+        <archimateRelationship
+            xsi:type="archimate:RealizationRelationship"
+            href="RealizationRelationship_id-b289c553-558a-4cf7-b8ea-8a1d302f916d.xml#id-b289c553-558a-4cf7-b8ea-8a1d302f916d"/>
+      </sourceConnections>
+      <bounds
+          x="40"
+          y="200"
+          width="201"
+          height="61"/>
+      <archimateElement
+          xsi:type="archimate:ApplicationComponent"
+          href="ApplicationComponent_id-a28ce566-8955-4c8b-bc98-7d44e1b4d86e.xml#id-a28ce566-8955-4c8b-bc98-7d44e1b4d86e"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelNote"
+        id="id-69f369f342634549aad69065579a82a2"
+        textAlignment="1"
+        content="Nog vasthouden in GEMMA om expliciet de status te tonen.&#xD;&#xA;&#xD;&#xA;En eenmalig om status in SWC bij te werken">
+      <bounds
+          x="310"
+          y="43"
+          width="341"
+          height="80"/>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-d8459fbe60dc4ad5b2bc86719b2c5e5c"
+      targetConnections="id-6205dd4b67c24d06aeed7dc7a498c958"
+      textAlignment="1"
+      content="Relatie verwijderd">
+    <sourceConnections
+        id="id-62b292b8c94c4e81bb30d1466ce1cb7d"
+        source="id-d8459fbe60dc4ad5b2bc86719b2c5e5c"
+        target="id-14132a9dcc6f407e886d2c5e7a635054"/>
+    <bounds
+        x="850"
+        y="640"
+        width="221"
+        height="31"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-1222f6f43c434ddcb0f1d36d6a937e5d"
+      targetConnections="id-f1324ab3450842c2a51cb7dad6e9ae3c">
+    <sourceConnections
+        id="id-9d4cfb1ec6674f4d8b047ed814a80d02"
+        source="id-1222f6f43c434ddcb0f1d36d6a937e5d"
+        target="id-d7a8ea55ba7d40199ef2d640e0d698bc"/>
+    <bounds
+        x="1130"
+        y="500"
+        width="141"
+        height="61"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_id-7da85a349526406899ac1ddaf1a4055a.xml#id-7da85a349526406899ac1ddaf1a4055a"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-d7a8ea55ba7d40199ef2d640e0d698bc"
+      targetConnections="id-9d4cfb1ec6674f4d8b047ed814a80d02"
+      textAlignment="1"
+      content="Buitengemeentelijke voorziening met BIV-classicificatie?">
+    <bounds
+        x="1380"
+        y="490"
+        width="185"
+        height="80"/>
   </children>
   <properties
       key="Object ID"
