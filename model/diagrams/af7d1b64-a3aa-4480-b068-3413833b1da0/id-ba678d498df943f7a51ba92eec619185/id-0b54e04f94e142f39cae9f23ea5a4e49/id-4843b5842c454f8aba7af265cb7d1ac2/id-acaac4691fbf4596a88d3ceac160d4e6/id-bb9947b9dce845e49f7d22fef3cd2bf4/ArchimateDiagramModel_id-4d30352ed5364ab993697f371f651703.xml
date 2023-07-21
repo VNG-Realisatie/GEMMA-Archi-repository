@@ -10,16 +10,6 @@
       textAlignment="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-05d38a02d8d0431fa0d4cee29ac39ba1"
-        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
-        source="id-e98f6593f6ca453080ac42ea62edaeb2"
-        target="id-0147ac55a3d847129ad81cba95673569">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-1157c008ce154217a466f6df0ba0543d.xml#id-1157c008ce154217a466f6df0ba0543d"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-dd1e57e204c04c15a57c90920270a9f1"
         font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
         source="id-e98f6593f6ca453080ac42ea62edaeb2"
@@ -38,6 +28,16 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-6aca41b4cfdb43a1a053255f540f1f11.xml#id-6aca41b4cfdb43a1a053255f540f1f11"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-05d38a02d8d0431fa0d4cee29ac39ba1"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
+        source="id-e98f6593f6ca453080ac42ea62edaeb2"
+        target="id-0147ac55a3d847129ad81cba95673569">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-1157c008ce154217a466f6df0ba0543d.xml#id-1157c008ce154217a466f6df0ba0543d"/>
+    </sourceConnections>
     <bounds
         x="12"
         y="12"
@@ -46,7 +46,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-0147ac55a3d847129ad81cba95673569"
-        targetConnections="id-05d38a02d8d0431fa0d4cee29ac39ba1 id-ee14b42c3a1943b0b735f2698201ef73"
+        targetConnections="id-ee14b42c3a1943b0b735f2698201ef73 id-05d38a02d8d0431fa0d4cee29ac39ba1"
         font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
