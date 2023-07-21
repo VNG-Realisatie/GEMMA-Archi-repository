@@ -1,0 +1,143 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Verkeer en Vervoer: Stremmingen"
+    id="id-f917b05480094e79991a983433393207">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-8f7d1d8332b8424799cad6cba34bccca"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      textAlignment="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-3f6d48c2559745e5b95b99d8e327a639"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
+        source="id-8f7d1d8332b8424799cad6cba34bccca"
+        target="id-beb4294992df45b5883a4e137cda36c4">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-e6664a4df94e4db5addc9b9dfd825c5b.xml#id-e6664a4df94e4db5addc9b9dfd825c5b"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-52582abcdc2d4ab2b404d0b165fcc160"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
+        source="id-8f7d1d8332b8424799cad6cba34bccca"
+        target="id-6aebd46fa3944cbd92aec2e8036a187f">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-dc888db1ad404472a7ca19fda5e22de9.xml#id-dc888db1ad404472a7ca19fda5e22de9"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-921d752f43cf4429b8ffc825d098e219"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
+        source="id-8f7d1d8332b8424799cad6cba34bccca"
+        target="id-e17c840c50534dedaea2e37e0f3107b6">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-e874b08198c543c7bd1757321b37c3c5.xml#id-e874b08198c543c7bd1757321b37c3c5"/>
+    </sourceConnections>
+    <bounds
+        y="24"
+        width="601"
+        height="169"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-e17c840c50534dedaea2e37e0f3107b6"
+        targetConnections="id-cbc0ddd5776b4f5cae2d6bf3c1b8a6cc id-921d752f43cf4429b8ffc825d098e219 id-291f2c2172524b6cad20d0248496a0ab"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI">
+      <bounds
+          x="24"
+          y="72"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-16eb3936-03cb-4854-9cd8-9f0911eea51b.xml#id-16eb3936-03cb-4854-9cd8-9f0911eea51b"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-6aebd46fa3944cbd92aec2e8036a187f"
+        targetConnections="id-52582abcdc2d4ab2b404d0b165fcc160"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-de632da4293e46dab7437d28cb548d38"
+          font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+          source="id-6aebd46fa3944cbd92aec2e8036a187f"
+          target="id-beb4294992df45b5883a4e137cda36c4">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-57ddeb5b-14c5-427e-aa0f-f730e65a4d0a.xml#id-57ddeb5b-14c5-427e-aa0f-f730e65a4d0a"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-cbc0ddd5776b4f5cae2d6bf3c1b8a6cc"
+          font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+          source="id-6aebd46fa3944cbd92aec2e8036a187f"
+          target="id-e17c840c50534dedaea2e37e0f3107b6">
+        <bendpoints
+            startX="-108"
+            startY="21"
+            endX="120"
+            endY="21"/>
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-e2ebfff35c8947df88e576232207e53d.xml#id-e2ebfff35c8947df88e576232207e53d"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-291f2c2172524b6cad20d0248496a0ab"
+          font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+          source="id-6aebd46fa3944cbd92aec2e8036a187f"
+          target="id-e17c840c50534dedaea2e37e0f3107b6">
+        <bendpoints
+            startX="-108"
+            startY="-15"
+            endX="120"
+            endY="-15"/>
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-e7028f31e4644ee6bca9dbe09d90277e.xml#id-e7028f31e4644ee6bca9dbe09d90277e"/>
+      </sourceConnections>
+      <bounds
+          x="252"
+          y="72"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-999725ee-737f-410e-906b-9865ebed3597.xml#id-999725ee-737f-410e-906b-9865ebed3597"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-beb4294992df45b5883a4e137cda36c4"
+        targetConnections="id-de632da4293e46dab7437d28cb548d38 id-3f6d48c2559745e5b95b99d8e327a639"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI">
+      <bounds
+          x="468"
+          y="72"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-9b0f3f8b-b79b-46f7-bf81-96e4c63b9ac2.xml#id-9b0f3f8b-b79b-46f7-bf81-96e4c63b9ac2"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-3bf4afcf56534145a25f8b084fbf7eee.xml#id-3bf4afcf56534145a25f8b084fbf7eee"/>
+  </children>
+  <properties
+      key="Viewtype"
+      value="BOM"/>
+  <properties
+      key="Publiceren"
+      value="GEMMA Online en redactie"/>
+  <properties
+      key="Model"
+      value="GEMMA"/>
+  <properties
+      key="Object ID"
+      value="a19aff54-4e64-49b3-a955-5b1025b89949"/>
+</archimate:ArchimateDiagramModel>

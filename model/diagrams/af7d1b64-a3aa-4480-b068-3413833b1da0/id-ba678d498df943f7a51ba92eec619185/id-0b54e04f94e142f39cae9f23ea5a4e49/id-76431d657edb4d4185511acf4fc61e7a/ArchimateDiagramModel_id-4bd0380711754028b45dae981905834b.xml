@@ -1,0 +1,80 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Model Relatieklassen (weg?)"
+    id="id-4bd0380711754028b45dae981905834b">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-1f4a95fec81b456bb58d3599b9d188e3"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      textAlignment="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-982fc282572142b59eaf7a431b0ddc5b"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
+        source="id-1f4a95fec81b456bb58d3599b9d188e3"
+        target="id-c20fdaf197504406a2bac3998be9442b">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-d8f7e0a0-24c3-945f-3bf3-a626aac845b3.xml#id-d8f7e0a0-24c3-945f-3bf3-a626aac845b3"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-fee3db7a798a451f9f49781c4ce580cb"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
+        source="id-1f4a95fec81b456bb58d3599b9d188e3"
+        target="id-b8bd723d489e469c8993bba0bc7a3221">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-19a1298e-8476-70d6-6e95-c66808935772.xml#id-19a1298e-8476-70d6-6e95-c66808935772"/>
+    </sourceConnections>
+    <bounds
+        x="20"
+        y="20"
+        width="233"
+        height="221"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-c20fdaf197504406a2bac3998be9442b"
+        targetConnections="id-982fc282572142b59eaf7a431b0ddc5b"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI">
+      <bounds
+          x="24"
+          y="128"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-df81069d-cbe4-433e-ab7c-cb06170275c9.xml#id-df81069d-cbe4-433e-ab7c-cb06170275c9"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-b8bd723d489e469c8993bba0bc7a3221"
+        targetConnections="id-fee3db7a798a451f9f49781c4ce580cb"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI">
+      <bounds
+          x="24"
+          y="48"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-703f7bb2-6d05-6f98-18d3-0d182c4993c0.xml#id-703f7bb2-6d05-6f98-18d3-0d182c4993c0"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-5a215440-63a4-41d1-b049-fbe171621466.xml#id-5a215440-63a4-41d1-b049-fbe171621466"/>
+  </children>
+  <properties
+      key="Publiceren"
+      value="GEMMA Online en redactie"/>
+  <properties
+      key="Viewtype"
+      value="Overview"/>
+  <properties
+      key="Model"
+      value="GEMMA"/>
+  <properties
+      key="Object ID"
+      value="85c9f184-7e07-44fd-9f9b-1450fe6f0b87"/>
+</archimate:ArchimateDiagramModel>

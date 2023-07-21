@@ -12,7 +12,8 @@
       fillColor="#dfffff"
       alpha="125"
       content="Applicatiefuncties views&#xD;&#xA;"
-      textPosition="2">
+      textPosition="2"
+      borderType="1">
     <bounds
         x="24"
         y="660"
@@ -26,7 +27,8 @@
       textAlignment="1"
       fillColor="#ffffb9"
       alpha="125"
-      content="Bedrijfsfuncties views">
+      content="Bedrijfsfuncties views"
+      borderType="1">
     <bounds
         x="24"
         y="240"
@@ -40,7 +42,8 @@
       textAlignment="1"
       fillColor="#c6ffff"
       alpha="150"
-      content="Met referentiecomponenten">
+      content="Met referentiecomponenten"
+      borderType="1">
     <bounds
         x="36"
         y="540"
@@ -53,7 +56,8 @@
       font="1|Segoe UI|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
       textAlignment="1"
       fillColor="#dfffff"
-      content="Met buitengemeentelijke voorzieningen">
+      content="Met buitengemeentelijke voorzieningen"
+      borderType="1">
     <bounds
         x="48"
         y="672"
@@ -66,7 +70,8 @@
       font="1|Segoe UI|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
       textAlignment="1"
       fillColor="#eaeaff"
-      content="Principes en standaarden">
+      content="Principes en standaarden"
+      borderType="1">
     <bounds
         x="24"
         y="12"
@@ -206,7 +211,8 @@
       textAlignment="1"
       fillColor="#ffff9f"
       alpha="125"
-      content="Processen views">
+      content="Processen views"
+      borderType="1">
     <bounds
         x="24"
         y="108"
@@ -360,7 +366,8 @@
       textAlignment="1"
       fillColor="#ffffb9"
       alpha="175"
-      content="Met bedrijfsobjecten">
+      content="Met bedrijfsobjecten"
+      borderType="1">
     <bounds
         x="36"
         y="264"
@@ -382,27 +389,14 @@
         href="ArchimateDiagramModel_id-034eee64-db8b-4af0-9df8-b848509c0059.xml#id-034eee64-db8b-4af0-9df8-b848509c0059"/>
   </children>
   <children
-      xsi:type="archimate:DiagramModelReference"
-      id="1352ffb6-3ef0-4d64-b220-bcf289a707cd"
-      font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
-      fillColor="#fee994">
-    <bounds
-        x="61"
-        y="300"
-        width="1333"
-        height="36"/>
-    <referencedModel
-        xsi:type="archimate:ArchimateDiagramModel"
-        href="ArchimateDiagramModel_id-85853310-d375-4c9d-ae7a-46dcd0906996.xml#id-85853310-d375-4c9d-ae7a-46dcd0906996"/>
-  </children>
-  <children
       xsi:type="archimate:DiagramModelNote"
       id="5c001721-dc69-4a12-ac28-7b8739b638bd"
       font="1|Segoe UI|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
       textAlignment="1"
       fillColor="#ffffb9"
       alpha="80"
-      content="Bedrijfs- en applicatiefuncties views">
+      content="Bedrijfs- en applicatiefuncties views"
+      borderType="1">
     <bounds
         x="49"
         y="840"
@@ -453,20 +447,6 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelReference"
-      id="0cbaa5be-db68-40d2-9caa-b527c5a8d06d"
-      font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
-      fillColor="#fee994">
-    <bounds
-        x="60"
-        y="360"
-        width="1333"
-        height="36"/>
-    <referencedModel
-        xsi:type="archimate:ArchimateDiagramModel"
-        href="ArchimateDiagramModel_id-d29846a4-f4d3-4315-bd16-5a75a7874f42.xml#id-d29846a4-f4d3-4315-bd16-5a75a7874f42"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelReference"
       id="67f7db94-48e9-41a4-9cac-90774c3cca57"
       font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
       fillColor="#fee994">
@@ -492,20 +472,6 @@
     <referencedModel
         xsi:type="archimate:ArchimateDiagramModel"
         href="ArchimateDiagramModel_id-6743514a-be45-4263-b3e6-c306e329cef6.xml#id-6743514a-be45-4263-b3e6-c306e329cef6"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelReference"
-      id="22890762-b316-4abf-923f-ec208aba96bf"
-      font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
-      fillColor="#b3f3ff">
-    <bounds
-        x="61"
-        y="876"
-        width="1333"
-        height="36"/>
-    <referencedModel
-        xsi:type="archimate:ArchimateDiagramModel"
-        href="ArchimateDiagramModel_id-fa485a36-dc24-40e2-9934-e2076e95cec4.xml#id-fa485a36-dc24-40e2-9934-e2076e95cec4"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelReference"
@@ -577,7 +543,7 @@
       value="Geen"/>
   <properties
       key="Viewtype"
-      value="Index"/>
+      value="Navigatie"/>
   <properties
       key="Domein"
       value="Niet domeingebonden"/>
