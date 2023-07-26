@@ -20,7 +20,7 @@ Dit GEMMA ArchiMate-model is vrij beschikbaar onder de Europese Union Public Lic
 
 Om het GEMMA ArchiMate-model te gebruiken, heeft u de Archi-tool nodig. Archi is een open-source tool voor het modelleren van enterprise-architecturen met ondersteuning voor de ArchiMate-notatie. U kunt Archi gratis downloaden van de officiële website: [https://www.archimatetool.com](https://www.archimatetool.com)
 
-Zodra u Archi heeft geïnstalleerd met de collaboration plugin, kunt u het GEMMA ArchiMate-model importeren vanuit deze repository. Voor meer informatie en gedetailleerde instructies kunt u terecht op de pagina [GEMMA Archi en VNGR modellen](https://redactie.gemmaonline.nl/index.php/Archi_en_VNGR_modellen).
+Op [GEMMA online](https://www.gemmaonline.nl/) vindt u op de pagina [Toolkit](https://www.gemmaonline.nl/index.php/Toolkit) meer informatie en gedetailleerde instructies. 
 
 ## Roadmap
 
