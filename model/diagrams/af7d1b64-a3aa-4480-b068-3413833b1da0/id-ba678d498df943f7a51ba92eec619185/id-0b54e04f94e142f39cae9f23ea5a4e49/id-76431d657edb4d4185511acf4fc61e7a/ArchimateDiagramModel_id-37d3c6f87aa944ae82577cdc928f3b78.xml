@@ -6,23 +6,12 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-5919f03c23ac4c88acf97da85cb7f123"
-      font="1|Lucida Grande|10.0|0|COCOA|1|"
-      fontColor="#000000"
-      lineColor="#4f4f4f"
-      textAlignment="1"
-      fillColor="#fffffe">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-528a4d267b4e4f208672bda8646b9028"
-        source="id-5919f03c23ac4c88acf97da85cb7f123"
-        target="id-88bc71b04c0e4aa68fe62835b6ae8d87">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-4181380c-6724-2704-1bbe-5ba72289599e.xml#id-4181380c-6724-2704-1bbe-5ba72289599e"/>
-    </sourceConnections>
+      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      textAlignment="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-b6474075afab45aa9cecc0a6cb7474c2"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
         source="id-5919f03c23ac4c88acf97da85cb7f123"
         target="id-64d1b118af2843a1bc7ad2587821ca4c">
       <archimateRelationship
@@ -32,11 +21,22 @@
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-96fc383966684722a52bea8d7b08b45b"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
         source="id-5919f03c23ac4c88acf97da85cb7f123"
         target="id-b3c52f9cf0634427b7e6ac128666ba9b">
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-536053c7e48d4a33be226e871d26eb05.xml#id-536053c7e48d4a33be226e871d26eb05"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-528a4d267b4e4f208672bda8646b9028"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
+        source="id-5919f03c23ac4c88acf97da85cb7f123"
+        target="id-88bc71b04c0e4aa68fe62835b6ae8d87">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-4181380c-6724-2704-1bbe-5ba72289599e.xml#id-4181380c-6724-2704-1bbe-5ba72289599e"/>
     </sourceConnections>
     <bounds
         x="20"
@@ -47,10 +47,7 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-88bc71b04c0e4aa68fe62835b6ae8d87"
         targetConnections="id-528a4d267b4e4f208672bda8646b9028"
-        font="1|Lucida Grande|10.0|0|COCOA|1|"
-        fontColor="#000000"
-        lineColor="#4f4f4f"
-        fillColor="#fefeb4"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
         type="1">
       <bounds
           x="24"
@@ -65,11 +62,8 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-64d1b118af2843a1bc7ad2587821ca4c"
         targetConnections="id-b6474075afab45aa9cecc0a6cb7474c2"
-        font="1|Lucida Grande|10.0|0|COCOA|1|"
-        fontColor="#000000"
-        lineColor="#4f4f4f"
-        textAlignment="1"
-        fillColor="#fffffe">
+        font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+        textAlignment="1">
       <bounds
           x="12"
           y="156"
@@ -78,10 +72,7 @@
       <children
           xsi:type="archimate:DiagramModelReference"
           id="id-7c1d699b47be43999e9944d0c5d5981f"
-          font="1|Lucida Grande|10.0|0|COCOA|1|"
-          fontColor="#000000"
-          lineColor="#4f4f4f"
-          fillColor="#dcebeb">
+          font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI">
         <bounds
             x="12"
             y="24"
@@ -99,6 +90,7 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-b3c52f9cf0634427b7e6ac128666ba9b"
         targetConnections="id-96fc383966684722a52bea8d7b08b45b"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
         type="1">
       <bounds
           x="24"
@@ -122,4 +114,7 @@
   <properties
       key="Model"
       value="GEMMA"/>
+  <properties
+      key="Object ID"
+      value="59d65eb6-e91e-4948-a1d8-6a5fd8db47c1"/>
 </archimate:ArchimateDiagramModel>
