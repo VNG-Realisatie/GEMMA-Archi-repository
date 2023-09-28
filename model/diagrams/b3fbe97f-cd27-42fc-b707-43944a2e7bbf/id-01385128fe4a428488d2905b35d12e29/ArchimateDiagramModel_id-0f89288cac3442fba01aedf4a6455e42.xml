@@ -267,15 +267,6 @@
               xsi:type="archimate:AggregationRelationship"
               href="AggregationRelationship_5b6bca16-c154-4fe5-9cc7-6654f41c9861.xml#5b6bca16-c154-4fe5-9cc7-6654f41c9861"/>
         </sourceConnections>
-        <sourceConnections
-            xsi:type="archimate:DiagramModelArchimateConnection"
-            id="id-cddc346e878a4d5e941b75e5812fbbaf"
-            source="id-6f9f8e9edbf4438b93b1fc6f27973688"
-            target="id-fb0f12930f5d43f5a2c5922f0520a886">
-          <archimateRelationship
-              xsi:type="archimate:AggregationRelationship"
-              href="AggregationRelationship_9046ed66-89db-470b-8aee-223820696695.xml#9046ed66-89db-470b-8aee-223820696695"/>
-        </sourceConnections>
         <bounds
             x="140"
             y="30"
@@ -316,24 +307,6 @@
           <archimateElement
               xsi:type="archimate:Capability"
               href="Capability_id-7edf5b4b94dd493990d28fc52be16550.xml#id-7edf5b4b94dd493990d28fc52be16550"/>
-        </children>
-        <children
-            xsi:type="archimate:DiagramModelArchimateObject"
-            id="id-fb0f12930f5d43f5a2c5922f0520a886"
-            targetConnections="id-cddc346e878a4d5e941b75e5812fbbaf"
-            font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
-            fillColor="#82c8ee">
-          <features
-              name="gradient"
-              value="0"/>
-          <bounds
-              x="380"
-              y="30"
-              width="167"
-              height="61"/>
-          <archimateElement
-              xsi:type="archimate:Capability"
-              href="Capability_id-ed2ee05a4b564931a39413b6f1f7a85d.xml#id-ed2ee05a4b564931a39413b6f1f7a85d"/>
         </children>
         <archimateElement
             xsi:type="archimate:Grouping"
@@ -1075,6 +1048,23 @@
     <archimateElement
         xsi:type="archimate:Grouping"
         href="Grouping_2ae4f19c-6c5f-468d-acf0-5aaba72055ba.xml#2ae4f19c-6c5f-468d-acf0-5aaba72055ba"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-fb0f12930f5d43f5a2c5922f0520a886"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
+      fillColor="#82c8ee">
+    <features
+        name="gradient"
+        value="0"/>
+    <bounds
+        x="1176"
+        y="300"
+        width="167"
+        height="61"/>
+    <archimateElement
+        xsi:type="archimate:Capability"
+        href="Capability_id-ed2ee05a4b564931a39413b6f1f7a85d.xml#id-ed2ee05a4b564931a39413b6f1f7a85d"/>
   </children>
   <properties
       key="Object ID"
