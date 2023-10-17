@@ -1,0 +1,151 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Common Ground vijflaagsmodel laag Connectiviteit"
+    id="id-63409225ff6842adbf145abedcc57577"
+    documentation="De laag connectititeit van het Common Ground vijflaagsmodel">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-585e873c4ec5468f803c395960df25e4"
+      font="1|Segoe UI|12.0|1|WINDOWS|1|-20|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+      textAlignment="1"
+      fillColor="#fff1e3">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-a6fc1bb34c354b1385f59ef53cfcbcb7"
+        source="id-585e873c4ec5468f803c395960df25e4"
+        target="id-1cd999732c084c45a69b72a12ba28a1c">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-ab285bebe95e4f8e85f711ee5ef0879e.xml#id-ab285bebe95e4f8e85f711ee5ef0879e"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-4cdeeb16e4604c679eec5dcb4419297b"
+        source="id-585e873c4ec5468f803c395960df25e4"
+        target="id-37e4666d01464afd891ba5914eb8addd">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-20742917469b4ba199e72f49cb54cde4.xml#id-20742917469b4ba199e72f49cb54cde4"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-9e56ea9a813143189f973af5b6c80392"
+        source="id-585e873c4ec5468f803c395960df25e4"
+        target="id-b95c4c483b024d258ef806291366f8bc">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-a4b4ace9414144a0a9893d98ef09413a.xml#id-a4b4ace9414144a0a9893d98ef09413a"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-5d05cc2848c14478aebe1158433ad837"
+        source="id-585e873c4ec5468f803c395960df25e4"
+        target="id-bf1c0f490a6549beb4987a0e79e66128">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-bc7ab496cade4f85baf3bdb24c630799.xml#id-bc7ab496cade4f85baf3bdb24c630799"/>
+    </sourceConnections>
+    <bounds
+        x="24"
+        y="24"
+        width="921"
+        height="101"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-b95c4c483b024d258ef806291366f8bc"
+        targetConnections="id-9e56ea9a813143189f973af5b6c80392"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
+        fillColor="#ffcf9f">
+      <features
+          name="gradient"
+          value="0"/>
+      <bounds
+          x="340"
+          y="30"
+          width="167"
+          height="61"/>
+      <archimateElement
+          xsi:type="archimate:Capability"
+          href="Capability_id-3dadf430fa67479c9aeed05c76893491.xml#id-3dadf430fa67479c9aeed05c76893491"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-1cd999732c084c45a69b72a12ba28a1c"
+        targetConnections="id-a6fc1bb34c354b1385f59ef53cfcbcb7"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
+        fillColor="#ffcf9f">
+      <features
+          name="gradient"
+          value="0"/>
+      <bounds
+          x="520"
+          y="30"
+          width="167"
+          height="61"/>
+      <archimateElement
+          xsi:type="archimate:Capability"
+          href="Capability_id-f2426db07a8340c88ac99aa475735fa4.xml#id-f2426db07a8340c88ac99aa475735fa4"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-37e4666d01464afd891ba5914eb8addd"
+        targetConnections="id-4cdeeb16e4604c679eec5dcb4419297b"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
+        fillColor="#ffcf9f">
+      <features
+          name="gradient"
+          value="0"/>
+      <bounds
+          x="700"
+          y="30"
+          width="167"
+          height="61"/>
+      <archimateElement
+          xsi:type="archimate:Capability"
+          href="Capability_id-009fa62f25844aa3a87d252bf2b6bb0c.xml#id-009fa62f25844aa3a87d252bf2b6bb0c"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-bf1c0f490a6549beb4987a0e79e66128"
+        targetConnections="id-5d05cc2848c14478aebe1158433ad837"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
+        fillColor="#ffcf9f">
+      <features
+          name="gradient"
+          value="0"/>
+      <bounds
+          x="160"
+          y="30"
+          width="167"
+          height="61"/>
+      <archimateElement
+          xsi:type="archimate:Capability"
+          href="Capability_id-2e0eecec8481405d84763ae6eb91d120.xml#id-2e0eecec8481405d84763ae6eb91d120"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_2ae4f19c-6c5f-468d-acf0-5aaba72055ba.xml#2ae4f19c-6c5f-468d-acf0-5aaba72055ba"/>
+  </children>
+  <properties
+      key="Object ID"
+      value="0cf2461d-d6f0-48e0-9518-116c4e0ecdae"/>
+  <properties
+      key="Viewtype"
+      value="Illustratie"/>
+  <properties
+      key="GEMMA thema"
+      value="Common Ground"/>
+  <properties
+      key="Publiceren"
+      value="GEMMA Online en redactie"/>
+  <properties
+      key="Architectuurlaag"
+      value="Applicatiearchitectuur"/>
+  <properties
+      key="Domein"
+      value="Niet domeingebonden"/>
+  <properties
+      key="Detailniveau"
+      value="Samenhang"/>
+</archimate:ArchimateDiagramModel>
