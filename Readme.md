@@ -2,11 +2,22 @@
 
 # GEMMA Archi-repository
 
-Dit is de officiële repository voor het GEMMA ArchiMate-model, onderhouden door VNG Realistie met behulp van de tool Archi. Het doel van dit model is om gemeenten te ondersteunen bij het modelleren van hun enterprise-architectuur volgens de GEMMA-referentiearchitectuur.
+Dit is de officiële repository van het GEMMA ArchiMate-model. In deze repository wordt door de GEMMA architecten van VNG Realisatie samengewerkt aan het GEMMA ArchiMate=model. Het doel van dit model is om gemeenten te ondersteunen bij het modelleren van hun enterprise-architectuur volgens de GEMMA-referentiearchitectuur.
 
 ## Inhoud
+De inhoud van deze repository is alleen te openen met behulp van de tool Archi. De in deze repository gemaakte ArchiMate elementen, relaties en views kun je bekijken op [GEMMA online](https://www.gemmaonline.nl/)
 
-Deze repository bevat het GEMMA ArchiMate-model. Het model is opgesteld in de ArchiMate-notatie, een internationale standaard voor het modelleren van enterprise-architecturen. Het model bevat verschillende weergaven van de enterprise-architectuur, zoals strategische, operationele en technische perspectieven.
+Het model is opgesteld in de ArchiMate-notatie, een internationale standaard voor het modelleren van enterprise-architecturen. Het model bevat verschillende weergaven van de enterprise-architectuur, zoals strategische, operationele en technische perspectieven.
+
+## Meer Archi repositories
+
+Onder de github [VNG Realisatie organisatie](https://github.com/VNG-Realisatie) vind je de volgende Archi repositories. 
+
+* **[GEMMA portfolio](https://github.com/VNG-Realisatie/GEMMA-portfolio-Archi-repository)** - Overzicht van de GEMMA producten
+* **[GEMMA kennismodel](https://github.com/VNG-Realisatie/GEMMA-kennismodel-Archi-repository)** - Modelleerafspraken GEMMA ArchiMate-modellen
+* **[Alle Archi-repositories](https://github.com/orgs/VNG-Realisatie/teams/archi)** - Alle GEMMA en projecten repositories
+
+De GEMMA repositories zijn publiek toegankelijk. Voor toegang tot de besloten repositories, stuur een mail naar gemmaonline@vng.nl
 
 ## Bijdragen
 
@@ -20,7 +31,7 @@ Dit GEMMA ArchiMate-model is vrij beschikbaar onder de Europese Union Public Lic
 
 Om het GEMMA ArchiMate-model te gebruiken, heeft u de Archi-tool nodig. Archi is een open-source tool voor het modelleren van enterprise-architecturen met ondersteuning voor de ArchiMate-notatie. U kunt Archi gratis downloaden van de officiële website: [https://www.archimatetool.com](https://www.archimatetool.com)
 
-Op [GEMMA online](https://www.gemmaonline.nl/) vindt u op de pagina [ArchiMate modelleren](https://www.gemmaonline.nl/index.php/ArchiMate_modelleren) meer informatie en instructies. 
+Op [GEMMA online](https://www.gemmaonline.nl/) vindt u op de pagina [ArchiMate modelleren](https://www.gemmaonline.nl/index.php/ArchiMate_modelleren) meer informatie en instructies.
 
 ## Roadmap
 
