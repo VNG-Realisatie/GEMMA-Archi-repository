@@ -2170,7 +2170,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-d3d97169cff348a4995faaca27f0ad0c"
-      targetConnections="id-d502fb0c96b04d9391f4d8765a209896"
+      targetConnections="id-d502fb0c96b04d9391f4d8765a209896 id-e846f3e677784bd8a9e021a8bbef466f"
       font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
       lineColor="#4f4f4f"
       fillColor="#cab5ea">
@@ -2550,6 +2550,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-728ac8e0df46412fa892c11b6929fbcb"
+      targetConnections="id-632a294a70b04dad97bb9745f758eae1"
       font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
       lineColor="#4f4f4f"
       fillColor="#cab5ea">
@@ -2619,7 +2620,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-15a18bd4bbc84d89b632fef0d0190b72"
-      targetConnections="id-9ed18a795d6a4e1b813cf29c823285b5"
+      targetConnections="id-9ed18a795d6a4e1b813cf29c823285b5 id-83ee95edf56b4ce3a496f670fd40aad7"
       font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
       lineColor="#4f4f4f"
       fillColor="#cab5ea">
@@ -2657,7 +2658,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-7df7de14ad8841e39d5622cd563a5d23"
-      targetConnections="id-16a417e7cc724600b7f820951fe6997d"
+      targetConnections="id-16a417e7cc724600b7f820951fe6997d id-7b5014e3f0b644b2bdefc891c5959abe"
       font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
       lineColor="#4f4f4f"
       fillColor="#cab5ea">
@@ -3192,6 +3193,58 @@
     <archimateElement
         xsi:type="archimate:Goal"
         href="Goal_id-f0229ca4fb6f481a90bdd61e47f58db0.xml#id-f0229ca4fb6f481a90bdd61e47f58db0"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-2db167c811754c5882fc9aef2e57a267"
+      font="1|Arial|9.0|0|COCOA|1|ArialMT">
+    <features
+        name="labelExpression"
+        value="${property:ID}&#xA;${name}"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-7b5014e3f0b644b2bdefc891c5959abe"
+        source="id-2db167c811754c5882fc9aef2e57a267"
+        target="id-7df7de14ad8841e39d5622cd563a5d23">
+      <archimateRelationship
+          xsi:type="archimate:RealizationRelationship"
+          href="RealizationRelationship_id-b4b0950369a3463a81802ea42950e50e.xml#id-b4b0950369a3463a81802ea42950e50e"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-83ee95edf56b4ce3a496f670fd40aad7"
+        source="id-2db167c811754c5882fc9aef2e57a267"
+        target="id-15a18bd4bbc84d89b632fef0d0190b72">
+      <archimateRelationship
+          xsi:type="archimate:RealizationRelationship"
+          href="RealizationRelationship_id-5995c364a64c4638af9014b1757eea87.xml#id-5995c364a64c4638af9014b1757eea87"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-632a294a70b04dad97bb9745f758eae1"
+        source="id-2db167c811754c5882fc9aef2e57a267"
+        target="id-728ac8e0df46412fa892c11b6929fbcb">
+      <archimateRelationship
+          xsi:type="archimate:RealizationRelationship"
+          href="RealizationRelationship_id-f01bede3034a45d4bb7eb6a0d006628c.xml#id-f01bede3034a45d4bb7eb6a0d006628c"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-e846f3e677784bd8a9e021a8bbef466f"
+        source="id-2db167c811754c5882fc9aef2e57a267"
+        target="id-d3d97169cff348a4995faaca27f0ad0c">
+      <archimateRelationship
+          xsi:type="archimate:RealizationRelationship"
+          href="RealizationRelationship_id-4c0df093b9644489ae288e4dc3db0e55.xml#id-4c0df093b9644489ae288e4dc3db0e55"/>
+    </sourceConnections>
+    <bounds
+        x="1532"
+        y="1476"
+        width="218"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Principle"
+        href="Principle_id-8c45760a622d4249a16486ec2104137a.xml#id-8c45760a622d4249a16486ec2104137a"/>
   </children>
   <properties
       key="Publiceren"
