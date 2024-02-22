@@ -2,7 +2,7 @@
 
 # GEMMA Archi-repository
 
-Dit is de officiële repository van het GEMMA ArchiMate-model. In deze repository wordt door de GEMMA architecten van VNG Realisatie samengewerkt aan het GEMMA ArchiMate=model. Het doel van dit model is om gemeenten te ondersteunen bij het modelleren van hun enterprise-architectuur volgens de GEMMA-referentiearchitectuur.
+Dit is de officiële repository van het GEMMA ArchiMate-model. In deze repository wordt door de GEMMA architecten van VNG Realisatie samengewerkt aan het GEMMA ArchiMate-model. Het doel van dit model is om gemeenten te ondersteunen bij het modelleren van hun enterprise-architectuur volgens de GEMMA-referentiearchitectuur.
 
 ## Inhoud
 De inhoud van deze repository is alleen te openen met behulp van de tool Archi. De in deze repository gemaakte ArchiMate elementen, relaties en views kun je bekijken op [GEMMA online](https://www.gemmaonline.nl/)
