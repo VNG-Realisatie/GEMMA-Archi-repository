@@ -5,7 +5,7 @@
     id="id-4ecdc8203c9a4fd3a3cace06300d1789">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-362faf5a85054195a13090de782a7499"
+      id="id-bf461d86dc454b05aea991662c9dbee3"
       font="1|Segoe UI|12.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
       textAlignment="1"
       fillColor="#FAFAFA">
@@ -14,30 +14,30 @@
         value="false"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-2020f26e9f1d4bbba494708ba3efb166"
-        source="id-362faf5a85054195a13090de782a7499"
-        target="id-7471d3cb46714cb584ebb88947193598">
+        id="id-5dffddc689f44421923f3ef03246e93d"
+        source="id-bf461d86dc454b05aea991662c9dbee3"
+        target="id-58e524d3b60746fda862752df5e329e3">
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-981306cfe966442da9be402bac70826c.xml#id-981306cfe966442da9be402bac70826c"/>
+          href="AggregationRelationship_id-354ae98b870045378d469c9b6cc1b8ef.xml#id-354ae98b870045378d469c9b6cc1b8ef"/>
     </sourceConnections>
     <bounds
-        x="262"
+        x="225"
         y="10"
-        width="186"
-        height="304"/>
+        width="171"
+        height="301"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-7471d3cb46714cb584ebb88947193598"
-        targetConnections="id-7ed0db6969344a6d84976cba434a83fc id-2020f26e9f1d4bbba494708ba3efb166 id-4263e3e93e9441bf8df8aec7e18d823d id-4cd2c646c7084e23b809ce8c576471b6 id-4765e71b5822484cabeb91a942ab6c58">
+        id="id-58e524d3b60746fda862752df5e329e3"
+        targetConnections="id-5dffddc689f44421923f3ef03246e93d id-633a82b828ec45f8b282380210fe8626 id-d1c0358bd8954c469092bf4e7d5f717c id-3fb3325578ce4e68b70a49ea939a92aa id-4b746122a59b4165ac7fe08d80f45efc">
       <features
           name="deriveElementLineColor"
           value="false"/>
       <bounds
-          x="22"
-          y="141"
+          x="15"
+          y="140"
           width="141"
-          height="62"/>
+          height="61"/>
       <archimateElement
           xsi:type="archimate:BusinessObject"
           href="BusinessObject_id-b40b567a0b2b42fc9a12177e11128dcd.xml#id-b40b567a0b2b42fc9a12177e11128dcd"/>
@@ -48,7 +48,7 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-2cefd5887620461d83db34ecdf11060e">
+      id="id-673f89cf21a24600b5eb397033975d91">
     <features
         name="deriveElementLineColor"
         value="false"/>
@@ -57,92 +57,45 @@
         value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-4263e3e93e9441bf8df8aec7e18d823d"
-        source="id-2cefd5887620461d83db34ecdf11060e"
-        target="id-7471d3cb46714cb584ebb88947193598">
+        id="id-633a82b828ec45f8b282380210fe8626"
+        source="id-673f89cf21a24600b5eb397033975d91"
+        target="id-58e524d3b60746fda862752df5e329e3">
       <bendpoints
-          startX="92"
-          endX="-181"
-          endY="-132"/>
+          startX="85"
+          endX="-145"
+          endY="-130"/>
       <bendpoints
-          startX="115"
-          endX="-159"
-          endY="-132"/>
-      <bendpoints
-          startX="137"
-          endX="-136"
-          endY="-132"/>
-      <bendpoints
-          startX="160"
-          endX="-114"
-          endY="-132"/>
-      <bendpoints
-          startX="182"
-          endX="-91"
-          endY="-132"/>
-      <archimateRelationship
-          xsi:type="archimate:AssociationRelationship"
-          href="AssociationRelationship_id-a8164295515c4bb797fa40e21a348bbb.xml#id-a8164295515c4bb797fa40e21a348bbb"/>
-    </sourceConnections>
-    <bounds
-        x="10"
-        y="19"
-        width="141"
-        height="62"/>
-    <archimateElement
-        xsi:type="archimate:BusinessObject"
-        href="BusinessObject_id-e8c4aab3f4ae44e79f568d1b3faa10e4.xml#id-e8c4aab3f4ae44e79f568d1b3faa10e4"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-40c9b8a7206748c4bd505cfd9197626b">
-    <features
-        name="deriveElementLineColor"
-        value="false"/>
-    <features
-        name="labelExpression"
-        value="${name}&#xA;($aggregation:source{name})"/>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-4cd2c646c7084e23b809ce8c576471b6"
-        source="id-40c9b8a7206748c4bd505cfd9197626b"
-        target="id-7471d3cb46714cb584ebb88947193598">
-      <bendpoints
-          startX="92"
-          endX="-181"
-          endY="-51"/>
+          startX="100"
+          endX="-130"
+          endY="-130"/>
       <bendpoints
           startX="115"
-          endX="-159"
-          endY="-51"/>
+          endX="-115"
+          endY="-130"/>
       <bendpoints
-          startX="137"
-          endX="-136"
-          endY="-51"/>
+          startX="130"
+          endX="-100"
+          endY="-130"/>
       <bendpoints
-          startX="160"
-          endX="-114"
-          endY="-51"/>
-      <bendpoints
-          startX="182"
-          endX="-91"
-          endY="-51"/>
+          startX="145"
+          endX="-85"
+          endY="-130"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-6ba4d9c750714807b80e152b2fbe36ce.xml#id-6ba4d9c750714807b80e152b2fbe36ce"/>
     </sourceConnections>
     <bounds
         x="10"
-        y="100"
+        y="20"
         width="141"
-        height="62"/>
+        height="61"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-15a48c3c59f24a1e98334d84b4979f2f.xml#id-15a48c3c59f24a1e98334d84b4979f2f"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-c81ca32892524c34a1a292d1c0155f18">
+      id="id-09700d4e647e4adcaec2bffa30c69e78">
     <features
         name="deriveElementLineColor"
         value="false"/>
@@ -151,28 +104,75 @@
         value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-7ed0db6969344a6d84976cba434a83fc"
-        source="id-c81ca32892524c34a1a292d1c0155f18"
-        target="id-7471d3cb46714cb584ebb88947193598">
+        id="id-3fb3325578ce4e68b70a49ea939a92aa"
+        source="id-09700d4e647e4adcaec2bffa30c69e78"
+        target="id-58e524d3b60746fda862752df5e329e3">
       <bendpoints
-          startX="92"
-          endX="-181"
+          startX="85"
+          endX="-145"
+          endY="-50"/>
+      <bendpoints
+          startX="100"
+          endX="-130"
+          endY="-50"/>
+      <bendpoints
+          startX="115"
+          endX="-115"
+          endY="-50"/>
+      <bendpoints
+          startX="130"
+          endX="-100"
+          endY="-50"/>
+      <bendpoints
+          startX="145"
+          endX="-85"
+          endY="-50"/>
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-a8164295515c4bb797fa40e21a348bbb.xml#id-a8164295515c4bb797fa40e21a348bbb"/>
+    </sourceConnections>
+    <bounds
+        x="10"
+        y="100"
+        width="141"
+        height="61"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-e8c4aab3f4ae44e79f568d1b3faa10e4.xml#id-e8c4aab3f4ae44e79f568d1b3faa10e4"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-17b9725eac7b46919cca499b9eb97131">
+    <features
+        name="deriveElementLineColor"
+        value="false"/>
+    <features
+        name="labelExpression"
+        value="${name}&#xA;($aggregation:source{name})"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-4b746122a59b4165ac7fe08d80f45efc"
+        source="id-17b9725eac7b46919cca499b9eb97131"
+        target="id-58e524d3b60746fda862752df5e329e3">
+      <bendpoints
+          startX="85"
+          endX="-145"
+          endY="30"/>
+      <bendpoints
+          startX="100"
+          endX="-130"
           endY="30"/>
       <bendpoints
           startX="115"
-          endX="-159"
+          endX="-115"
           endY="30"/>
       <bendpoints
-          startX="137"
-          endX="-136"
+          startX="130"
+          endX="-100"
           endY="30"/>
       <bendpoints
-          startX="160"
-          endX="-114"
-          endY="30"/>
-      <bendpoints
-          startX="182"
-          endX="-91"
+          startX="145"
+          endX="-85"
           endY="30"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
@@ -180,16 +180,16 @@
     </sourceConnections>
     <bounds
         x="10"
-        y="181"
+        y="180"
         width="141"
-        height="62"/>
+        height="61"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-c585e30c5961486db3e6dd94331f661d.xml#id-c585e30c5961486db3e6dd94331f661d"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-6d9250d8ed86425ea045674258d9f2b3">
+      id="id-a5a61716759f493bbdeab3e133cc7801">
     <features
         name="deriveElementLineColor"
         value="false"/>
@@ -198,38 +198,38 @@
         value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-4765e71b5822484cabeb91a942ab6c58"
-        source="id-6d9250d8ed86425ea045674258d9f2b3"
-        target="id-7471d3cb46714cb584ebb88947193598">
+        id="id-d1c0358bd8954c469092bf4e7d5f717c"
+        source="id-a5a61716759f493bbdeab3e133cc7801"
+        target="id-58e524d3b60746fda862752df5e329e3">
       <bendpoints
-          startX="92"
-          endX="-181"
-          endY="111"/>
+          startX="85"
+          endX="-145"
+          endY="110"/>
+      <bendpoints
+          startX="100"
+          endX="-130"
+          endY="110"/>
       <bendpoints
           startX="115"
-          endX="-159"
-          endY="111"/>
+          endX="-115"
+          endY="110"/>
       <bendpoints
-          startX="137"
-          endX="-136"
-          endY="111"/>
+          startX="130"
+          endX="-100"
+          endY="110"/>
       <bendpoints
-          startX="160"
-          endX="-114"
-          endY="111"/>
-      <bendpoints
-          startX="182"
-          endX="-91"
-          endY="111"/>
+          startX="145"
+          endX="-85"
+          endY="110"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-02d3502b6e004f29924439609afa978c.xml#id-02d3502b6e004f29924439609afa978c"/>
     </sourceConnections>
     <bounds
         x="10"
-        y="262"
+        y="260"
         width="141"
-        height="62"/>
+        height="61"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-7002a918e09e46c280618a09d6662afc.xml#id-7002a918e09e46c280618a09d6662afc"/>
@@ -253,15 +253,12 @@
       key="Architectuurlaag"
       value="Bedrijfsarchitectuur"/>
   <properties
-      key="domein-iv3"
-      value="Dimensies"/>
-  <properties
       key="Object ID"
       value="8734b1b2-9aa0-4787-8ff9-eabf4ecb42e1"/>
   <properties
       key="GEMMA URL"
       value="https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8734b1b2-9aa0-4787-8ff9-eabf4ecb42e1"/>
   <properties
-      key="GEMMA thema"
-      value="Data"/>
+      key="Beleidsdomein"
+      value="Dimensies"/>
 </archimate:ArchimateDiagramModel>
