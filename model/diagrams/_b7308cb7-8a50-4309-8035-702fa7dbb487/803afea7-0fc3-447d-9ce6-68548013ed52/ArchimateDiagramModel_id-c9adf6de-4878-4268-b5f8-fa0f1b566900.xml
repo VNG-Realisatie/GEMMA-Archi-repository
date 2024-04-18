@@ -1502,15 +1502,15 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-39952"
-      targetConnections="bf072512-a01e-4ccd-9450-7f5e4691e4db"
+      targetConnections="bf072512-a01e-4ccd-9450-7f5e4691e4db id-2b8e1c299dba437e8c22515538ba279a"
       font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
       fontColor="#000000"
       lineColor="#000000"
       fillColor="#ccccff">
     <bounds
-        x="1361"
+        x="1190"
         y="4477"
-        width="194"
+        width="365"
         height="113"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -1530,13 +1530,34 @@
             href="SpecializationRelationship_id-a6a8009b-ca9b-4d77-8b96-aae3d9d57640.xml#id-a6a8009b-ca9b-4d77-8b96-aae3d9d57640"/>
       </sourceConnections>
       <bounds
-          x="31"
-          y="30"
+          x="211"
+          y="40"
           width="133"
           height="53"/>
       <archimateElement
           xsi:type="archimate:Constraint"
           href="Constraint_id-bfa0e501-8db0-11e3-67ab-0050568a6153.xml#id-bfa0e501-8db0-11e3-67ab-0050568a6153"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-dbc02e1026334e038b8070193ba396ce">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-2b8e1c299dba437e8c22515538ba279a"
+          source="id-dbc02e1026334e038b8070193ba396ce"
+          target="id-39952">
+        <archimateRelationship
+            xsi:type="archimate:SpecializationRelationship"
+            href="SpecializationRelationship_id-8df70a17161c452f8c2fe54f23490c3f.xml#id-8df70a17161c452f8c2fe54f23490c3f"/>
+      </sourceConnections>
+      <bounds
+          x="40"
+          y="37"
+          width="130"
+          height="60"/>
+      <archimateElement
+          xsi:type="archimate:Constraint"
+          href="Constraint_id-3da425521b6e46e88bebc4642927a8f9.xml#id-3da425521b6e46e88bebc4642927a8f9"/>
     </children>
     <archimateElement
         xsi:type="archimate:Constraint"
@@ -3998,7 +4019,7 @@
       lineColor="#000000"
       fillColor="#ccccff">
     <bounds
-        x="1137"
+        x="970"
         y="4477"
         width="194"
         height="113"/>
