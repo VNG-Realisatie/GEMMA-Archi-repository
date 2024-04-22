@@ -3095,7 +3095,7 @@
       lineColor="#000000"
       fillColor="#ccccff">
     <bounds
-        x="970"
+        x="1653"
         y="2460"
         width="400"
         height="113"/>
@@ -4966,7 +4966,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-39723"
-      targetConnections="8392444c-83e0-47e4-a9e7-be0f87b7a21f"
+      targetConnections="8392444c-83e0-47e4-a9e7-be0f87b7a21f id-784731a5e7ec43ecbb0a0e633a2983f5"
       font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
       fontColor="#000000"
       lineColor="#000000"
@@ -4974,7 +4974,7 @@
     <bounds
         x="750"
         y="2460"
-        width="194"
+        width="814"
         height="113"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -4994,13 +4994,34 @@
             href="SpecializationRelationship_id-3722be57-5eeb-43a9-9c5f-af570b953c73.xml#id-3722be57-5eeb-43a9-9c5f-af570b953c73"/>
       </sourceConnections>
       <bounds
-          x="30"
+          x="220"
           y="30"
           width="133"
           height="53"/>
       <archimateElement
           xsi:type="archimate:Constraint"
           href="Constraint_id-c129a7e1-8db0-11e3-67ab-0050568a6153.xml#id-c129a7e1-8db0-11e3-67ab-0050568a6153"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-e4e70ba4b09c4c6e8a9d7e5bab45e68d">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-784731a5e7ec43ecbb0a0e633a2983f5"
+          source="id-e4e70ba4b09c4c6e8a9d7e5bab45e68d"
+          target="id-39723">
+        <archimateRelationship
+            xsi:type="archimate:SpecializationRelationship"
+            href="SpecializationRelationship_id-de00ca405bd44848b252a0d544496d8d.xml#id-de00ca405bd44848b252a0d544496d8d"/>
+      </sourceConnections>
+      <bounds
+          x="510"
+          y="27"
+          width="130"
+          height="60"/>
+      <archimateElement
+          xsi:type="archimate:Constraint"
+          href="Constraint_id-68e1432dbb7347f98b2868a9e6d53d12.xml#id-68e1432dbb7347f98b2868a9e6d53d12"/>
     </children>
     <archimateElement
         xsi:type="archimate:Constraint"
