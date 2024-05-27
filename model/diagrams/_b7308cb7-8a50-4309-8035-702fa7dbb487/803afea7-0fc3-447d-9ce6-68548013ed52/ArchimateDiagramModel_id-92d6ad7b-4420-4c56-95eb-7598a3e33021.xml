@@ -496,19 +496,6 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="fc7a9c84-80cc-48ed-87fd-d40d9c454b1c"
-      textAlignment="1">
-    <bounds
-        x="340"
-        y="550"
-        width="308"
-        height="171"/>
-    <archimateElement
-        xsi:type="archimate:Grouping"
-        href="Grouping_id-42d8dd52-4601-49ad-8781-30e15f2daf49.xml#id-42d8dd52-4601-49ad-8781-30e15f2daf49"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
       id="id-0e4f6a8a19e2439ab04828d54e0aa398"
       textAlignment="1">
     <features
@@ -540,6 +527,15 @@
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-1b840599ee824d9f88d23008291abb4a.xml#id-1b840599ee824d9f88d23008291abb4a"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-ec63f697b343430882432ae00a74184f"
+        source="id-0e4f6a8a19e2439ab04828d54e0aa398"
+        target="fc7a9c84-80cc-48ed-87fd-d40d9c454b1c">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-649935677b3f47a39b5776e95297cc69.xml#id-649935677b3f47a39b5776e95297cc69"/>
     </sourceConnections>
     <bounds
         x="11"
@@ -700,21 +696,36 @@
           name="deriveElementLineColor"
           value="false"/>
       <bounds
-          x="430"
-          y="30"
+          x="230"
+          y="100"
           width="181"
           height="53"/>
       <archimateElement
           xsi:type="archimate:Grouping"
           href="Grouping_id-a78d048652434d6b88787c8ff369e7c1.xml#id-a78d048652434d6b88787c8ff369e7c1"/>
     </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="fc7a9c84-80cc-48ed-87fd-d40d9c454b1c"
+        targetConnections="id-ec63f697b343430882432ae00a74184f"
+        textAlignment="1"
+        fillColor="#ffffff">
+      <features
+          name="deriveElementLineColor"
+          value="false"/>
+      <bounds
+          x="230"
+          y="170"
+          width="181"
+          height="53"/>
+      <archimateElement
+          xsi:type="archimate:Grouping"
+          href="Grouping_id-42d8dd52-4601-49ad-8781-30e15f2daf49.xml#id-42d8dd52-4601-49ad-8781-30e15f2daf49"/>
+    </children>
     <archimateElement
         xsi:type="archimate:Grouping"
         href="Grouping_id-a839b11313a848b2aafbd42cc23b2ab0.xml#id-a839b11313a848b2aafbd42cc23b2ab0"/>
   </children>
-  <properties
-      key="Architectuurlaag"
-      value="Geen"/>
   <properties
       key="Domein"
       value="Geen"/>
@@ -723,7 +734,7 @@
       value="92d6ad7b-4420-4c56-95eb-7598a3e33021"/>
   <properties
       key="Detailniveau"
-      value="Detailview"/>
+      value="Detail"/>
   <properties
       key="Publiceren"
       value="GEMMA Online en redactie"/>
@@ -731,6 +742,6 @@
       key="Viewtype"
       value="Contentfilter"/>
   <properties
-      key="GEMMA thema"
-      value="Geen"/>
+      key="Scope"
+      value="Gemeente"/>
 </archimate:ArchimateDiagramModel>

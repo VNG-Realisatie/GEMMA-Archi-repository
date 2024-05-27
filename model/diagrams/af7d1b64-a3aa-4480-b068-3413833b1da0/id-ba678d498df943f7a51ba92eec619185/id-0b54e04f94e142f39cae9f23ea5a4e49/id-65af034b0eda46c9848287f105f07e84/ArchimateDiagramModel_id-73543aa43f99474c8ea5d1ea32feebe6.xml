@@ -12,24 +12,6 @@
     <features
         name="deriveElementLineColor"
         value="false"/>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-3a6b60431b8740f5b64033750d70cd21"
-        source="id-f3dc304dcb084e119c98b0f65f23f579"
-        target="id-485916fec5a14a9b9e4e20b27469145d">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-9835a73da6ca4f75b03c445b9fb16fdc.xml#id-9835a73da6ca4f75b03c445b9fb16fdc"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-98093662cb7e4bc2b9f759c78994bf25"
-        source="id-f3dc304dcb084e119c98b0f65f23f579"
-        target="id-b8399ff6e851478da53e66c870b28320">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-310642c48dd446ba8e1196490a7f5894.xml#id-310642c48dd446ba8e1196490a7f5894"/>
-    </sourceConnections>
     <bounds
         x="10"
         y="10"
@@ -37,8 +19,7 @@
         height="102"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-485916fec5a14a9b9e4e20b27469145d"
-        targetConnections="id-3a6b60431b8740f5b64033750d70cd21">
+        id="id-485916fec5a14a9b9e4e20b27469145d">
       <features
           name="deriveElementLineColor"
           value="false"/>
@@ -88,7 +69,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-b8399ff6e851478da53e66c870b28320"
-        targetConnections="id-98093662cb7e4bc2b9f759c78994bf25 id-35c296ae62ba42328b966e27b3206dcb">
+        targetConnections="id-35c296ae62ba42328b966e27b3206dcb">
       <features
           name="deriveElementLineColor"
           value="false"/>
@@ -124,12 +105,12 @@
       key="Architectuurlaag"
       value="Bedrijfsarchitectuur"/>
   <properties
-      key="domein-iv3"
-      value="Meldingen Openbare Ruimte"/>
-  <properties
       key="Object ID"
       value="52e4bf9f-4e34-4d4c-8679-81d6bb0670d4"/>
   <properties
       key="GEMMA URL"
       value="https://gemmaonline.nl/index.php/GEMMA2/0.9/id-52e4bf9f-4e34-4d4c-8679-81d6bb0670d4"/>
+  <properties
+      key="GEMMA thema"
+      value="Data"/>
 </archimate:ArchimateDiagramModel>
