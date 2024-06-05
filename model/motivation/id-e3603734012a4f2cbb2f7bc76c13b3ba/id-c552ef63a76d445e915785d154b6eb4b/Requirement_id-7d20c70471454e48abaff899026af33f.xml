@@ -1,0 +1,27 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Verwerk bericht-interactie persistent"
+    id="id-7d20c70471454e48abaff899026af33f"
+    documentation="Zorg dat een bericht dat een mutatie tot gevolg heeft, bijvoorbeeld een bericht dat een betalingsopdracht representeert, niet verloren kan gaan. Een dergelijk 'transactioneel' bericht moet een incident als uitwijk of storing kunnen overleven. De integriteit van een &quot;transactie&quot; dient gewaarborgd te worden.&#xA;Alle onderdelen van een verwerkingsketen nemen verantwoordelijkheid voor het bericht en zorgen ervoor dat het bericht niet verloren gaat. Correcte verwerking heeft prioriteit boven verwerkingssnelheid.&#xA;Persistentie houdt in dat een (transport-)transactie pas is voltooid als het bericht is opgeslagen in een 'persistent store', zoals een bestand of database. Een opvragingsbericht daarentegen heeft geen mutatie tot gevolg. Responsetijd heeft hier meer prioriteit. Bij verlies van een opvragingsbericht (door bv. een storing) wordt de opvraging opnieuw gedaan. Verwerk een opvragingsbericht daarom niet-persistent.">
+  <properties
+      key="ID"
+      value="GIMP087"/>
+  <properties
+      key="Hoort bij"
+      value="GAP07"/>
+  <properties
+      key="NORA ID"
+      value="IMP087"/>
+  <properties
+      key="NORA URL"
+      value="https://www.noraonline.nl/wiki/Verwerk_bericht-interactie_persistent"/>
+  <properties
+      key="Laag binnen NORA vijflaagsmodel"
+      value="Applicatielaag"/>
+  <properties
+      key="Object ID"
+      value="4fa59fb6-77c6-4739-b061-9d2070ea3c7e"/>
+  <properties
+      key="GEMMA type"
+      value="Implicatie"/>
+</archimate:Requirement>
