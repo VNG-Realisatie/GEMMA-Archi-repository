@@ -5,18 +5,15 @@
     id="id-e5d559a5ec4f4d1fb4e98f36958320a5">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-e1e260f8d4cc413e94163a3763f1bc6a"
-      font="1|Segoe UI|12.0|1|GTK|1|"
+      id="id-05131b38c44c4d57a7879f959f50a88c"
+      font="1|Segoe UI|12.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI"
       textAlignment="1"
       fillColor="#FAFAFA">
-    <features
-        name="deriveElementLineColor"
-        value="false"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-434e7abf46c8458f9260a2d19c44798f"
-        source="id-e1e260f8d4cc413e94163a3763f1bc6a"
-        target="id-732f4f49ca044cbe914872aff998a829">
+        id="id-384da945e0d54d2aa96cc65c31d5bb6d"
+        source="id-05131b38c44c4d57a7879f959f50a88c"
+        target="id-754d3dde7c9f411391e55548fcfdac4c">
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-010a5ff5423c48efa3a66e4d010d3207.xml#id-010a5ff5423c48efa3a66e4d010d3207"/>
@@ -28,17 +25,14 @@
         height="121"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-732f4f49ca044cbe914872aff998a829"
-        targetConnections="id-434e7abf46c8458f9260a2d19c44798f"
+        id="id-754d3dde7c9f411391e55548fcfdac4c"
+        targetConnections="id-384da945e0d54d2aa96cc65c31d5bb6d"
         textPosition="1">
-      <features
-          name="deriveElementLineColor"
-          value="false"/>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-e20ea93e371143d3991f6199a5787ca9"
-          source="id-732f4f49ca044cbe914872aff998a829"
-          target="id-9045da9e18b746aa8b5cab73bd019f99">
+          id="id-8e17de02be0e4836ab0bdb1284ce7688"
+          source="id-754d3dde7c9f411391e55548fcfdac4c"
+          target="id-c1608e96a3ca4d4ab213eaaab7598d48">
         <bendpoints
             startX="140"
             startY="-10"
@@ -66,12 +60,9 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-9045da9e18b746aa8b5cab73bd019f99"
-      targetConnections="id-e20ea93e371143d3991f6199a5787ca9"
+      id="id-c1608e96a3ca4d4ab213eaaab7598d48"
+      targetConnections="id-8e17de02be0e4836ab0bdb1284ce7688"
       textPosition="1">
-    <features
-        name="deriveElementLineColor"
-        value="false"/>
     <features
         name="labelExpression"
         value="${name}&#xA;($aggregation:source{name})"/>

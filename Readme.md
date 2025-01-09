@@ -13,8 +13,7 @@ Het model is opgesteld in de ArchiMate-notatie, een internationale standaard voo
 
 Onder de github [VNG Realisatie organisatie](https://github.com/VNG-Realisatie) vind je de volgende Archi repositories:
 
-* **[GEMMA portfolio](https://github.com/VNG-Realisatie/GEMMA-portfolio-Archi-repository)** - Overzicht van de GEMMA producten
-* **[GEMMA kennismodel](https://github.com/VNG-Realisatie/GEMMA-kennismodel-Archi-repository)** - Modelleerafspraken GEMMA ArchiMate-modellen
+* **[GEMMA kennis- en portfoliomodel](https://github.com/VNG-Realisatie/GEMMA-kennismodel-Archi-repository)** - Modelleerafspraken GEMMA ArchiMate-modellen en de verzameling van op [GEMMA online](https://www.gemmaonline.nl/) gepubliceerde (architectuur)producten.
 * **[Alle Archi-repositories](https://github.com/orgs/VNG-Realisatie/teams/archi)** - Alle GEMMA en projecten repositories
 
 De GEMMA repositories zijn publiek toegankelijk. Voor toegang tot de besloten repositories, stuur een mail naar <gemmaonline@vng.nl>
