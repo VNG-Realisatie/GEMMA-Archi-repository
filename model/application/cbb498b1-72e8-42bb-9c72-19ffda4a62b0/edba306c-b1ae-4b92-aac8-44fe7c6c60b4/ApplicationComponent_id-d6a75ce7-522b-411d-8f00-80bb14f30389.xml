@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Preventie-dataverliescomponent"
     id="id-d6a75ce7-522b-411d-8f00-80bb14f30389"
-    documentation="Component dat beschermt gevoelige gegevens beschermt door het toepassen van beleidsregels die ongeautoriseerd lekken of verlies voorkomen, met mogelijkheden voor versleuteling, blokkering van overdracht en waarschuwingen.">
+    documentation="Component dat gevoelige data (zoals BSN, persoonsgegevens, vertrouwelijke documenten) herkent en voorkomt  dat deze worden gedeeld via e-mail, cloud, USB, enz.">
   <properties
       key="BBN"
       value="BBN 1 en BBN2 beschikbaarheids- en integriteitsmaatregelen"/>
@@ -17,7 +17,7 @@
       value="2 : politieke schade aan een bestuurder: bestuurder moet zich verantwoorden n.a.v. verantwoordings vragen."/>
   <properties
       key="Toelichting"
-      value="Monitoring, blokkering en signalering van gevoelige data (DLP, Data Loss Prevention) in ICT-systemen"/>
+      value="Monitoring, blokkering en signalering van gevoelige data, met tools zoals Microsoft Purview DLP, Tession e.a  (DLP, Data Loss Prevention)"/>
   <properties
       key="GEMMA status"
       value="In gebruik"/>
@@ -39,4 +39,6 @@
   <properties
       key="Vertrouwelijkheid (belangrijkste reden)"
       value="1 : interne negatieve publiciteit (imagoschade)."/>
+  <profiles
+      href="folder.xml#id-1f9e9c3840d241a28096d4a3a37c8986"/>
 </archimate:ApplicationComponent>

@@ -1,8 +1,8 @@
 <archimate:SystemSoftware
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Vulnerability detection component"
+    name="Package vulnerability scanner"
     id="id-09d80404549f4bd8a0f83081bbd0ad48"
-    documentation="Technologiecomponent voor het detecteren, voorkomen en verwijderen van schadelijke programma's en virussen om computers en gegevens te beschermen.">
+    documentation="Technologiecomponent voor het scannen van configuraties, dependencies en containerimages op bekende kwetsbaarheden (CVE scanning)">
   <properties
       key="Object ID"
       value="fb0a9e04-8fd5-4fbc-ba88-b454743f884b"/>
@@ -12,4 +12,7 @@
   <properties
       key="GEMMA type"
       value="Technologiecomponent"/>
+  <properties
+      key="Toelichting"
+      value="Dependencies en containers scannen op CVE’s , met tools zoals Trivy, Snyk"/>
 </archimate:SystemSoftware>
