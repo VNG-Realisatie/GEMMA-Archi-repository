@@ -1,8 +1,8 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Systeemacceptatie-en-release-beheercomponent"
+    name="Software-releasecomponent"
     id="id-ca45eb58-3aa9-4fd2-b271-d7f4504aa28a"
-    documentation="Component voor systeemacceptatie en releasebeheer">
+    documentation="Component voor het ondersteunen van het releaseproces door het plannen, coördineren en goedkeuring van softwareversies, om stabiliteit en kwaliteit van de productieomgeving te borgen.">
   <properties
       key="BBN"
       value="BBN 2 en beschikbaarheidsmaatregelen op BBN1"/>
@@ -15,9 +15,6 @@
   <properties
       key="Beschikbaarheid (belangrijkste reden)"
       value="1 : interne negatieve publiciteit (imagoschade)."/>
-  <properties
-      key="Toelichting"
-      value="Beheren van releases en versies"/>
   <properties
       key="GEMMA status"
       value="In gebruik"/>
@@ -39,4 +36,7 @@
   <properties
       key="Vertrouwelijkheid (belangrijkste reden)"
       value="2 : schade te herstellen door ambtelijke opschaling."/>
+  <properties
+      key="Toelichting"
+      value="Deze tools ondersteunen het overzicht, de besluitvorming en de beheersing rondom releases, voorbeelden zijn JIRA Release Management, ServiceNow Release Management en XL Release"/>
 </archimate:ApplicationComponent>
