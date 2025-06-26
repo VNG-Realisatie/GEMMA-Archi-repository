@@ -1,47 +1,50 @@
+
+
 <img align="right" src="GEMMA_icon.jpg" style="padding-left:20px; padding-top:10px; padding-bottom:10px; display: block; border: none;" alt="GEMMA logo">
 
 # GEMMA Archi-repository
 
-Dit is de officiële repository van het GEMMA ArchiMate-model. In deze repository wordt door de GEMMA architecten van VNG Realisatie samengewerkt aan het GEMMA ArchiMate-model. Het doel van dit model is om gemeenten te ondersteunen bij het modelleren van hun enterprise-architectuur volgens de GEMMA-referentiearchitectuur.
+Welkom bij de GEMMA ArchiMate-repository! Hier werken de architecten van VNG Realisatie samen aan het GEMMA ArchiMate-model. Dit model helpt gemeenten bij het opzetten van hun enterprise-architectuur volgens de GEMMA-referentie.
 
 ## Inhoud
-De inhoud van deze repository kan worden geopend met de tool Archi. De in deze repository gemaakte ArchiMate elementen, relaties en views kun je bekijken op [GEMMA online](https://www.gemmaonline.nl/)
 
-Het model is opgesteld in de ArchiMate-notatie, een internationale standaard voor het modelleren van enterprise-architecturen. Het model bevat verschillende weergaven van de enterprise-architectuur, zoals strategische, operationele en technische perspectieven.
+Je kunt het model openen met de tool *Archi*. De ArchiMate-elementen, relaties en views uit deze repository zijn onderdeel van de GEMMA architectuur en te bekijken op [GEMMA online](https://www.gemmaonline.nl/).
 
-## Meer Archi repositories
+Het model is gebaseerd op ArchiMate: een standaard voor het modelleren van enterprise-architecturen. Het model bevat verschillende weergaven van de enterprise-architectuur, zoals strategische, operationele en technische perspectieven.
 
-Onder de github [VNG Realisatie organisatie](https://github.com/VNG-Realisatie) vind je de volgende Archi repositories:
+## Meer Archi-repositories
 
-* **[Over GEMMA](https://github.com/VNG-Realisatie/Over-GEMMA-Archi-repository)** - Met het GEMMA kennismodel en het portfoliomodel. - en proModelleerafspraken GEMMA ArchiMate-modellen en de verzameling van op [GEMMA online](https://www.gemmaonline.nl/) gepubliceerde (architectuur)producten.
-* **[Alle Archi-repositories](https://github.com/VNG-Realisatie?q=org%3AVNG-Realisatie+archived%3Afalse+topic%3Aarchimate&type=repositories)** - Alle GEMMA en projecten repositories
+Binnen de GitHub-organisatie [VNG Realisatie](https://github.com/VNG-Realisatie) vind je meer ArchiMate-repositories:
 
-De GEMMA repositories zijn publiek toegankelijk. Voor toegang tot de besloten repositories, stuur een mail naar <gemmaonline@vng.nl>
+- **[Over GEMMA](https://github.com/VNG-Realisatie/Over-GEMMA-Archi-repository)** – Bevat het kennismodel, portfoliomodel en illustraties voor documentatie en beheer.
+- **[Alle Archi-repositories](https://github.com/VNG-Realisatie?q=org%3AVNG-Realisatie+archived%3Afalse+topic%3Aarchimate&type=repositories)** – Alle GEMMA- en projectrepositories met ArchiMate-modellen.
+
+De GEMMA-repositories zijn openbaar. Toegang tot besloten repositories? Mail naar [gemmaonline@vng.nl](mailto:gemmaonline@vng.nl).
 
 ## Bijdragen
 
-We nodigen gemeenten en andere belanghebbenden uit om bij te dragen aan de ontwikkeling en verbetering van het GEMMA ArchiMate-model. Als u suggesties heeft voor verbeteringen, aanvullende modellen, of vragen heeft over het gebruik van het model, kunt u een issue indienen in deze repository. We moedigen actieve deelname en discussie aan om het model steeds beter aan te laten sluiten op de behoeften van gemeenten.
+Iedereen is welkom om bij te dragen. Heb je ideeën, aanvullingen of vragen? Open dan een issue in deze repository. We waarderen feedback en samenwerking om het model steeds beter te maken.
 
 ## Licentie
 
-Dit GEMMA ArchiMate-model is vrij beschikbaar onder de Europese Union Public Licence (EUPL). Dit betekent dat u het model vrij kunt gebruiken, aanpassen en verspreiden, zolang u de oorspronkelijke auteurs vermeldt en eventuele wijzigingen onder dezelfde licentie deelt.
+Deze repository valt onder de [EUPL-licentie](https://eupl.eu). Je mag het model gebruiken, aanpassen en delen — zolang je de bron vermeldt en de aangepaste versie ook onder EUPL publiceert.
 
 ## Gebruik
 
-Om het GEMMA ArchiMate-model te gebruiken, heeft u de Archi-tool nodig. Archi is een open-source tool voor het modelleren van enterprise-architecturen met ondersteuning voor de ArchiMate-notatie. U kunt Archi gratis downloaden van de officiële website: [https://www.archimatetool.com](https://www.archimatetool.com)
-
-Op [GEMMA online](https://www.gemmaonline.nl/) vindt u op de pagina [ArchiMate modelleren](https://www.gemmaonline.nl/index.php/ArchiMate_modelleren) meer informatie en instructies.
+Om het model te bekijken en bewerken heb je de open-source tool **Archi** nodig. Archi is een open-source tool voor het modelleren van enterprise-architecturen met ondersteuning voor de ArchiMate-notatie. Archi is gratis te downloaden van de website [archimatetool.com](https://www.archimatetool.com).
+Extra uitleg en tips vind je op de GEMMA-wiki: [ArchiMate modelleren](https://www.gemmaonline.nl/index.php/ArchiMate_modelleren).
 
 ## Roadmap
 
-We streven ernaar om het GEMMA ArchiMate-model voortdurend te verbeteren en uit te breiden om aan de behoeften van gemeenten te voldoen. Hier zijn enkele van de geplande verbeteringen en nieuwe functies:
+We blijven het model ontwikkelen. Wat je kunt verwachten:
 
-* Toevoegen van meer voorbeeldmodellen voor specifieke gemeentelijke processen en architecturen.
-* Uitbreiden van de documentatie met praktische handleidingen en best practices.
-* Organiseren van workshops en bijeenkomsten om gemeenten te ondersteunen bij het gebruik van het GEMMA ArchiMate-model.
+- Voorbeeldmodellen voor gemeentelijke processen
+- Toelichtingen en praktijkvoorbeelden
+- Workshops voor gebruikers
 
-We nodigen gemeenten en andere belanghebbenden uit om feedback te geven en suggesties te doen voor verdere ontwikkeling. Samen kunnen we werken aan een robuust en bruikbaar ArchiMate-model dat gemeenten helpt bij hun enterprise-architectuurplanning.
+Heb je wensen of ideeën? Laat van je horen via een issue of mail.
 
 ## Contact
 
-Voor inhoudelijke vragen en bijdragen graag een issue aanmaken. Voor overige vragen, stuur een mail naar gemmaonline@vng.nl
+Inhoudelijke suggestie? Maak een issue aan.  
+Andere vragen? Mail ons op [gemmaonline@vng.nl](mailto:gemmaonline@vng.nl).
