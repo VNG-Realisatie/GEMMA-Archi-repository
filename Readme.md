@@ -1,3 +1,8 @@
+| Eigenaar | Ingevuld door |
+| --- | --- |
+| Kennis centrum Architectuur | Mark Backer, Peter Makkes |
+<hr/>
+
 <img align="right" src="GEMMA_icon.jpg" style="padding-left:20px; padding-top:10px; padding-bottom:10px; display: block; border: none;" alt="GEMMA logo">
 
 # GEMMA Archi-repository
