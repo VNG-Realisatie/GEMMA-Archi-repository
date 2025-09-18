@@ -2,10 +2,10 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Lever een kanaal-onafhankelijk resultaat"
     id="id-d78c3f24-70bd-11e4-67ab-0050568a6156"
-    documentation="Lever een gelijkwaardige uitkomst, ongeacht het gebruikte kanaal. Bied de dienst aan via internet, fysiek (off-line) en eventueel via andere passende kanalen waar de afnemer gebruik van kan maken">
+    documentation="Lever een gelijkwaardige uitkomst, ongeacht het gebruikte kanaal. Bied de dienst aan via internet, fysiek (off-line) en eventueel via andere passende kanalen waar de afnemer gebruik van kan maken">
   <properties
       key="Toelichting"
-      value="Afnemers verwachten een gelijkwaardig resultaat, dat niet beïnvloed wordt door hun kanaalkeuze. Het mag dus voor het resultaat van de dienst geen verschil uitmaken of deze bijvoorbeeld via internet of fysiek is aangevraagd. De geleverde informatie is in alle gevallen hetzelfde, ongeacht de plaats of medewerker die deze informatie levert."/>
+      value="Afnemers verwachten een gelijkwaardig resultaat, dat niet beïnvloed wordt door hun kanaalkeuze. Het mag dus voor het resultaat van de dienst geen verschil uitmaken of deze bijvoorbeeld via internet of fysiek is aangevraagd. De geleverde informatie is in alle gevallen hetzelfde, ongeacht de plaats of medewerker die deze informatie levert."/>
   <properties
       key="ID"
       value="GAP03"/>
@@ -22,5 +22,9 @@
       key="Object ID"
       value="76a60785-d15d-4e00-b20d-0c28f896ce53"/>
   <properties
-      key="NORA implicaties"/>
+      key="GEMMA-toelichting"
+      value="Biedt, waar wenselijk en binnen de mogelijkheden, afnemers meerdere soorten services aan. Bijvoorbeeld [https://www.gemmaonline.nl/wiki/Toelichting_gebruik_van_REST REST-services] en een service voor  bestandsoverdracht.&#xA;Bouw diensten en services voor vaker benodigde specifieke functionaliteit modulair op, zodat ze vanuit verschillende omgevingen zijn te gebruiken en een eenduidig resultaat leveren."/>
+  <properties
+      key="Implicaties"
+      value="* Bied afnemers één contactpunt (‘single point of contact’). Bijvoorbeeld via een KCC dat informatie kan verstrekken over verschillende gemeentelijke diensten.&#xA;* Organiseer dienstverlening op basis van het omnichannel principe, zodat klanten kunnen schakelen tussen verschillende kanalen zonder verlies van informatie of servicekwaliteit. Bijvoorbeeld bij gebruik van kanalen zoals website, mobiele app, social media, e-mail, telefoon of balie.&#xA;* Maak het mogelijk om diensten via meerdere kanalen af te nemen. Bijvoorbeeld&#xA;door gemeentelijke diensten zowel fysiek aan de balie, via de website als via een mobiele apps te raadplegen en aan te vragen.&#xA;* Zorg voor een naadloze ervaring bij overstap tussen kanalen. Bijvoorbeeld door te zorgen dat gebruikers een aanvraag via een mobiele app kunnen starten en op de website verder kunnen aanvullen, zonder opnieuw gegevens te hoeven invoeren.&#xA;* Gebruik voor authenticatie en autorisatie herbruikbare regels. Bijvoorbeeld via Policy Bases Access Control, waarbij bij voor beslissingen over toegang tot een dienst gebruikt wordt gemaakt van beslisregels.&#xA;* Herbruik services om te garanderen dat informatie over resultaten altijd hetzelfde is. Bijvoorbeeld door vanuit verschillende kanalen gebruik te maken van dezelfde API voor het opvragen van informatie.&#xA;&#xA;* Zie ook: [https://www.gemmaonline.nl/wiki/GEMMA/id-4a7c9a51-ebcb-4343-8faa-a43a7cb9f229 Verplaats je in de gebruiker]. Bijvoorbeeld door te informeren bij welke diensten het gebruik van welke kanalen wenselijk is."/>
 </archimate:Principle>

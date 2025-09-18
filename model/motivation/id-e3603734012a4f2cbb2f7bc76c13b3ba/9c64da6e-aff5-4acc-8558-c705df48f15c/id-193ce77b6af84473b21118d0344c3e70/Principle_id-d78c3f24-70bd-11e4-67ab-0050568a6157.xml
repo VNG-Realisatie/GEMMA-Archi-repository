@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Bundel diensten"
     id="id-d78c3f24-70bd-11e4-67ab-0050568a6157"
-    documentation="Bundel de dienst met andere voor de afnemer relevante diensten binnen de keten, zodat die in één keer afgenomen kunnen worden.">
+    documentation="Bundel de dienst met andere voor de afnemer relevante diensten binnen de keten, zodat die in één keer afgenomen kunnen worden.">
   <properties
       key="ID"
       value="GAP04"/>
@@ -22,5 +22,9 @@
       key="Object ID"
       value="94edd1a5-e13a-4a96-9a23-3b13aa76f344"/>
   <properties
-      key="NORA implicaties"/>
+      key="GEMMA-toelichting"
+      value="Vereenvoudig de aanroep en het gebruik van meerdere services. Bijvoorbeeld via gebruik van [https://geonovum.github.io/KP-APIs/API-strategie-algemeen/Architectuur/ Process en/of Convenience API’s]."/>
+  <properties
+      key="Implicaties"
+      value="* Combineer verwante diensten als dit bijdraagt aan gebruiksgemak. Bijvoorbeeld door op de website meerdere diensten via 1 aanvraag aan te bieden.&#xA;* Zorg voor een centraal toegangspunt voor gerelateerde diensten. Bijvoorbeeld via een PDC waar bij een dienst wordt getoond welke andere diensten mogelijk ook interessant zijn.&#xA;* Voorkom het verstrekken van gegevens die al bekend zijn. Bijvoorbeeld door bij aanvragen gegevens uit gemeentelijke registraties te gebruiken.&#xA;* Zorg dat diensten goed zijn te integreren met andere diensten. Bijvoorbeeld via verwijzingen (‘deeplinks’) waarmee gebruikers meteen op de juiste plek terechtkomen.&#xA;* Zorg dat gegevens en API’s die vaak in combinatie nodig zijn (ook) gebundeld worden aangeboden. Bijvoorbeeld via een proces-API die ervoor zorgt dat gegevens uit meerdere bronnen gecombineerd zijn te gebruiken."/>
 </archimate:Principle>

@@ -2,16 +2,13 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Verifieer altijd"
     id="id-d78c3f24-70bd-11e4-67ab-0050568a6166"
-    documentation="Verifieer doorlopend de kwaliteit en de juiste werking van de componenten en beheersmaatregelen van de dienst. &#xA;&#xA;&#xA;Amsterdam: Borg gedurende de levensloop van onze digitale diensten dat deze passend, betrouwbaar, beschikbaar, actueel en veilig zijn met inachtneming van wettelijke kaders en beleidskaders.">
+    documentation="Verifieer doorlopend de kwaliteit en de juiste werking van de componenten en beheersmaatregelen van de dienst.&#xA;&#xA;Amsterdam: Borg gedurende de levensloop van onze digitale diensten dat deze passend, betrouwbaar, beschikbaar, actueel en veilig zijn met inachtneming van wettelijke kaders en beleidskaders.">
   <properties
       key="ID"
       value="GAP14"/>
   <properties
       key="Toelichting"
-      value="Vertrouwen in het service-niveau van een overheidsdienstverlener, in de beschikbaarheid van een dienst, in de betrouwbaarheid van informatie, in de werking van een component, of de adequaatheid van beheersmaatregelen, is alleen gerechtvaardigd als de componenten en beheersmaatregelen van de dienst doorlopend wordt geverifieerd."/>
-  <properties
-      key="Opmerking"
-      value="Samengevoegd met NAP17 en voorstel van Amsterdam is eigenlijk wat duidelijker. Daarom aangepast. Amsterdam: Borg gedurende de levensloop van onze digitale diensten dat deze passend, betrouwbaar, beschikbaar, actueel en veilig zijn met inachtneming van wettelijke kaders en beleidskaders."/>
+      value="Vertrouwen in het service-niveau van een overheidsdienstverlener, in de beschikbaarheid van een dienst, in de betrouwbaarheid van informatie, in de werking van een component, of de adequaatheid van beheersmaatregelen, is alleen gerechtvaardigd als de componenten en beheersmaatregelen van de dienst doorlopend wordt geverifieerd."/>
   <properties
       key="NORA principe"
       value="https://www.noraonline.nl/wiki/Verifieer_altijd"/>
@@ -28,5 +25,9 @@
       key="Object ID"
       value="23df0720-1762-447c-99e4-9c329c483f9e"/>
   <properties
-      key="NORA implicaties"/>
+      key="GEMMA-toelichting"
+      value="Hanteer het Zero Trust-principe waarbij geldt dat geen enkele gebruiker, apparaat of netwerk standaard is te vertrouwen en altijd verificatie behoeft."/>
+  <properties
+      key="Implicaties"
+      value="* Voer grondige validatie uit op alle gegevensinvoer. Bijvoorbeeld door te controleren of aangeleverde gegevens juist gestructureerd zijn.&#xA;* Automatiseer controles om menselijke fouten te minimaliseren. Bijvoorbeeld door handmatig ingevoerde gegevens te valideren voordat vastlegging plaatsvindt.&#xA;* Pas real-time verificatie toe bij belangrijke acties. Bijvoorbeeld om bij online dienstverlening de identiteit van dienstafnemers vast te stellen.&#xA;* Bepaal het benodigde betrouwbaarheidsniveau voor toegang tot geleverde diensten.  Bijvoorbeeld door te beoordelen wie de gebruikers zijn, welke persoonsgegevens worden verwerkt en wat de risico’s zijn.&#xA;* Gebruik geschikte authenticatiemiddelen, met het juiste betrouwbaarheidsniveau, voor diensten. Bijvoorbeeld DigiD of Identity wallets voor burgers en eHerkenning voor bedrijven.&#xA;* Maak gebruik van mechanismen zoals [https://www.gemmaonline.nl/wiki/WMA_RBAC_ABAC_en_PBAC attribute-, role- en policy-based access] om te verifiëren of toegang tot een bepaalde bron is toegestaan. Bijvoorbeeld door bij een opvraging van gegevens te controleren of aan alle daarvoor geldende eisen is voldaan.&#xA;* Zorg dat voor logging van informatie (wie, wat, waar, wanneer) over gebeurtenissen en controleer op de aanwezigheid en naleving van toegangsregels. Bijvoorbeeld door vast te leggen en te controleren welke gebruikers waar en wanneer op een systeem zijn ingelogd.&#xA;* Controleer systematisch de herkomst en authenticiteit van digitale content. Bijvoorbeeld bij informatie die afkomstig kan zijn van AI-systemen of gemanipuleerd kan zijn met technieken zoals deepfakes.&#xA;&#xA;* Zie ook: Beveilig informatie en systemen. Bijvoorbeeld door systemen zo in te richten dat bij iedere opvraging van vertrouwelijke gegevens realtime wordt gecontroleerd op daarvoor benodigde rechten."/>
 </archimate:Principle>
