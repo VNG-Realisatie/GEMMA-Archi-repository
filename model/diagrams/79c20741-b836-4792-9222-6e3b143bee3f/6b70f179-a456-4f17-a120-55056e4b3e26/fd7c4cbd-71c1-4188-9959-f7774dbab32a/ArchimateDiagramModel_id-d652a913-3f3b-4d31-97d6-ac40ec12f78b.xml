@@ -2,15 +2,15 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Toelichting e-factureren"
-    id="id-d652a913-3f3b-4d31-97d6-ac40ec12f78b">
+    id="id-d652a913-3f3b-4d31-97d6-ac40ec12f78b"
+    documentation="Applicaties die functionaliteit bieden voor het verzenden, ontvangen en verwerken van elektronische facturen (e-facturen) in de keten">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-38993"
       font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
       fontColor="#000000"
       lineColor="#000000"
-      fillColor="#daeef3"
-      type="1">
+      fillColor="#daeef3">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-38986"
@@ -36,9 +36,9 @@
           href="RealizationRelationship_id-4e2697d6-3a46-47e7-ae33-49ad0e4a221c.xml#id-4e2697d6-3a46-47e7-ae33-49ad0e4a221c"/>
     </sourceConnections>
     <bounds
-        x="133"
-        y="233"
-        width="133"
+        x="210"
+        y="235"
+        width="264"
         height="53"/>
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
@@ -53,9 +53,9 @@
       lineColor="#000000"
       fillColor="#ccccff">
     <bounds
-        x="413"
-        y="300"
-        width="133"
+        x="602"
+        y="272"
+        width="160"
         height="53"/>
     <archimateElement
         xsi:type="archimate:Constraint"
@@ -70,8 +70,8 @@
       lineColor="#000000"
       fillColor="#ffffcc">
     <bounds
-        x="507"
-        y="13"
+        x="712"
+        y="15"
         width="133"
         height="53"/>
     <archimateElement
@@ -116,8 +116,8 @@
           href="RealizationRelationship_id-aae79a65-1d68-4846-90e9-271fb68b36cb.xml#id-aae79a65-1d68-4846-90e9-271fb68b36cb"/>
     </sourceConnections>
     <bounds
-        x="507"
-        y="393"
+        x="712"
+        y="395"
         width="133"
         height="53"/>
     <archimateElement
@@ -130,8 +130,7 @@
       font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
       fontColor="#000000"
       lineColor="#000000"
-      fillColor="#daeef3"
-      type="1">
+      fillColor="#daeef3">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-38980"
@@ -162,8 +161,8 @@
           href="RealizationRelationship_id-adc8be1e-32e3-415e-b37a-25af67b5aa76.xml#id-adc8be1e-32e3-415e-b37a-25af67b5aa76"/>
     </sourceConnections>
     <bounds
-        x="507"
-        y="120"
+        x="712"
+        y="122"
         width="133"
         height="53"/>
     <archimateElement
@@ -177,8 +176,7 @@
       font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
       fontColor="#000000"
       lineColor="#000000"
-      fillColor="#daeef3"
-      type="1">
+      fillColor="#daeef3">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-38979"
@@ -187,6 +185,11 @@
         lineColor="#000000"
         source="id-38973"
         target="id-38976">
+      <bendpoints
+          startX="-276"
+          startY="-101"
+          endX="-102"
+          endY="242"/>
       <archimateRelationship
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-2081071b-b829-490a-b565-ba5871545f84.xml#id-2081071b-b829-490a-b565-ba5871545f84"/>
@@ -199,6 +202,11 @@
         lineColor="#000000"
         source="id-38973"
         target="id-38975">
+      <bendpoints
+          startX="-251"
+          startY="-134"
+          endX="-79"
+          endY="139"/>
       <archimateRelationship
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-a0436267-080a-44d6-b2e0-7ad7f53a6ce9.xml#id-a0436267-080a-44d6-b2e0-7ad7f53a6ce9"/>
@@ -211,11 +219,6 @@
         lineColor="#000000"
         source="id-38973"
         target="id-38994">
-      <bendpoints
-          startX="162"
-          startY="-86"
-          endX="-117"
-          endY="7"/>
       <archimateRelationship
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-bb0d4420-0b71-4f78-bd0c-e885c1e19626.xml#id-bb0d4420-0b71-4f78-bd0c-e885c1e19626"/>
@@ -228,14 +231,19 @@
         lineColor="#000000"
         source="id-38973"
         target="id-38977">
+      <bendpoints
+          startX="184"
+          startY="-134"
+          endX="76"
+          endY="139"/>
       <archimateRelationship
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-c59f0690-1ba1-4894-a225-dd6099fbe6e4.xml#id-c59f0690-1ba1-4894-a225-dd6099fbe6e4"/>
     </sourceConnections>
     <bounds
-        x="17"
-        y="393"
-        width="367"
+        x="70"
+        y="395"
+        width="583"
         height="53"/>
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
@@ -247,8 +255,7 @@
       font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
       fontColor="#000000"
       lineColor="#000000"
-      fillColor="#daeef3"
-      type="1">
+      fillColor="#daeef3">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-38983"
@@ -257,6 +264,11 @@
         lineColor="#000000"
         source="id-38974"
         target="id-38975">
+      <bendpoints
+          startX="-172"
+          startY="-81"
+          endX="-44"
+          endY="112"/>
       <archimateRelationship
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-d3c822aa-381b-455c-b096-fdff89b3f444.xml#id-d3c822aa-381b-455c-b096-fdff89b3f444"/>
@@ -269,14 +281,19 @@
         lineColor="#000000"
         source="id-38974"
         target="id-38977">
+      <bendpoints
+          startX="170"
+          startY="-79"
+          endX="31"
+          endY="114"/>
       <archimateRelationship
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-30c87e29-a6c1-4a70-bddb-3fd39c72cc36.xml#id-30c87e29-a6c1-4a70-bddb-3fd39c72cc36"/>
     </sourceConnections>
     <bounds
-        x="80"
-        y="313"
-        width="240"
+        x="157"
+        y="315"
+        width="371"
         height="53"/>
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
@@ -291,9 +308,9 @@
       lineColor="#000000"
       fillColor="#ccccff">
     <bounds
-        x="20"
-        y="120"
-        width="147"
+        x="110"
+        y="122"
+        width="208"
         height="53"/>
     <archimateElement
         xsi:type="archimate:Constraint"
@@ -308,9 +325,9 @@
       lineColor="#000000"
       fillColor="#ccccff">
     <bounds
-        x="81"
-        y="500"
-        width="133"
+        x="70"
+        y="52"
+        width="235"
         height="53"/>
     <archimateElement
         xsi:type="archimate:Constraint"
@@ -325,9 +342,9 @@
       lineColor="#000000"
       fillColor="#ccccff">
     <bounds
-        x="227"
-        y="120"
-        width="160"
+        x="371"
+        y="122"
+        width="221"
         height="53"/>
     <archimateElement
         xsi:type="archimate:Constraint"
@@ -344,7 +361,7 @@
       value="d652a913-3f3b-4d31-97d6-ac40ec12f78b"/>
   <properties
       key="Publiceren"
-      value="Niet"/>
+      value="GEMMA Online en redactie"/>
   <properties
       key="Scope"
       value="Keten"/>
