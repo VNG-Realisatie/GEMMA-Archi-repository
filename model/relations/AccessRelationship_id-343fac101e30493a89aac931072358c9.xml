@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-343fac101e30493a89aac931072358c9">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.70"/>
+  <properties
+      key="Signalen"
+      value="ontvangen, controleren, aanvullen, genereren, opslaan"/>
+  <properties
+      key="Onderbouwing"
+      value="Het ontvangen, controleren, aanvullen en voorbereiden van informatieobjecten voor duurzame opslag is de kern van dossiervorming. Een Dossier is een samenhangende set gegevens voor een specifiek doel; 'In bewaring nemen van informatieobjecten' creëert en vormt dit dossier. PRIMARY op basis van initiële creatie en samenstelling van het dossier."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-bb90af2f-dba8-436f-b82b-050c0f429ab2.xml#id-bb90af2f-dba8-436f-b82b-050c0f429ab2"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-86e675a8de0d4050b96e5d2a8b99fca3.xml#id-86e675a8de0d4050b96e5d2a8b99fca3"/>
+</archimate:AccessRelationship>

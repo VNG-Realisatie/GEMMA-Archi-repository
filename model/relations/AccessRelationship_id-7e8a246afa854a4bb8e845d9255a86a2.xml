@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-7e8a246afa854a4bb8e845d9255a86a2">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.68"/>
+  <properties
+      key="Signalen"
+      value="verwerven, inrichten, beheren terreinen"/>
+  <properties
+      key="Onderbouwing"
+      value="BenoemdTerrein omvat standplaatsen, ligplaatsen en overige benoemde terreinen. Vastgoedbeheer beheert gemeentelijke eigendommen inclusief terreinen. PRIMARY als meest relevante functie voor beheer van terreinen in de gemeentelijke vastgoedregistratie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-1af6f4aa-d797-44f5-bfb0-e77229141dfa.xml#id-1af6f4aa-d797-44f5-bfb0-e77229141dfa"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-3c7e805726be423a90f6b483380ebe71.xml#id-3c7e805726be423a90f6b483380ebe71"/>
+</archimate:AccessRelationship>

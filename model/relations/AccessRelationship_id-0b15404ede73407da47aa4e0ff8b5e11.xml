@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-0b15404ede73407da47aa4e0ff8b5e11">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="verwerven, beheren, overeenkomsten"/>
+  <properties
+      key="Onderbouwing"
+      value="Vastgoedbeheer verwerft, richt in, beheert en stoot gebouwen af, waarbij vastgoedcontracten worden opgesteld en beheerd als juridische onderbouwing van eigendomsrelaties. Vastgoedcontracten zijn kernobjecten in het vastgoedbeheerdossier. PRIMARY omdat vastgoedbeheer de inhoudelijke eindverantwoordelijkheid draagt voor het opstellen en beheren van vastgoedcontracten."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-1af6f4aa-d797-44f5-bfb0-e77229141dfa.xml#id-1af6f4aa-d797-44f5-bfb0-e77229141dfa"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-cea6a5bdbb694b13833576fec5956d32.xml#id-cea6a5bdbb694b13833576fec5956d32"/>
+</archimate:AccessRelationship>

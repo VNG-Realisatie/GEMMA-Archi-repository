@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-fc13557f20d84d5aaf9cc799832690c6">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.55"/>
+  <properties
+      key="Signalen"
+      value="organiseren, beheren"/>
+  <properties
+      key="Onderbouwing"
+      value="Afvalinzameling organiseert de afvalinzameling waarbij milieustraten als inzamelpunt een rol spelen. De functie kan milieustraat-informatie registreren als onderdeel van de inzamelingsorganisatie, maar de primaire verantwoordelijkheid voor het exploiteren en beheren van milieustraten ligt bij Exploiteren van afvalopslag en -verwerking."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-e79d6415-e641-4eb9-a73e-f5325e5a418c.xml#id-e79d6415-e641-4eb9-a73e-f5325e5a418c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-4c5fd81e15cc4d6ba7c9084770c53649.xml#id-4c5fd81e15cc4d6ba7c9084770c53649"/>
+</archimate:AccessRelationship>

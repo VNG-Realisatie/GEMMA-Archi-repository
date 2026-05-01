@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-98191bbc62c9449baac363cdca66363f">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.95"/>
+  <properties
+      key="Signalen"
+      value="verlenen, vergunning, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Toestemmingverlening activiteit fysieke leefomgeving verleent expliciet omgevingsvergunningen als onderdeel van zijn kerntaak. Een omgevingsvergunning is de vergunning als bedoeld in afdeling 5.1 van de Omgevingswet, direct het product van deze vergunningverlenende functie. PRIMARY is evident."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7a1e5935-026e-41ef-be95-d02f2a2a3937.xml#id-7a1e5935-026e-41ef-be95-d02f2a2a3937"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-f3ec4911a13a410697d56102b7c66bb8.xml#id-f3ec4911a13a410697d56102b7c66bb8"/>
+</archimate:AccessRelationship>

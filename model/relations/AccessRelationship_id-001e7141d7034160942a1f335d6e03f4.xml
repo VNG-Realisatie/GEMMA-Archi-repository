@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-001e7141d7034160942a1f335d6e03f4">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.92"/>
+  <properties
+      key="Signalen"
+      value="beheren, beschikbaar stellen, autorisaties"/>
+  <properties
+      key="Onderbouwing"
+      value="Identiteitenbeheer beheert gegevens van gebruikers van IT-voorzieningen en hun autorisaties, waaronder gebruikersrollen. Het aanmaken en wijzigen van gebruikersrollen is een kernactiviteit van identiteitenbeheer. PRIMARY omdat identiteitenbeheer de initiële verantwoordelijkheid draagt voor het definiëren en toewijzen van gebruikersrollen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-4344e524-e01f-4f17-aacb-ac3999f5ded8.xml#id-4344e524-e01f-4f17-aacb-ac3999f5ded8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-d0e2466b5bc94d0c9129b6b2d88c38de.xml#id-d0e2466b5bc94d0c9129b6b2d88c38de"/>
+</archimate:AccessRelationship>

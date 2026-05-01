@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-aaa599ef96d140abbd32feee93281b41">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.52"/>
+  <properties
+      key="Signalen"
+      value="registreren, vastleggen, verwerken"/>
+  <properties
+      key="Onderbouwing"
+      value="Incident staat onder Sociaal Domein Generiek en er is geen specifieke functie die expliciet incidenten registreert binnen het sociaal domein. Schuldhulpverlening is een uitvoerende functie die incidenten (bijv. crisisinterventies, onverwachte situaties) het meest waarschijnlijk vastlegt. PRIMARY als beste beschikbare optie bij ontbreken van een specifiekere functie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Geen expliciete functie voor incidentregistratie in het sociaal domein; meerdere functies kunnen incidenten registreren."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3850d427-6dce-11e5-1099-005056a83192.xml#id-3850d427-6dce-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-4e22245d5b5c4473bdc147b3e84c468c.xml#id-4e22245d5b5c4473bdc147b3e84c468c"/>
+</archimate:AccessRelationship>

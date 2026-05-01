@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-ae695f814118404bbecc3c7cec9ff185">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.55"/>
+  <properties
+      key="Signalen"
+      value="registreren, beheren"/>
+  <properties
+      key="Onderbouwing"
+      value="De leerplichtambtenaar is een functionaris die administratief wordt geregistreerd in het kader van de leerlingenadministratie en leerplichtprocessen. PRIMARY bij gebrek aan een specifiekere functie; de leerlingenadministratie beheert de basisgegevens van betrokkenen in het onderwijsdomein."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Het object 'Leerplichtambtenaar' verwijst naar een personeelsgegeven dat ook door medewerkeradministratie beheerd kan worden; de toewijzing aan leerlingenadministratie is contextspecifiek maar niet zeker."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-ab46e401-9e45-11e5-11ba-005056a85f9c.xml#id-ab46e401-9e45-11e5-11ba-005056a85f9c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-cf6ef1fc6b144bd0a0ce601b45c918c1.xml#id-cf6ef1fc6b144bd0a0ce601b45c918c1"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-fa4e656d8b9848c69e93991196471c47">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="registreren, vastleggen stabilisatiefase, minnelijke regeling"/>
+  <properties
+      key="Onderbouwing"
+      value="Stabilisatie is een expliciete fase van het schuldhulpverleningstraject waarbij inkomsten en uitgaven in evenwicht worden gebracht. Schuldhulpverlening is direct verantwoordelijk voor het registreren en beheren van stabilisatiegegevens. PRIMARY op basis van directe initiële creatie en inhoudelijke verantwoordelijkheid."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3850d427-6dce-11e5-1099-005056a83192.xml#id-3850d427-6dce-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-a8899b5da950441f9b7c0f7a7a6e91f7.xml#id-a8899b5da950441f9b7c0f7a7a6e91f7"/>
+</archimate:AccessRelationship>

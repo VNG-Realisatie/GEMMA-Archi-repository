@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-207237920d55422e99f4031b89b49a50">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.78"/>
+  <properties
+      key="Signalen"
+      value="berekenen, uitkeren, salaris"/>
+  <properties
+      key="Onderbouwing"
+      value="Salaris- en declaratieverwerking berekent en verwerkt het salaris van medewerkers, waarbij individuele keuzebudgetten worden berekend en vastgelegd als onderdeel van de arbeidsvoorwaardenaanspraak. Individuele keuzebudgetten zijn financiële entiteiten die door salarisverwerking worden beheerd. PRIMARY als meest logische eigenaar van individuele keuzebudgetten in HR/salariscontext."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-2d2da56f-e363-4ca5-a969-2860f78aaaef.xml#id-2d2da56f-e363-4ca5-a969-2860f78aaaef"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-b5cd0ee86591471aae9a6a065d695fce.xml#id-b5cd0ee86591471aae9a6a065d695fce"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-bc16a9e2cb534959ae127ff0471a194f">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.88"/>
+  <properties
+      key="Signalen"
+      value="verwerken, inkomende facturen"/>
+  <properties
+      key="Onderbouwing"
+      value="Crediteurenbeheer verwerkt inkomende facturen, wat direct het registreren en verwerken van factuurobjecten omvat. Facturen zijn de kernentiteiten in het crediteurenbeheerproces. PRIMARY omdat crediteurenbeheer de meest directe verantwoordelijkheid heeft voor het verwerken van inkomende facturen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-fd61133c-4e55-4bef-8121-30066ce3cdf7.xml#id-fd61133c-4e55-4bef-8121-30066ce3cdf7"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-2de9cf3ed5f0439a86ddae6c458424ed.xml#id-2de9cf3ed5f0439a86ddae6c458424ed"/>
+</archimate:AccessRelationship>

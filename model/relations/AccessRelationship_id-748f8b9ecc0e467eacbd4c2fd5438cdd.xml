@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-748f8b9ecc0e467eacbd4c2fd5438cdd">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="verstrekking, vastleggen, beoordeling"/>
+  <properties
+      key="Onderbouwing"
+      value="Beperkingen worden vastgelegd als onderdeel van de beoordeling voor WMO/Jeugd-voorzieningen. Voorzieningenverstrekking is verantwoordelijk voor het registreren van beperkingen als grondslag voor het verlenen van voorzieningen. PRIMARY op basis van structureel beheer."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a305-2eda-11e5-1099-005056a83192.xml#id-7be8a305-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-e6b68b8b156749af96f003b3a5905776.xml#id-e6b68b8b156749af96f003b3a5905776"/>
+</archimate:AccessRelationship>

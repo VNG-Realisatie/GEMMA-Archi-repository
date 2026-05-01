@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-1225b9a3e7d943a4b835665e75c98df3">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.87"/>
+  <properties
+      key="Signalen"
+      value="uitwerken, vastleggen, normwaarden, voorschriften"/>
+  <properties
+      key="Onderbouwing"
+      value="Een normwaarde geeft de kwantitatieve of kwalitatieve eisen inclusief locatietoewijzing aan voor een norm. Ontwikkeling AVV fysieke leefomgeving stelt normen en hun kwantitatieve/kwalitatieve uitwerkingen vast in verbindende voorschriften. PRIMARY is gerechtvaardigd als de functie die normwaarden opstelt en vastlegt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-f8a2b585aaba46769072d1a6a39d8d2f.xml#id-f8a2b585aaba46769072d1a6a39d8d2f"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-6fb1798ac405450ca60b1d786d2c98d5.xml#id-6fb1798ac405450ca60b1d786d2c98d5"/>
+</archimate:AccessRelationship>

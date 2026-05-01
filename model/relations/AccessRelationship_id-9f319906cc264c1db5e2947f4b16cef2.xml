@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-9f319906cc264c1db5e2947f4b16cef2">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.60"/>
+  <properties
+      key="Signalen"
+      value="uitbetalen, verwerken verplichtingen"/>
+  <properties
+      key="Onderbouwing"
+      value="Betalingbeheer is verantwoordelijk voor het uitbetalen van verplichtingen aan crediteuren, wat nauw samenhangt met de verwerking van bankafschriften als bewijsstukken van betalingstransacties. Als meest direct financieel verwerkende functie is betalingbeheer de beste kandidaat voor PRIMARY. PRIMARY bij gebrek aan een specifiekere functie voor bankafschriftverwerking."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Bankafschriften worden door banken gegenereerd; geen functie schrijft ze inhoudelijk, maar verwerking en registratie ervan is het dichtstbijzijnde write-signaal."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-a6637d4b-24d1-4257-bb2e-aca6d4051930.xml#id-a6637d4b-24d1-4257-bb2e-aca6d4051930"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-c7e55f081b9c4c5f99a64382db94bc8e.xml#id-c7e55f081b9c4c5f99a64382db94bc8e"/>
+</archimate:AccessRelationship>

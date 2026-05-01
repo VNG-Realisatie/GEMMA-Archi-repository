@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-ed470c41186d43c28fe5271ecf112ce2">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="administreren, beëindigen, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="De uitschrijving is de beëindiging van een inschrijving en wordt administratief verwerkt door de leerlingenadministratie. Deze functie is verantwoordelijk voor het bijhouden van de complete levenscyclus van inschrijvingen inclusief uitschrijvingen. PRIMARY omdat dit de enige functie is die dit object structureel beheert."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-ab46e401-9e45-11e5-11ba-005056a85f9c.xml#id-ab46e401-9e45-11e5-11ba-005056a85f9c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-50423056d9614e28b5417ac5ddcf042e.xml#id-50423056d9614e28b5417ac5ddcf042e"/>
+</archimate:AccessRelationship>

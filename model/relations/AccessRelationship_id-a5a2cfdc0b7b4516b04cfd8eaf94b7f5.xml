@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-a5a2cfdc0b7b4516b04cfd8eaf94b7f5">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.55"/>
+  <properties
+      key="Signalen"
+      value="beheren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Bedrijfsgegevens beheer omvat het bijhouden van gegevens van organisaties waarmee de gemeente relaties heeft, waaronder scholen als instellingen. PRIMARY omdat scholen als organisatorische entiteiten het meest logisch vallen onder het beheer van bedrijfs-/instellingsgegevens in de gemeentelijke administratie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="De beschrijving van 'Bedrijfsgegevens beheer' is leeg; de toewijzing is gebaseerd op de naam en de context dat schoolgegevens als instellingsgegevens kunnen worden beheerd. Alternatief is leerlingenadministratie."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-a9eea8b7-9299-11e5-1099-005056a83192.xml#id-a9eea8b7-9299-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-0be184699de94372ad5350ac2d995ffa.xml#id-0be184699de94372ad5350ac2d995ffa"/>
+</archimate:AccessRelationship>

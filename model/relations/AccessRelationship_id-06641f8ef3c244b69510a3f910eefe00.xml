@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-06641f8ef3c244b69510a3f910eefe00">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.78"/>
+  <properties
+      key="Signalen"
+      value="exploiteren, beheren, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Een sportpark is een geheel van terreinen, gebouwen en voorzieningen voor sport; het exploiteren van accommodaties omvat het registreren en administreren van sportparken als accommodaties. PRIMARY omdat deze functie de directe beheer- en registratieverantwoordelijkheid heeft voor sportparken."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580.xml#id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-9645a9a585db4db5b4448737e1573b4e.xml#id-9645a9a585db4db5b4448737e1573b4e"/>
+</archimate:AccessRelationship>

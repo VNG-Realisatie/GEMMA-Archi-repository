@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-d293bb9a41ef4224b6cf3aace4628d0a">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="beheren, registreren, applicaties gegevensverzamelingen"/>
+  <properties
+      key="Onderbouwing"
+      value="Applicatiebeheer voert beheertaken uit m.b.t. bedrijfsapplicaties en bijbehorende gegevensverzamelingen, waarbij inventarislijsten van applicaties en middelen worden bijgehouden. In ICT-context is inventarisbeheer een onderdeel van applicatie- en configuratiebeheer. PRIMARY als meest logische eigenaar van ICT-inventaris."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-0a5674fa-2a89-4dce-8599-850146a16d2a.xml#id-0a5674fa-2a89-4dce-8599-850146a16d2a"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-df26cec721d44134ae702fb5b1dc5d9e.xml#id-df26cec721d44134ae702fb5b1dc5d9e"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-1030b7653a0849c29adf48d49e312bb6">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.78"/>
+  <properties
+      key="Signalen"
+      value="registreren, vastleggen, minnelijke regeling, WSNP"/>
+  <properties
+      key="Onderbouwing"
+      value="Schuldhulpverlening omvat het volledig uitvoeren van het schuldhulptraject inclusief het in kaart brengen van de leefsituatie van de cliënt, waarbij de partner als relevante persoon wordt vastgelegd. De partner is een direct onderdeel van het schuldhulpverleningsproces (bijv. voor vaststelling beslagvrije voet en leefsituatie). PRIMARY omdat schuldhulpverlening de initiële registratie en structureel beheer van dit object verzorgt binnen dit beleidsdomein."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3850d427-6dce-11e5-1099-005056a83192.xml#id-3850d427-6dce-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-3d2ee63b7a404eaf99598525608fd626.xml#id-3d2ee63b7a404eaf99598525608fd626"/>
+</archimate:AccessRelationship>

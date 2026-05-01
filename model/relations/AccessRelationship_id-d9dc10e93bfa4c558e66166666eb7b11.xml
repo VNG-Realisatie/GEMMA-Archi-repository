@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-d9dc10e93bfa4c558e66166666eb7b11">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.80"/>
+  <properties
+      key="Signalen"
+      value="beheren, registreren, werkzaamheden"/>
+  <properties
+      key="Onderbouwing"
+      value="Een installatie is een samenhangend systeem dat een bepaald doel dient in de openbare ruimte. Beheren fysieke objecten beheert alle objecten in de openbare ruimte, inclusief technische installaties. PRIMARY is gerechtvaardigd als meest directe algemene beheerfunctie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-c02372c9-e979-4966-95f6-50d1fa249198.xml#id-c02372c9-e979-4966-95f6-50d1fa249198"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-462495ea16a348a7bd08dbfc23475f79.xml#id-462495ea16a348a7bd08dbfc23475f79"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-f120bc9f8462430f96345a59dbaadda7">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.38"/>
+  <properties
+      key="Signalen"
+      value="administreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Gemeente in RSGB is een referentiegegeven. Geen functie in de lijst heeft directe verantwoordelijkheid voor het beheer van gemeentelijke referentiegegevens als RSGB-object. Leerlingenadministratie is een zwakke kandidaat. PRIMARY bij volstrekte gebrek aan betere kandidaat."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Gemeente als RSGB-referentieobject heeft geen duidelijke beheerder in de functielijst; dit is een gegeven dat extern (door het Kadaster/overheid) wordt beheerd."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-ab46e401-9e45-11e5-11ba-005056a85f9c.xml#id-ab46e401-9e45-11e5-11ba-005056a85f9c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-808830e013014a09852f5f4723053f95.xml#id-808830e013014a09852f5f4723053f95"/>
+</archimate:AccessRelationship>

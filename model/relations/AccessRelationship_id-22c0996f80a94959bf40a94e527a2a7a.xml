@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-22c0996f80a94959bf40a94e527a2a7a">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.70"/>
+  <properties
+      key="Signalen"
+      value="registreren, verwerken"/>
+  <properties
+      key="Onderbouwing"
+      value="Toezicht voert toezichtstaken uit en registreert bevindingen naar aanleiding van woonfraude-meldingen, waarmee de melding inhoudelijk wordt verrijkt en bijgehouden. Als uitvoerend toezichtsorgaan is Toezicht de meest aangewezen functie voor de initiële verwerking en administratieve afhandeling van woonfraude-meldingen en daarmee PRIMARY. De handhavingsfunctie treedt pas op na toezichtbevindingen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-aac7ff27-3c79-4234-bf48-1cc00e450553.xml#id-aac7ff27-3c79-4234-bf48-1cc00e450553"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-96641997eb374f50826884b00cf2bff6.xml#id-96641997eb374f50826884b00cf2bff6"/>
+</archimate:AccessRelationship>

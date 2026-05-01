@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-eed011c05661433f889cd7971a64142d">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.80"/>
+  <properties
+      key="Signalen"
+      value="regie, registreren, dossiervorming, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Cliënten worden geregistreerd en hun gegevens worden beheerd als onderdeel van casemanagement in het sociaal domein. Casusregievoering sociaal domein is de centrale functie die cliëntgegevens aanmaakt en beheert als basis voor verbeterinitiatieven. PRIMARY op basis van structureel beheer."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-6ffc6611-e0aa-43a2-85e4-4301cd1bda2f.xml#id-6ffc6611-e0aa-43a2-85e4-4301cd1bda2f"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-28f4e4dec4f643aa8a886a61225b892b.xml#id-28f4e4dec4f643aa8a886a61225b892b"/>
+</archimate:AccessRelationship>

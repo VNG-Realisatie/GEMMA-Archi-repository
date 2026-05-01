@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-4f4b0356ed6e48a3b3071a409d28bc43">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.95"/>
+  <properties
+      key="Signalen"
+      value="vastleggen contactmoment, datum, reden contact, resultaat, vervolg acties"/>
+  <properties
+      key="Onderbouwing"
+      value="Afhandeling klantcontactmoment is expliciet beschreven als het vastleggen van een contactmoment inclusief alle attributen. Klantcontact is het directe object van deze vastlegging. PRIMARY als de enige functie die klantcontacten creëert en registreert."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-acf4c752-d015-41d4-a7b7-d12cf10a6f06.xml#id-acf4c752-d015-41d4-a7b7-d12cf10a6f06"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-6dfa4f8a5e154aeda9e94c0f98f56af2.xml#id-6dfa4f8a5e154aeda9e94c0f98f56af2"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-68d48d2c6bce4b82abbb3e214b34bc88">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.78"/>
+  <properties
+      key="Signalen"
+      value="beheren, IT-infrastructuur, systeemprogrammatuur"/>
+  <properties
+      key="Onderbouwing"
+      value="Systeembeheer beheert IT-infrastructuur en systeemprogrammatuur, waarbij systeemstoringen worden geregistreerd en opgelost. Storingen zijn ook relevant voor systeembeheer als infrastructuurcomponent. SECONDARY omdat applicatiebeheer de bredere primaire verantwoordelijkheid heeft voor storingen als ICT-bedrijfsobject."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b3b4cc7f-ec2d-4cf0-8389-cc4ce7cbce34.xml#id-b3b4cc7f-ec2d-4cf0-8389-cc4ce7cbce34"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-8fe07c7bec9d427d96653e89a2f5d918.xml#id-8fe07c7bec9d427d96653e89a2f5d918"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-c53a61a2d62f4180b01b04adff53effe">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.80"/>
+  <properties
+      key="Signalen"
+      value="beheren, wegenbeheer, kunstwerken"/>
+  <properties
+      key="Onderbouwing"
+      value="Een tunnelobject is onderdeel van een kunstmatig aangelegde kokervormige onderdoorgang. Beheren fysieke objecten omvat wegenbeheer en waterbeheer als expliciete voorbeelden, waarbij tunnels als kunstwerken worden geregistreerd en beheerd. PRIMARY is gerechtvaardigd als de meest directe beheerfunctie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-c02372c9-e979-4966-95f6-50d1fa249198.xml#id-c02372c9-e979-4966-95f6-50d1fa249198"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-a358076f88d04bd597835ea3c4f543c4.xml#id-a358076f88d04bd597835ea3c4f543c4"/>
+</archimate:AccessRelationship>

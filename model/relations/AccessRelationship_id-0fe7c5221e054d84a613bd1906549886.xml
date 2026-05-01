@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-0fe7c5221e054d84a613bd1906549886">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.88"/>
+  <properties
+      key="Signalen"
+      value="verstrekking voorziening, toekennen, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Voorzieningen worden toegekend en geregistreerd als kernactiviteit van voorzieningenverstrekking (bijzondere bijstand, WMO-voorzieningen). Voorzieningenverstrekking is direct verantwoordelijk voor het aanmaken en beheren van voorzieningen. PRIMARY op basis van directe initiële creatie en inhoudelijke eindverantwoordelijkheid."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a305-2eda-11e5-1099-005056a83192.xml#id-7be8a305-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-df2f6ef5e3514a0abd5ce3755b1fe370.xml#id-df2f6ef5e3514a0abd5ce3755b1fe370"/>
+</archimate:AccessRelationship>

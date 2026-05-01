@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-0d32462a6f3e4da392f117bc02bc4f2c">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.55"/>
+  <properties
+      key="Signalen"
+      value="begeleiding, vastleggen, ondersteuning inburgering"/>
+  <properties
+      key="Onderbouwing"
+      value="Examens in het inburgeringskader worden afgenomen en de resultaten vastgelegd. Zelfredzaamheidsontwikkeling is de meest logische beschikbare functie die inburgeringsvoortgang registreert. PRIMARY als beste beschikbare optie bij ontbreken van een specifieke inburgeringsfunctie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Geen specifieke inburgeringsfunctie beschikbaar; examens zijn onderdeel van inburgering (in ontwikkeling)."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a2fd-2eda-11e5-1099-005056a83192.xml#id-7be8a2fd-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-a7336a6bf42f45cd85cc25d06a7f7939.xml#id-a7336a6bf42f45cd85cc25d06a7f7939"/>
+</archimate:AccessRelationship>

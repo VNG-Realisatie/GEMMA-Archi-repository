@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-d554bfb32ac34051b3cfc9ec20f531f5">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="bepalen structuur, functies, taken"/>
+  <properties
+      key="Onderbouwing"
+      value="Organisatiemanagement bepaalt de structuur van de organisatie en de te onderkennen functies, taken en verantwoordelijkheden, wat direct het opstellen en beheren van het functiehuis omvat. Het functiehuis is het model dat de organisatiestructuur beschrijft en direct voortkomt uit organisatiemanagement. PRIMARY omdat organisatiemanagement de enige functie is die expliciet verantwoordelijk is voor het definiëren van functies in de organisatie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b41387b8-5f41-4c0f-96b9-ff597340f63a.xml#id-b41387b8-5f41-4c0f-96b9-ff597340f63a"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-14ad99f282854eab90d9cc9d0214eb75.xml#id-14ad99f282854eab90d9cc9d0214eb75"/>
+</archimate:AccessRelationship>

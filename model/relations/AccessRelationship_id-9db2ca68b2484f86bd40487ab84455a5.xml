@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-9db2ca68b2484f86bd40487ab84455a5">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="exploiteren, beheren, uitvoeren werkzaamheden"/>
+  <properties
+      key="Onderbouwing"
+      value="Belijning betreft de fysieke markering op sportlocaties en -velden; het exploiteren en beheren van sportaccommodaties omvat het aanleggen en bijhouden van belijning als onderdeel van het onderhoud van de accommodatie. PRIMARY omdat geen andere functie dit object specifieker beheert en de accommodatiebeheerder de inhoudelijke verantwoordelijkheid draagt voor het vastleggen en bijhouden van belijning."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580.xml#id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-864f14f91f374d41ae3509e15b8e52a4.xml#id-864f14f91f374d41ae3509e15b8e52a4"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-cd5cba5537c546debe67c0378d6b4730">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="registreren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Toestemmingverlening omvat het verwerken van meldingen en aanvragen in het VTH-kader, waardoor VTH-meldingen worden aangemaakt en bijgewerkt. SECONDARY omdat Toezicht en Handhaving de primaire uitvoerende VTH-functies zijn die de melding inhoudelijk verwerken."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7a1e5935-026e-41ef-be95-d02f2a2a3937.xml#id-7a1e5935-026e-41ef-be95-d02f2a2a3937"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-b70c4dc91dcb422ab9bff97531419b3e.xml#id-b70c4dc91dcb422ab9bff97531419b3e"/>
+</archimate:AccessRelationship>

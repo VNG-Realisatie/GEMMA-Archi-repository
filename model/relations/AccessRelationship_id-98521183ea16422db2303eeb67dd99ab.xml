@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-98521183ea16422db2303eeb67dd99ab">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.80"/>
+  <properties
+      key="Signalen"
+      value="verlenen, vastleggen, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Leges zijn kosten die worden geheven voor het verlenen van een toestemming/vergunning; de legesgrondslag wordt bepaald en vastgelegd bij het verlenen van de toestemming. Toestemmingverlening activiteit fysieke leefomgeving is de functie die de aanvraag verwerkt en daardoor de legesgrondslag creëert en registreert. PRIMARY op basis van initiële creatie van de legesgrondslag als onderdeel van het vergunningverleningsproces."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7a1e5935-026e-41ef-be95-d02f2a2a3937.xml#id-7a1e5935-026e-41ef-be95-d02f2a2a3937"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-4d50a333a93d4cdb9ed0ce6c1968871d.xml#id-4d50a333a93d4cdb9ed0ce6c1968871d"/>
+</archimate:AccessRelationship>

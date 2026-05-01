@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-73e36dae2dcc4c5d94b551fdd7cef8f1">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="beheren, werkzaamheden"/>
+  <properties
+      key="Onderbouwing"
+      value="Beheren fysieke objecten is de overkoepelende functie voor beheer van alle objecten in de openbare ruimte en beheert daarmee ook terreindelen. SECONDARY ten opzichte van de specifiekere Groenbeheer-functie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-c02372c9-e979-4966-95f6-50d1fa249198.xml#id-c02372c9-e979-4966-95f6-50d1fa249198"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-eaa82582aa82455f9f24331edadfc4b0.xml#id-eaa82582aa82455f9f24331edadfc4b0"/>
+</archimate:AccessRelationship>

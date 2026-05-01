@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-b9584547465e416bbbe2637bf5d10262">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.88"/>
+  <properties
+      key="Signalen"
+      value="beheren, debiteuren, vorderingen betalen"/>
+  <properties
+      key="Onderbouwing"
+      value="Debiteurenbeheer zorgt dat debiteuren openstaande vorderingen betalen, wat inhoudt dat debiteurenstatus en -gegevens worden geregistreerd, bijgehouden en verwerkt. Het beheren van debiteuren als administratieve entiteit is de kernactiviteit van deze functie. PRIMARY omdat debiteurenbeheer de meest specifieke en directe verantwoordelijkheid heeft voor het beheer van debiteuren."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b2584870-08e4-4f9f-9b1b-62340cb29fcf.xml#id-b2584870-08e4-4f9f-9b1b-62340cb29fcf"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-378d5eb3500b47f997c77879c323b9b1.xml#id-378d5eb3500b47f997c77879c323b9b1"/>
+</archimate:AccessRelationship>

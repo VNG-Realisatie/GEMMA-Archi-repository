@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-6a2945a3f6884246955a9af6a40e7b48">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.60"/>
+  <properties
+      key="Signalen"
+      value="begeleiding, registreren, ondersteuning"/>
+  <properties
+      key="Onderbouwing"
+      value="Inburgeraars worden begeleid bij hun inburgering, waarbij de gemeente hun gegevens registreert en beheert. Zelfredzaamheidsontwikkeling is de meest logische beschikbare functie die inburgeringsgegevens aanmaakt bij afwezigheid van een specifieke inburgeringsfunctie. PRIMARY als beste beschikbare optie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a2fd-2eda-11e5-1099-005056a83192.xml#id-7be8a2fd-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-8cc4abcf2c544f9f82e8119dbad73f57.xml#id-8cc4abcf2c544f9f82e8119dbad73f57"/>
+</archimate:AccessRelationship>

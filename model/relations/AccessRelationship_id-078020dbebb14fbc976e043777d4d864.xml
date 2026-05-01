@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-078020dbebb14fbc976e043777d4d864">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.95"/>
+  <properties
+      key="Signalen"
+      value="beheren, aanleveren, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Kabels- en leidingenbeheer beheert expliciet gegevens over kabels en leidingen in de ondergrond en levert netinformatie aan conform het informatiemodel IMKL. Een leiding is een geleider bestemd voor transport van materie en valt rechtstreeks binnen de scope van deze functie. Als meest specifieke functie die dit object creëert en beheert is PRIMARY gerechtvaardigd."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-117db024-9c8d-4ab1-b5ef-cf85b6b2b59c.xml#id-117db024-9c8d-4ab1-b5ef-cf85b6b2b59c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-a4b836b467284876a98be532cdab7a4e.xml#id-a4b836b467284876a98be532cdab7a4e"/>
+</archimate:AccessRelationship>

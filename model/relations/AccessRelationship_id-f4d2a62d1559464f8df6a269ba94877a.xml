@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-f4d2a62d1559464f8df6a269ba94877a">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.45"/>
+  <properties
+      key="Signalen"
+      value="beheren verkeersgegevens, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Verkeerbeheer kan voertuiggegevens registreren in het kader van verkeerstellingen en -monitoring. De registratie is echter beperkt en afgeleid; voertuigen zijn geen primair beheerdoel van Verkeerbeheer. SECONDARY met lage confidence omdat de relatie indirect is."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Verkeerbeheer registreert voertuigsoorten in tellingen maar beheert geen individuele voertuigobjecten; de relatie is zwak en afgeleid."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-78c7f400aba04feca562818c4b411625.xml#id-78c7f400aba04feca562818c4b411625"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-4c3b88438e6647de839ed692d4d6bb80.xml#id-4c3b88438e6647de839ed692d4d6bb80"/>
+</archimate:AccessRelationship>

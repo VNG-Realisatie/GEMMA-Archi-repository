@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-a41a27d7560e4488b6b7da5ce1be0cb2">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.60"/>
+  <properties
+      key="Signalen"
+      value="financieel administreren, bezittingen"/>
+  <properties
+      key="Onderbouwing"
+      value="Activabeheer administreert financieel de bezittingen van de organisatie, waarbij betalingen (investeringen, afschrijvingen) worden geregistreerd. SECONDARY omdat betalingen ook worden gegenereerd door andere financiële functies zoals Afrekening en Uitbetaling."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-e6c81951-4f98-44f2-9d11-3690ca76deb3.xml#id-e6c81951-4f98-44f2-9d11-3690ca76deb3"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-35853700439c4cd6a61219250f793739.xml#id-35853700439c4cd6a61219250f793739"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-bb46fabdae1d43d3af10af277d2e1cdb">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.42"/>
+  <properties
+      key="Signalen"
+      value="beheren referentiegegevens"/>
+  <properties
+      key="Onderbouwing"
+      value="Land is een referentiegegeven. Gegevensmanagement beheert referentielijsten en zorgt dat gegevens beschikbaar zijn. PRIMARY als meest plausibele beheerder van referentiegegevens, al worden landcodes extern bepaald."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Landgegevens worden extern bepaald (ISO-standaarden); geen interne functie heeft expliciete verantwoordelijkheid voor dit referentieobject."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-6f9c9d87-b7cf-4ddb-b8d6-dd94699df24a.xml#id-6f9c9d87-b7cf-4ddb-b8d6-dd94699df24a"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-d75b58d74f89451fbb6f75ceae516428.xml#id-d75b58d74f89451fbb6f75ceae516428"/>
+</archimate:AccessRelationship>

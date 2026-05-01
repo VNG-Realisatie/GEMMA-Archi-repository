@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-c43f8ffadb5945599d81ac1a85100731">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.55"/>
+  <properties
+      key="Signalen"
+      value="verlenen, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Toestemmingverlening omvat het verlenen van o.a. ligplaatsvergunningen voor vaartuigen, waardoor gegevens over het vaartuig als onderwerp van de toestemming worden vastgelegd. Dit leidt tot registratie/wijziging van vaartuig-gerelateerde vergunningsgegevens. SECONDARY omdat de primaire registratie en het structurele beheer van vaartuiggegevens thuishoort bij een meer specifieke beheerfunctie; deze functie is inhoudelijk verantwoordelijk voor de toestemmingsverlening maar niet voor het stamgegevensbeheer van het vaartuig zelf."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7a1e5935-026e-41ef-be95-d02f2a2a3937.xml#id-7a1e5935-026e-41ef-be95-d02f2a2a3937"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-73607a0fb2394aa19e788cfba0c7f259.xml#id-73607a0fb2394aa19e788cfba0c7f259"/>
+</archimate:AccessRelationship>

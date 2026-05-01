@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-6335529cc6e3470b890bb02d4b9fc25b">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="behandeling bezwaren, beslissing op bezwaar"/>
+  <properties
+      key="Onderbouwing"
+      value="Bezwaar- en beroepafhandeling leidt tot besluiten op bezwaar of beroep. Dit zijn formele besluiten die worden vastgelegd. SECONDARY omdat het om heroverwegingsbesluiten gaat, niet de primaire besluitvorming."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-6b35af73-734b-11e5-1099-005056a83192.xml#id-6b35af73-734b-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-865c7c57c41b41b6847a258458c8421d.xml#id-865c7c57c41b41b6847a258458c8421d"/>
+</archimate:AccessRelationship>

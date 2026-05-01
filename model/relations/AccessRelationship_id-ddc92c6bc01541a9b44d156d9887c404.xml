@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-ddc92c6bc01541a9b44d156d9887c404">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.82"/>
+  <properties
+      key="Signalen"
+      value="beheren, topografie, grootschalige basiskaart"/>
+  <properties
+      key="Onderbouwing"
+      value="BGT Beheer beheert grootschalige topografische gegevens op referentieschaal 1:1000 waarbij bouwwerken als topografische objecten worden geregistreerd. Een bouwwerk is een met de aarde verbonden duurzaam bouwwerk dat niet valt onder pand of kunstwerk, een standaard BGT-object. PRIMARY is gerechtvaardigd als de functie die bouwwerkgegevens in de topografische registratie beheert."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-ea4a05cd26c94e39bc719ac224cb153e.xml#id-ea4a05cd26c94e39bc719ac224cb153e"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-c5677453456947ce92d87a2c907eb4bf.xml#id-c5677453456947ce92d87a2c907eb4bf"/>
+</archimate:AccessRelationship>

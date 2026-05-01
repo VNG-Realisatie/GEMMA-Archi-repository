@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-0b57aebc060149fc9896668d9a1b3eb9">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="registreren vermogen, vastleggen, schuldenanalyse"/>
+  <properties
+      key="Onderbouwing"
+      value="Vermogenscomponenten worden vastgelegd als onderdeel van de vermogensbepaling bij schuldhulpverlening. Schuldhulpverlening is de meest directe uitvoerende functie die vermogenscomponenten administreert. PRIMARY op basis van structureel beheer."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3850d427-6dce-11e5-1099-005056a83192.xml#id-3850d427-6dce-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-55a5b7206f26412b8808012a3f8a4e3c.xml#id-55a5b7206f26412b8808012a3f8a4e3c"/>
+</archimate:AccessRelationship>

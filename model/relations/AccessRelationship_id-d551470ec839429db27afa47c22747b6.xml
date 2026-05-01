@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-d551470ec839429db27afa47c22747b6">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.70"/>
+  <properties
+      key="Signalen"
+      value="vastleggen, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Bij het vastleggen van een klantcontactmoment wordt expliciet het onderwerp van het contact geregistreerd; bij telefonisch contact is dit het telefoononderwerp. De functie beschrijft expliciet het vastleggen van reden van contact, wat direct overeenkomt met het Telefoononderwerp. SECONDARY omdat de specifieke creatie/beheer van telefoononderwerpen als categorie bij Call center beheer ligt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-acf4c752-d015-41d4-a7b7-d12cf10a6f06.xml#id-acf4c752-d015-41d4-a7b7-d12cf10a6f06"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-895063c9299149358114dc643662388f.xml#id-895063c9299149358114dc643662388f"/>
+</archimate:AccessRelationship>

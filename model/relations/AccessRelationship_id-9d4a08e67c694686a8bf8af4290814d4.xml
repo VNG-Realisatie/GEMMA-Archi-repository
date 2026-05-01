@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-9d4a08e67c694686a8bf8af4290814d4">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="organiseren, registreren, uitvoeren"/>
+  <properties
+      key="Onderbouwing"
+      value="Afvalinzameling organiseert de feitelijke inzamelingsritten van vuilniswagens. De rit als bedrijfsobject — een verplaatsing van een voertuig over een wegpad — wordt gecreëerd en bijgehouden als onderdeel van het uitvoeren van de inzamelingstaak. Geen andere functie is inhoudelijk verantwoordelijk voor het creëren van ritten in de afvalcontext."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-e79d6415-e641-4eb9-a73e-f5325e5a418c.xml#id-e79d6415-e641-4eb9-a73e-f5325e5a418c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-c7d4c7e85b724cfb8cf7910270cd5544.xml#id-c7d4c7e85b724cfb8cf7910270cd5544"/>
+</archimate:AccessRelationship>

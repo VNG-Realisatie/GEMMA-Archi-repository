@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-de57d7a7f23f49789cc5bb742ae6b09b">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="inrichten, bewaken, structureren"/>
+  <properties
+      key="Onderbouwing"
+      value="Governance inrichting richt besluitvormingsprocessen en -structuren in, wat mede de inrichting van vergaderschema's en vergaderformats betreft. SECONDARY omdat Besturing de directe uitvoering en registratie van vergaderingen verzorgt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-11a4c070-7b4f-4ecf-a47b-6574a916319f.xml#id-11a4c070-7b4f-4ecf-a47b-6574a916319f"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-ef2b9179e8bd45298ba91c501c018f84.xml#id-ef2b9179e8bd45298ba91c501c018f84"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-55f4b062c0db448096df63524d100597">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="onderhouden, relatie, klanten, ketenpartners"/>
+  <properties
+      key="Onderbouwing"
+      value="Contactbeheer onderhoudt de relatie met klanten en ketenpartners, wat het aanmaken en bijhouden van relatiegegevens omvat. Relaties zijn de primaire entiteiten die in contactbeheer worden vastgelegd en onderhouden. PRIMARY omdat contactbeheer de meest directe verantwoordelijkheid heeft voor het registreren en onderhouden van relaties in HR-context."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-ca7deb46-63fb-45e8-abbf-c2d50d52f7a1.xml#id-ca7deb46-63fb-45e8-abbf-c2d50d52f7a1"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-20d65e275a0f41d88ccad46a3fe06b42.xml#id-20d65e275a0f41d88ccad46a3fe06b42"/>
+</archimate:AccessRelationship>

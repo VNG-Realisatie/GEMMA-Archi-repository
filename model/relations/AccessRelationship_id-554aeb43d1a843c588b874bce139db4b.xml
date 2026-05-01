@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-554aeb43d1a843c588b874bce139db4b">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.78"/>
+  <properties
+      key="Signalen"
+      value="registratie aanmelding, behandeling uitvoering, besluitvorming, oplevering"/>
+  <properties
+      key="Onderbouwing"
+      value="Uitvoering instrumenten omvat registratie van aanmeldingen, behandeling en besluitvorming rondom werkinstrumenten voor de GSD, wat direct leidt tot het aanleggen en bijhouden van participatiedossiers. Het participatiedossier is een overzicht van integratie en participatiegegevens per inwoner. PRIMARY op basis van initiële creatie en structureel beheer van participatiedossiers."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a2f5-2eda-11e5-1099-005056a83192.xml#id-7be8a2f5-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-b8a96aa18aee420b8332f6b7e18780a5.xml#id-b8a96aa18aee420b8332f6b7e18780a5"/>
+</archimate:AccessRelationship>

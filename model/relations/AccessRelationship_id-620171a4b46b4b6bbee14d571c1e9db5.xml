@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-620171a4b46b4b6bbee14d571c1e9db5">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.68"/>
+  <properties
+      key="Signalen"
+      value="verstrekken, beschikbaar stellen, verzenden"/>
+  <properties
+      key="Onderbouwing"
+      value="Externe communicatie is verantwoordelijk voor het verstrekken en beschikbaar stellen van informatie naar externe partijen, inclusief het opstellen en versturen van mailings. PRIMARY omdat deze functie de inhoudelijke verantwoordelijkheid draagt voor externe communicatie-uitingen zoals mailings."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-aa1c42d7-5552-4681-9f5a-61ae17aafc1c.xml#id-aa1c42d7-5552-4681-9f5a-61ae17aafc1c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-2d4c24cff0034ad9ac0f5bd467130d71.xml#id-2d4c24cff0034ad9ac0f5bd467130d71"/>
+</archimate:AccessRelationship>

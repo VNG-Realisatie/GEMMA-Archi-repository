@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-7817dbd4f7524f408fba5b8fecf18c0d">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="verwerken, registreren, beheren"/>
+  <properties
+      key="Onderbouwing"
+      value="De functie Leerlingenvervoer omvat het ontvangen en verwerken van aanvragen voor leerlingenvervoer. Het object 'Aanvraag Leerlingenvervoer' wordt primair gecreëerd en beheerd binnen dit proces. PRIMARY vanwege directe inhoudelijke verantwoordelijkheid voor het initiëren en beheren van aanvragen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-ab46e404-9e45-11e5-11ba-005056a85f9c.xml#id-ab46e404-9e45-11e5-11ba-005056a85f9c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-4ede8451260a4237943d983dee5931a1.xml#id-4ede8451260a4237943d983dee5931a1"/>
+</archimate:AccessRelationship>

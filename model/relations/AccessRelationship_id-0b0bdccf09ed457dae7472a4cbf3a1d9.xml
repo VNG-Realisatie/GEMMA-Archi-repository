@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-0b0bdccf09ed457dae7472a4cbf3a1d9">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.78"/>
+  <properties
+      key="Signalen"
+      value="registreren beslaglegging, berekenen, bepalen effectuering"/>
+  <properties
+      key="Onderbouwing"
+      value="Zekerheidsrecht omvat hypotheek en beslag. Inkomensbeslaglegging derden registreert beslaglegging derden en bepaalt de effectuering ervan. Het registreren van beslag is direct gerelateerd aan het zekerheidsrecht (beslag). PRIMARY als de enige functie die expliciet beslag registreert en verwerkt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b492b590-5d3d-11e5-1099-005056a83192.xml#id-b492b590-5d3d-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-cacf2376c2614adaa33cb7631534e1d0.xml#id-cacf2376c2614adaa33cb7631534e1d0"/>
+</archimate:AccessRelationship>

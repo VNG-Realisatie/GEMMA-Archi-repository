@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-8b57d19789194b18873d28cdfa6da334">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="verwerven, inrichten, beheren, afstoten gebouwen"/>
+  <properties
+      key="Onderbouwing"
+      value="Vastgoedbeheer is verantwoordelijk voor het verwerven, inrichten, beheren en afstoten van gebouwen, waaronder parkeergarages als gemeentelijk vastgoed. Voor zover een parkeergarage als gebouw in de vastgoedregistratie is opgenomen, beheert Vastgoedbeheer dit object. SECONDARY omdat de functionele exploitatieverantwoordelijkheid bij Exploiteren van parkeerplaatsen ligt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-1af6f4aa-d797-44f5-bfb0-e77229141dfa.xml#id-1af6f4aa-d797-44f5-bfb0-e77229141dfa"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-f0a2c82c057941da8bd304915d7b56eb.xml#id-f0a2c82c057941da8bd304915d7b56eb"/>
+</archimate:AccessRelationship>

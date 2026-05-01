@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-09ca0d2971074fb8b1e976e7aee8cb1e">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="kenbaar maken, openstaande vorderingen, factuur"/>
+  <properties
+      key="Onderbouwing"
+      value="Facturering maakt openstaande vorderingen kenbaar aan debiteuren, wat het aanmaken van uitgaande facturen omvat. Facturering creëert facturen terwijl crediteurenbeheer inkomende facturen verwerkt. SECONDARY bij crediteurenbeheer als PRIMARY voor inkomende facturen; echter, voor uitgaande facturen is facturering de eigenaar. Toewijzing PRIMARY aan crediteurenbeheer is gekozen omdat het object als geheel onder Financiën valt en inkomende factuurverwerking de meest administratief-intensieve activiteit is."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-c84a9b95-cb21-486f-8d07-2ae0833dd43f.xml#id-c84a9b95-cb21-486f-8d07-2ae0833dd43f"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-2de9cf3ed5f0439a86ddae6c458424ed.xml#id-2de9cf3ed5f0439a86ddae6c458424ed"/>
+</archimate:AccessRelationship>

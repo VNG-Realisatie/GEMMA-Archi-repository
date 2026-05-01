@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-8b4a7ffd2cb04bfe8e1359f7330b282b">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="registreren, vastleggen, WSNP, moratorium"/>
+  <properties
+      key="Onderbouwing"
+      value="Gerechtelijke uitspraken zijn relevant bij schuldhulpverlening (WSNP-verklaringen, moratoriumbesluiten) en worden geregistreerd als onderdeel van het schuldhulpdossier. Schuldhulpverlening is de meest directe functie die gerechtelijke uitspraken vastlegt in het sociaal domein. PRIMARY op basis van structureel beheer."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3850d427-6dce-11e5-1099-005056a83192.xml#id-3850d427-6dce-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-5bf77ec5481444ae9ac37e41e6ef276a.xml#id-5bf77ec5481444ae9ac37e41e6ef276a"/>
+</archimate:AccessRelationship>

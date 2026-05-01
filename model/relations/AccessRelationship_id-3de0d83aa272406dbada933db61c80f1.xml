@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-3de0d83aa272406dbada933db61c80f1">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.55"/>
+  <properties
+      key="Signalen"
+      value="beheren, routeren, goederenstromen"/>
+  <properties
+      key="Onderbouwing"
+      value="Goederenafhandeling handelt en routeert inkomende en uitgaande goederenstromen en beheert goederen, waarbij vervoersmiddelen worden ingezet en geregistreerd. Het beheren van vervoersmiddelen is logisch afleidbaar uit de goederenafhandeling. PRIMARY bij gebrek aan een specifiekere functie voor het beheer van vervoersmiddelen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Vervoersmiddel staat onder ICT-beleidsdomein, wat onverwacht is; de relatie met goederenafhandeling is indirect."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b224a080-85a3-4008-9967-195147adbaa8.xml#id-b224a080-85a3-4008-9967-195147adbaa8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-9bba07a9a58e4f0cafdf47234e19ba7e.xml#id-9bba07a9a58e4f0cafdf47234e19ba7e"/>
+</archimate:AccessRelationship>

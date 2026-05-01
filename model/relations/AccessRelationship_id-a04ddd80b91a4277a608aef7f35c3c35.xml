@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-a04ddd80b91a4277a608aef7f35c3c35">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.60"/>
+  <properties
+      key="Signalen"
+      value="inzetten, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Handhaving maakt gebruik van BOA's bij het uitvoeren van handhavingsmaatregelen en registreert daarmee BOA-inzet en -gegevens. SECONDARY omdat de primaire beheerverantwoordelijkheid voor BOA's bij de toezicht- en handhavingsfunctie in het veiligheidsdomein ligt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-020f2f8c-d549-4a95-a2a9-56c1b0a43be8.xml#id-020f2f8c-d549-4a95-a2a9-56c1b0a43be8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-1e36cf0168b24d5cbacdbe2ac0b363ac.xml#id-1e36cf0168b24d5cbacdbe2ac0b363ac"/>
+</archimate:AccessRelationship>

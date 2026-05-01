@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-6fe912ca71ad43419c872db9f6b6a61e">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="beheren, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Grondbeheerder is een beheerder van grondgrondbeheer, dat wil zeggen een persoon/entiteit die verantwoordelijk is voor duurzaam landbeheer. Gemeentelijke eigendommenbeheer beheert gemeentelijke eigendommen waaronder vastgoed en percelen en zou de grondbeheerdergegevens registreren en onderhouden. Als meest specifieke functie die grondeigendom en -beheer administreert is PRIMARY logisch, zij het indirect."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-613a3b32-a305-4207-a6e2-b209d551d3c8.xml#id-613a3b32-a305-4207-a6e2-b209d551d3c8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-85975a3a30e44a6f8146a1ff5f3329a4.xml#id-85975a3a30e44a6f8146a1ff5f3329a4"/>
+</archimate:AccessRelationship>

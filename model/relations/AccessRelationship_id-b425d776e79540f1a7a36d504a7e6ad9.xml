@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-b425d776e79540f1a7a36d504a7e6ad9">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="organiseren, registreren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Stemmingen zijn een kernonderdeel van verkiezingen; de functie 'Verkiezingen gerelateerde diensten' organiseert en registreert stemmingen bij lokale verkiezingen. PRIMARY omdat de functie de initiële creatie en registratie van stemmingen verzorgt als onderdeel van het verkiezingsproces."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-78bbc144-8a22-43a4-8233-c4cfaf7b73c2.xml#id-78bbc144-8a22-43a4-8233-c4cfaf7b73c2"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-86db98f4a1e74c1cb6bcbaa229ec7559.xml#id-86db98f4a1e74c1cb6bcbaa229ec7559"/>
+</archimate:AccessRelationship>

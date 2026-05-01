@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-b469fd53714d46c68b885a35049732ec">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="beheren, beheertaken, bedrijfsapplicaties"/>
+  <properties
+      key="Onderbouwing"
+      value="Applicatiebeheer voert beheertaken uit m.b.t. bedrijfsapplicaties en bijbehorende gegevensverzamelingen, wat het registreren, configureren en beheren van applicaties omvat. Applicaties zijn de kerneenheden die door applicatiebeheer worden beheerd. PRIMARY omdat applicatiebeheer de structurele eindverantwoordelijkheid draagt voor het beheer van applicaties als bedrijfsobject."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-0a5674fa-2a89-4dce-8599-850146a16d2a.xml#id-0a5674fa-2a89-4dce-8599-850146a16d2a"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-90ad821ea9024f9293eb649a2072ea42.xml#id-90ad821ea9024f9293eb649a2072ea42"/>
+</archimate:AccessRelationship>

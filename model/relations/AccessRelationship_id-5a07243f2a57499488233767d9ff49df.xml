@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-5a07243f2a57499488233767d9ff49df">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.50"/>
+  <properties
+      key="Signalen"
+      value="vastleggen, administreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Applicatiebeheer legt bevindingen en acties vast rondom het beheer van applicaties, waarbij notities worden aangemaakt als onderdeel van het beheerdossier. De relatie is logisch afleidbaar maar niet exclusief. SECONDARY omdat meerdere functies notities kunnen aanmaken; functioneel beheer is eveneens relevant."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Notities worden door vrijwel alle functies aangemaakt; het is onduidelijk welke functie primair verantwoordelijk is voor het beheer van notities als bedrijfsobject."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-0a5674fa-2a89-4dce-8599-850146a16d2a.xml#id-0a5674fa-2a89-4dce-8599-850146a16d2a"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-0e845af01a6347d3bdd76c77a68c0eb2.xml#id-0e845af01a6347d3bdd76c77a68c0eb2"/>
+</archimate:AccessRelationship>

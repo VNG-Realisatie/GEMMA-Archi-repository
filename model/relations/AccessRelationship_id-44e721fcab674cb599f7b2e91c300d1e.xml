@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-44e721fcab674cb599f7b2e91c300d1e">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.78"/>
+  <properties
+      key="Signalen"
+      value="registratie, besluitvorming, behandeling uitvoering, oplevering"/>
+  <properties
+      key="Onderbouwing"
+      value="Inkomensvoorzieningen zijn regelingen voor inkomen conform landelijke wetgeving die worden uitgevoerd via werkinstrumenten in het GSD. Uitvoering instrumenten is direct verantwoordelijk voor het registreren en beheren van inkomensvoorzieningen. PRIMARY op basis van directe uitvoeringsverantwoordelijkheid."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a2f5-2eda-11e5-1099-005056a83192.xml#id-7be8a2f5-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-8cd491e9620a40f1bc49e06754c35975.xml#id-8cd491e9620a40f1bc49e06754c35975"/>
+</archimate:AccessRelationship>

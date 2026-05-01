@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-5cda3b8880b54043a33ae5322f33426c">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="tot stand brengen contracten, leveranciers"/>
+  <properties
+      key="Onderbouwing"
+      value="Contractbeheer brengt contracten tot stand met leveranciers/opdrachtnemers, waarbij opdrachtnemergegevens worden geregistreerd als contractuele wederpartij. Het vastleggen van opdrachtnemers is inherent aan het contractbeheerproces. PRIMARY omdat contractbeheer de meest directe verantwoordelijkheid heeft voor het registreren van opdrachtnemers als contractuele entiteiten."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3eef0007-c73a-45ed-879d-ac6be8d7e114.xml#id-3eef0007-c73a-45ed-879d-ac6be8d7e114"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-5ec3354365a64759bfa56643b675fc0f.xml#id-5ec3354365a64759bfa56643b675fc0f"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-4352dc816a65485ca539c0212f9295de">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="beheren, vastleggen, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="In het kader van leerlingenvervoer worden vervoerdersgegevens vastgelegd en beheerd om contractuele en uitvoeringsafspraken te borgen. PRIMARY omdat de functie Leerlingenvervoer de meest directe inhoudelijke context biedt voor het registreren en beheren van vervoerdersgegevens."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-ab46e404-9e45-11e5-11ba-005056a85f9c.xml#id-ab46e404-9e45-11e5-11ba-005056a85f9c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-eb622a3ac3aa4d79ae1b9bc44725e256.xml#id-eb622a3ac3aa4d79ae1b9bc44725e256"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-5e12622966b846788d8c21e5b3b1390a">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="verwerven, inrichten, beheren, afstoten"/>
+  <properties
+      key="Onderbouwing"
+      value="Vastgoedbeheer verwerft, richt in, beheert en stoot gebouwen af. Een gebouw is een complex van ruimten voor de huisvesting van een huishouden, direct het primaire object van vastgoedbeheer. Als de functie die gebouwen beheert en administreert is PRIMARY gerechtvaardigd."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-1af6f4aa-d797-44f5-bfb0-e77229141dfa.xml#id-1af6f4aa-d797-44f5-bfb0-e77229141dfa"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-de56ef42a9f8426eb542ea173f31e00c.xml#id-de56ef42a9f8426eb542ea173f31e00c"/>
+</archimate:AccessRelationship>

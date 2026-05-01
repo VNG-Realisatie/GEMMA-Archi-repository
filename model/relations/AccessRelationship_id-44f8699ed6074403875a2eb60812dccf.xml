@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-44f8699ed6074403875a2eb60812dccf">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.60"/>
+  <properties
+      key="Signalen"
+      value="verwerken facturen, crediteuren"/>
+  <properties
+      key="Onderbouwing"
+      value="Crediteurenbeheer verwerkt inkomende facturen van opdrachtnemers, waarbij opdrachtnemergegevens worden geregistreerd. De relatie is logisch afleidbaar. SECONDARY omdat contractbeheer meer direct verantwoordelijk is voor het vastleggen van opdrachtnemers als contractuele partijen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Opdrachtnemer kan door meerdere functies worden geregistreerd; de exacte primaire verantwoordelijkheid is niet volledig helder."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-fd61133c-4e55-4bef-8121-30066ce3cdf7.xml#id-fd61133c-4e55-4bef-8121-30066ce3cdf7"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-5ec3354365a64759bfa56643b675fc0f.xml#id-5ec3354365a64759bfa56643b675fc0f"/>
+</archimate:AccessRelationship>

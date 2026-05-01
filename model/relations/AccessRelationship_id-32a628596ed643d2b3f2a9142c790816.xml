@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-32a628596ed643d2b3f2a9142c790816">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.60"/>
+  <properties
+      key="Signalen"
+      value="bepalen structuur, taken, verantwoordelijkheden"/>
+  <properties
+      key="Onderbouwing"
+      value="Organisatiemanagement bepaalt de structuur van de organisatie en de te onderkennen functies, taken en verantwoordelijkheden, wat direct leidt tot het vastleggen van domeinen en taakvelden. Het definiëren van kennisgebieden en activiteitencategorieën is inherent aan het structureren van de organisatie. PRIMARY als meest inhoudelijk verantwoordelijke functie voor het vastleggen van domeinen en taakvelden."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Domein/Taakveld staat onder ICT-beleidsdomein maar heeft bredere organisatorische betekenis; de exacte verantwoordelijkheid voor het vastleggen ervan is niet eenduidig."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b41387b8-5f41-4c0f-96b9-ff597340f63a.xml#id-b41387b8-5f41-4c0f-96b9-ff597340f63a"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-a133e82d42224d108adfce21c8025437.xml#id-a133e82d42224d108adfce21c8025437"/>
+</archimate:AccessRelationship>

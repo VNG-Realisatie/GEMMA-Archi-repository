@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-1cf61bb3ec7e48a59d49d13ce9c4c73c">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.60"/>
+  <properties
+      key="Signalen"
+      value="verlenen, vergunning, maatregel, toestemming"/>
+  <properties
+      key="Onderbouwing"
+      value="Toestemmingverlening activiteit fysieke leefomgeving kan leiden tot het formaliseren of vastleggen van een verkeersbesluit als uitvloeisel van een vergunningstraject (bijv. een verkeersontheffing of tijdelijk verkeersbesluit bij een evenement). De functie verleent toestemmingen die aanleiding geven tot het vastleggen van een verkeersbesluit, maar is niet de primaire beheerder van dit object. SECONDARY omdat Verkeerbeheer de structurele beheerfunctie is."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7a1e5935-026e-41ef-be95-d02f2a2a3937.xml#id-7a1e5935-026e-41ef-be95-d02f2a2a3937"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-6ddc5b2a72e1481f96c21c6aaa9c19ee.xml#id-6ddc5b2a72e1481f96c21c6aaa9c19ee"/>
+</archimate:AccessRelationship>

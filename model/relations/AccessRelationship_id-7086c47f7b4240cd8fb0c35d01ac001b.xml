@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-7086c47f7b4240cd8fb0c35d01ac001b">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.80"/>
+  <properties
+      key="Signalen"
+      value="registreren, graafwerkzaamheden, beheren"/>
+  <properties
+      key="Onderbouwing"
+      value="De uitvoerder graafwerkzaamheden is degene die op de bouwlocatie de leiding heeft over graafwerkzaamheden. Kabels- en leidingenbeheer beheert gegevens in het kader van WIBON waarbij graafwerkzaamheden worden geregistreerd inclusief de verantwoordelijke uitvoerder. Als meest directe functie voor registratie van uitvoerders van graafwerkzaamheden is PRIMARY gerechtvaardigd."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-117db024-9c8d-4ab1-b5ef-cf85b6b2b59c.xml#id-117db024-9c8d-4ab1-b5ef-cf85b6b2b59c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-20587a0951ba437f88f8e96f34911efd.xml#id-20587a0951ba437f88f8e96f34911efd"/>
+</archimate:AccessRelationship>

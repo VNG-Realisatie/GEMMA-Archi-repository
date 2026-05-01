@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-142ed71c3844499cbee43a1dbf65ad6a">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.78"/>
+  <properties
+      key="Signalen"
+      value="vastleggen, verwerken, verstrekking"/>
+  <properties
+      key="Onderbouwing"
+      value="Meldingen van eigen bijdragen worden geregistreerd als onderdeel van WMO-voorzieningenverstrekking. Voorzieningenverstrekking is verantwoordelijk voor het registreren van eigen bijdrages bij het verlenen van voorzieningen. PRIMARY op basis van directe inhoudelijke verantwoordelijkheid."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a305-2eda-11e5-1099-005056a83192.xml#id-7be8a305-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-febf02a8b7044df9b99f7d6276330edf.xml#id-febf02a8b7044df9b99f7d6276330edf"/>
+</archimate:AccessRelationship>

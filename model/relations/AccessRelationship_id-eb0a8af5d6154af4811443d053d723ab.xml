@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-eb0a8af5d6154af4811443d053d723ab">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.55"/>
+  <properties
+      key="Signalen"
+      value="beheren, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="BGT Beheer beheert grootschalige topografische gegevens en kan sensorlocaties registreren als onderdeel van de topografische data. SECONDARY omdat sensorbeheer primair een beheerfunctie is van de instantie die de sensor exploiteert."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-ea4a05cd26c94e39bc719ac224cb153e.xml#id-ea4a05cd26c94e39bc719ac224cb153e"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-ef80b935abaf441d98d5a244aeff23c9.xml#id-ef80b935abaf441d98d5a244aeff23c9"/>
+</archimate:AccessRelationship>

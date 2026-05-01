@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-a796742fa2a84dc3a98d17dd80fce745">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="jeugdzorg, registreren zorgmelding"/>
+  <properties
+      key="Onderbouwing"
+      value="Jeugdzorg is direct betrokken bij het verwerken van zorgmeldingen voor jeugdigen. SECONDARY omdat casusregievoering sociaal domein de overkoepelende regiefunctie en structureel beheer heeft."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-c50551d6-dfab-11e5-11ba-005056a85f9c.xml#id-c50551d6-dfab-11e5-11ba-005056a85f9c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-ed8c5d6c87574893b395a66597415203.xml#id-ed8c5d6c87574893b395a66597415203"/>
+</archimate:AccessRelationship>

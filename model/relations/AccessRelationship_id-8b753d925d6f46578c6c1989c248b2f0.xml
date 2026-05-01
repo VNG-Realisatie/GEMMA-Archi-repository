@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-8b753d925d6f46578c6c1989c248b2f0">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.62"/>
+  <properties
+      key="Signalen"
+      value="regie, vastleggen, cliëntrelaties"/>
+  <properties
+      key="Onderbouwing"
+      value="Gezagsverhoudingen zijn relevante juridische relaties die worden vastgelegd als onderdeel van cliëntdossiervorming in het sociaal domein. Casusregievoering sociaal domein is de meest logische functie die dergelijke contextgegevens registreert. PRIMARY op basis van structureel beheer."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-6ffc6611-e0aa-43a2-85e4-4301cd1bda2f.xml#id-6ffc6611-e0aa-43a2-85e4-4301cd1bda2f"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-58264fb03c644ba693323022c76e656e.xml#id-58264fb03c644ba693323022c76e656e"/>
+</archimate:AccessRelationship>

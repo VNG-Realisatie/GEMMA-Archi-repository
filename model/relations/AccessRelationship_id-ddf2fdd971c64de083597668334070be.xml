@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-ddf2fdd971c64de083597668334070be">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.55"/>
+  <properties
+      key="Signalen"
+      value="verwerken, betalingen"/>
+  <properties
+      key="Onderbouwing"
+      value="Debiteurenbeheer zorgt dat debiteuren openstaande vorderingen betalen, waarbij bankafschriften worden verwerkt om betalingen te registreren. De relatie is logisch omdat bankafschriftverwerking onderdeel is van het debiteurenbeheerproces. SECONDARY omdat betalingbeheer meer direct verantwoordelijk is voor het verwerken van bankafschriften."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Bankafschriften worden extern aangeleverd door banken; de vraag is of een bedrijfsfunctie ze 'schrijft' of alleen verwerkt/registreert."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b2584870-08e4-4f9f-9b1b-62340cb29fcf.xml#id-b2584870-08e4-4f9f-9b1b-62340cb29fcf"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-c7e55f081b9c4c5f99a64382db94bc8e.xml#id-c7e55f081b9c4c5f99a64382db94bc8e"/>
+</archimate:AccessRelationship>

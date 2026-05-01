@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-a273ebc6a7e040ff99f150d3313d40e5">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="vaststelling inkomen, registreren inkomstencomponent"/>
+  <properties
+      key="Onderbouwing"
+      value="Alimentatie is een inkomstencomponent die wordt vastgesteld bij inkomensberekening voor bijstandsberekening. Besluitvorming levensonderhoud is verantwoordelijk voor het vaststellen van alimentatie als inkomensbron. PRIMARY op basis van inhoudelijke eindverantwoordelijkheid."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-6b35af7f-734b-11e5-1099-005056a83192.xml#id-6b35af7f-734b-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-cd0582cc430b46a7b7c70dccb9a0da42.xml#id-cd0582cc430b46a7b7c70dccb9a0da42"/>
+</archimate:AccessRelationship>

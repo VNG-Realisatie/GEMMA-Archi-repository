@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-5ec7e60c8cbc4db5891677a633a97501">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="regie, vastleggen, signaleren zorgelijke situatie"/>
+  <properties
+      key="Onderbouwing"
+      value="Zorgelijke situaties worden geregistreerd als aanleiding voor jeugdbeschermingsinterventies. Casusregievoering sociaal domein coördineert het registreren en opvolgen van zorgelijke situaties. PRIMARY op basis van structureel beheer."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-6ffc6611-e0aa-43a2-85e4-4301cd1bda2f.xml#id-6ffc6611-e0aa-43a2-85e4-4301cd1bda2f"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-4eee2bd6be0d4315be339310b4d175a2.xml#id-4eee2bd6be0d4315be339310b4d175a2"/>
+</archimate:AccessRelationship>

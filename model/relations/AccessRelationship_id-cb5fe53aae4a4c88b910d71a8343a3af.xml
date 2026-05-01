@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-cb5fe53aae4a4c88b910d71a8343a3af">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.80"/>
+  <properties
+      key="Signalen"
+      value="beheren, uitvoeren, werkzaamheden, gebouwen"/>
+  <properties
+      key="Onderbouwing"
+      value="Gebouwenbeheer beheert en voert werkzaamheden rondom gebouwen in de openbare ruimte uit, waarbij gebouwgegevens worden bijgehouden. SECONDARY ten opzichte van Vastgoedbeheer dat als meer omvattende functie ook verwerving en afstoting omvat."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-fa6180f3-cbf7-44fd-a3bb-9099b3f2906a.xml#id-fa6180f3-cbf7-44fd-a3bb-9099b3f2906a"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-de56ef42a9f8426eb542ea173f31e00c.xml#id-de56ef42a9f8426eb542ea173f31e00c"/>
+</archimate:AccessRelationship>

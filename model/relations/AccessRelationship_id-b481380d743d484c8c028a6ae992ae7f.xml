@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-b481380d743d484c8c028a6ae992ae7f">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.93"/>
+  <properties
+      key="Signalen"
+      value="voorbereiden, plannen, uitvoeren, afronden, projecten"/>
+  <properties
+      key="Onderbouwing"
+      value="Projectbeheer omvat het voorbereiden, plannen, uitvoeren en afronden van individuele projecten, wat het aanmaken en beheren van projecten als organisatorische entiteiten omvat. Projecten zijn de kernentiteiten van projectbeheer. PRIMARY omdat projectbeheer de enige functie is die expliciet verantwoordelijk is voor het beheer van individuele projecten."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-07f086d1-e6ca-4142-96d3-4baafa463916.xml#id-07f086d1-e6ca-4142-96d3-4baafa463916"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-2acfb11fbe364d4da4300abf776e87cf.xml#id-2acfb11fbe364d4da4300abf776e87cf"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-8a3c55e0f9114fb69d9a0c12542c24eb">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.62"/>
+  <properties
+      key="Signalen"
+      value="vastleggen, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Bij het vastleggen van een klantcontactmoment (datum, reden contact, resultaat) wordt het onderwerp van dat contact geregistreerd. Dit impliceert een schrijfhandeling op het Onderwerp-object als onderdeel van de contactregistratie. SECONDARY omdat het gaat om gebruik van het object binnen het bredere contactbeheerproces, niet om het structurele beheer ervan."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-acf4c752-d015-41d4-a7b7-d12cf10a6f06.xml#id-acf4c752-d015-41d4-a7b7-d12cf10a6f06"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-27d609ff20904ce486d166f966a766e5.xml#id-27d609ff20904ce486d166f966a766e5"/>
+</archimate:AccessRelationship>

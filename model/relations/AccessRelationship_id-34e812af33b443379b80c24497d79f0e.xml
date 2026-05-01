@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-34e812af33b443379b80c24497d79f0e">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="registreren vermogen, vastleggen, schuldenanalyse"/>
+  <properties
+      key="Onderbouwing"
+      value="Motorvoertuigen zijn vermogenscomponenten die worden geregistreerd als onderdeel van de vermogensbepaling bij schuldhulpverlening (bijv. bij beslaglegging). Schuldhulpverlening is de meest directe functie die voertuiggegevens als vermogensgegeven administreert. PRIMARY op basis van structureel beheer."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3850d427-6dce-11e5-1099-005056a83192.xml#id-3850d427-6dce-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-9abd9fa028d64c7a8ac7fc1ae82ead23.xml#id-9abd9fa028d64c7a8ac7fc1ae82ead23"/>
+</archimate:AccessRelationship>

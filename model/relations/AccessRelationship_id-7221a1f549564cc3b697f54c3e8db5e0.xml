@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-7221a1f549564cc3b697f54c3e8db5e0">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.82"/>
+  <properties
+      key="Signalen"
+      value="beoordelen, maatregelen nemen, prestaties"/>
+  <properties
+      key="Onderbouwing"
+      value="Medewerkerbeoordeling beoordeelt de prestaties van medewerkers en neemt passende maatregelen, wat het opleggen en vastleggen van disciplinaire maatregelen omvat. Disciplinaire maatregelen zijn directe outputs van het beoordelingsproces bij onvoldoende prestaties. PRIMARY omdat medewerkerbeoordeling de beslissingsbevoegdheid heeft over disciplinaire maatregelen en ze initieel vastlegt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-41fdbd58-6c76-4979-8cfd-457bcc64e964.xml#id-41fdbd58-6c76-4979-8cfd-457bcc64e964"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-ccc25032650a444891e646060b73d286.xml#id-ccc25032650a444891e646060b73d286"/>
+</archimate:AccessRelationship>

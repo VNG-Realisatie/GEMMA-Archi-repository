@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-f1182f91c619459ca2038c68b47e7ebc">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="beheren, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Winkels, markt- en straathandel beheer beheert standplaatsen voor verkoopactiviteiten; dit omvat het registreren en administreren van standplaatsen. PRIMARY omdat deze functie expliciet verantwoordelijk is voor het beheren van standplaatsen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-5c098c43-1d67-4848-bc56-fe53311e569f.xml#id-5c098c43-1d67-4848-bc56-fe53311e569f"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-6f5a886cd97145cdb0cb48fb184d8e6d.xml#id-6f5a886cd97145cdb0cb48fb184d8e6d"/>
+</archimate:AccessRelationship>

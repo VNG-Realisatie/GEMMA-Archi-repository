@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-cbbf5c9a4a7a45e7a24fa1a14ea0a5a3">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.58"/>
+  <properties
+      key="Signalen"
+      value="organiseren, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Afvalinzameling organiseert de ophaalactiviteiten die leiden tot stortingen bij verwerkingslocaties en kan stortingsgegevens vastleggen als onderdeel van de inzamelingsadministratie. De functie is echter minder specifiek voor de verwerkingskant van stortingen dan Exploiteren van afvalopslag en -verwerking."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-e79d6415-e641-4eb9-a73e-f5325e5a418c.xml#id-e79d6415-e641-4eb9-a73e-f5325e5a418c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-c36be84d63bd44ca9c91e5c5760140f3.xml#id-c36be84d63bd44ca9c91e5c5760140f3"/>
+</archimate:AccessRelationship>

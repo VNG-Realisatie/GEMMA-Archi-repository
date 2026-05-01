@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-0072da7551854d51b2ff4f3fe12d1dbb">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.78"/>
+  <properties
+      key="Signalen"
+      value="plannen, beheren, projecten"/>
+  <properties
+      key="Onderbouwing"
+      value="Een projectleider stuurt een project aan en wordt geregistreerd als verantwoordelijke persoon bij ruimtelijke projecten. Ruimtelijke uitvoering plant en beheert projecten die de ruimtelijke omgeving wijzigen en registreert daarbij de projectleider als verantwoordelijke. PRIMARY is gerechtvaardigd als de functie die projectleiders toewijst en vastlegt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-c61924f0-e340-4b6c-b400-8f3971637a83.xml#id-c61924f0-e340-4b6c-b400-8f3971637a83"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-f47913e1f36245dc917d6655587b9250.xml#id-f47913e1f36245dc917d6655587b9250"/>
+</archimate:AccessRelationship>

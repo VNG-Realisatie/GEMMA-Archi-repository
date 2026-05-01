@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-a18b4f9b2b7a4a45aeacbdbcfb69a7bc">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.92"/>
+  <properties
+      key="Signalen"
+      value="beheren, groenvoorzieningen, werkzaamheden, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Een vegetatieobject is een verzamelobject van alle vegetatieobjecten. Groenbeheer beheert groenvoorzieningen in de openbare ruimte en is daarmee primair verantwoordelijk voor het registreren en beheren van vegetatieobjecten. PRIMARY is direct gerechtvaardigd als meest specifieke functie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-208a6246-ebca-456e-820b-ec4c4f6a8803.xml#id-208a6246-ebca-456e-820b-ec4c4f6a8803"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-2563a5fa324f4aaeb3a6a277fa0be165.xml#id-2563a5fa324f4aaeb3a6a277fa0be165"/>
+</archimate:AccessRelationship>

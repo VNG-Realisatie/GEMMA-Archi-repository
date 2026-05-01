@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-42e5573abad54a2685c5780688398db4">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.62"/>
+  <properties
+      key="Signalen"
+      value="archiveren, vastleggen, opslaan"/>
+  <properties
+      key="Onderbouwing"
+      value="Output archivering archiveert geleverde producten en bijbehorende metagegevens; raadsstukken zijn formele producten die na vaststelling gearchiveerd worden. SECONDARY omdat het archiveren de eindfase van het raadsstuk betreft, niet de initiële creatie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-9fa10230-1891-46d9-af14-ae11f339c17b.xml#id-9fa10230-1891-46d9-af14-ae11f339c17b"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-ca5b9d232ec64f779b71278e1ed3f06d.xml#id-ca5b9d232ec64f779b71278e1ed3f06d"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-1ed7fa5f45b941a0a4bf09d2e03c4cc9">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.88"/>
+  <properties
+      key="Signalen"
+      value="registreren, vastleggen voorlopige voorziening, minnelijke regeling"/>
+  <properties
+      key="Onderbouwing"
+      value="Voorlopige voorzieningen zijn tijdelijke maatregelen binnen schuldhulpverlening om acute financiële problemen te verlichten. Schuldhulpverlening is direct verantwoordelijk voor het registreren en beheren van voorlopige voorzieningen. PRIMARY op basis van directe inhoudelijke verantwoordelijkheid."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3850d427-6dce-11e5-1099-005056a83192.xml#id-3850d427-6dce-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-b650844947614dce8d0c52344abe14b3.xml#id-b650844947614dce8d0c52344abe14b3"/>
+</archimate:AccessRelationship>

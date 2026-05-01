@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-a5b08d4e06e348c9bd466ddaba1a2422">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="administreren, medewerkers, organisatorische eenheden"/>
+  <properties
+      key="Onderbouwing"
+      value="Medewerkeradministratie legt medewerkergegevens vast inclusief hun organisatorische inbedding. OrganisatorischeEenheid is het onderdeel waarbinnen medewerkers werken en wordt mede door de medewerkeradministratie beheerd. SECONDARY omdat Organisatiemanagement primair de structuur van organisatorische eenheden bepaalt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-51a9e46b-44da-46ea-8bf5-ded9a19e6717.xml#id-51a9e46b-44da-46ea-8bf5-ded9a19e6717"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-f8ed8b74446b40708e785d8d4eecc67b.xml#id-f8ed8b74446b40708e785d8d4eecc67b"/>
+</archimate:AccessRelationship>

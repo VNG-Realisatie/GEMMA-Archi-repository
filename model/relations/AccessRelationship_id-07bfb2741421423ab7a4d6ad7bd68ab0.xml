@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-07bfb2741421423ab7a4d6ad7bd68ab0">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.92"/>
+  <properties
+      key="Signalen"
+      value="beheren, registreren, objecten, openbare ruimte"/>
+  <properties
+      key="Onderbouwing"
+      value="Beheerobject is een verzamelobject op niveau 1 dat alle te beheren objecten in de openbare ruimte omvat. Beheren fysieke objecten is de overkoepelende beheerfunctie die expliciet verantwoordelijk is voor het uitvoeren van werkzaamheden aan en beheer van objecten in de openbare ruimte. PRIMARY is direct evident."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-c02372c9-e979-4966-95f6-50d1fa249198.xml#id-c02372c9-e979-4966-95f6-50d1fa249198"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-4ccfcee33ebc4b81bc987ab55674027f.xml#id-4ccfcee33ebc4b81bc987ab55674027f"/>
+</archimate:AccessRelationship>

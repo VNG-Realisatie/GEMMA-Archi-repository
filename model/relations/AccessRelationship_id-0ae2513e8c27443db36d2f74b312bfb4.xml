@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-0ae2513e8c27443db36d2f74b312bfb4">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.82"/>
+  <properties
+      key="Signalen"
+      value="vaststelling, berekening, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Besluitvorming levensonderhoud omvat het vaststellen van vermogen en inkomensbronnen als onderdeel van bijstandsbeoordeling. Het inkomensoverzicht van een schuldhulpcliënt wordt vastgelegd en beheerd vanuit deze functie. PRIMARY op basis van inhoudelijke eindverantwoordelijkheid voor inkomensbepaling."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-6b35af7f-734b-11e5-1099-005056a83192.xml#id-6b35af7f-734b-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-112f56bd9e9d47f18e7d77c673046fd1.xml#id-112f56bd9e9d47f18e7d77c673046fd1"/>
+</archimate:AccessRelationship>

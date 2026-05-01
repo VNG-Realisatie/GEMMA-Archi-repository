@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-ca49192832844f58a6276a2ee32cbf57">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.68"/>
+  <properties
+      key="Signalen"
+      value="verwerken meldingen, openbare ruimte, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Stremmingen in de openbare ruimte worden veelal via meldingen van burgers of eigen waarneming ontvangen en verwerkt. Meldingen openbare ruimte behandeling registreert en verwerkt deze meldingen, waarbij een stremming als object kan worden aangemaakt of bijgewerkt. SECONDARY omdat Verkeerbeheer de primaire functionele verantwoordelijkheid draagt voor verkeersdoorstroming en -incidenten."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-a6be6a36-76e5-42ef-a1ba-459de1fd5037.xml#id-a6be6a36-76e5-42ef-a1ba-459de1fd5037"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-18384829879144879bde9d2ab175f2b1.xml#id-18384829879144879bde9d2ab175f2b1"/>
+</archimate:AccessRelationship>

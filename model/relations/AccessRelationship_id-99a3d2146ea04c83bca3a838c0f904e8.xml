@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-99a3d2146ea04c83bca3a838c0f904e8">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.50"/>
+  <properties
+      key="Signalen"
+      value="administreren ziekte en verlof, tijdsduur vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Periode is een tijdsduur die in administratieve processen wordt vastgelegd. Ziekte- en verlofadministratie registreert periodes van ziekte en verlof. PRIMARY als meest expliciete beheerder van tijdsperioden in een administratieve context, al is de relatie indirect."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-1df27b35-fe09-448a-9a8f-39ffa4f56461.xml#id-1df27b35-fe09-448a-9a8f-39ffa4f56461"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-b40b567a0b2b42fc9a12177e11128dcd.xml#id-b40b567a0b2b42fc9a12177e11128dcd"/>
+</archimate:AccessRelationship>

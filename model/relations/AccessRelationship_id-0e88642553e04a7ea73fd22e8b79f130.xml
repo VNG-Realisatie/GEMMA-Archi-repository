@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-0e88642553e04a7ea73fd22e8b79f130">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.95"/>
+  <properties
+      key="Signalen"
+      value="registreren schulden, minnelijke regeling, schuldhulpverlening"/>
+  <properties
+      key="Onderbouwing"
+      value="Schulden zijn het centrale object van schuldhulpverlening. Het registreren en beheren van schuldengegevens is de kernactiviteit van schuldhulpverlening. PRIMARY op basis van directe initiële creatie en inhoudelijke eindverantwoordelijkheid als kernfunctie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3850d427-6dce-11e5-1099-005056a83192.xml#id-3850d427-6dce-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-bd18aa785189413098ae9be8f7edcdbf.xml#id-bd18aa785189413098ae9be8f7edcdbf"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-85fca88b4c45403f9a9956bc1a7966aa">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.78"/>
+  <properties
+      key="Signalen"
+      value="vaststelling, berekening, registreren inkomstenverhouding"/>
+  <properties
+      key="Onderbouwing"
+      value="Inkomensverhoudingen (arbeidsrelaties, uitkeringen) worden vastgesteld bij inkomensberekening voor levensonderhoud. Besluitvorming levensonderhoud is verantwoordelijk voor het vaststellen en registreren van alle inkomensverhoudingen. PRIMARY op basis van inhoudelijke eindverantwoordelijkheid."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-6b35af7f-734b-11e5-1099-005056a83192.xml#id-6b35af7f-734b-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-56d65fe285a044cb956e8b9d6cde2d09.xml#id-56d65fe285a044cb956e8b9d6cde2d09"/>
+</archimate:AccessRelationship>

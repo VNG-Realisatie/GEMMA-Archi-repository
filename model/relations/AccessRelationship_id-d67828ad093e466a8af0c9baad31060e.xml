@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-d67828ad093e466a8af0c9baad31060e">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="verlenen, registreren, verwerken"/>
+  <properties
+      key="Onderbouwing"
+      value="VOM staat voor Vergunning, Ontheffing of Melding; de functie Toestemmingverlening activiteit fysieke leefomgeving is expliciet gericht op het verlenen van vergunningen, ontheffingen en het verwerken van meldingen, wat precies overeenkomt met het VOM-object. Deze functie creëert en beheert VOM-aanvragen als kernactiviteit. PRIMARY op basis van directe inhoudelijke verantwoordelijkheid en initiële creatie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7a1e5935-026e-41ef-be95-d02f2a2a3937.xml#id-7a1e5935-026e-41ef-be95-d02f2a2a3937"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-3d688b90c3324147a987db8e7b2a0cbd.xml#id-3d688b90c3324147a987db8e7b2a0cbd"/>
+</archimate:AccessRelationship>

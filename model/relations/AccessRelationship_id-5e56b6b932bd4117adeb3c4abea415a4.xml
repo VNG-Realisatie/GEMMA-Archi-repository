@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-5e56b6b932bd4117adeb3c4abea415a4">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.82"/>
+  <properties
+      key="Signalen"
+      value="beheren, gegevens, beschikbaar stellen, kwaliteit"/>
+  <properties
+      key="Onderbouwing"
+      value="Gegevensmanagement omvat het geheel van activiteiten om op het juiste moment over de juiste gegevens van de juiste kwaliteit te beschikken, wat het aanmaken, wijzigen en beheren van gegevens als bedrijfsobject omvat. Gegevens zijn de kernentiteiten van gegevensmanagement. PRIMARY omdat gegevensmanagement de meest directe eindverantwoordelijkheid heeft voor het beheer van gegevens als ICT-bedrijfsobject."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-6f9c9d87-b7cf-4ddb-b8d6-dd94699df24a.xml#id-6f9c9d87-b7cf-4ddb-b8d6-dd94699df24a"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-3641f65b37ec48e98e95cbeb71b3bcbd.xml#id-3641f65b37ec48e98e95cbeb71b3bcbd"/>
+</archimate:AccessRelationship>

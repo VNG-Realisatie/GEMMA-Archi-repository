@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-ce9ee78546924115a389b187d35bfaa6">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.80"/>
+  <properties
+      key="Signalen"
+      value="afhandelen, registreren, verwerken"/>
+  <properties
+      key="Onderbouwing"
+      value="Klachtenafhandeling is de functie die expliciet verantwoordelijk is voor het afhandelen van klachten, inclusief het vastleggen en verwerken ervan. Het object 'Klacht Leerlingenvervoer' is een specifieke klacht die onder deze functie valt. PRIMARY omdat klachtenafhandeling de inhoudelijk verantwoordelijke functie is voor het creëren en verwerken van klachtdossiers."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-dfe72a31-853b-43c5-8ea7-41de13116fed.xml#id-dfe72a31-853b-43c5-8ea7-41de13116fed"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-198bab54632f4d279991f0aff413edc6.xml#id-198bab54632f4d279991f0aff413edc6"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-58d593fb681a408ba933581651db5af5">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.60"/>
+  <properties
+      key="Signalen"
+      value="beheren balans, financieel administreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Grootboekbeheer beheert de balans van de organisatie, waarbij debiteuren als openstaande vorderingen worden geregistreerd. De relatie is logisch afleidbaar omdat debiteuren onderdeel zijn van de balans. SECONDARY omdat debiteurenbeheer de meer specifieke primaire functie is voor het beheren van debiteuren."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="De grens tussen grootboekbeheer en debiteurenbeheer voor het object 'Debiteur' is niet volledig helder; beide functies zijn betrokken."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-4266ce67-6f7b-44d3-a461-1530ee2cdb12.xml#id-4266ce67-6f7b-44d3-a461-1530ee2cdb12"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-378d5eb3500b47f997c77879c323b9b1.xml#id-378d5eb3500b47f997c77879c323b9b1"/>
+</archimate:AccessRelationship>

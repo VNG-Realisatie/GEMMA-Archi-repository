@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-299d3ea542784c6cbe2e139d24187f73">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.45"/>
+  <properties
+      key="Signalen"
+      value="registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Exploiteren van accommodaties kan leners registreren in het kader van uitleenactiviteiten vanuit museumaccommodaties. Echter de relatie is zwak omdat uitlenen een specifieke museumfunctie is."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Geen specifieke museumbeheer-functie aanwezig in de lijst; de relatie tussen Exploiteren van accommodaties en Lener is indirect."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580.xml#id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-7b195da29b46480b842b0b7a082cd08a.xml#id-7b195da29b46480b842b0b7a082cd08a"/>
+</archimate:AccessRelationship>

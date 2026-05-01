@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-6b4905a3925d42fc864e359856f27c1a">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.88"/>
+  <properties
+      key="Signalen"
+      value="indienen, wijzigen, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Bij het indienen of wijzigen van een aanvraag worden de bijbehorende aanvraagdata (de specifieke gegevensvelden per aanvraag) aangemaakt en gevuld. Dit object representeert de concrete inhoudelijke gegevens van de aanvraag, die direct door de indieningsfunctie worden gecreëerd en gewijzigd. PRIMARY op basis van initiële creatie van de aanvraagdata."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-24c15ba5-f3ca-4daa-b95d-1353241f6dee.xml#id-24c15ba5-f3ca-4daa-b95d-1353241f6dee"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-acfde1792c1640338aa2a9a9c46b3d33.xml#id-acfde1792c1640338aa2a9a9c46b3d33"/>
+</archimate:AccessRelationship>

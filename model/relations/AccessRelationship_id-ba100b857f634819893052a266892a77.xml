@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-ba100b857f634819893052a266892a77">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.62"/>
+  <properties
+      key="Signalen"
+      value="brede intake, zelfredzaamheid, ondersteuning, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="De Brede Intake is een gestructureerd intakeproces gericht op zelfredzaamheid en integrale beeldvorming van de inwoner. Zelfredzaamheidsontwikkeling heeft de meest logische koppeling met brede intake als startpunt voor zelfredzaamheidsondersteuning. PRIMARY als beste beschikbare functie bij ontbreken van specifieke inburgeringsfunctie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a2fd-2eda-11e5-1099-005056a83192.xml#id-7be8a2fd-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-6dc9d604edca488bb5a5c0bedd648c07.xml#id-6dc9d604edca488bb5a5c0bedd648c07"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-4a70a666dd3246c3b5f28281557ce946">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.68"/>
+  <properties
+      key="Signalen"
+      value="beheren gegevens gebruikers, autorisaties, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Betrokkene omvat subjecten die een rol spelen bij een zaak. Identiteitenbeheer beheert gebruikersgegevens en autorisaties, waarbij betrokkenen worden geregistreerd. PRIMARY als meest directe beheerder van persoons- en organisatiegerelateerde identiteitsgegevens in de zaakcontext."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-4344e524-e01f-4f17-aacb-ac3999f5ded8.xml#id-4344e524-e01f-4f17-aacb-ac3999f5ded8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-16d96fb2c1f84820903ba2038f4d5eec.xml#id-16d96fb2c1f84820903ba2038f4d5eec"/>
+</archimate:AccessRelationship>

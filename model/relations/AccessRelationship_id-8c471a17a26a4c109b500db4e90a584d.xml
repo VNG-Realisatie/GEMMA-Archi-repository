@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-8c471a17a26a4c109b500db4e90a584d">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="beheren, groenvoorzieningen, werkzaamheden"/>
+  <properties
+      key="Onderbouwing"
+      value="Groenbeheer beheert groenvoorzieningen in de openbare ruimte en legt daarvoor het verspreidingsgebied van vegetatie vast. SECONDARY omdat Beheren fysieke objecten als overkoepelende functie de bredere verantwoordelijkheid heeft voor areaalregistratie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-208a6246-ebca-456e-820b-ec4c4f6a8803.xml#id-208a6246-ebca-456e-820b-ec4c4f6a8803"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-99d9f391c5f642b48e5e168ec541f5d0.xml#id-99d9f391c5f642b48e5e168ec541f5d0"/>
+</archimate:AccessRelationship>

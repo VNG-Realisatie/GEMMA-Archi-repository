@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-a2c00fc58acb4be2bfd490c80d4269a4">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="plannen, beheren, rapporteren, projecten"/>
+  <properties
+      key="Onderbouwing"
+      value="Een plan in dit beleidsdomein (Bouwen en Wonen) betreft een project waarin woningen worden gerealiseerd. Ruimtelijke uitvoering plant en beheert projecten die de ruimtelijke omgeving wijzigen, inclusief woonprojecten. Als de functie die plannen creëert en beheert in de uitvoering is PRIMARY gerechtvaardigd."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-c61924f0-e340-4b6c-b400-8f3971637a83.xml#id-c61924f0-e340-4b6c-b400-8f3971637a83"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-b455d96b92c24281af36125e8a29f3c3.xml#id-b455d96b92c24281af36125e8a29f3c3"/>
+</archimate:AccessRelationship>

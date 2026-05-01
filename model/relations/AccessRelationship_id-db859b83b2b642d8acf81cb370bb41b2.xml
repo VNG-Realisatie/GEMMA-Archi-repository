@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-db859b83b2b642d8acf81cb370bb41b2">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="aanbesteden, gunnen, opdracht toewijzen"/>
+  <properties
+      key="Onderbouwing"
+      value="Aanbesteding omvat het conform wetgeving aanbesteden van opdrachten, wat het nemen van een gunnisbeslissing en het vastleggen van de gunning omvat als afsluiting van het aanbestedingsproces. Gunning is het directe output-document van een voltooide aanbestedingsprocedure. PRIMARY omdat aanbesteding de enige functie is die gunningsbeslissingen aanmaakt en vastlegt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-f023811a-174a-46b5-bee8-c1aca37b7dc7.xml#id-f023811a-174a-46b5-bee8-c1aca37b7dc7"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-58f69bfac6654618acab5dcdf3eef385.xml#id-58f69bfac6654618acab5dcdf3eef385"/>
+</archimate:AccessRelationship>

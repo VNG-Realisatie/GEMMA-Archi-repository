@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-a299e1f67a0c48179902ae00c8742d19">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.62"/>
+  <properties
+      key="Signalen"
+      value="beheren bedrijfsgegevens"/>
+  <properties
+      key="Onderbouwing"
+      value="Bedrijfsgegevens beheer richt zich op het bijhouden van gegevens over bedrijven, waaronder horecabedrijven zoals hotels. Een hotel als economisch bedrijfsobject valt logischerwijs onder de scope van bedrijfsgegevensbeheer: naam, adres, eigenaar, type onderneming worden hier geregistreerd en gemuteerd. SECONDARY omdat de vergunningverlening als initieel creatieproces voor het object Hotel de primaire verantwoordelijkheid draagt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-a9eea8b7-9299-11e5-1099-005056a83192.xml#id-a9eea8b7-9299-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-ef68d35e6b504a6492a37bdcc93120b2.xml#id-ef68d35e6b504a6492a37bdcc93120b2"/>
+</archimate:AccessRelationship>

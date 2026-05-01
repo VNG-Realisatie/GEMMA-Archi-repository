@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-4dbea14fe05b4c9fbe0e1d89db062284">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="beheren, coördinaten, ruimtelijke dimensie, topografie"/>
+  <properties
+      key="Onderbouwing"
+      value="Locatie beschrijft coördinaten en ruimtelijke afbakening. BGT Beheer beheert grootschalige topografische gegevens inclusief ruimtelijke coördinaten en locaties. PRIMARY als de meest specifieke topografische beheerder voor locatiegegevens."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-ea4a05cd26c94e39bc719ac224cb153e.xml#id-ea4a05cd26c94e39bc719ac224cb153e"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-121a3581021a47b48d99d9fbf7a2efec.xml#id-121a3581021a47b48d99d9fbf7a2efec"/>
+</archimate:AccessRelationship>

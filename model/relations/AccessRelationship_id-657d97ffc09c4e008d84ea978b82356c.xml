@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-657d97ffc09c4e008d84ea978b82356c">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="beheren, onderhoud, uitvoeren, werkzaamheden"/>
+  <properties
+      key="Onderbouwing"
+      value="Onderhoud betreft maatregelen om de functionele kwaliteit te bewaren en de levensduur van objecten te realiseren. Beheren fysieke objecten is de functie die werkzaamheden uitvoert om te voldoen aan beleidsdoelen voor beheer van objecten, waarbij onderhoudsactiviteiten worden gepland en vastgelegd. PRIMARY is direct gerechtvaardigd."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-c02372c9-e979-4966-95f6-50d1fa249198.xml#id-c02372c9-e979-4966-95f6-50d1fa249198"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-4f593fdf641d4038b59cbe109e8e5fd4.xml#id-4f593fdf641d4038b59cbe109e8e5fd4"/>
+</archimate:AccessRelationship>

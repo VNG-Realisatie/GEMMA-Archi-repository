@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-5773e112067f4fec95e6832fd8fb9496">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="beheren, vastleggen, bepalen"/>
+  <properties
+      key="Onderbouwing"
+      value="Erfgoed- en monumentenbeheer beheert erfgoedobjecten en collecties op inhoudelijk en beleidsmatig niveau, inclusief het vaststellen van wat tot de collectie behoort. PRIMARY omdat deze functie de inhoudelijke eindverantwoordelijkheid heeft voor het registreren en beheren van museumcollecties."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-f228c9bd-3de0-436b-98a3-d0165932c7a8.xml#id-f228c9bd-3de0-436b-98a3-d0165932c7a8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-fee4880c2e074fd2bf8fa070c8484769.xml#id-fee4880c2e074fd2bf8fa070c8484769"/>
+</archimate:AccessRelationship>

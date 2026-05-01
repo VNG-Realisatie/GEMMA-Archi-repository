@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-0176c9987aa8432ba6dd05802c703931">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.70"/>
+  <properties
+      key="Signalen"
+      value="beheren, WRO-plannen, bestemmingsplannen"/>
+  <properties
+      key="Onderbouwing"
+      value="Afronden procedures WRO-plannen beheert WRO-plannen in de ruimtelijke omgeving en verwerkt de administratieve afsluiting hiervan. Een plan voor woningrealisatie kan onderdeel zijn van een bestemmingsplan. SECONDARY omdat de primaire plancreatie bij Ruimtelijke uitvoering ligt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-5c59d1e0-02a9-430a-87d8-2f61deabf72c.xml#id-5c59d1e0-02a9-430a-87d8-2f61deabf72c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-b455d96b92c24281af36125e8a29f3c3.xml#id-b455d96b92c24281af36125e8a29f3c3"/>
+</archimate:AccessRelationship>

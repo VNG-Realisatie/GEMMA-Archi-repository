@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-66e898cb3ea9400fb280364a73012fbe">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.55"/>
+  <properties
+      key="Signalen"
+      value="onderhouden, beheren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Contactbeheer is verantwoordelijk voor het onderhouden van relaties met klanten en ketenpartners; het registreren en beheren van onderwerpen waarover contact plaatsvindt is een inherent onderdeel hiervan. Geen andere functie heeft een directere schrijfrelatie tot dit generieke object. PRIMARY omdat Contactbeheer het breedst verantwoordelijk is voor het structureel beheer van contactgerelateerde onderwerpen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Onderwerp is een generiek object dat potentieel door meerdere functies wordt aangemaakt; er is geen expliciete functie die primair onderwerpen creëert of beheert."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-ca7deb46-63fb-45e8-abbf-c2d50d52f7a1.xml#id-ca7deb46-63fb-45e8-abbf-c2d50d52f7a1"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-27d609ff20904ce486d166f966a766e5.xml#id-27d609ff20904ce486d166f966a766e5"/>
+</archimate:AccessRelationship>

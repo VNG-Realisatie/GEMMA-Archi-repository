@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-096f1d7fea5d4cea8b749636aed96f0a">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.55"/>
+  <properties
+      key="Signalen"
+      value="registreren, beheren"/>
+  <properties
+      key="Onderbouwing"
+      value="Bij de exploitatie van accommodaties worden sportverenigingen als huurders of gebruikers geregistreerd in de accommodatieadministratie. SECONDARY omdat Sportstimulering de primaire inhoudelijke verantwoordelijkheid heeft voor het registreren van sportverenigingen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580.xml#id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-9f9cc779ebdb48ceb240b7d5fec6c402.xml#id-9f9cc779ebdb48ceb240b7d5fec6c402"/>
+</archimate:AccessRelationship>

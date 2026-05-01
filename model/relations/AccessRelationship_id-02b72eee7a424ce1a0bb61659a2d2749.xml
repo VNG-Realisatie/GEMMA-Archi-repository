@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-02b72eee7a424ce1a0bb61659a2d2749">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="registreren, beheren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Schuldhulporganisaties worden geregistreerd als uitvoerders van de gemeentelijke schuldhulpverleningstaak. Schuldhulpverlening is verantwoordelijk voor het registreren en beheren van gegevens over schuldhulporganisaties als ketenpartners. PRIMARY op basis van structureel beheer."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3850d427-6dce-11e5-1099-005056a83192.xml#id-3850d427-6dce-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-01ab873019bc4f27ba7352f6ec205714.xml#id-01ab873019bc4f27ba7352f6ec205714"/>
+</archimate:AccessRelationship>

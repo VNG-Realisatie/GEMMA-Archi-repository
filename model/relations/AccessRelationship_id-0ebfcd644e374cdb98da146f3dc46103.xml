@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-0ebfcd644e374cdb98da146f3dc46103">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.82"/>
+  <properties
+      key="Signalen"
+      value="uitvoeren taken, belastingen- en heffingengerelateerde gegevens, actueel en betrouwbaar houden"/>
+  <properties
+      key="Onderbouwing"
+      value="Belasting subject- en objectregistratie houdt belastingen- en heffingengerelateerde gegevens actueel en betrouwbaar. Heffing is een door de overheid opgelegde verplichting tot betaling - direct verwant aan de registratie van belastingverplichtingen. PRIMARY als de functie die expliciet heffingsgerelateerde gegevens registreert en bijhoudt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-159f234f-0d4d-41af-8583-808e3fc352da.xml#id-159f234f-0d4d-41af-8583-808e3fc352da"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-68bccce27b314b94a022ddd81d517d82.xml#id-68bccce27b314b94a022ddd81d517d82"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-cbdc97ba76354000ba6d863f49f0719e">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="verwerken, registreren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="AanvraagOfMelding in de context van Leerplicht en Leerlingenvervoer wordt geregistreerd en verwerkt als onderdeel van de uitvoering van leerlingenvervoer en leerplicht. PRIMARY omdat Leerlingenvervoer de meest specifieke functie is in dit beleidsdomein die aanvragen en meldingen verwerkt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-ab46e404-9e45-11e5-11ba-005056a85f9c.xml#id-ab46e404-9e45-11e5-11ba-005056a85f9c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-ef06b3a1a04e4e9a8fefd9b848161ac1.xml#id-ef06b3a1a04e4e9a8fefd9b848161ac1"/>
+</archimate:AccessRelationship>

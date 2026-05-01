@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-d0777e76119a4ff69f25fe6e4dd57167">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.55"/>
+  <properties
+      key="Signalen"
+      value="beheren, uitvoeren werkzaamheden, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Beheren fysieke objecten omvat onderhoud van objecten in de openbare ruimte en kan belijning op sportvelden en wegen registreren en bijhouden. SECONDARY omdat Exploiteren van accommodaties specifieker verantwoordelijk is voor sportgerelateerde belijning."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-c02372c9-e979-4966-95f6-50d1fa249198.xml#id-c02372c9-e979-4966-95f6-50d1fa249198"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-864f14f91f374d41ae3509e15b8e52a4.xml#id-864f14f91f374d41ae3509e15b8e52a4"/>
+</archimate:AccessRelationship>

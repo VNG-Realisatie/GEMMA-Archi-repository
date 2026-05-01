@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-499707e95af1464bb101a7378c952711">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.80"/>
+  <properties
+      key="Signalen"
+      value="registreren, verwerken, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Toezicht verwerkt VTH-zaken door toezichtsbevindingen te registreren en de zaak bij te werken. SECONDARY omdat de initiële zaakcreatie bij Toestemmingverlening ligt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-aac7ff27-3c79-4234-bf48-1cc00e450553.xml#id-aac7ff27-3c79-4234-bf48-1cc00e450553"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-48cf79a0e97e481dad0e5effc35ef9e9.xml#id-48cf79a0e97e481dad0e5effc35ef9e9"/>
+</archimate:AccessRelationship>

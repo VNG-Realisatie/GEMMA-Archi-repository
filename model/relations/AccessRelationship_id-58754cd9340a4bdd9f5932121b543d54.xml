@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-58754cd9340a4bdd9f5932121b543d54">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.97"/>
+  <properties
+      key="Signalen"
+      value="bijhouding, actueel en betrouwbaar houden, uitvoeren van taken"/>
+  <properties
+      key="Onderbouwing"
+      value="Bevolkingsadministratie bijhouding is expliciet verantwoordelijk voor het actueel en betrouwbaar houden van de Basisregistratie Personen, waarbij IngeschrevenPersoon de centrale entiteit is die wordt bijgehouden. De functie creëert en muteert persoonsregistraties. PRIMARY omdat dit de enige functie is die structureel en wettelijk verantwoordelijk is voor het beheer van ingeschreven personen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-05ebfe88-2d7a-4093-bb4c-d9371baeb43c.xml#id-05ebfe88-2d7a-4093-bb4c-d9371baeb43c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-8576c90ac5104cf8ade8acadf2764432.xml#id-8576c90ac5104cf8ade8acadf2764432"/>
+</archimate:AccessRelationship>

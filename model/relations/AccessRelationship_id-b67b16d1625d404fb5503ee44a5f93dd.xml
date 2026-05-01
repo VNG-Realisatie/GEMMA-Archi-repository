@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-b67b16d1625d404fb5503ee44a5f93dd">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.45"/>
+  <properties
+      key="Signalen"
+      value="beheren, gegevens"/>
+  <properties
+      key="Onderbouwing"
+      value="Wijk in RSGB is een sociaal-geografische eenheid. BRO Beheer richt zich op bodem en ondergrond, wat slechts indirect verband houdt met wijkindelingen. Er is geen sterke kandidaat voor wijkbeheer in RSGB; BAG Beheer beheert de BAG-variant, maar voor RSGB-wijk is de relatie minder direct. PRIMARY bij gebrek aan betere kandidaat, maar de relatie is zwak."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Geen duidelijke functie heeft expliciete verantwoordelijkheid voor Wijk in RSGB Model; BAG Beheer beheert de BAG-wijk, maar RSGB-wijk heeft geen directe beheerder. BRO Beheer is de minst slechte keuze maar de relatie is indirect."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-5db8b459c11c43ff89b962ddff05b036.xml#id-5db8b459c11c43ff89b962ddff05b036"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-9dfbf286ac1a4be7a0608a56e3723985.xml#id-9dfbf286ac1a4be7a0608a56e3723985"/>
+</archimate:AccessRelationship>

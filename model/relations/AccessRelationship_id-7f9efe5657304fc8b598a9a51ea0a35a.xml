@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-7f9efe5657304fc8b598a9a51ea0a35a">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="registreren, WSNP, schuldsanering"/>
+  <properties
+      key="Onderbouwing"
+      value="Het WSNP-traject is een expliciet onderdeel van schuldhulpverlening (WSNP als alternatieve route naast minnelijke regeling). Schuldhulpverlening is direct verantwoordelijk voor het registreren en beheren van WSNP-trajecten. PRIMARY op basis van directe initiële creatie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3850d427-6dce-11e5-1099-005056a83192.xml#id-3850d427-6dce-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-56c9c78fcbb945eb98fa03368bfbbdae.xml#id-56c9c78fcbb945eb98fa03368bfbbdae"/>
+</archimate:AccessRelationship>

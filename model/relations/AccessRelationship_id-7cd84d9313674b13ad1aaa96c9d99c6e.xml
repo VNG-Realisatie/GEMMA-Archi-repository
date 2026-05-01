@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-7cd84d9313674b13ad1aaa96c9d99c6e">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.83"/>
+  <properties
+      key="Signalen"
+      value="overdragen, vastleggen, verwerken"/>
+  <properties
+      key="Onderbouwing"
+      value="Doorgeleiding aan het Openbaar Ministerie is een stap in het handhavingsproces waarbij de leerplichtambtenaar een zaak overdraagt. PRIMARY omdat handhaving de functie is die dit object creëert en de overdracht formaliseert als onderdeel van het handhavingstraject."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-020f2f8c-d549-4a95-a2a9-56c1b0a43be8.xml#id-020f2f8c-d549-4a95-a2a9-56c1b0a43be8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-a4cae05408a04b6496945bc05fd50638.xml#id-a4cae05408a04b6496945bc05fd50638"/>
+</archimate:AccessRelationship>

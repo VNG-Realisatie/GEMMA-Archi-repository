@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-2a57cb3248e443c2886510eb6345811c">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.92"/>
+  <properties
+      key="Signalen"
+      value="registreren, meldingen, WIBON, beheren"/>
+  <properties
+      key="Onderbouwing"
+      value="Een MOOR-melding is het meldingsproces rondom werkzaamheden aan kabels en leidingen. Kabels- en leidingenbeheer beheert expliciet gegevens over kabels en leidingen in het kader van WIBON en levert netinformatie aan conform IMKL; het registreren van MOOR-meldingen is een kernactiviteit van deze functie. PRIMARY is evident."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-117db024-9c8d-4ab1-b5ef-cf85b6b2b59c.xml#id-117db024-9c8d-4ab1-b5ef-cf85b6b2b59c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-841194050deb422ab998a5173772f82d.xml#id-841194050deb422ab998a5173772f82d"/>
+</archimate:AccessRelationship>

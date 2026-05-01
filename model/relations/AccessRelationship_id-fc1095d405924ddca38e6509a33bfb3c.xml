@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-fc1095d405924ddca38e6509a33bfb3c">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.60"/>
+  <properties
+      key="Signalen"
+      value="registreren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Handhaving kan inspecties uitvoeren als onderdeel van het opleggen van maatregelen, waardoor inspectiegegevens worden aangemaakt of bijgewerkt. SECONDARY omdat Toezicht de primaire verantwoordelijkheid heeft voor de initiële inspectie-registratie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-020f2f8c-d549-4a95-a2a9-56c1b0a43be8.xml#id-020f2f8c-d549-4a95-a2a9-56c1b0a43be8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-4a6c7c11248546bda43a288253ed907e.xml#id-4a6c7c11248546bda43a288253ed907e"/>
+</archimate:AccessRelationship>

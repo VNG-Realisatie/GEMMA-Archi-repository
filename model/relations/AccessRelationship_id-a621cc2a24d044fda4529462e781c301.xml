@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-a621cc2a24d044fda4529462e781c301">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="exploiteren, registreren, beheren"/>
+  <properties
+      key="Onderbouwing"
+      value="Winkelverkoopgroepen zijn groeperingen van winkelverkopen in een museumwinkel; het exploiteren van accommodaties omvat het registreren en administreren van verkoopgroepen als onderdeel van de museumexploitatie. PRIMARY omdat geen andere functie specifieker verantwoordelijk is voor dit object."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580.xml#id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-5da2305c9a474bf080e476bbeedf4c89.xml#id-5da2305c9a474bf080e476bbeedf4c89"/>
+</archimate:AccessRelationship>

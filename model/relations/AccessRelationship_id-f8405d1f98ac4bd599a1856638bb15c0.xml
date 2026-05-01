@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-f8405d1f98ac4bd599a1856638bb15c0">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="bijhouden burgerlijke staat, documenten verstrekken"/>
+  <properties
+      key="Onderbouwing"
+      value="Burgerlijke stand diensten houdt de burgerlijke staat bij en verstrekt persoonlijke documenten. Een reisdocument is een persoonsdocument waarvan de registratie in de BRP/gemeentelijke administratie valt onder het beheer van de functie die burgerlijke stand behandelt. PRIMARY als meest specifieke functie voor persoonsdocumenten, hoewel 'Officiële documenten verstrekking' ook relevant is maar meer op verstrekking gericht."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-c689b2cc-4672-4474-a82f-44273c60d384.xml#id-c689b2cc-4672-4474-a82f-44273c60d384"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-07cb7da54dac4181839b23d677fefd4e.xml#id-07cb7da54dac4181839b23d677fefd4e"/>
+</archimate:AccessRelationship>

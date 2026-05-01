@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-768193a97083463ab19448d4a45d05b6">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="beheren, projecten, omgeving"/>
+  <properties
+      key="Onderbouwing"
+      value="Realiseren fysieke leefomgeving beheert eveneens projecten in het ruimtelijke domein en zou projectlocaties registreren als onderdeel van projectbeheer. SECONDARY omdat Ruimtelijke uitvoering explicieter het plannen en rapporteren van projectlocaties omvat."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-ef3913d6-4b86-4d4d-8062-36d46e4e4498.xml#id-ef3913d6-4b86-4d4d-8062-36d46e4e4498"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-cc605b694e754dad85416fec06c96724.xml#id-cc605b694e754dad85416fec06c96724"/>
+</archimate:AccessRelationship>

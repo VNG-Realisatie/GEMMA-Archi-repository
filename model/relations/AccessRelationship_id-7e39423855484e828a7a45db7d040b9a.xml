@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-7e39423855484e828a7a45db7d040b9a">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.48"/>
+  <properties
+      key="Signalen"
+      value="begeleiding, inburgering, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="PVT is een object binnen inburgering (in ontwikkeling). Zelfredzaamheidsontwikkeling is de meest logische beschikbare functie met raakvlakken met inburgering. PRIMARY als beste beschikbare optie bij volledige afwezigheid van een specifieke inburgeringsfunctie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="PVT is een specifiek inburgeringsobject zonder duidelijke semantische match met beschikbare functies; inhoud PVT is niet gespecificeerd."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a2fd-2eda-11e5-1099-005056a83192.xml#id-7be8a2fd-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-b01576f0af9e4090bbba70b1f51f05b4.xml#id-b01576f0af9e4090bbba70b1f51f05b4"/>
+</archimate:AccessRelationship>

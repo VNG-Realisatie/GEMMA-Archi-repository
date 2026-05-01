@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-cc23a594382f4de48d708c11348e71d7">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="opleggen, verwerken"/>
+  <properties
+      key="Onderbouwing"
+      value="Handhaving verwerkt meldingen van woonfraude en registreert de bijbehorende maatregelen, waardoor de aanvraag/melding inhoudelijk wordt bijgewerkt met handhavingsresultaten. Dit constitueert een WRITE-relatie op de melding. SECONDARY omdat de initiële creatie en registratie van de melding primair bij Toezicht of een meldingenontvangstfunctie ligt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-020f2f8c-d549-4a95-a2a9-56c1b0a43be8.xml#id-020f2f8c-d549-4a95-a2a9-56c1b0a43be8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-96641997eb374f50826884b00cf2bff6.xml#id-96641997eb374f50826884b00cf2bff6"/>
+</archimate:AccessRelationship>

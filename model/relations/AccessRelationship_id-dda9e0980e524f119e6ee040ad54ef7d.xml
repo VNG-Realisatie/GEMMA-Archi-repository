@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-dda9e0980e524f119e6ee040ad54ef7d">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.88"/>
+  <properties
+      key="Signalen"
+      value="beheren, onderhoud, meerjaren planning"/>
+  <properties
+      key="Onderbouwing"
+      value="Vastgoedbeheer verwerft, richt in, beheert en stoot gebouwen af, waarbij Meerjaren Onderhoudsplanningen (MJOP) worden opgesteld en bijgehouden als onderdeel van planmatig onderhoud. Een MJOP is het centrale planningsdocument voor vastgoedonderhoud. PRIMARY omdat vastgoedbeheer de inhoudelijke eindverantwoordelijkheid draagt voor het opstellen en bijhouden van MJOP."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-1af6f4aa-d797-44f5-bfb0-e77229141dfa.xml#id-1af6f4aa-d797-44f5-bfb0-e77229141dfa"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-a19dc316cff24ec9b6714981b15c4214.xml#id-a19dc316cff24ec9b6714981b15c4214"/>
+</archimate:AccessRelationship>

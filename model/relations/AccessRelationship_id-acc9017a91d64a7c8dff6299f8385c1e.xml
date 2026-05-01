@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-acc9017a91d64a7c8dff6299f8385c1e">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.70"/>
+  <properties
+      key="Signalen"
+      value="registreren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Bij het verwerken van een vergunningaanvraag of melding wordt de indiener geregistreerd als onderdeel van het aanvraagproces. Toestemmingverlening activiteit fysieke leefomgeving is de meest directe functie die indienergegevens creëert bij ontvangst van een aanvraag. PRIMARY omdat de indiener wordt geregistreerd bij het initiëren van het vergunningproces."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7a1e5935-026e-41ef-be95-d02f2a2a3937.xml#id-7a1e5935-026e-41ef-be95-d02f2a2a3937"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-8a3897e2e24c4df695caf139a02fb7a9.xml#id-8a3897e2e24c4df695caf139a02fb7a9"/>
+</archimate:AccessRelationship>

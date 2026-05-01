@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-3da8227af92c4d1a925ef69e7627af54">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.82"/>
+  <properties
+      key="Signalen"
+      value="administreren, coderen, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Het leerjaar is een codering die hoort bij de leerling-inschrijving en wordt geregistreerd en beheerd door de leerlingenadministratie. PRIMARY omdat de leerlingenadministratie de enige aangewezen functie is die leerjaargegevens per leerling bijhoudt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-ab46e401-9e45-11e5-11ba-005056a85f9c.xml#id-ab46e401-9e45-11e5-11ba-005056a85f9c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-8fe2cc47eea94a8aa101599ec2890a91.xml#id-8fe2cc47eea94a8aa101599ec2890a91"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-3a930fde2bb74f999b232d675b859ad4">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.62"/>
+  <properties
+      key="Signalen"
+      value="extraheren, opslaan, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Informatieextractie en opslag extraheert inhoudelijke gegevens uit ontvangen kanalen om deze kanaalonafhankelijk op te slaan; bij binnenkomende aanvragen leidt dit tot het vastleggen van aanvraagdata. SECONDARY omdat het gaat om een technische verwerkingsstap na de initiële indiening, niet om de primaire creatie van aanvraagdata."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-72a7113c-31d2-4678-842b-00592230fb6b.xml#id-72a7113c-31d2-4678-842b-00592230fb6b"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-acfde1792c1640338aa2a9a9c46b3d33.xml#id-acfde1792c1640338aa2a9a9c46b3d33"/>
+</archimate:AccessRelationship>

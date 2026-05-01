@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-13fbe222184743cc8560800499211e8a">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.88"/>
+  <properties
+      key="Signalen"
+      value="ontvangen, controleren, aanvullen, genereren object voor duurzame opslag"/>
+  <properties
+      key="Onderbouwing"
+      value="In bewaring nemen van informatieobjecten ontvangt, controleert, aanvult en genereert documenten voor duurzame opslag. Document is het directe object van deze functie. PRIMARY als de functie die documenten structureel opslaat en beheert voor archivering."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-bb90af2f-dba8-436f-b82b-050c0f429ab2.xml#id-bb90af2f-dba8-436f-b82b-050c0f429ab2"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-64b72d1846614154b817db52cbbc3cd7.xml#id-64b72d1846614154b817db52cbbc3cd7"/>
+</archimate:AccessRelationship>

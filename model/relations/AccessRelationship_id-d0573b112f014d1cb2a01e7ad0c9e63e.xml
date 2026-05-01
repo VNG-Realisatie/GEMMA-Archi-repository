@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-d0573b112f014d1cb2a01e7ad0c9e63e">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.83"/>
+  <properties
+      key="Signalen"
+      value="exploiteren, beheren, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Exploiteren van afvalopslag en -verwerking beheert de locaties waar afval wordt opgeslagen en verwerkt, waaronder milieustraten als specifieke inzamelpunten voor huishoudelijk afval. Het registreren en beheren van milieustraat-gegevens valt direct onder deze exploitatiefunctie. Zij is de meest specifieke verantwoordelijke voor dit object."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-cc1c4709-f354-4747-8bac-3bc54f88e409.xml#id-cc1c4709-f354-4747-8bac-3bc54f88e409"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-4c5fd81e15cc4d6ba7c9084770c53649.xml#id-4c5fd81e15cc4d6ba7c9084770c53649"/>
+</archimate:AccessRelationship>

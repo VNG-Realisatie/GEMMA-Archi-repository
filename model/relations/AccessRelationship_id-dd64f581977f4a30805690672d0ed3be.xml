@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-dd64f581977f4a30805690672d0ed3be">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.82"/>
+  <properties
+      key="Signalen"
+      value="beheren, wijzigingen, applicaties verbeteren"/>
+  <properties
+      key="Onderbouwing"
+      value="Applicatiebeheer voert beheertaken uit m.b.t. bedrijfsapplicaties, waarbij wijzigingsverzoeken worden geregistreerd, beoordeeld en verwerkt als onderdeel van het changemanagement van applicaties. Wijzigingsverzoeken zijn centrale beheersobjecten in applicatiebeheerprocessen. PRIMARY omdat applicatiebeheer de meest directe verantwoordelijkheid heeft voor het registreren en verwerken van wijzigingsverzoeken."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-0a5674fa-2a89-4dce-8599-850146a16d2a.xml#id-0a5674fa-2a89-4dce-8599-850146a16d2a"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-c132068d202d4ac6b56ee93dc2c0a2ec.xml#id-c132068d202d4ac6b56ee93dc2c0a2ec"/>
+</archimate:AccessRelationship>

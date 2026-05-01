@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-0fb5ed64ac9c4ec8867f6b8d162efb8c">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="aanbesteden, publiceren, bekendmaken"/>
+  <properties
+      key="Onderbouwing"
+      value="Aanbesteding omvat het conform wetgeving aanbesteden van opdrachten waarbij bedrijven een offerte kunnen indienen, wat het opstellen en publiceren van aankondigingen van aanbestedingen omvat. Aankondigingen zijn het directe resultaat van de aanbestedingsprocedure. PRIMARY omdat aanbesteding de enige functie is die expliciet aankondigingen van aanbestedingen genereert."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-f023811a-174a-46b5-bee8-c1aca37b7dc7.xml#id-f023811a-174a-46b5-bee8-c1aca37b7dc7"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-313b3e0973244d3cb0012a016a555f8c.xml#id-313b3e0973244d3cb0012a016a555f8c"/>
+</archimate:AccessRelationship>

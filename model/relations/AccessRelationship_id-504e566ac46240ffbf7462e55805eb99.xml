@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-504e566ac46240ffbf7462e55805eb99">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.68"/>
+  <properties
+      key="Signalen"
+      value="begeleiding inburgering, vastleggen traject, ondersteuning"/>
+  <properties
+      key="Onderbouwing"
+      value="Het inburgeringstraject is het persoonlijke begeleidingstraject voor nieuwkomers. Zelfredzaamheidsontwikkeling ondersteunt zelfredzaamheid en heeft de meest logische koppeling met inburgeringstrajecten bij afwezigheid van een specifieke inburgeringsfunctie. PRIMARY als beste beschikbare functie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a2fd-2eda-11e5-1099-005056a83192.xml#id-7be8a2fd-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-4fe3debd52264c8a97eb6d0f717b7a6b.xml#id-4fe3debd52264c8a97eb6d0f717b7a6b"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-a68dcceab7d043a0b05d9f6983a060b8">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="exploiteren parkeerplaatsen, parkeergarages, tijdelijke voorzieningen"/>
+  <properties
+      key="Onderbouwing"
+      value="Exploiteren van parkeerplaatsen heeft een operationele rol bij het verlenen van parkeerrechten en -vergunningen als onderdeel van de dagelijkse exploitatie. Parkeervergunningen zijn een instrument binnen de parkeerexploitatie. SECONDARY omdat Vergunningenbeheer Publieksdiensten de formele vergunningverlenende rol heeft."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-a3ec498f-cc6b-4eee-b000-16620e3ba437.xml#id-a3ec498f-cc6b-4eee-b000-16620e3ba437"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-a8bd611cb4db419f9c344681f53242f3.xml#id-a8bd611cb4db419f9c344681f53242f3"/>
+</archimate:AccessRelationship>

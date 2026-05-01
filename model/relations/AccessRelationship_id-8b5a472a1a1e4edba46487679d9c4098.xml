@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-8b5a472a1a1e4edba46487679d9c4098">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.93"/>
+  <properties
+      key="Signalen"
+      value="werven, selecteren, nieuwe medewerkers"/>
+  <properties
+      key="Onderbouwing"
+      value="Werving en selectie werft en selecteert nieuwe medewerkers, wat direct begint met het aanmaken en publiceren van vacatures. Vacatures zijn de primaire documenten die in het wervingsproces worden gecreëerd. PRIMARY omdat werving en selectie de enige functie is die vacatures initieel aanmaakt en beheert."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-f15b5b8d-bf4e-48f5-ab32-bf7677c70705.xml#id-f15b5b8d-bf4e-48f5-ab32-bf7677c70705"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-3c763146e1cb40ad901cae54c00502bb.xml#id-3c763146e1cb40ad901cae54c00502bb"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-01f3b6af7ea34fd59a5cc9f8a0c90815">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.60"/>
+  <properties
+      key="Signalen"
+      value="tot stand brengen contracten leveranciers, bewaken"/>
+  <properties
+      key="Onderbouwing"
+      value="Contractbeheer is verantwoordelijk voor het tot stand brengen en bewaken van contracten met leveranciers, waaronder belproviders voor parkeerdiensten. Bij het afsluiten of wijzigen van een contract met een belprovider wordt de belprovider als object vastgelegd en beheerd. SECONDARY omdat Leveranciersbeheer de bredere relatiebeheerverantwoordelijkheid heeft."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3eef0007-c73a-45ed-879d-ac6be8d7e114.xml#id-3eef0007-c73a-45ed-879d-ac6be8d7e114"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-918d8859e3d144afa86542a86914fefd.xml#id-918d8859e3d144afa86542a86914fefd"/>
+</archimate:AccessRelationship>

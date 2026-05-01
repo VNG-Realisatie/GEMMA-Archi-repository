@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-8f1a71f4dc4a489db88a1c360dec3d9f">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="verlenen, registreren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Een VTHzaak is een zaak in het kader van Vergunningen, Toezicht en Handhaving; de functie Toestemmingverlening activiteit fysieke leefomgeving is de primaire initiator van VTH-zaken door het verwerken van aanvragen en meldingen. Deze functie creëert de zaak bij ontvangst van een vergunningaanvraag of melding. PRIMARY op basis van initiële zaakcreatie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7a1e5935-026e-41ef-be95-d02f2a2a3937.xml#id-7a1e5935-026e-41ef-be95-d02f2a2a3937"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-48cf79a0e97e481dad0e5effc35ef9e9.xml#id-48cf79a0e97e481dad0e5effc35ef9e9"/>
+</archimate:AccessRelationship>

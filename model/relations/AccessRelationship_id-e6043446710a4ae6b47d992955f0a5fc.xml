@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-e6043446710a4ae6b47d992955f0a5fc">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.80"/>
+  <properties
+      key="Signalen"
+      value="innen, muteren, verwerken"/>
+  <properties
+      key="Onderbouwing"
+      value="Belastinginvordering int belastingschulden en past daarbij de status en het saldo van de vordering aan. Dit constitueert een structurele WRITE op het vorderingsobject. SECONDARY omdat de vordering initieel wordt gecreëerd door Heffing."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-11c7e20b-a0c1-46ef-80a6-1d578c784077.xml#id-11c7e20b-a0c1-46ef-80a6-1d578c784077"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-136c9923d8d24b348e9bde64a59d7edc.xml#id-136c9923d8d24b348e9bde64a59d7edc"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-035660dfe97a46ccb4449b82ec91ef8b">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.80"/>
+  <properties
+      key="Signalen"
+      value="publiceren, creëren, beheren"/>
+  <properties
+      key="Onderbouwing"
+      value="Algemene content publicatie is verantwoordelijk voor het publiceren van allerlei soorten content met gemeentelijke relevantie; artikelen zijn de meest typische vorm van gepubliceerde content. Het publiceren van content omvat het aanmaken en beheren van Artikel-objecten. PRIMARY op basis van initiële creatie en structureel inhoudelijk beheer van artikelen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-ee81eff8-8f68-498c-95d9-70ae37cd1396.xml#id-ee81eff8-8f68-498c-95d9-70ae37cd1396"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-96cf9b74cff94f1d9495f983cd7a445f.xml#id-96cf9b74cff94f1d9495f983cd7a445f"/>
+</archimate:AccessRelationship>

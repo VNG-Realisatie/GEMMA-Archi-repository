@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-a39be7f50c144cefb8a1bc5116e72725">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.78"/>
+  <properties
+      key="Signalen"
+      value="registreren, vastleggen vermogen, schuldenanalyse"/>
+  <properties
+      key="Onderbouwing"
+      value="Hypotheekgegevens worden vastgelegd als onderdeel van de vermogensbepaling bij schuldhulpverlening. Schuldhulpverlening is de meest directe uitvoerende functie die hypotheekgegevens administreert als vermogenscomponent. PRIMARY op basis van directe inhoudelijke betrokkenheid bij vermogensbepaling."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3850d427-6dce-11e5-1099-005056a83192.xml#id-3850d427-6dce-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-2d533eb830a84e77a6dcd2c9095cfb7a.xml#id-2d533eb830a84e77a6dcd2c9095cfb7a"/>
+</archimate:AccessRelationship>

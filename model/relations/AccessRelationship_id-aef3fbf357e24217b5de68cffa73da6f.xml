@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-aef3fbf357e24217b5de68cffa73da6f">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.92"/>
+  <properties
+      key="Signalen"
+      value="aanmaken, wijzigen, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="De functie Aanmaken c.q. wijzigen klantafspraak beschrijft expliciet het maken van een afspraak tussen klant en professional op een locatie met een bepaald doel; dit is exact de definitie van een Balieafspraak. PRIMARY op basis van directe en expliciete initiële creatie van het object."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-42464b2b-6318-443b-9f4b-bbd863cc5601.xml#id-42464b2b-6318-443b-9f4b-bbd863cc5601"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-3945742e03c246af80f1e0b03d196a35.xml#id-3945742e03c246af80f1e0b03d196a35"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-e68f6394fa894ce0b69fc4ae1cf2f6f4">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="verlenen, registreren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Een ligplaatsontheffing is een tijdelijke toestemming die wordt verleend voor het innemen van een ligplaats; de functie Toestemmingverlening activiteit fysieke leefomgeving omvat expliciet het verlenen van ontheffingen en het recht op opstal voor gemeentelijk eigendom. Deze functie creëert en registreert de ligplaatsontheffing als directe output van het verleningsproces. PRIMARY op basis van initiële creatie en juridische eindverantwoordelijkheid."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7a1e5935-026e-41ef-be95-d02f2a2a3937.xml#id-7a1e5935-026e-41ef-be95-d02f2a2a3937"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-8994225b178d40af90c0f3dd538702f9.xml#id-8994225b178d40af90c0f3dd538702f9"/>
+</archimate:AccessRelationship>

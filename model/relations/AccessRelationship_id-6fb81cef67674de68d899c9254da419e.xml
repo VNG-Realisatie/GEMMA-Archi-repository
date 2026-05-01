@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-6fb81cef67674de68d899c9254da419e">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="registratie, behandeling, vastleggen doelgroep"/>
+  <properties
+      key="Onderbouwing"
+      value="Doelgroepen worden gedefinieerd en vastgelegd als onderdeel van de uitvoering van participatieregelingen en werkinstrumenten. Uitvoering instrumenten is verantwoordelijk voor het registreren van doelgroepindelingen. PRIMARY op basis van directe uitvoeringsverantwoordelijkheid."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a2f5-2eda-11e5-1099-005056a83192.xml#id-7be8a2f5-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-0696561a004c4d5daa93339a57487cb2.xml#id-0696561a004c4d5daa93339a57487cb2"/>
+</archimate:AccessRelationship>

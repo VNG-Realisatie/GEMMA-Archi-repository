@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-e3c91e071e914fbeb3ee9a7fd8f8da0f">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.62"/>
+  <properties
+      key="Signalen"
+      value="registreren, verlenen, bevoegd gezag"/>
+  <properties
+      key="Onderbouwing"
+      value="Bevoegd Gezag is een bestuursorgaan dat bevoegd is tot het geven van beschikkingen. Bij het verwerken van vergunningaanvragen wordt het bevoegd gezag geregistreerd en eventueel aangepast. Toestemmingverlening activiteit fysieke leefomgeving is de functie die het meest direct met bevoegd gezag-registraties werkt. PRIMARY is gerechtvaardigd, zij het met beperkte directe schrijfsignalen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7a1e5935-026e-41ef-be95-d02f2a2a3937.xml#id-7a1e5935-026e-41ef-be95-d02f2a2a3937"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-29430a032c1d47a8bfed081065c89df0.xml#id-29430a032c1d47a8bfed081065c89df0"/>
+</archimate:AccessRelationship>

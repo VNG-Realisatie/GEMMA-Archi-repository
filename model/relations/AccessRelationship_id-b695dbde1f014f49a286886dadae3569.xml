@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-b695dbde1f014f49a286886dadae3569">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="exploiteren parkeerplaatsen, parkeergarages, tijdelijke voorzieningen"/>
+  <properties
+      key="Onderbouwing"
+      value="Exploiteren van parkeerplaatsen noemt expliciet parkeergarages als onderdeel van de te exploiteren objecten. Het registreren, beheren en administreren van parkeergarages als fysiek object is de kern van deze functie. PRIMARY op basis van expliciete vermelding en structureel beheer van dit object."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-a3ec498f-cc6b-4eee-b000-16620e3ba437.xml#id-a3ec498f-cc6b-4eee-b000-16620e3ba437"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-f0a2c82c057941da8bd304915d7b56eb.xml#id-f0a2c82c057941da8bd304915d7b56eb"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-3269b7124d2c4a72a4bf1c62cae93a43">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="vaststelling bijstandsvorm, besluitvorming, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Besluitvorming levensonderhoud bepaalt welke inkomensvoorziening van toepassing is op een cliënt. SECONDARY omdat uitvoering instrumenten de directere administratieve uitvoering en beheer van inkomensvoorzieningen verzorgt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-6b35af7f-734b-11e5-1099-005056a83192.xml#id-6b35af7f-734b-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-8cd491e9620a40f1bc49e06754c35975.xml#id-8cd491e9620a40f1bc49e06754c35975"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-cbd03e0176a241eeb4e07c08306610b8">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="registreren vermogen, vastleggen, schuldenanalyse"/>
+  <properties
+      key="Onderbouwing"
+      value="Onroerend goed is een vermogenscomponent die wordt geregistreerd als onderdeel van de vermogensbepaling bij schuldhulpverlening. Schuldhulpverlening is direct verantwoordelijk voor het vastleggen van onroerend goed als vermogensgegeven. PRIMARY op basis van structureel beheer."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3850d427-6dce-11e5-1099-005056a83192.xml#id-3850d427-6dce-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-d89d8de3d634416cbff8c7b022720ff9.xml#id-d89d8de3d634416cbff8c7b022720ff9"/>
+</archimate:AccessRelationship>

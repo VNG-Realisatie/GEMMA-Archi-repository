@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-68df371067ef4d61bc66433bd1b84299">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.82"/>
+  <properties
+      key="Signalen"
+      value="beheren, applicaties, versies"/>
+  <properties
+      key="Onderbouwing"
+      value="Applicatiebeheer voert beheertaken uit m.b.t. bedrijfsapplicaties en bijbehorende gegevensverzamelingen, waarbij versie-aanduidingen van applicaties en objecten worden bijgehouden als onderdeel van het configuratiebeheer. Versiemanagement is een kernactiviteit van applicatiebeheer. PRIMARY omdat applicatiebeheer de meest directe verantwoordelijkheid heeft voor het beheren van versie-aanduidingen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-0a5674fa-2a89-4dce-8599-850146a16d2a.xml#id-0a5674fa-2a89-4dce-8599-850146a16d2a"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-ed6eef5ac4cc4a5b88a33698b8613b02.xml#id-ed6eef5ac4cc4a5b88a33698b8613b02"/>
+</archimate:AccessRelationship>

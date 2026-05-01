@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-a873573c80b749169955e9c302ef6dff">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.88"/>
+  <properties
+      key="Signalen"
+      value="registreren, vastleggen, minnelijke regeling, moratorium aanvragen"/>
+  <properties
+      key="Onderbouwing"
+      value="Schuldhulpverlening omvat het minnelijke traject waarbij een moratoriumverzoek bij de rechter ingediend kan worden. Het registreren van het moratorium (datum, status) is een kernactiviteit van schuldhulpverlening. PRIMARY op basis van directe inhoudelijke verantwoordelijkheid voor dit procesobject."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3850d427-6dce-11e5-1099-005056a83192.xml#id-3850d427-6dce-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-460ec7b0ad0f4738b6d44f2a7d49427e.xml#id-460ec7b0ad0f4738b6d44f2a7d49427e"/>
+</archimate:AccessRelationship>

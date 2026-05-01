@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-58932c299cf14c3ca5c71a73f221d148">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.55"/>
+  <properties
+      key="Signalen"
+      value="beheren, beschikbaar stellen"/>
+  <properties
+      key="Onderbouwing"
+      value="Identiteitenbeheer beheert gegevens van gebruikers en hun autorisaties, inclusief rollen in IT-systemen en organisaties. In de museumcontext beheert Identiteitenbeheer de rollen van gebruikers. PRIMARY omdat Identiteitenbeheer expliciet verantwoordelijk is voor het beheren van rollen als set van taken en bevoegdheden."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-4344e524-e01f-4f17-aacb-ac3999f5ded8.xml#id-4344e524-e01f-4f17-aacb-ac3999f5ded8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-75e1f25fc71440c2b7fa43b92c207aba.xml#id-75e1f25fc71440c2b7fa43b92c207aba"/>
+</archimate:AccessRelationship>

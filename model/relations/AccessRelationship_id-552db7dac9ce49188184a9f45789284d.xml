@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-552db7dac9ce49188184a9f45789284d">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="vastleggen, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Bij de afhandeling van een klantcontactmoment worden gegevens over het contact vastgelegd; bij telefonisch contact is dit het Telefoontje-object. De functie beschrijft expliciet het vastleggen van contactmomenten inclusief datum en resultaat. SECONDARY omdat de registratie van het ruwe telefoontje primair bij de telefoonsysteembeherende functie ligt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-acf4c752-d015-41d4-a7b7-d12cf10a6f06.xml#id-acf4c752-d015-41d4-a7b7-d12cf10a6f06"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-cd76781079e44bd795e11d778ae7dc01.xml#id-cd76781079e44bd795e11d778ae7dc01"/>
+</archimate:AccessRelationship>

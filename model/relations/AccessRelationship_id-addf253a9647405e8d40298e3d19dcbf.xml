@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-addf253a9647405e8d40298e3d19dcbf">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.88"/>
+  <properties
+      key="Signalen"
+      value="plannen, beheren, ruimtelijke omgeving"/>
+  <properties
+      key="Onderbouwing"
+      value="Ruimtelijke uitvoering betreft het plannen en beheren van projecten die de ruimtelijke omgeving wijzigen; daarbij wordt de projectlocatie – de fysieke locatie waar een project betrekking op heeft – geregistreerd en beheerd. Geen andere functie is specifiek verantwoordelijk voor het vastleggen van projectlocaties. PRIMARY is gerechtvaardigd."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-c61924f0-e340-4b6c-b400-8f3971637a83.xml#id-c61924f0-e340-4b6c-b400-8f3971637a83"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-cc605b694e754dad85416fec06c96724.xml#id-cc605b694e754dad85416fec06c96724"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-1af66e1360f34070aa64e98f1cf39443">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="ontvangen, controleren, aanvullen"/>
+  <properties
+      key="Onderbouwing"
+      value="In bewaring nemen voegt informatieobjecten toe aan het archief en draagt daarmee bij aan de samenstelling van het archief als geheel. SECONDARY omdat het structureel beheer van het archief primair bij Duurzaam bewaren en beheren ligt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-bb90af2f-dba8-436f-b82b-050c0f429ab2.xml#id-bb90af2f-dba8-436f-b82b-050c0f429ab2"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-15a48c3c59f24a1e98334d84b4979f2f.xml#id-15a48c3c59f24a1e98334d84b4979f2f"/>
+</archimate:AccessRelationship>

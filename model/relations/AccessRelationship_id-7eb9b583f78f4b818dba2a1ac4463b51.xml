@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-7eb9b583f78f4b818dba2a1ac4463b51">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.78"/>
+  <properties
+      key="Signalen"
+      value="registreren, minnelijke regeling, afloscapaciteit berekenen"/>
+  <properties
+      key="Onderbouwing"
+      value="Schuldhulpverlening registreert inkomensinformatie om de afloscapaciteit te berekenen en de schuldregeling op te stellen. SECONDARY omdat besluitvorming levensonderhoud de primaire inhoudelijke verantwoordelijkheid voor inkomensbepaling draagt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3850d427-6dce-11e5-1099-005056a83192.xml#id-3850d427-6dce-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-112f56bd9e9d47f18e7d77c673046fd1.xml#id-112f56bd9e9d47f18e7d77c673046fd1"/>
+</archimate:AccessRelationship>

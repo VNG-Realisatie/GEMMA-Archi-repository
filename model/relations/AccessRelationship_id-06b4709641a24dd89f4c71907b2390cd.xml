@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-06b4709641a24dd89f4c71907b2390cd">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="uitwerken, vastleggen, juridische regel, voorschriften"/>
+  <properties
+      key="Onderbouwing"
+      value="Een RegelVoorIedereen is een juridische regel die voor eenieder werking heeft. Ontwikkeling AVV fysieke leefomgeving stelt algemeen verbindende voorschriften op die per definitie voor eenieder gelden, dus zijn de RegelVoorIedereen-objecten direct het product van deze functie. PRIMARY is evident."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-f8a2b585aaba46769072d1a6a39d8d2f.xml#id-f8a2b585aaba46769072d1a6a39d8d2f"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-0737b837d1d3462ba0abe2a27e242da7.xml#id-0737b837d1d3462ba0abe2a27e242da7"/>
+</archimate:AccessRelationship>

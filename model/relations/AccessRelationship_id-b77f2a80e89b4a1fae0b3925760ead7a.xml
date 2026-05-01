@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-b77f2a80e89b4a1fae0b3925760ead7a">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.40"/>
+  <properties
+      key="Signalen"
+      value="beheren vorderingen"/>
+  <properties
+      key="Onderbouwing"
+      value="Object in RGBZ is een abstract object waarop een zaak betrekking kan hebben. Geen functie heeft expliciete verantwoordelijkheid voor dit abstracte object. Debiteurenbeheer verwerkt vorderingen die als object aan zaken zijn gekoppeld. PRIMARY als zwakste kandidaat bij gebrek aan specifiekere eigenaar."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Object is een abstract RGBZ-model entiteit zonder duidelijke primaire beheerder; het is een generiek object dat door vrijwel elke procesfunctie wordt gebruikt."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b2584870-08e4-4f9f-9b1b-62340cb29fcf.xml#id-b2584870-08e4-4f9f-9b1b-62340cb29fcf"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-304126988f7b440983e46385bbc90e1c.xml#id-304126988f7b440983e46385bbc90e1c"/>
+</archimate:AccessRelationship>

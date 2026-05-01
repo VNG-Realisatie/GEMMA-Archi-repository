@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-4710de85d5ca4036a93883175023e380">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.62"/>
+  <properties
+      key="Signalen"
+      value="behandelen, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Bij het behandelen van ingediende klachten wordt de indiener (klager) administratief geregistreerd en beheerd. Dit is een secundaire WRITE omdat het registreren van de indiener hier afgeleid is van het klachtproces, niet het primaire doel."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-26c556a4-479a-482c-b5f5-357577e87094.xml#id-26c556a4-479a-482c-b5f5-357577e87094"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-8698c723c67743269fc08c9454371585.xml#id-8698c723c67743269fc08c9454371585"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-1cb0e01f808a4d7db0e16f440505478c">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="organiseren, verstrekken, beheren"/>
+  <properties
+      key="Onderbouwing"
+      value="De Pas in de afvalcontext geeft toegang tot bepaalde diensten (zoals milieustraten of ondergrondse containers). Afvalinzameling is verantwoordelijk voor het organiseren van de toegang tot inzameldiensten en daarmee voor het uitgeven en beheren van passen. Als enige functie die direct de afvalinzamelingsdiensten organiseert, draagt zij PRIMARY-verantwoordelijkheid."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-e79d6415-e641-4eb9-a73e-f5325e5a418c.xml#id-e79d6415-e641-4eb9-a73e-f5325e5a418c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-456971d00e92423bad852458db9a8074.xml#id-456971d00e92423bad852458db9a8074"/>
+</archimate:AccessRelationship>

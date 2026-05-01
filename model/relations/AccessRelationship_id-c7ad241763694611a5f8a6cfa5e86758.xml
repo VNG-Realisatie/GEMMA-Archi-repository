@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-c7ad241763694611a5f8a6cfa5e86758">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.55"/>
+  <properties
+      key="Signalen"
+      value="verwerven, inrichten, beheren"/>
+  <properties
+      key="Onderbouwing"
+      value="Vastgoedbeheer beheert gemeentelijke gebouwen en legt locatiegegevens administratief vast, wat ook binnenlocaties omvat. SECONDARY omdat Exploiteren van accommodaties specifieker verantwoordelijk is voor de operationele registratie van binnenlocaties voor sport."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-1af6f4aa-d797-44f5-bfb0-e77229141dfa.xml#id-1af6f4aa-d797-44f5-bfb0-e77229141dfa"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-0145411e6f1d45ad85ed2a30c66c5fd2.xml#id-0145411e6f1d45ad85ed2a30c66c5fd2"/>
+</archimate:AccessRelationship>

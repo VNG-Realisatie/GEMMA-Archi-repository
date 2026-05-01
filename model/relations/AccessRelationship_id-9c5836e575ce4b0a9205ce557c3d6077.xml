@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-9c5836e575ce4b0a9205ce557c3d6077">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.70"/>
+  <properties
+      key="Signalen"
+      value="vastleggen, beheren tarief, verstrekking"/>
+  <properties
+      key="Onderbouwing"
+      value="Tarieven voor WMO/Jeugd-producten en diensten worden vastgesteld en beheerd als onderdeel van voorzieningenverstrekking. Voorzieningenverstrekking is verantwoordelijk voor het registreren van tarieven bij het verlenen van voorzieningen. PRIMARY op basis van structureel beheer."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a305-2eda-11e5-1099-005056a83192.xml#id-7be8a305-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-8a72fbef742b48caac7383a00f7faca8.xml#id-8a72fbef742b48caac7383a00f7faca8"/>
+</archimate:AccessRelationship>

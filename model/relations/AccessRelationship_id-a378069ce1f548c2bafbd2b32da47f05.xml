@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-a378069ce1f548c2bafbd2b32da47f05">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.78"/>
+  <properties
+      key="Signalen"
+      value="registreren, beheren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Bezetting is het aantal deelnemers aan een activiteit binnen een sportaccommodatie. Het exploiteren van accommodaties omvat het registreren en bijhouden van bezettingsgraad en deelnemersaantallen. PRIMARY omdat deze functie direct verantwoordelijk is voor de registratie van bezettingsgegevens."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580.xml#id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-ad364b23c4654f5c87d26ff2c951edef.xml#id-ad364b23c4654f5c87d26ff2c951edef"/>
+</archimate:AccessRelationship>

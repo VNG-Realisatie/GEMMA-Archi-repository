@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-c5438d66a55740429517d0f586069bf5">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.88"/>
+  <properties
+      key="Signalen"
+      value="uitwerken, vastleggen, juridische regel, omgevingswaarde"/>
+  <properties
+      key="Onderbouwing"
+      value="Een omgevingswaarderegel is een juridische regel gericht op een gestelde omgevingswaarde. Ontwikkeling AVV fysieke leefomgeving werkt ruimtelijke kaders uit in juridisch verbindende voorschriften, waarbij omgevingswaarderegels worden vastgesteld. PRIMARY is gerechtvaardigd als de functie die omgevingswaarderegels opstelt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-f8a2b585aaba46769072d1a6a39d8d2f.xml#id-f8a2b585aaba46769072d1a6a39d8d2f"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-ef048d27f98742a4aeeb8417b57c894c.xml#id-ef048d27f98742a4aeeb8417b57c894c"/>
+</archimate:AccessRelationship>

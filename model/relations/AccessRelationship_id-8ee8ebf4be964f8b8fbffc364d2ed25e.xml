@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-8ee8ebf4be964f8b8fbffc364d2ed25e">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.60"/>
+  <properties
+      key="Signalen"
+      value="behandelen, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Bij de behandeling van bezwaren en beroepen worden indieners (bezwaarmakers) administratief vastgelegd en verwerkt. Dit is een secundaire WRITE omdat de registratie van de indiener onderdeel is van het bredere bezwaarbehandelingsproces."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-6b35af73-734b-11e5-1099-005056a83192.xml#id-6b35af73-734b-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-8698c723c67743269fc08c9454371585.xml#id-8698c723c67743269fc08c9454371585"/>
+</archimate:AccessRelationship>

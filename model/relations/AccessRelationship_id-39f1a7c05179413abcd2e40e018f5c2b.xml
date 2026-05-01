@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-39f1a7c05179413abcd2e40e018f5c2b">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="beheren, IT-infrastructuur, configuratie"/>
+  <properties
+      key="Onderbouwing"
+      value="Systeembeheer voert beheertaken uit m.b.t. IT-infrastructuur en systeemprogrammatuur, waarbij CMDB-items (configuratie-items) worden geregistreerd en bijgehouden in de Configuration Management Database. Het beheren van CMDB-items is een kernactiviteit van IT-infrastructuurbeheer. PRIMARY omdat systeembeheer de meest directe verantwoordelijkheid heeft voor het beheren van IT-configuratie-items."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b3b4cc7f-ec2d-4cf0-8389-cc4ce7cbce34.xml#id-b3b4cc7f-ec2d-4cf0-8389-cc4ce7cbce34"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-449678c051be48e386f62cce1b25a0ec.xml#id-449678c051be48e386f62cce1b25a0ec"/>
+</archimate:AccessRelationship>

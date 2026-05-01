@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-8e69d7d8393a4a8a856293ded28f7f96">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.55"/>
+  <properties
+      key="Signalen"
+      value="inrichten, vastleggen, beheren"/>
+  <properties
+      key="Onderbouwing"
+      value="Governance inrichting beheert besluitvormingsstructuren waaronder de raadssamenstelling. Het structureel beheren van raadsleden als deelnemers in die structuur valt onder deze functie. SECONDARY omdat Verkiezingen gerelateerde diensten de initiële registratie verzorgt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-11a4c070-7b4f-4ecf-a47b-6574a916319f.xml#id-11a4c070-7b4f-4ecf-a47b-6574a916319f"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-5cd6184a9d2b47f1bd59b8c898ae0591.xml#id-5cd6184a9d2b47f1bd59b8c898ae0591"/>
+</archimate:AccessRelationship>

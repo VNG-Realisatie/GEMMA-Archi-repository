@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-93a4a994e4af49358b24b0c72d5b63c8">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.78"/>
+  <properties
+      key="Signalen"
+      value="subsidiëren, registreren, beheren"/>
+  <properties
+      key="Onderbouwing"
+      value="Sportstimulering subsidieert initiatieven van sportverenigingen en legt de gegevens van deze verenigingen administratief vast als onderdeel van het subsidieproces. PRIMARY omdat deze functie de initiële registratie en structureel beheer van sportverenigingen uitvoert in het kader van subsidieverlening."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7daf0a95-4ab7-4261-b769-5d408ab3aa72.xml#id-7daf0a95-4ab7-4261-b769-5d408ab3aa72"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-9f9cc779ebdb48ceb240b7d5fec6c402.xml#id-9f9cc779ebdb48ceb240b7d5fec6c402"/>
+</archimate:AccessRelationship>

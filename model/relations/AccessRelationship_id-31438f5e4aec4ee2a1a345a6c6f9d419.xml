@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-31438f5e4aec4ee2a1a345a6c6f9d419">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="beheren meetgegevens, registreren tellingen, verkeersonderzoek"/>
+  <properties
+      key="Onderbouwing"
+      value="Verkeerbeheer is de functie die inhoudelijk verantwoordelijk is voor het verkeer in de openbare ruimte, inclusief het registreren en beheren van verkeerstelgegevens (hoeveelheid verkeer, verdeling, snelheid). Een verkeerstelling is een direct instrument van Verkeerbeheer om inzicht te verkrijgen en is daarmee een object dat door deze functie wordt gecreëerd en beheerd. PRIMARY omdat geen andere functie een specifiekere claim op dit object heeft."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-78c7f400aba04feca562818c4b411625.xml#id-78c7f400aba04feca562818c4b411625"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-0ea05b9864354f61983c60121f7d8892.xml#id-0ea05b9864354f61983c60121f7d8892"/>
+</archimate:AccessRelationship>

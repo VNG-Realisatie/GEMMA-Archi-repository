@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-8eda066a53ff4c87af154c8e018a7590">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.60"/>
+  <properties
+      key="Signalen"
+      value="regie, vastleggen, administreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Informering in jeugdbescherming betreft het vastleggen van informatieverstrekking aan betrokkenen als onderdeel van jeugdbeschermingsprocedures. Casusregievoering sociaal domein is verantwoordelijk voor het coördineren en registreren van informatieverstrekking in complexe casussen. PRIMARY als meest logische beheerder."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-6ffc6611-e0aa-43a2-85e4-4301cd1bda2f.xml#id-6ffc6611-e0aa-43a2-85e4-4301cd1bda2f"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-ac2576abeafa4cd482e404a37e37adbb.xml#id-ac2576abeafa4cd482e404a37e37adbb"/>
+</archimate:AccessRelationship>

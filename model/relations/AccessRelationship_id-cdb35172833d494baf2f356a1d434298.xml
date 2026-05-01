@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-cdb35172833d494baf2f356a1d434298">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="registreren, verwerken, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="VTH staat voor Vergunningen, Toezicht en Handhaving; een VTH-Melding is per definitie het centrale object binnen toezichtsprocessen. Toezicht registreert en verwerkt VTH-meldingen als kernactiviteit en is daarmee inhoudelijk verantwoordelijk voor het aanmaken en bijhouden ervan. PRIMARY omdat Toezicht de initiële verwerking en structurele beheerverantwoordelijkheid heeft."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-aac7ff27-3c79-4234-bf48-1cc00e450553.xml#id-aac7ff27-3c79-4234-bf48-1cc00e450553"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-b70c4dc91dcb422ab9bff97531419b3e.xml#id-b70c4dc91dcb422ab9bff97531419b3e"/>
+</archimate:AccessRelationship>

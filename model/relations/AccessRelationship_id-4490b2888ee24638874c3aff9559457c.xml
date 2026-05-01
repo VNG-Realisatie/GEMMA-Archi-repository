@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-4490b2888ee24638874c3aff9559457c">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="ontvangen, controleren, aanvullen, genereren"/>
+  <properties
+      key="Onderbouwing"
+      value="In bewaring nemen van informatieobjecten omvat het ontvangen, controleren, aanvullen en voorbereiden van objecten voor duurzame opslag — dit is het kernproces voor het creëren van archiefstukken als formeel geregistreerde informatieobjecten. PRIMARY omdat dit de initiële creatie en formalisering van archiefstukken betreft."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-bb90af2f-dba8-436f-b82b-050c0f429ab2.xml#id-bb90af2f-dba8-436f-b82b-050c0f429ab2"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-e8c4aab3f4ae44e79f568d1b3faa10e4.xml#id-e8c4aab3f4ae44e79f568d1b3faa10e4"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-5e4f959dcada4147ac53df7217104a87">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.80"/>
+  <properties
+      key="Signalen"
+      value="beheer bedrijfsgegevens, registreren vestigingen"/>
+  <properties
+      key="Onderbouwing"
+      value="Vestiging is een gebouw of complex waar duurzame uitoefening van bedrijfsactiviteiten plaatsvindt. Bedrijfsgegevens beheer registreert en beheert bedrijfsgegevens inclusief vestigingen. PRIMARY als de meest directe beheerder van bedrijfs- en vestigingsgegevens."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-a9eea8b7-9299-11e5-1099-005056a83192.xml#id-a9eea8b7-9299-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-461bd1f66b904d5898fd8f8d3579c0d4.xml#id-461bd1f66b904d5898fd8f8d3579c0d4"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-4e0229c7a1754d5fb2e24b74b06f2fb1">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.82"/>
+  <properties
+      key="Signalen"
+      value="verwijzen, vastleggen, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Een HALT-verwijzing is een maatregel die wordt opgelegd als onderdeel van handhaving van de leerplichtwet bij strafbare feiten door jongeren. PRIMARY omdat handhaving de inhoudelijk verantwoordelijke functie is voor het initiëren en vastleggen van verwijzingen naar HALT."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-020f2f8c-d549-4a95-a2a9-56c1b0a43be8.xml#id-020f2f8c-d549-4a95-a2a9-56c1b0a43be8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-840ed13c0b8b471b9eb27161c2d5cf30.xml#id-840ed13c0b8b471b9eb27161c2d5cf30"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-e4b1d42f580d41e29f96379fa17c8245">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.93"/>
+  <properties
+      key="Signalen"
+      value="administreren, gegevens medewerkers"/>
+  <properties
+      key="Onderbouwing"
+      value="Medewerkeradministratie administreert gegevens van medewerkers, wat het aanmaken en bijhouden van werknemersrecords als kernactiviteit omvat. Werknemers zijn de primaire entiteiten die in medewerkeradministratie worden vastgelegd en beheerd. PRIMARY omdat medewerkeradministratie de enige functie is die expliciet verantwoordelijk is voor het administreren van werknemersgegevens."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-51a9e46b-44da-46ea-8bf5-ded9a19e6717.xml#id-51a9e46b-44da-46ea-8bf5-ded9a19e6717"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-0055aa89ea4a436ca00b5b930ce235d7.xml#id-0055aa89ea4a436ca00b5b930ce235d7"/>
+</archimate:AccessRelationship>

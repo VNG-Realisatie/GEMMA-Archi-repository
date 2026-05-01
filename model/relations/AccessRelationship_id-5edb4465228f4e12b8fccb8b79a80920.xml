@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-5edb4465228f4e12b8fccb8b79a80920">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.78"/>
+  <properties
+      key="Signalen"
+      value="vaststelling, bepaling, berekenen, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Besluitvorming levensonderhoud omvat het vaststellen van vermogen, relaties en bijstandsvorm, waarbij noodzakelijke kostencomponenten (bijv. voor beslagvrije voet of bijstandshoogte) worden vastgelegd en berekend. De kostencomponent is direct gerelateerd aan inkomstenbepaling bij levensonderhoud. PRIMARY op basis van inhoudelijke eindverantwoordelijkheid voor de vaststelling van kostencomponenten."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-6b35af7f-734b-11e5-1099-005056a83192.xml#id-6b35af7f-734b-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-db0536901d3c4275af45d0db3c662ce1.xml#id-db0536901d3c4275af45d0db3c662ce1"/>
+</archimate:AccessRelationship>

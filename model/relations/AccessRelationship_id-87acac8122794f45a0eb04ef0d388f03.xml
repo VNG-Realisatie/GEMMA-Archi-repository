@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-87acac8122794f45a0eb04ef0d388f03">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.88"/>
+  <properties
+      key="Signalen"
+      value="creëren documenten"/>
+  <properties
+      key="Onderbouwing"
+      value="Documentcreatie creëert expliciet documenten. Hoewel dit een zeer directe WRITE-relatie is, is In bewaring nemen van informatieobjecten de functie die ook de archivering en formalisering verzorgt. SECONDARY omdat Documentcreatie de initiële creatie doet maar In bewaring nemen de formele opslag beheert."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-6a9cc332-7ab4-4e9d-93f0-fb052c97fd85.xml#id-6a9cc332-7ab4-4e9d-93f0-fb052c97fd85"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-64b72d1846614154b817db52cbbc3cd7.xml#id-64b72d1846614154b817db52cbbc3cd7"/>
+</archimate:AccessRelationship>

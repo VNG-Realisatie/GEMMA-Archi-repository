@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-07e56334f14f43babfbb72557b12f49b">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.45"/>
+  <properties
+      key="Signalen"
+      value="registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="In de museumcontext worden samenstellers van tentoonstellingen geregistreerd als onderdeel van de administratie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Relatie is zwak; geen directe schrijf-activiteit voor Samensteller als object bij Exploiteren van accommodaties."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580.xml#id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-0fbb878eebee4ffbb55ef7d04e6facf6.xml#id-0fbb878eebee4ffbb55ef7d04e6facf6"/>
+</archimate:AccessRelationship>

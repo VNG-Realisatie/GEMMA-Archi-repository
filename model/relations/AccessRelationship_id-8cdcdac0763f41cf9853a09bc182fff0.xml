@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-8cdcdac0763f41cf9853a09bc182fff0">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.60"/>
+  <properties
+      key="Signalen"
+      value="beheren eigendommen, vastgoed"/>
+  <properties
+      key="Onderbouwing"
+      value="Appartementsrecht is een kadastrale onroerende zaak die gemeentelijk eigendomsbeheer raakt wanneer de gemeente appartementsrechten bezit of verleent. SECONDARY omdat het appartementsrecht primair een kadastrale registratie is die extern (Kadaster) wordt bijgehouden; gemeentelijk beheer registreert dit als afgeleid gegeven."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-613a3b32-a305-4207-a6e2-b209d551d3c8.xml#id-613a3b32-a305-4207-a6e2-b209d551d3c8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-7b008d6ba9dc45ccb5789e76c398e4d2.xml#id-7b008d6ba9dc45ccb5789e76c398e4d2"/>
+</archimate:AccessRelationship>

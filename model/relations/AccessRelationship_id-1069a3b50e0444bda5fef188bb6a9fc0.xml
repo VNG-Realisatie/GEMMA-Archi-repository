@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-1069a3b50e0444bda5fef188bb6a9fc0">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.88"/>
+  <properties
+      key="Signalen"
+      value="werven, selecteren, gesprek"/>
+  <properties
+      key="Onderbouwing"
+      value="Werving en selectie werft en selecteert nieuwe medewerkers, waarbij sollicitatiegesprekken worden gepland, gevoerd en vastgelegd als onderdeel van het selectieproces. Sollicitatiegesprekken zijn centrale activiteiten in het wervingsproces die worden geregistreerd. PRIMARY omdat werving en selectie de enige functie is die sollicitatiegesprekken organiseert en vastlegt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-f15b5b8d-bf4e-48f5-ab32-bf7677c70705.xml#id-f15b5b8d-bf4e-48f5-ab32-bf7677c70705"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-79a98ba6d007494d907777b8e5acd119.xml#id-79a98ba6d007494d907777b8e5acd119"/>
+</archimate:AccessRelationship>

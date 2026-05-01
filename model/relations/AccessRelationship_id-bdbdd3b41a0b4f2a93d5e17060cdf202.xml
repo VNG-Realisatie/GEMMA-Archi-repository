@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-bdbdd3b41a0b4f2a93d5e17060cdf202">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.45"/>
+  <properties
+      key="Signalen"
+      value="bepalen, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Kaderstelling integrale veiligheid vergunningverlening bepaalt de kaders voor vergunningverlening vanuit veiligheid, wat de meest nabije beleidsfunctie is die normen en regelgeving voor vergunningen (en daarmee indirect heffingsverordeningen) mede bepaalt. PRIMARY bij gebrek aan een specifiekere regelgevingsbeheer-functie; de relatie is wel indirect. De heffingsverordening wordt formeel vastgesteld door de gemeenteraad maar het kader wordt bepaald door beleidsfuncties."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Heffingsverordeningen worden formeel vastgesteld door de gemeenteraad; geen specifieke verordeningen-beheer-functie aanwezig in de lijst."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b6c08c0a-0003-40cf-aff7-038dbf4eba07.xml#id-b6c08c0a-0003-40cf-aff7-038dbf4eba07"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-b5f50c54f1cf45b8b7b61a5929035919.xml#id-b5f50c54f1cf45b8b7b61a5929035919"/>
+</archimate:AccessRelationship>

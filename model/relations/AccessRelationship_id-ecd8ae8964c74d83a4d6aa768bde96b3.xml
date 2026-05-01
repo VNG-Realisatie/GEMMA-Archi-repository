@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-ecd8ae8964c74d83a4d6aa768bde96b3">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.93"/>
+  <properties
+      key="Signalen"
+      value="administreren, ziekte, verlof, verzuim"/>
+  <properties
+      key="Onderbouwing"
+      value="Ziekte- en verlofadministratie administreert ziekte en verlof van medewerkers, wat direct het registreren en bijhouden van verzuim omvat. Verzuim is een centraal object in de ziekte- en verlofadministratie. PRIMARY omdat ziekte- en verlofadministratie de enige functie is die expliciet verantwoordelijk is voor het administreren van ziekte/verzuim."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-1df27b35-fe09-448a-9a8f-39ffa4f56461.xml#id-1df27b35-fe09-448a-9a8f-39ffa4f56461"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-fc1d4251143d49a1b6374b23aa3e2c89.xml#id-fc1d4251143d49a1b6374b23aa3e2c89"/>
+</archimate:AccessRelationship>

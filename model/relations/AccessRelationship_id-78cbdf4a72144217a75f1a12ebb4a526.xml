@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-78cbdf4a72144217a75f1a12ebb4a526">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="registreren, vastleggen, administreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Beheren fysieke objecten omvat het uitvoeren van werkzaamheden aan objecten in de openbare ruimte; bij het beheer van fysieke objecten worden gebeurtenissen vastgelegd in een logboek. Geen andere meer specifieke functie is aanwijsbaar die exclusief verantwoordelijk is voor het bijhouden van het logboek van beheerobjecten in de openbare ruimte. PRIMARY is hier de beste beschikbare optie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-c02372c9-e979-4966-95f6-50d1fa249198.xml#id-c02372c9-e979-4966-95f6-50d1fa249198"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-e5c6957402ad4fab8bc1484e9f55ce45.xml#id-e5c6957402ad4fab8bc1484e9f55ce45"/>
+</archimate:AccessRelationship>

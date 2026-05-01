@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-f822ba893b5d4f208fb804ff3543e448">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="exploiteren, beheren, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Voorzieningen zijn middelen om services in te vullen in een museumcontext; het exploiteren van accommodaties omvat het registreren en beheren van beschikbare voorzieningen. PRIMARY omdat geen andere functie specifieker verantwoordelijk is voor het vastleggen van museumvoorzieningen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580.xml#id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-ad39941255b14e60b85f2be65c57a928.xml#id-ad39941255b14e60b85f2be65c57a928"/>
+</archimate:AccessRelationship>

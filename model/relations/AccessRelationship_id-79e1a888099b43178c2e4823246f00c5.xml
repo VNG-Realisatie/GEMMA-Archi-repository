@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-79e1a888099b43178c2e4823246f00c5">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.88"/>
+  <properties
+      key="Signalen"
+      value="uitwerken, vastleggen, gebieden, functies"/>
+  <properties
+      key="Onderbouwing"
+      value="Een gebiedsaanwijzing is een functie of beperkingengebied met verwijzing naar locatie en bijbehorende regels. Ontwikkeling AVV fysieke leefomgeving werkt ruimtelijke kaders uit in juridisch verbindende voorschriften, waarbij gebiedsaanwijzingen worden vastgesteld als onderdeel van het omgevingsplan. PRIMARY is gerechtvaardigd als de functie die gebiedsaanwijzingen creëert."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-f8a2b585aaba46769072d1a6a39d8d2f.xml#id-f8a2b585aaba46769072d1a6a39d8d2f"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-124864ffdaf7415fa1e06246c92c235f.xml#id-124864ffdaf7415fa1e06246c92c235f"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-585902cdb1974a28a1af594eb199d199">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.58"/>
+  <properties
+      key="Signalen"
+      value="beheren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="In de archiefcontext worden rechthebbenden op informatieobjecten geregistreerd als onderdeel van het beheer van de archiefcollectie. Duurzaam bewaren en beheren van informatieobjecten draagt de verantwoordelijkheid voor het bijhouden van rechtengegevens. PRIMARY omdat geen andere functie specifieker verantwoordelijk is voor het vastleggen van rechthebbenden in de archiefcontext."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-2ecaafc1-116b-4b79-ab16-e95280d4cca8.xml#id-2ecaafc1-116b-4b79-ab16-e95280d4cca8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-3941e02c5e8a44b68121b1ad3f5102ef.xml#id-3941e02c5e8a44b68121b1ad3f5102ef"/>
+</archimate:AccessRelationship>

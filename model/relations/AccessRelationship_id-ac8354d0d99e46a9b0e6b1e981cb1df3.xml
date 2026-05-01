@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-ac8354d0d99e46a9b0e6b1e981cb1df3">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="beheren, uitvoeren, werkzaamheden"/>
+  <properties
+      key="Onderbouwing"
+      value="Een kunstwerk is een civiel-technisch werk voor infrastructuur zoals wegen en waterkeringen. Beheren fysieke objecten omvat het beheer van wegen, water en riool als expliciete voorbeelden, waarbinnen kunstwerken (bruggen, tunnels etc.) vallen. Als de meest directe beheerfunctie voor infrastructurele kunstwerken is PRIMARY gerechtvaardigd."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-c02372c9-e979-4966-95f6-50d1fa249198.xml#id-c02372c9-e979-4966-95f6-50d1fa249198"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-1073f674a837459cbdf926c206e49ccc.xml#id-1073f674a837459cbdf926c206e49ccc"/>
+</archimate:AccessRelationship>

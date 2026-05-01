@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-4bf65f1c610540bfb2f5388d8a62cf0b">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="bestellen, aanvragen, inkooporder"/>
+  <properties
+      key="Onderbouwing"
+      value="Bestelling betreft het bestellen van goederen of diensten bij een leverancier, wat begint met het aanmaken van een aanvraag voor een inkooporder als formeel document. De aanvraag inkooporder is het initiële document in het bestelproces. PRIMARY omdat bestelling de functie is die de aanvraag inkooporder initieel aanmaakt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3c0ab1b3-5beb-4699-a25f-66445d2963c4.xml#id-3c0ab1b3-5beb-4699-a25f-66445d2963c4"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-821c84aa4ebc4e328dd282957b71ac6d.xml#id-821c84aa4ebc4e328dd282957b71ac6d"/>
+</archimate:AccessRelationship>

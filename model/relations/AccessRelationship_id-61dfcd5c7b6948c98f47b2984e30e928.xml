@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-61dfcd5c7b6948c98f47b2984e30e928">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.92"/>
+  <properties
+      key="Signalen"
+      value="verwerken, registreren, meldingen"/>
+  <properties
+      key="Onderbouwing"
+      value="Meldingen openbare ruimte behandeling verwerkt meldingen die betrekking hebben op de openbare ruimte. Een melding is de betekenisvolle formulering van een waargenomen feit, direct het object dat door deze functie wordt ontvangen en verwerkt. Als de functie die meldingen creëert en beheert is PRIMARY gerechtvaardigd."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-a6be6a36-76e5-42ef-a1ba-459de1fd5037.xml#id-a6be6a36-76e5-42ef-a1ba-459de1fd5037"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-4ba5650ca2bc4760b547a21173d4f703.xml#id-4ba5650ca2bc4760b547a21173d4f703"/>
+</archimate:AccessRelationship>

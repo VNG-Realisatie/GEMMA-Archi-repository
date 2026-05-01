@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-8b1e6604ed524ab8a3eeff3df985d08d">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.93"/>
+  <properties
+      key="Signalen"
+      value="verwerken declaraties, berekenen, uitkeren"/>
+  <properties
+      key="Onderbouwing"
+      value="Salaris- en declaratieverwerking berekent en verwerkt declaraties van medewerkers, wat direct inhoudt dat declaratierecords worden verwerkt en vastgelegd. Declaraties zijn de kernentiteiten van deze verwerkingsfunctie. PRIMARY omdat salaris- en declaratieverwerking de enige functie is die expliciet verantwoordelijk is voor het verwerken van declaraties."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-2d2da56f-e363-4ca5-a969-2860f78aaaef.xml#id-2d2da56f-e363-4ca5-a969-2860f78aaaef"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-1ef2991b1e5d402792e871fd749c6b5f.xml#id-1ef2991b1e5d402792e871fd749c6b5f"/>
+</archimate:AccessRelationship>

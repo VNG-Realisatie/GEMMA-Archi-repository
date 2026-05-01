@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-10179cce8d2a4253adeb848876a3abd5">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.92"/>
+  <properties
+      key="Signalen"
+      value="beheren, adressen en gebouwen, BAG"/>
+  <properties
+      key="Onderbouwing"
+      value="BAG Beheer beheert pandgegevens als kernregistratie. Het pand in RSGB Model is een afgeleid/gespiegeld concept van het BAG-pand. BAG Beheer is de bronbeheerder en heeft daarmee ook WRITE op de RSGB-representatie. PRIMARY als de bronfunctie voor pandregistratie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3c6baa05c6904cfbba03880e2e4c5cd6.xml#id-3c6baa05c6904cfbba03880e2e4c5cd6"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-243495736fda478da7a4c0ce9854673d.xml#id-243495736fda478da7a4c0ce9854673d"/>
+</archimate:AccessRelationship>

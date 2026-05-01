@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-82ed3532619c47539f54b23d815cf547">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="tot stand brengen, bewaken, contracten"/>
+  <properties
+      key="Onderbouwing"
+      value="Contractbeheer brengt contracten tot stand en bewaakt die met leveranciers, wat ook vastgoedcontracten kan omvatten. De functie heeft een bredere scope dan alleen vastgoed. SECONDARY omdat vastgoedbeheer inhoudelijk meer specifiek verantwoordelijk is voor vastgoedcontracten."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3eef0007-c73a-45ed-879d-ac6be8d7e114.xml#id-3eef0007-c73a-45ed-879d-ac6be8d7e114"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-cea6a5bdbb694b13833576fec5956d32.xml#id-cea6a5bdbb694b13833576fec5956d32"/>
+</archimate:AccessRelationship>

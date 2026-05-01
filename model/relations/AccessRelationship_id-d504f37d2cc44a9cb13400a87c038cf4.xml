@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-d504f37d2cc44a9cb13400a87c038cf4">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.82"/>
+  <properties
+      key="Signalen"
+      value="verwerven, beheren, vastgoed"/>
+  <properties
+      key="Onderbouwing"
+      value="Vastgoedbeheer verwerft, beheert en stoot gebouwen af, waarbij eigenaarsinformatie van vastgoedobjecten wordt vastgelegd en geactualiseerd. De eigenaar is een kerngegeven van het vastgoeddossier dat door vastgoedbeheer wordt bijgehouden. PRIMARY omdat vastgoedbeheer de inhoudelijke eindverantwoordelijkheid heeft voor het vastleggen van eigendomsgegevens van gemeentelijk vastgoed."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-1af6f4aa-d797-44f5-bfb0-e77229141dfa.xml#id-1af6f4aa-d797-44f5-bfb0-e77229141dfa"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-b8a3e41e1fa9497980fa7a3f6bf2e7fa.xml#id-b8a3e41e1fa9497980fa7a3f6bf2e7fa"/>
+</archimate:AccessRelationship>

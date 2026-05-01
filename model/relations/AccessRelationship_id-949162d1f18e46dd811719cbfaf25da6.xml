@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-949162d1f18e46dd811719cbfaf25da6">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="toekennen, beschikken, verwerken"/>
+  <properties
+      key="Onderbouwing"
+      value="De beschikking leerlingenvervoer is het formele besluit dat voortkomt uit de beoordeling van een aanvraag voor leerlingenvervoer, wat de kernactiviteit is van de functie Leerlingenvervoer. PRIMARY omdat de functie inhoudelijk verantwoordelijk is voor het genereren en vastleggen van dit besluit."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-ab46e404-9e45-11e5-11ba-005056a85f9c.xml#id-ab46e404-9e45-11e5-11ba-005056a85f9c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-cea8072c105145fab7dcbb23cb7b0edf.xml#id-cea8072c105145fab7dcbb23cb7b0edf"/>
+</archimate:AccessRelationship>

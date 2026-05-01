@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-17968c89830f4d1ab835a45f32bfe1ae">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.70"/>
+  <properties
+      key="Signalen"
+      value="beheren, IT-infrastructuur, koppelingen"/>
+  <properties
+      key="Onderbouwing"
+      value="Systeembeheer beheert IT-infrastructuur en systeemprogrammatuur, waarbij externe bronnen worden geconfigureerd en geregistreerd als onderdeel van het IT-landschap. Het registreren en beheren van koppelingen met externe bronnen is een kernactiviteit van systeembeheer. PRIMARY omdat systeembeheer de meest directe verantwoordelijkheid heeft voor het beheren van externe ICT-bronnen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b3b4cc7f-ec2d-4cf0-8389-cc4ce7cbce34.xml#id-b3b4cc7f-ec2d-4cf0-8389-cc4ce7cbce34"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-52dc7f899b3947878670facfc4201a77.xml#id-52dc7f899b3947878670facfc4201a77"/>
+</archimate:AccessRelationship>

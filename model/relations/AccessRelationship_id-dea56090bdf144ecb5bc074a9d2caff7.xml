@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-dea56090bdf144ecb5bc074a9d2caff7">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.78"/>
+  <properties
+      key="Signalen"
+      value="administreren, vastleggen, classificeren"/>
+  <properties
+      key="Onderbouwing"
+      value="Het onderwijsniveau is een attribuut van de leerling- of inschrijvingsgegevens dat door de leerlingenadministratie wordt vastgelegd. PRIMARY door gebrek aan een andere specifiekere functie; de leerlingenadministratie registreert en beheert dit gegeven als onderdeel van het leerlingdossier."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-ab46e401-9e45-11e5-11ba-005056a85f9c.xml#id-ab46e401-9e45-11e5-11ba-005056a85f9c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-cde3a1e9fbf8493c964315501e4464f5.xml#id-cde3a1e9fbf8493c964315501e4464f5"/>
+</archimate:AccessRelationship>

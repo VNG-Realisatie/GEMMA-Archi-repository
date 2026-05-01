@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-3cc7f310b796427ea5b4b322c8c659d7">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.60"/>
+  <properties
+      key="Signalen"
+      value="aanbesteden, inkopen"/>
+  <properties
+      key="Onderbouwing"
+      value="Aanbesteding omvat het aanbesteden van opdrachten, wat kan leiden tot het aanmaken van aanvragen voor inkooporders. De relatie is logisch afleidbaar maar niet de meest directe. SECONDARY omdat bestelling de meest specifieke functie is voor het aanmaken van aanvragen voor inkooporders."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Aanvraag Inkooporder is een formulier dat in bestelprocedures wordt aangemaakt; de relatie met aanbesteding is indirect."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-f023811a-174a-46b5-bee8-c1aca37b7dc7.xml#id-f023811a-174a-46b5-bee8-c1aca37b7dc7"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-821c84aa4ebc4e328dd282957b71ac6d.xml#id-821c84aa4ebc4e328dd282957b71ac6d"/>
+</archimate:AccessRelationship>

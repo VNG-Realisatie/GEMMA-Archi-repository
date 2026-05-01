@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-b7c7d9a4c71449c6bf1ee1db100a5a6c">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.60"/>
+  <properties
+      key="Signalen"
+      value="verwerken, aanvragen, regels"/>
+  <properties
+      key="Onderbouwing"
+      value="Toestemmingverlening past toepasbare regels toe bij het beoordelen van aanvragen en kan op basis van praktijkinzichten aanpassingen doorvoeren. SECONDARY omdat de primaire opstelling bij de beleidsontwikkelingsfunctie ligt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7a1e5935-026e-41ef-be95-d02f2a2a3937.xml#id-7a1e5935-026e-41ef-be95-d02f2a2a3937"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-9cae3767e574444c891b678da8a6e7eb.xml#id-9cae3767e574444c891b678da8a6e7eb"/>
+</archimate:AccessRelationship>

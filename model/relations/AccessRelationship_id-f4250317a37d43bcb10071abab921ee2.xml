@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-f4250317a37d43bcb10071abab921ee2">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="begeleiding inburgering, vastleggen leerroute, ondersteuning"/>
+  <properties
+      key="Onderbouwing"
+      value="Leerroutes worden vastgesteld en geregistreerd voor inburgeraars als onderdeel van hun persoonlijk begeleidingstraject. Zelfredzaamheidsontwikkeling ondersteunt zelfredzaamheid en heeft de meest directe koppeling met leerroute-bepaling in het inburgeringsdomein. PRIMARY als beste beschikbare functie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a2fd-2eda-11e5-1099-005056a83192.xml#id-7be8a2fd-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-a93f5d5b1c924998b8614eff510d2842.xml#id-a93f5d5b1c924998b8614eff510d2842"/>
+</archimate:AccessRelationship>

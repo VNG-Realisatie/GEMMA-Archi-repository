@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-d7486203dfaf4271af0b96157e0bf0bc">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.88"/>
+  <properties
+      key="Signalen"
+      value="beheren, autorisaties, toegang"/>
+  <properties
+      key="Onderbouwing"
+      value="Identiteitenbeheer beheert gegevens van gebruikers en hun autorisaties, inclusief toegangsmiddelen waarmee gebruikers toegang krijgen tot IT-voorzieningen. Het aanmaken, wijzigen en intrekken van toegangsmiddelen is een kernactiviteit van identiteitenbeheer. PRIMARY omdat identiteitenbeheer de initiële verantwoordelijkheid draagt voor het uitgeven en beheren van toegangsmiddelen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-4344e524-e01f-4f17-aacb-ac3999f5ded8.xml#id-4344e524-e01f-4f17-aacb-ac3999f5ded8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-6e40a11ccf1d45bc81b4b6b01ee4efe8.xml#id-6e40a11ccf1d45bc81b4b6b01ee4efe8"/>
+</archimate:AccessRelationship>

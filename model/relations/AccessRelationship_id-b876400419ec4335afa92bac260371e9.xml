@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-b876400419ec4335afa92bac260371e9">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="opleggen, vaststellen"/>
+  <properties
+      key="Onderbouwing"
+      value="De functie Heffing legt verplichte betalingen op en stelt daarvoor de grondslag vast, waaronder legesgrondslagen. SECONDARY omdat de specifieke berekening en vastlegging van leges bij de toestemmingsverlening plaatsvindt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-8d098d96-39e3-4617-8953-5b2665bb7702.xml#id-8d098d96-39e3-4617-8953-5b2665bb7702"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-4d50a333a93d4cdb9ed0ce6c1968871d.xml#id-4d50a333a93d4cdb9ed0ce6c1968871d"/>
+</archimate:AccessRelationship>

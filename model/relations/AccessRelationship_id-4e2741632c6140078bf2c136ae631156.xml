@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-4e2741632c6140078bf2c136ae631156">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="controleren, vastleggen, aanvullen"/>
+  <properties
+      key="Onderbouwing"
+      value="Nadere Toegang betreft de bevoegdheid om gegevens te raadplegen; In bewaring nemen van informatieobjecten omvat het controleren en vastleggen van toegangsrechten als onderdeel van de voorbereiding voor duurzame opslag. PRIMARY omdat deze functie bij de intake de toegangsrechten van informatieobjecten vastlegt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-bb90af2f-dba8-436f-b82b-050c0f429ab2.xml#id-bb90af2f-dba8-436f-b82b-050c0f429ab2"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-7829f355bdbb4639a84131ec2f3a8ee3.xml#id-7829f355bdbb4639a84131ec2f3a8ee3"/>
+</archimate:AccessRelationship>

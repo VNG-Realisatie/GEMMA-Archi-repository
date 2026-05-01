@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-9c3b614a8e1e425b838153fc0ddf3d5f">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.68"/>
+  <properties
+      key="Signalen"
+      value="exploiteren, plannen, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Rondleidingen zijn activiteiten die worden aangeboden vanuit een museumaccommodatie; het exploiteren van accommodaties omvat het plannen, registreren en administreren van rondleidingen. PRIMARY omdat deze functie de operationele verantwoordelijkheid heeft voor het aanbod van museumactiviteiten."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580.xml#id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-93646f0bbdf94e0aada7422c73ba0618.xml#id-93646f0bbdf94e0aada7422c73ba0618"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-8e325ac5267c4954ab48eaab9433fe58">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="exploiteren, beheren, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Een binnenlocatie is een locatie binnen een gebouw, direct relevant voor sportaccommodaties. Het exploiteren van accommodaties omvat het registreren en beheren van de binnenlocaties. PRIMARY omdat deze functie de directe administratieve en operationele verantwoordelijkheid draagt voor het beheren van binnenlocaties als sportaccommodaties."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580.xml#id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-0145411e6f1d45ad85ed2a30c66c5fd2.xml#id-0145411e6f1d45ad85ed2a30c66c5fd2"/>
+</archimate:AccessRelationship>

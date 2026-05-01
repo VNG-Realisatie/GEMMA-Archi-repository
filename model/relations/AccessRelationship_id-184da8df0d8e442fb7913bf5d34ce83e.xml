@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-184da8df0d8e442fb7913bf5d34ce83e">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.78"/>
+  <properties
+      key="Signalen"
+      value="tot stand brengen, bewaken, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Contractbeheer is verantwoordelijk voor het tot stand brengen en bewaken van contracten met leveranciers, waarbinnen prijsafspraken worden gemaakt en vastgelegd. Een prijsafspraak als overeenkomst over prijs van diensten valt direct onder de scope van contractbeheer. Deze functie heeft de structurele eindverantwoordelijkheid voor het beheer van prijsafspraken."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3eef0007-c73a-45ed-879d-ac6be8d7e114.xml#id-3eef0007-c73a-45ed-879d-ac6be8d7e114"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-8f24aac97145479b84ef112a1a156947.xml#id-8f24aac97145479b84ef112a1a156947"/>
+</archimate:AccessRelationship>

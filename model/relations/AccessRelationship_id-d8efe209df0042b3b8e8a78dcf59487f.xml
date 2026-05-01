@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-d8efe209df0042b3b8e8a78dcf59487f">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="exploiteren, plannen, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Tentoonstellingen zijn het kernproduct van een museum; het exploiteren van museumaccommodaties omvat het plannen, registreren en administreren van tentoonstellingen. PRIMARY omdat dit een kernactiviteit is bij de museumexploitatie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580.xml#id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-b69273f012f44172b2834bfcc81ca2f1.xml#id-b69273f012f44172b2834bfcc81ca2f1"/>
+</archimate:AccessRelationship>

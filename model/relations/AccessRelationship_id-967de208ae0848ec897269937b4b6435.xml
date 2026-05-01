@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-967de208ae0848ec897269937b4b6435">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.80"/>
+  <properties
+      key="Signalen"
+      value="administreren, registreren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="De startkwalificatie is een diploma-gegeven dat als onderdeel van de onderwijsloopbaan wordt vastgelegd in de leerlingenadministratie. PRIMARY omdat de leerlingenadministratie de centrale functie is voor het registreren van diplomaresultaten en kwalificatieniveaus van leerlingen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-ab46e401-9e45-11e5-11ba-005056a85f9c.xml#id-ab46e401-9e45-11e5-11ba-005056a85f9c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-cda2d7276242425d9078c7ae319cee19.xml#id-cda2d7276242425d9078c7ae319cee19"/>
+</archimate:AccessRelationship>

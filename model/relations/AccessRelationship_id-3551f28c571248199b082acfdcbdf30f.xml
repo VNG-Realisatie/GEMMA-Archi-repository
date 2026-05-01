@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-3551f28c571248199b082acfdcbdf30f">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="berekenen beslagvrije voet, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Inkomensbeslaglegging derden bevat expliciet 'Berekenen beslagvrije voet', wat directe verwerking van kostencomponenten (noodzakelijke kosten die leiden tot lager berekend inkomen) vereist. SECONDARY omdat besluitvorming levensonderhoud de bredere inhoudelijke verantwoordelijkheid draagt voor vaststelling van kosten."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b492b590-5d3d-11e5-1099-005056a83192.xml#id-b492b590-5d3d-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-db0536901d3c4275af45d0db3c662ce1.xml#id-db0536901d3c4275af45d0db3c662ce1"/>
+</archimate:AccessRelationship>

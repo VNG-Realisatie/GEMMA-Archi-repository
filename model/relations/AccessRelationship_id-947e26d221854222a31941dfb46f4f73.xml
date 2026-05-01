@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-947e26d221854222a31941dfb46f4f73">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="verlenen, registreren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="OpenbareActiviteit is een activiteit in het publieke domein; toestemmingverlening voor activiteiten in de fysieke leefomgeving impliceert het registreren en administreren van de toegestane openbare activiteiten. De functie Toestemmingverlening activiteit fysieke leefomgeving creëert en registreert openbare activiteiten als onderdeel van het vergunningproces. PRIMARY omdat bij het verlenen van de toestemming de openbare activiteit als object wordt aangemaakt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7a1e5935-026e-41ef-be95-d02f2a2a3937.xml#id-7a1e5935-026e-41ef-be95-d02f2a2a3937"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-00d9ab50ad9c4b6e95f6f487a6169881.xml#id-00d9ab50ad9c4b6e95f6f487a6169881"/>
+</archimate:AccessRelationship>

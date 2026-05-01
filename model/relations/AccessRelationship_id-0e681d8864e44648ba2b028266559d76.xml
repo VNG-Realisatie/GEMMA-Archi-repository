@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-0e681d8864e44648ba2b028266559d76">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.95"/>
+  <properties
+      key="Signalen"
+      value="waarderen, heffen van belasting, vaststellen"/>
+  <properties
+      key="Onderbouwing"
+      value="Waardering onroerende zaken waardeert onroerende zaken voor belastingheffing, waarbij het WOZ-object het directe object is. De functie stelt de waarde vast en registreert dit als WOZ-object. PRIMARY als de enige functie met wettelijke verantwoordelijkheid voor WOZ-objectregistratie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-96cfe9ad-e758-4c16-a88a-4d9092b673fa.xml#id-96cfe9ad-e758-4c16-a88a-4d9092b673fa"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-6b197e187d7e4e7a9d73738cb5759944.xml#id-6b197e187d7e4e7a9d73738cb5759944"/>
+</archimate:AccessRelationship>

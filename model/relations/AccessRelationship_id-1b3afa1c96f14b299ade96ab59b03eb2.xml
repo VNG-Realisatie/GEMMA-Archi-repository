@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-1b3afa1c96f14b299ade96ab59b03eb2">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.42"/>
+  <properties
+      key="Signalen"
+      value="registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="In een museumcontext worden rollen van medewerkers en vrijwilligers geregistreerd als onderdeel van de accommodatieexploitatie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="De relatie tussen Exploiteren van accommodaties en Rol als museum-specifiek object is zwak; rollen worden breder beheerd."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580.xml#id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-75e1f25fc71440c2b7fa43b92c207aba.xml#id-75e1f25fc71440c2b7fa43b92c207aba"/>
+</archimate:AccessRelationship>

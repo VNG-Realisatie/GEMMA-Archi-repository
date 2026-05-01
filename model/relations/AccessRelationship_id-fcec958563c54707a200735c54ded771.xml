@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-fcec958563c54707a200735c54ded771">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.45"/>
+  <properties
+      key="Signalen"
+      value="strategisch promoten, vastleggen bezoekersgegevens"/>
+  <properties
+      key="Onderbouwing"
+      value="City marketing en toeristische promotie heeft als taak het strategisch promoten van een stad voor bedrijven en bezoekers, wat gepaard kan gaan met het vastleggen en administreren van bezoekersstromen en hotelbezoekdata als onderbouwing voor promotiecampagnes. De relatie is indirect: de functie verwerkt hotelbezoekgegevens als input voor promotieactiviteiten, maar creatie van het object is minder expliciet dan bij Recreatie en toerisme ontwikkeling."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="De functie richt zich primair op promotie en niet op het inhoudelijk beheren van verblijfsregistraties; schrijftoegang is slechts logisch afleidbaar."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-f36fd494-e711-4ff3-a3fe-17b6c565bafb.xml#id-f36fd494-e711-4ff3-a3fe-17b6c565bafb"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-7eeeb836eb264994a2f1b97be6543a30.xml#id-7eeeb836eb264994a2f1b97be6543a30"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-fbbcbc645aec4bcf88133f1e920cab54">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.93"/>
+  <properties
+      key="Signalen"
+      value="waarderen, onderbouwing vastgestelde waarde, vaststellen"/>
+  <properties
+      key="Onderbouwing"
+      value="WOZ-deelobject is een aanduiding van afzonderlijke elementen voor de onderbouwing van de WOZ-waarde. Waardering onroerende zaken stelt de waarde vast en registreert de onderbouwing via deelobjecten. PRIMARY als de enige functie met directe verantwoordelijkheid voor WOZ-waardering en bijbehorende deelobjectregistratie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-96cfe9ad-e758-4c16-a88a-4d9092b673fa.xml#id-96cfe9ad-e758-4c16-a88a-4d9092b673fa"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-aa634b77b2d248c1ad23fdf96152a0d6.xml#id-aa634b77b2d248c1ad23fdf96152a0d6"/>
+</archimate:AccessRelationship>

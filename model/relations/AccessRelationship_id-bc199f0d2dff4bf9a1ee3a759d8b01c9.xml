@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-bc199f0d2dff4bf9a1ee3a759d8b01c9">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.80"/>
+  <properties
+      key="Signalen"
+      value="registratie aanmelding, behandeling, besluitvorming, oplevering"/>
+  <properties
+      key="Onderbouwing"
+      value="Trajecten in participatie zijn samenstellen van opeenvolgende deelhandelingen die als werkinstrumenten worden ingezet. Uitvoering instrumenten is direct verantwoordelijk voor het registreren en beheren van trajecten in het GSD. PRIMARY op basis van directe uitvoeringsverantwoordelijkheid."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a2f5-2eda-11e5-1099-005056a83192.xml#id-7be8a2f5-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-03972958be3a4c7e86bb0f4983da203e.xml#id-03972958be3a4c7e86bb0f4983da203e"/>
+</archimate:AccessRelationship>

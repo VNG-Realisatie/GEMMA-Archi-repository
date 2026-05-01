@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-f025ebd42210461cb3e13ae1a0547931">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="uitvoeren, registreren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Een Inspectie is per definitie het product van het uitvoeren van toezicht: het inwinnen, verwerken en interpreteren van informatie om de toestand van een object vast te stellen. De functie Toezicht creëert en registreert inspecties als kerntaak. PRIMARY omdat Toezicht de initiële creatie en inhoudelijke verantwoordelijkheid draagt voor het inspectierecord."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-aac7ff27-3c79-4234-bf48-1cc00e450553.xml#id-aac7ff27-3c79-4234-bf48-1cc00e450553"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-4a6c7c11248546bda43a288253ed907e.xml#id-4a6c7c11248546bda43a288253ed907e"/>
+</archimate:AccessRelationship>

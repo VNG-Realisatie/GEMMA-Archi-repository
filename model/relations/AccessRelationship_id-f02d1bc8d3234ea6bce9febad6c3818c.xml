@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-f02d1bc8d3234ea6bce9febad6c3818c">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.78"/>
+  <properties
+      key="Signalen"
+      value="beheren, gegevensverzamelingen, applicaties"/>
+  <properties
+      key="Onderbouwing"
+      value="Applicatiebeheer voert beheertaken uit m.b.t. bedrijfsapplicaties en bijbehorende gegevensverzamelingen, wat het beheren van databases omvat. Het onderhouden en bijwerken van databases is een kernactiviteit van applicatiebeheer. SECONDARY omdat applicatie-ontwikkeling databases initieel creëert, terwijl applicatiebeheer ze beheert."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-0a5674fa-2a89-4dce-8599-850146a16d2a.xml#id-0a5674fa-2a89-4dce-8599-850146a16d2a"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-f10802572db04f5090c1a63dab2ff6ea.xml#id-f10802572db04f5090c1a63dab2ff6ea"/>
+</archimate:AccessRelationship>

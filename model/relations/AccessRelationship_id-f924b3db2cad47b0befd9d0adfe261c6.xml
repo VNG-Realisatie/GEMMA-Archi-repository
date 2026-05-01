@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-f924b3db2cad47b0befd9d0adfe261c6">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="verlenen, registreren, verwerken"/>
+  <properties
+      key="Onderbouwing"
+      value="Toestemmingverlening activiteit fysieke leefomgeving verleent toestemming voor het uitvoeren van activiteiten die betrekking hebben op de fysieke leefomgeving, en registreert daarmee de activiteiten waarvoor vergunning/melding is vereist. Een activiteit is ieder menselijk handelen dat een verandering in de fysieke leefomgeving kan bewerkstelligen, direct de kern van deze vergunningverlenende functie. PRIMARY is gerechtvaardigd als de functie die activiteiten initieel registreert en verwerkt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7a1e5935-026e-41ef-be95-d02f2a2a3937.xml#id-7a1e5935-026e-41ef-be95-d02f2a2a3937"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-b4043e1cd49d4f0ebd518240d88be218.xml#id-b4043e1cd49d4f0ebd518240d88be218"/>
+</archimate:AccessRelationship>

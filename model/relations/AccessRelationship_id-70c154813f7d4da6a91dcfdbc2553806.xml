@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-70c154813f7d4da6a91dcfdbc2553806">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="achteraf vorderen, te weinig betaalde belasting"/>
+  <properties
+      key="Onderbouwing"
+      value="De functie 'Naheffing en navordering' is semantisch identiek aan het bedrijfsobject 'Naheffing': het achteraf vorderen van te weinig betaalde belasting. Deze functie is expliciet verantwoordelijk voor het opleggen en registreren van naheffingen, ook in de context van parkeerbelasting. PRIMARY op basis van directe en expliciete inhoudelijke verantwoordelijkheid voor creatie en beheer van dit object."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-4f8fe4ad-a076-4302-90e7-c7d81f424fc1.xml#id-4f8fe4ad-a076-4302-90e7-c7d81f424fc1"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-472ed9d4d68944929e2889daafbf4665.xml#id-472ed9d4d68944929e2889daafbf4665"/>
+</archimate:AccessRelationship>

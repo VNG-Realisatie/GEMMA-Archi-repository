@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-3a38ae3df0bb44ae9dae39b6800ac6f3">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.78"/>
+  <properties
+      key="Signalen"
+      value="aanbesteden, offerte indienen, selecteren"/>
+  <properties
+      key="Onderbouwing"
+      value="Aanbesteding omvat het conform wetgeving aanbesteden van opdrachten waarbij bedrijven een offerte kunnen indienen. Het ontvangen en verwerken van offertes is onderdeel van het aanbestedingsproces. PRIMARY als de functie die offertes ontvangt, beoordeelt en registreert in het aanbestedingsproces."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-f023811a-174a-46b5-bee8-c1aca37b7dc7.xml#id-f023811a-174a-46b5-bee8-c1aca37b7dc7"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-921423e40bfd46d9b0a1e7656f522be4.xml#id-921423e40bfd46d9b0a1e7656f522be4"/>
+</archimate:AccessRelationship>

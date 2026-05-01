@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-c650bd1a9e8042cf9a1d21071b7f4508">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="organiseren, beheren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Routes zijn het kernmiddel voor het organiseren van afvalinzameling: ze bepalen welke locaties en containers worden aangedaan. Afvalinzameling is direct verantwoordelijk voor het creëren, beheren en aanpassen van routes als onderdeel van de operationele inzamelingsorganisatie. Er is geen andere functie die specifiek routebeheer voor afval uitvoert."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-e79d6415-e641-4eb9-a73e-f5325e5a418c.xml#id-e79d6415-e641-4eb9-a73e-f5325e5a418c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-580b473d907f45959f7355ec526c8272.xml#id-580b473d907f45959f7355ec526c8272"/>
+</archimate:AccessRelationship>

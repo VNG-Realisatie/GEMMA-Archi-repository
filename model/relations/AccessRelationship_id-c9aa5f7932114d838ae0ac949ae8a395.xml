@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-c9aa5f7932114d838ae0ac949ae8a395">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="verhuren, exploiteren, beheren vastgoed"/>
+  <properties
+      key="Onderbouwing"
+      value="Vastgoedbeheer verwerft, richt in, beheert en stoot gebouwen af, waarbij verhuurbare eenheden worden gedefinieerd en geregistreerd als exploiteerbare onderdelen van het vastgoedportfolio. Verhuurbare eenheden zijn kernentiteiten in het vastgoedexploitatiebeheer. PRIMARY omdat vastgoedbeheer de meest directe verantwoordelijkheid heeft voor het vastleggen van verhuurbare eenheden."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-1af6f4aa-d797-44f5-bfb0-e77229141dfa.xml#id-1af6f4aa-d797-44f5-bfb0-e77229141dfa"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-71b37d66532f4bb3bcefb53188b9049d.xml#id-71b37d66532f4bb3bcefb53188b9049d"/>
+</archimate:AccessRelationship>

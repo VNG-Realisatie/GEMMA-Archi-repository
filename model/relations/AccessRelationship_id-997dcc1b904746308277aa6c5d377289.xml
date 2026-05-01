@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-997dcc1b904746308277aa6c5d377289">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.42"/>
+  <properties
+      key="Signalen"
+      value="verzenden"/>
+  <properties
+      key="Onderbouwing"
+      value="Exploiteren van accommodaties kan mailings versturen naar bezoekers en relaties, maar dit is geen kernactiviteit."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Mailing als object in Museum-context heeft zwakke relatie met Exploiteren van accommodaties; de primaire communicatiefunctie ligt elders."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580.xml#id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-2d4c24cff0034ad9ac0f5bd467130d71.xml#id-2d4c24cff0034ad9ac0f5bd467130d71"/>
+</archimate:AccessRelationship>

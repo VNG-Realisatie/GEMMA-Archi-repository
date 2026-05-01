@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-15b2c1a006a14561aa388713bf543a48">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.55"/>
+  <properties
+      key="Signalen"
+      value="verwerven, beheren, relatiebeheer"/>
+  <properties
+      key="Onderbouwing"
+      value="Leveranciersbeheer verwerft en beheert leveranciers, waarbij ook opdrachtgevers als wederpartij in opdrachtenrelaties worden vastgelegd. Het beheren van externe partijrelaties omvat het registreren van opdrachtgevers. PRIMARY als meest logische kandidaat voor het vastleggen van opdrachtgevers in financiële context."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Opdrachtgever is primair een financiële entiteit; geen functie heeft een expliciete en exclusieve verantwoordelijkheid voor dit object."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-4ab8bcd5-c298-4a6c-ab56-b14c7b4a80d8.xml#id-4ab8bcd5-c298-4a6c-ab56-b14c7b4a80d8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-50910acfd5c84c888ecf53af5a40f222.xml#id-50910acfd5c84c888ecf53af5a40f222"/>
+</archimate:AccessRelationship>

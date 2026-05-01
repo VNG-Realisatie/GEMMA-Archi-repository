@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-8e5b3982898f4148920ec8ab2321f11b">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.83"/>
+  <properties
+      key="Signalen"
+      value="registreren, verwerken, administreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Verzuimmeldingen worden door de school gemeld aan de gemeente en worden geregistreerd en verwerkt in het kader van de leerplichtadministratie, die de uitvoering van de leerplichtwet ondersteunt. PRIMARY omdat de leerlingenadministratie de centrale functie is die verzuimgegevens per leerling bijhoudt en de basis vormt voor leerplichthandhaving."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-ab46e401-9e45-11e5-11ba-005056a85f9c.xml#id-ab46e401-9e45-11e5-11ba-005056a85f9c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-54734d7ee5584f5992b432b04cd0c632.xml#id-54734d7ee5584f5992b432b04cd0c632"/>
+</archimate:AccessRelationship>

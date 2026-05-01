@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-cc91d6136ba54ff8a2b82e6e04f8b2a0">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.80"/>
+  <properties
+      key="Signalen"
+      value="registreren, verzoek, aanvraag, vertegenwoordiger"/>
+  <properties
+      key="Onderbouwing"
+      value="Een gemachtigde is een persoon die als vertegenwoordiger van een initiatiefnemer optreedt bij het indienen van verzoeken. Toestemmingverlening verwerkt aanvragen en registreert daarbij wie de gemachtigde vertegenwoordiger is. Als de functie die gemachtigden registreert bij het vergunningproces is PRIMARY gerechtvaardigd."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7a1e5935-026e-41ef-be95-d02f2a2a3937.xml#id-7a1e5935-026e-41ef-be95-d02f2a2a3937"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-3698c96ad5ae456fbdf9e1a8c3c9c82b.xml#id-3698c96ad5ae456fbdf9e1a8c3c9c82b"/>
+</archimate:AccessRelationship>

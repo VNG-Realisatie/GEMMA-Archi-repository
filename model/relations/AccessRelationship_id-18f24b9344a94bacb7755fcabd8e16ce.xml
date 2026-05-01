@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-18f24b9344a94bacb7755fcabd8e16ce">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="regie, toewijzen, vastleggen, dossiervorming"/>
+  <properties
+      key="Onderbouwing"
+      value="Clientbegeleiders worden aangewezen en vastgelegd als verantwoordelijken voor ondersteuningsplannen. Casusregievoering sociaal domein is verantwoordelijk voor het toewijzen en registreren van clientbegeleiders. PRIMARY op basis van structureel beheer."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-6ffc6611-e0aa-43a2-85e4-4301cd1bda2f.xml#id-6ffc6611-e0aa-43a2-85e4-4301cd1bda2f"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-235dc7c6d53c4300a1e86341a54cdb96.xml#id-235dc7c6d53c4300a1e86341a54cdb96"/>
+</archimate:AccessRelationship>

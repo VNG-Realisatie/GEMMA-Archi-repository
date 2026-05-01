@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-f02ae5c81c9c4d159edd470503e8fa04">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.80"/>
+  <properties
+      key="Signalen"
+      value="verlenen, vastleggen, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Vrijstellingen van de leerplicht zijn formele besluiten die worden genomen en vastgelegd door de leerplichtambtenaar als onderdeel van handhaving van de leerplichtwet. PRIMARY omdat handhaving de functie is die inhoudelijk verantwoordelijk is voor het genereren en beheren van vrijstellingsbesluiten."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-020f2f8c-d549-4a95-a2a9-56c1b0a43be8.xml#id-020f2f8c-d549-4a95-a2a9-56c1b0a43be8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-62559be060294f3885926bed76d68b92.xml#id-62559be060294f3885926bed76d68b92"/>
+</archimate:AccessRelationship>

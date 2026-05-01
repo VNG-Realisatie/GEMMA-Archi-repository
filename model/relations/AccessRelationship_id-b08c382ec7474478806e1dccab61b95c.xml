@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-b08c382ec7474478806e1dccab61b95c">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.70"/>
+  <properties
+      key="Signalen"
+      value="beheren, verwerken"/>
+  <properties
+      key="Onderbouwing"
+      value="Debiteurenbeheer beheert openstaande vorderingen en past deze aan naarmate betalingen binnenkomen of aanmaningen worden verstuurd. SECONDARY omdat de initiële creatie bij Heffing ligt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b2584870-08e4-4f9f-9b1b-62340cb29fcf.xml#id-b2584870-08e4-4f9f-9b1b-62340cb29fcf"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-136c9923d8d24b348e9bde64a59d7edc.xml#id-136c9923d8d24b348e9bde64a59d7edc"/>
+</archimate:AccessRelationship>

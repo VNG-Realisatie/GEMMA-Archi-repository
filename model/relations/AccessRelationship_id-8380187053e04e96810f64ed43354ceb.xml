@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-8380187053e04e96810f64ed43354ceb">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.68"/>
+  <properties
+      key="Signalen"
+      value="registreren, besluitvorming, behandeling"/>
+  <properties
+      key="Onderbouwing"
+      value="Fraudegegevens in het participatiedomein worden aangemaakt en beheerd als onderdeel van de uitvoering van werkinstrumenten (GSD), waarbij fraude in uitkeringen of participatieregelingen wordt vastgelegd. PRIMARY als meest direct betrokken uitvoerende functie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a2f5-2eda-11e5-1099-005056a83192.xml#id-7be8a2f5-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-c983619abfed4440b2887a267c3fd848.xml#id-c983619abfed4440b2887a267c3fd848"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-b29d55e7671e4e7ca462f24336eea811">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.82"/>
+  <properties
+      key="Signalen"
+      value="verwerven, beheren, afstoten, gebouwen"/>
+  <properties
+      key="Onderbouwing"
+      value="Vastgoedbeheer verwerft, richt in, beheert en stoot gebouwen af, wat het bijhouden van vastgoedobjectinformatie als onderdeel van het beheerproces omvat. SECONDARY omdat gemeentelijke eigendommenbeheer de bredere portfolio-verantwoordelijkheid heeft voor vastgoedobjecten als geheel."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-1af6f4aa-d797-44f5-bfb0-e77229141dfa.xml#id-1af6f4aa-d797-44f5-bfb0-e77229141dfa"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-326a41c9caf544609ca8968294156294.xml#id-326a41c9caf544609ca8968294156294"/>
+</archimate:AccessRelationship>

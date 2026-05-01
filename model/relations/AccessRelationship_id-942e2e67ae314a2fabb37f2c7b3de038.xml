@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-942e2e67ae314a2fabb37f2c7b3de038">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="beheren, registreren, managen"/>
+  <properties
+      key="Onderbouwing"
+      value="Call center beheer is verantwoordelijk voor het managen van mensen en middelen om diensten via een call center te bieden; het registreren en beheren van telefoontjes (alle inkomende gesprekken) is de kerntaak van dit domein. PRIMARY op basis van structureel beheer en feitelijke registratie van alle telefoongesprekken als onderdeel van de callcenteroperatie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-d0990d48-7310-44f6-a6a7-f527255123d8.xml#id-d0990d48-7310-44f6-a6a7-f527255123d8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-cd76781079e44bd795e11d778ae7dc01.xml#id-cd76781079e44bd795e11d778ae7dc01"/>
+</archimate:AccessRelationship>

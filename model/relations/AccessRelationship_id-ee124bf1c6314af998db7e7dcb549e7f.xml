@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-ee124bf1c6314af998db7e7dcb549e7f">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="vaststelling inkomen, registreren inkomstencomponent, berekenen"/>
+  <properties
+      key="Onderbouwing"
+      value="Secundaire inkomstencomponenten worden vastgesteld en geregistreerd bij inkomensberekening voor levensonderhoud. Besluitvorming levensonderhoud is verantwoordelijk voor het vaststellen van alle inkomstencomponenten. PRIMARY op basis van inhoudelijke eindverantwoordelijkheid."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-6b35af7f-734b-11e5-1099-005056a83192.xml#id-6b35af7f-734b-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-d3fb4bf1c2d54ca79d56513ccfc83b04.xml#id-d3fb4bf1c2d54ca79d56513ccfc83b04"/>
+</archimate:AccessRelationship>

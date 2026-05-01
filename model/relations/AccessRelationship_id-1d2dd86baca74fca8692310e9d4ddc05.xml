@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-1d2dd86baca74fca8692310e9d4ddc05">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.60"/>
+  <properties
+      key="Signalen"
+      value="regie, vastleggen, dossiervorming"/>
+  <properties
+      key="Onderbouwing"
+      value="Sociale groepen worden vastgelegd als onderdeel van het sociale netwerk van cliënten in het sociaal domein. Casusregievoering sociaal domein is de meest logische functie die sociale groepsgegevens registreert als context voor verbeterinitiatieven. PRIMARY op basis van structureel beheer."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-6ffc6611-e0aa-43a2-85e4-4301cd1bda2f.xml#id-6ffc6611-e0aa-43a2-85e4-4301cd1bda2f"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-25b441357b554908bf7050d7c068e90b.xml#id-25b441357b554908bf7050d7c068e90b"/>
+</archimate:AccessRelationship>

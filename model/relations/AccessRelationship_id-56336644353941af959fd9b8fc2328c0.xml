@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-56336644353941af959fd9b8fc2328c0">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.80"/>
+  <properties
+      key="Signalen"
+      value="registreren, verzoek, aanvraag"/>
+  <properties
+      key="Onderbouwing"
+      value="Een initiatiefnemer is een persoon of organisatie die een initiatief neemt voor fysieke ingrepen en daartoe een verzoek indient bij het bevoegd gezag. Toestemmingverlening verwerkt deze verzoeken en registreert daarmee de initiatiefnemer als onderdeel van het vergunningproces. Als de functie die initiatiefnemers initieel registreert bij aanvragen is PRIMARY gerechtvaardigd."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7a1e5935-026e-41ef-be95-d02f2a2a3937.xml#id-7a1e5935-026e-41ef-be95-d02f2a2a3937"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-3b826e0e4d9541f2bc25f6e64ad796ce.xml#id-3b826e0e4d9541f2bc25f6e64ad796ce"/>
+</archimate:AccessRelationship>

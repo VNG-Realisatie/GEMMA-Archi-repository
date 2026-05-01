@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-5e17b5971c24450cb5c170b98c62d5fc">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.92"/>
+  <properties
+      key="Signalen"
+      value="tot stand brengen, bewaken, contracten, leveranciers"/>
+  <properties
+      key="Onderbouwing"
+      value="Contractbeheer brengt contracten tot stand en bewaakt die met leveranciers, wat het aanmaken, wijzigen en beheren van contracten als kernactiviteit omvat. Contracten zijn de primaire juridische objecten van contractbeheer. PRIMARY omdat contractbeheer de enige functie is die expliciet verantwoordelijk is voor het tot stand brengen van contracten."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3eef0007-c73a-45ed-879d-ac6be8d7e114.xml#id-3eef0007-c73a-45ed-879d-ac6be8d7e114"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-5161e8751d29480eb2a8e8d9852f2e51.xml#id-5161e8751d29480eb2a8e8d9852f2e51"/>
+</archimate:AccessRelationship>

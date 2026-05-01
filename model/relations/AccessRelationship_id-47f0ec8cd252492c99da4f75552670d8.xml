@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-47f0ec8cd252492c99da4f75552670d8">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.62"/>
+  <properties
+      key="Signalen"
+      value="exploiteren, beheren"/>
+  <properties
+      key="Onderbouwing"
+      value="Het exploiteren van accommodaties genereert onderhoudskosten voor sportlocaties die administratief verwerkt moeten worden. SECONDARY omdat de financiële verwerking en administratieve vastlegging van kosten primair bij Activabeheer of Crediteurenbeheer ligt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580.xml#id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-d89e99f52ef64c359a2225b3238e6a67.xml#id-d89e99f52ef64c359a2225b3238e6a67"/>
+</archimate:AccessRelationship>

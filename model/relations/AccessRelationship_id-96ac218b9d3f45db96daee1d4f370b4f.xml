@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-96ac218b9d3f45db96daee1d4f370b4f">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.88"/>
+  <properties
+      key="Signalen"
+      value="beschikking, toekenning, verstrekking voorziening"/>
+  <properties
+      key="Onderbouwing"
+      value="Beschikte voorzieningen worden aangemaakt als resultaat van besluitvorming over WMO/Jeugd-voorzieningen. Voorzieningenverstrekking is direct verantwoordelijk voor het aanmaken en beheren van beschikte voorzieningen. PRIMARY op basis van directe initiële creatie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a305-2eda-11e5-1099-005056a83192.xml#id-7be8a305-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-68b3e5f45e2744d88a9874379b55d396.xml#id-68b3e5f45e2744d88a9874379b55d396"/>
+</archimate:AccessRelationship>

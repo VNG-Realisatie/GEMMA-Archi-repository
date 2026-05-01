@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-ff354c2bb205402ca057aeb0ddf5ce42">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.80"/>
+  <properties
+      key="Signalen"
+      value="exploiteren, beheren, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Sportlocaties zijn de kern van de te exploiteren accommodaties; het exploiteren van accommodaties omvat het aanmaken, registreren en beheren van sportlocatiegegevens. PRIMARY omdat deze functie de directe operationele en administratieve verantwoordelijkheid draagt voor sportlocaties."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580.xml#id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-46b53c1a72dc43dbbef0c3bee8ebc188.xml#id-46b53c1a72dc43dbbef0c3bee8ebc188"/>
+</archimate:AccessRelationship>

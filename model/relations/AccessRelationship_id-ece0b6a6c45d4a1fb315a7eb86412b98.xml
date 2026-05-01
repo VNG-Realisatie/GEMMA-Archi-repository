@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-ece0b6a6c45d4a1fb315a7eb86412b98">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.78"/>
+  <properties
+      key="Signalen"
+      value="beheren, vastgoed, percelen, mutaties"/>
+  <properties
+      key="Onderbouwing"
+      value="Een KadastraleMutatie is een wijziging in de kadastrale registratie. Gemeentelijke eigendommenbeheer beheert gemeentelijke eigendommen waaronder vastgoed en percelen, en is daarvoor verantwoordelijk voor het verwerken van kadastrale mutaties als eigendomswijzigingen plaatsvinden. PRIMARY is gerechtvaardigd als de meest directe functie die kadastrale mutaties initieert en verwerkt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-613a3b32-a305-4207-a6e2-b209d551d3c8.xml#id-613a3b32-a305-4207-a6e2-b209d551d3c8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-50ad9a9d398c4ab59a5a6ca73e4f469a.xml#id-50ad9a9d398c4ab59a5a6ca73e4f469a"/>
+</archimate:AccessRelationship>

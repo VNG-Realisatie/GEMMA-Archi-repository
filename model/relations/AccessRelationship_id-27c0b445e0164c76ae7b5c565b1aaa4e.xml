@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-27c0b445e0164c76ae7b5c565b1aaa4e">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="verlenen, registreren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Het verlenen van toestemming voor activiteiten in de fysieke leefomgeving omvat het registreren van bouwactiviteiten als onderdeel van de vergunningprocedure. SECONDARY omdat Erfgoed- en monumentenbeheer de inhoudelijke eindverantwoordelijkheid draagt voor de bouwactiviteit in de monumentencontext."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7a1e5935-026e-41ef-be95-d02f2a2a3937.xml#id-7a1e5935-026e-41ef-be95-d02f2a2a3937"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-8467fc6067cf48d79e92a3ad177d3143.xml#id-8467fc6067cf48d79e92a3ad177d3143"/>
+</archimate:AccessRelationship>

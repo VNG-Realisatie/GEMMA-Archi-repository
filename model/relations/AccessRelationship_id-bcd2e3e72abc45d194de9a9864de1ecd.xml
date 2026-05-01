@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-bcd2e3e72abc45d194de9a9864de1ecd">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="aanbesteden, offerte, opdrachten"/>
+  <properties
+      key="Onderbouwing"
+      value="Aanbesteding omvat het conform wetgeving aanbesteden van opdrachten waarbij bedrijven een offerte kunnen indienen, wat direct inhoudt dat offerteaanvragen worden opgesteld en gepubliceerd. De offerteaanvraag is het centrale document in het aanbestedingsproces. PRIMARY omdat aanbesteding de functie is die offerteaanvragen initieel creëert en uitzendt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-f023811a-174a-46b5-bee8-c1aca37b7dc7.xml#id-f023811a-174a-46b5-bee8-c1aca37b7dc7"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-c0de1df213204c79922b00463b574b01.xml#id-c0de1df213204c79922b00463b574b01"/>
+</archimate:AccessRelationship>

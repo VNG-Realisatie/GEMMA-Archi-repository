@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-e6a591426ac446ecb6700846ba7df455">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.83"/>
+  <properties
+      key="Signalen"
+      value="beheren, onderhoud, toestand vaststellen"/>
+  <properties
+      key="Onderbouwing"
+      value="Vastgoedbeheer beheert en voert werkzaamheden uit rondom gebouwen, waarbij inspecties worden uitgevoerd en vastgelegd om de toestand van vastgoedobjecten te bepalen. Inspectieresultaten worden vastgelegd als onderdeel van het vastgoedbeheerdossier. PRIMARY omdat vastgoedbeheer de meest directe verantwoordelijkheid heeft voor het uitvoeren en registreren van vastgoedinspecties."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-1af6f4aa-d797-44f5-bfb0-e77229141dfa.xml#id-1af6f4aa-d797-44f5-bfb0-e77229141dfa"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-dfc3352ee96d4f2bbccd4fc9ddfd6da3.xml#id-dfc3352ee96d4f2bbccd4fc9ddfd6da3"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-dd948e0afb7c4d47b3a8bdc52db4e858">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="beheren, verlenen vergunningen, lokale activiteiten"/>
+  <properties
+      key="Onderbouwing"
+      value="Vergunningenbeheer Publieksdiensten is expliciet verantwoordelijk voor het beheren en verlenen van vergunningen voor diverse soorten lokale activiteiten, waartoe parkeervergunningen behoren als een standaard gemeentelijke publieksdienst. Het creëren, wijzigen en intrekken van parkeervergunningen is de kern van deze functie. PRIMARY op basis van initiële creatie en structureel beheer van vergunningen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b7e4786e-cff2-40a8-ac4b-6c48a0abfbe0.xml#id-b7e4786e-cff2-40a8-ac4b-6c48a0abfbe0"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-a8bd611cb4db419f9c344681f53242f3.xml#id-a8bd611cb4db419f9c344681f53242f3"/>
+</archimate:AccessRelationship>

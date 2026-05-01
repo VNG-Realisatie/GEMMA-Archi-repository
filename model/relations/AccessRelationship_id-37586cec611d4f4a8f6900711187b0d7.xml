@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-37586cec611d4f4a8f6900711187b0d7">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.92"/>
+  <properties
+      key="Signalen"
+      value="beheren, IT-infrastructuur, fysieke componenten"/>
+  <properties
+      key="Onderbouwing"
+      value="Systeembeheer voert beheertaken uit m.b.t. IT-infrastructuur, wat het installeren, registreren en beheren van hardware als fysieke ICT-componenten omvat. Hardware is een kernonderdeel van IT-infrastructuur dat door systeembeheer wordt beheerd. PRIMARY omdat systeembeheer de enige functie is met expliciete verantwoordelijkheid voor IT-infrastructuurbeheer inclusief hardware."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b3b4cc7f-ec2d-4cf0-8389-cc4ce7cbce34.xml#id-b3b4cc7f-ec2d-4cf0-8389-cc4ce7cbce34"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-20016e73006b41eaa81dfe73529d11a3.xml#id-20016e73006b41eaa81dfe73529d11a3"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-5d8a8d0b437e45848ff7262504353319">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.92"/>
+  <properties
+      key="Signalen"
+      value="registreren, vastleggen, minnelijke regeling, intake"/>
+  <properties
+      key="Onderbouwing"
+      value="Leefsituatie is het centrale object in schuldhulpverlening waaraan alle relevante zaken van cliënten worden gekoppeld. Schuldhulpverlening is direct verantwoordelijk voor het aanmaken en bijhouden van leefsituatiegegevens als basis voor het schuldhulptraject. PRIMARY op basis van directe initiële creatie en inhoudelijke eindverantwoordelijkheid."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3850d427-6dce-11e5-1099-005056a83192.xml#id-3850d427-6dce-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-4e085508e9af47d993fb9e004ca1faec.xml#id-4e085508e9af47d993fb9e004ca1faec"/>
+</archimate:AccessRelationship>

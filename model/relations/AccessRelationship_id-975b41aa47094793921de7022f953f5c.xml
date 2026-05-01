@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-975b41aa47094793921de7022f953f5c">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="exploiteren, verwerken, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Exploiteren van afvalopslag en -verwerking is direct verantwoordelijk voor het ontvangen en verwerken van stortingen van afvalstoffen. Het registreren van een storting — een activiteit waarbij afvalstoffen worden gebracht — valt volledig binnen de scope van deze functie. Zij is de meest specifieke en directe verantwoordelijke voor dit object."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-cc1c4709-f354-4747-8bac-3bc54f88e409.xml#id-cc1c4709-f354-4747-8bac-3bc54f88e409"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-c36be84d63bd44ca9c91e5c5760140f3.xml#id-c36be84d63bd44ca9c91e5c5760140f3"/>
+</archimate:AccessRelationship>

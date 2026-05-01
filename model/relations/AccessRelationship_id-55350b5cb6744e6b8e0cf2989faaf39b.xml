@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-55350b5cb6744e6b8e0cf2989faaf39b">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.82"/>
+  <properties
+      key="Signalen"
+      value="beheer bedrijfsgegevens, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Bedrijfsgegevens beheer beheert bedrijfsgegevens, wat direct MaatschappelijkeActiviteit als object omvat. PRIMARY als de meest directe functie voor het registreren en beheren van bedrijfs- en organisatiegegevens."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-a9eea8b7-9299-11e5-1099-005056a83192.xml#id-a9eea8b7-9299-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-075524dddf9d4c4ea0f83e1d17bc8f43.xml#id-075524dddf9d4c4ea0f83e1d17bc8f43"/>
+</archimate:AccessRelationship>

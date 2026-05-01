@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-980da642b67942aeb63815b3f3109c78">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.88"/>
+  <properties
+      key="Signalen"
+      value="registreren, vastleggen crisisinterventie, minnelijke regeling"/>
+  <properties
+      key="Onderbouwing"
+      value="Crisisinterventie is een expliciete fase in schuldhulpverlening om acute financiële crises af te wenden. Schuldhulpverlening is direct verantwoordelijk voor het registreren en uitvoeren van crisisinterventies. PRIMARY op basis van directe inhoudelijke verantwoordelijkheid."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3850d427-6dce-11e5-1099-005056a83192.xml#id-3850d427-6dce-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-aa8ea0a1ae484f0dad67a01aaa4fbd1c.xml#id-aa8ea0a1ae484f0dad67a01aaa4fbd1c"/>
+</archimate:AccessRelationship>

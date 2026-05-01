@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-5a5af8da72f44af7bd75dfa18df65f17">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.55"/>
+  <properties
+      key="Signalen"
+      value="leveren producten en diensten, verwerken"/>
+  <properties
+      key="Onderbouwing"
+      value="Uitvoering levert producten en diensten en registreert de voortgang hiervan, wat direct de status van een zaak bepaalt. PRIMARY als de meest generieke uitvoeringsfunctie die statuswijzigingen genereert in het kader van zaakafhandeling."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-31dbd6e5-fae0-46b8-9ccf-d26a8fa91bc1.xml#id-31dbd6e5-fae0-46b8-9ccf-d26a8fa91bc1"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-0cdc9f47043949f38e400cac541ef2e6.xml#id-0cdc9f47043949f38e400cac541ef2e6"/>
+</archimate:AccessRelationship>

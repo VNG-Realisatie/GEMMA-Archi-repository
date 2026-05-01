@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-91ffec6e68ca47e2960e76069b61cd10">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.82"/>
+  <properties
+      key="Signalen"
+      value="registreren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Een spoor is een blijk van eerdere menselijke aanwezigheid, wat een kernobject is in de archeologie. Archeologische objectenbeheer registreert en legt archeologische sporen vast als onderdeel van onderzoeksdocumentatie. PRIMARY omdat dit de kernfunctie is voor het vastleggen van archeologische sporen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-bfcd3053-b303-499c-87a1-c5a67583b274.xml#id-bfcd3053-b303-499c-87a1-c5a67583b274"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-1a4a7082e6c84b14a2aa97ff3fb0e1f8.xml#id-1a4a7082e6c84b14a2aa97ff3fb0e1f8"/>
+</archimate:AccessRelationship>

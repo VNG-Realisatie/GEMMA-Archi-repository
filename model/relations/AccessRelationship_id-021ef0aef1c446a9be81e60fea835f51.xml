@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-021ef0aef1c446a9be81e60fea835f51">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.78"/>
+  <properties
+      key="Signalen"
+      value="beheren, vastleggen, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Areaal beschrijft het verspreidingsgebied van een soort of levensgemeenschap, relevant voor groenbeheer en bodembeheer. Beheren fysieke objecten omvat groenbeheer en bodembeheer als expliciete voorbeelden en is daarmee de meest logische functie die areaalgegevens registreert en beheert. PRIMARY bij gebrek aan een meer specifieke kandidaat."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-c02372c9-e979-4966-95f6-50d1fa249198.xml#id-c02372c9-e979-4966-95f6-50d1fa249198"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-99d9f391c5f642b48e5e168ec541f5d0.xml#id-99d9f391c5f642b48e5e168ec541f5d0"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-7495cafcef214a1e931d51b699b0d756">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="registreren beslaglegging derden, informatieverzoek beslaglegger"/>
+  <properties
+      key="Onderbouwing"
+      value="Inkomensbeslaglegging derden omvat het registreren van informatieverzoeken van beslagleggers en het verwerken van beslagleggingen, waarbij schuldeisersgegevens worden gebruikt en bijgehouden. SECONDARY omdat schuldhulpverlening de bredere primaire beheerverantwoordelijkheid heeft."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b492b590-5d3d-11e5-1099-005056a83192.xml#id-b492b590-5d3d-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-fdf71b38f02b465eaa5b791c24817dfb.xml#id-fdf71b38f02b465eaa5b791c24817dfb"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-9e7d6b4e5b474b3a964cab96df0be683">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="beheren eigendommen, registreren zakelijke rechten, vastgoed"/>
+  <properties
+      key="Onderbouwing"
+      value="ZakelijkRecht betreft eigendom en beperkte rechten op onroerende zaken. Gemeentelijke eigendommenbeheer beheert de gemeentelijke eigendommen en daarmee de zakelijke rechten die de gemeente bezit of verleent. PRIMARY als de functie die structureel verantwoordelijk is voor het beheer van gemeentelijke zakelijke rechten."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-613a3b32-a305-4207-a6e2-b209d551d3c8.xml#id-613a3b32-a305-4207-a6e2-b209d551d3c8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-4cd17274b1174519b8ef9f267ab6b441.xml#id-4cd17274b1174519b8ef9f267ab6b441"/>
+</archimate:AccessRelationship>

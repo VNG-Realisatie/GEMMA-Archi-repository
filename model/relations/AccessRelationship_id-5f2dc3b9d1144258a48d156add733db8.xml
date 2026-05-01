@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-5f2dc3b9d1144258a48d156add733db8">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.50"/>
+  <properties
+      key="Signalen"
+      value="beheren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Functioneel beheer voert beheertaken uit om applicaties optimaal te laten functioneren, waarbij notities over configuratie en werking worden vastgelegd. Als ICT-beheerdomein is functioneel beheer het meest logische primaire eigenaar van notities als ICT-bedrijfsobject. PRIMARY als beste kandidaat binnen ICT-context voor het structureel beheren van notities."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Notities zijn generiek van aard en worden door vrijwel alle functies aangemaakt; de PRIMARY-toewijzing is arbitrair."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-bfb5e768-4ea5-492a-990b-f23faacb8eff.xml#id-bfb5e768-4ea5-492a-990b-f23faacb8eff"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-0e845af01a6347d3bdd76c77a68c0eb2.xml#id-0e845af01a6347d3bdd76c77a68c0eb2"/>
+</archimate:AccessRelationship>

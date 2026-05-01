@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-30e4d6c8cf96481ba737a8c00a6f855e">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.88"/>
+  <properties
+      key="Signalen"
+      value="afrekenen, afgenomen producten of diensten, verschuldigde bedragen"/>
+  <properties
+      key="Onderbouwing"
+      value="Afrekening verwerkt de betaling voor afgenomen producten of diensten. Het creëren en registreren van een betaling is de kern van de afrekeningsfunctie. PRIMARY als de meest directe initiator van betalingstransacties."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-2f045ed6-9deb-4ba6-9407-a9ab79e2bae6.xml#id-2f045ed6-9deb-4ba6-9407-a9ab79e2bae6"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-35853700439c4cd6a61219250f793739.xml#id-35853700439c4cd6a61219250f793739"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-2366d395f11e46669b7f17265cce8dd4">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.60"/>
+  <properties
+      key="Signalen"
+      value="administreren, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="De leerlingenadministratie legt schoolgegevens vast als referentie-object bij de inschrijving van leerlingen. SECONDARY omdat het 'School'-object primair beheerd wordt door de onderwijsinstelling zelf; de gemeente registreert schoolgegevens als onderdeel van de administratieve context."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-ab46e401-9e45-11e5-11ba-005056a85f9c.xml#id-ab46e401-9e45-11e5-11ba-005056a85f9c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-0be184699de94372ad5350ac2d995ffa.xml#id-0be184699de94372ad5350ac2d995ffa"/>
+</archimate:AccessRelationship>

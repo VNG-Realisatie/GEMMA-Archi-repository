@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-aa3b7e3242ac4169b233a5c3e38b1349">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.92"/>
+  <properties
+      key="Signalen"
+      value="registreren, vastleggen schuldregeling, minnelijke regeling"/>
+  <properties
+      key="Onderbouwing"
+      value="Schuldhulpverlening omvat het volledig uitvoeren van minnelijke regelingen en WSNP-trajecten, waarbij de schuldregeling (overeenkomst tussen schuldenaar en schuldeisers) wordt opgesteld en vastgelegd. PRIMARY op basis van directe initiële creatie en inhoudelijke eindverantwoordelijkheid."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3850d427-6dce-11e5-1099-005056a83192.xml#id-3850d427-6dce-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-b7de46b27d8b4e42b2072e4ba0f96a6e.xml#id-b7de46b27d8b4e42b2072e4ba0f96a6e"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-c6afdd36300647c188a84d77cfe14112">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="administreren, vastleggen, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Een loopbaanstap in onderwijscontext betreft een overgang in de onderwijscarrière (bijv. van niveau of school) die wordt geregistreerd in de leerlingenadministratie als onderdeel van de onderwijsloopbaan. PRIMARY bij gebrek aan een specifiekere functie; de leerlingenadministratie beheert de progressie van leerlingen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-ab46e401-9e45-11e5-11ba-005056a85f9c.xml#id-ab46e401-9e45-11e5-11ba-005056a85f9c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-61222860b8ad45e4a3f0f1dc5afcc652.xml#id-61222860b8ad45e4a3f0f1dc5afcc652"/>
+</archimate:AccessRelationship>

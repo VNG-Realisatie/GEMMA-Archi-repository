@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-528d42310fc84741b5daf4049fcf19a1">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.45"/>
+  <properties
+      key="Signalen"
+      value="beheren gegevens, beschikbaar stellen"/>
+  <properties
+      key="Onderbouwing"
+      value="Gegevensmanagement zorgt dat de gemeente over juiste gegevens beschikt. Gemeentelijke referentiegegevens zoals Gemeente in RSGB worden via gegevensmanagement bijgehouden. PRIMARY als meest plausibele beheerder van referentiegegevens, al is de relatie indirect."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Gemeente als RSGB-referentieobject wordt primair extern beheerd; gegevensmanagement is de beste kandidaat maar de relatie is indirect."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-6f9c9d87-b7cf-4ddb-b8d6-dd94699df24a.xml#id-6f9c9d87-b7cf-4ddb-b8d6-dd94699df24a"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-808830e013014a09852f5f4723053f95.xml#id-808830e013014a09852f5f4723053f95"/>
+</archimate:AccessRelationship>

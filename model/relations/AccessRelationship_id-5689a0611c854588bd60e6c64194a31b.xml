@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-5689a0611c854588bd60e6c64194a31b">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.48"/>
+  <properties
+      key="Signalen"
+      value="begeleiding, inburgering, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="MAP is een object binnen inburgering (in ontwikkeling). Zelfredzaamheidsontwikkeling is de meest logische beschikbare functie met raakvlakken met inburgering. PRIMARY als enige beschikbare optie bij afwezigheid van een specifieke inburgeringsfunctie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="MAP is een specifiek inburgeringsobject zonder duidelijke semantische specificatie; geen specifieke inburgeringsfunctie beschikbaar."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a2fd-2eda-11e5-1099-005056a83192.xml#id-7be8a2fd-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-a6ed11766942490ea4dd5abf59e55feb.xml#id-a6ed11766942490ea4dd5abf59e55feb"/>
+</archimate:AccessRelationship>

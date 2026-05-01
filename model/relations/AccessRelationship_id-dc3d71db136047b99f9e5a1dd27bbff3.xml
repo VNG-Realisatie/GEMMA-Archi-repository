@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-dc3d71db136047b99f9e5a1dd27bbff3">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.55"/>
+  <properties
+      key="Signalen"
+      value="organiseren, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Verkiezingen gerelateerde diensten omvat het lokaal organiseren van verkiezingen, waarbij de uitkomst leidt tot het vaststellen van nieuwe collegeleden. De registratie van verkiezingsresultaten raakt indirect aan het object Collegelid. SECONDARY omdat de directe registratie van collegeleden een bestuurlijk-administratieve taak is."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-78bbc144-8a22-43a4-8233-c4cfaf7b73c2.xml#id-78bbc144-8a22-43a4-8233-c4cfaf7b73c2"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-65d53e7928a4458da7bff77f8c68fdd1.xml#id-65d53e7928a4458da7bff77f8c68fdd1"/>
+</archimate:AccessRelationship>

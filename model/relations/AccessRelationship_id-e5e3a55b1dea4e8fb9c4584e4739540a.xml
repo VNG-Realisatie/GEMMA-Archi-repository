@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-e5e3a55b1dea4e8fb9c4584e4739540a">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.50"/>
+  <properties
+      key="Signalen"
+      value="administreren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Medewerkeradministratie administreert gegevens van medewerkers, waarbij onderwijsinstituten als externe partijen voor opleidingen worden vastgelegd. De relatie is logisch afleidbaar maar indirect. SECONDARY omdat medewerkerontwikkeling meer direct verantwoordelijk is voor de relatie met onderwijsinstituten."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Onderwijsinstituut is een externe entiteit; het vastleggen ervan is een bijproduct van HR-processen, niet een kernactiviteit."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-51a9e46b-44da-46ea-8bf5-ded9a19e6717.xml#id-51a9e46b-44da-46ea-8bf5-ded9a19e6717"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-d3ecc21fe9d945e2a105ef9aa4fd2f33.xml#id-d3ecc21fe9d945e2a105ef9aa4fd2f33"/>
+</archimate:AccessRelationship>

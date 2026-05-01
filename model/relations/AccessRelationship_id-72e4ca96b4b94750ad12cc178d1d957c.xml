@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-72e4ca96b4b94750ad12cc178d1d957c">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.70"/>
+  <properties
+      key="Signalen"
+      value="administreren, vastleggen, medewerkers"/>
+  <properties
+      key="Onderbouwing"
+      value="Medewerkeradministratie administreert gegevens van medewerkers, waarbij geweldsincidenten waarbij medewerkers betrokken zijn worden vastgelegd als onderdeel van het personeelsdossier. Het registreren van geweldsincidenten is logisch afleidbaar als onderdeel van HR-administratie. PRIMARY als meest logische eigenaar voor het administreren van geweldsincidenten in HR-context."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-51a9e46b-44da-46ea-8bf5-ded9a19e6717.xml#id-51a9e46b-44da-46ea-8bf5-ded9a19e6717"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-539a016b72bd4d49abb8da02b0d68feb.xml#id-539a016b72bd4d49abb8da02b0d68feb"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-e5cdc13a83d24cba885e128ecd828c2a">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="inrichten, vastleggen, beheren, structureren"/>
+  <properties
+      key="Onderbouwing"
+      value="Governance inrichting omvat het inrichten en bewaken van besluitvormingsprocessen en -structuren; raadscommissies zijn formele besluitvormingsstructuren die worden ingesteld en beheerd. Het aanmaken en muteren van raadscommissies valt direct onder deze functie. PRIMARY op basis van structurele verantwoordelijkheid voor besluitvormingsorganen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-11a4c070-7b4f-4ecf-a47b-6574a916319f.xml#id-11a4c070-7b4f-4ecf-a47b-6574a916319f"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-02a929666f3a4c08b764b668d126e001.xml#id-02a929666f3a4c08b764b668d126e001"/>
+</archimate:AccessRelationship>

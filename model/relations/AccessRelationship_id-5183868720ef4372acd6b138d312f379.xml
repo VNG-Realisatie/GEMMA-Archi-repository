@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-5183868720ef4372acd6b138d312f379">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.92"/>
+  <properties
+      key="Signalen"
+      value="indienen, wijzigen, aanmaken"/>
+  <properties
+      key="Onderbouwing"
+      value="De functie Indiening c.q. wijziging aanvraag beschrijft expliciet het indienen respectievelijk wijzigen van een aanvraag, wat direct de initiële creatie en wijziging van AanvraagOfMelding-objecten betreft. PRIMARY op basis van initiële creatie: dit is de functie die het object tot stand brengt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-24c15ba5-f3ca-4daa-b95d-1353241f6dee.xml#id-24c15ba5-f3ca-4daa-b95d-1353241f6dee"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-9d03ea8f18564b86b3cd5a42cef83eab.xml#id-9d03ea8f18564b86b3cd5a42cef83eab"/>
+</archimate:AccessRelationship>

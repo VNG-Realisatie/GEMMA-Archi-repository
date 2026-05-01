@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-09f331f903504a1f8d4ef99f07df080d">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="verwerken, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Signaalverwerking omvat het verwerken van signalen, waaronder verzuimmeldingen die vanuit scholen worden ontvangen. SECONDARY omdat de primaire administratieve verantwoordelijkheid voor verzuimmeldingen bij de leerplichtfunctie (leerlingenadministratie) ligt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-6b35af78-734b-11e5-1099-005056a83192.xml#id-6b35af78-734b-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-54734d7ee5584f5992b432b04cd0c632.xml#id-54734d7ee5584f5992b432b04cd0c632"/>
+</archimate:AccessRelationship>

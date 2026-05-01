@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-ba1713c132ba45e097e68aaec1c0f495">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.88"/>
+  <properties
+      key="Signalen"
+      value="bijhouding, registreren, adresregistratie BRP"/>
+  <properties
+      key="Onderbouwing"
+      value="Een briefadres is een adres waar overheidspost voor een persoon wordt ontvangen en wordt geregistreerd in de BRP. Bevolkingsadministratie bijhouding is verantwoordelijk voor het vastleggen en muteren van briefadressen als onderdeel van de persoonsregistratie. PRIMARY als de functie met directe wettelijke verantwoordelijkheid voor adresregistratie in de BRP."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-05ebfe88-2d7a-4093-bb4c-d9371baeb43c.xml#id-05ebfe88-2d7a-4093-bb4c-d9371baeb43c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-69e3c6f1bdcc4824a0af6b45213b5c31.xml#id-69e3c6f1bdcc4824a0af6b45213b5c31"/>
+</archimate:AccessRelationship>

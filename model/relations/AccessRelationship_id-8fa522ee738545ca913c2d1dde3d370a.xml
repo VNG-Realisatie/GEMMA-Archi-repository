@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-8fa522ee738545ca913c2d1dde3d370a">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.82"/>
+  <properties
+      key="Signalen"
+      value="beheren, registreren, openbare ruimte"/>
+  <properties
+      key="Onderbouwing"
+      value="Een bord is een paneel waarop statische informatie wordt afgebeeld in de openbare ruimte. Beheren fysieke objecten beheert objecten in de openbare ruimte en registreert daarvoor bordlocaties en -kenmerken. PRIMARY is gerechtvaardigd als meest directe beheerfunctie voor inrichtingsobjecten van de openbare ruimte."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-c02372c9-e979-4966-95f6-50d1fa249198.xml#id-c02372c9-e979-4966-95f6-50d1fa249198"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-fea9b0bffba9458c9b8ba2bbbb42c3a4.xml#id-fea9b0bffba9458c9b8ba2bbbb42c3a4"/>
+</archimate:AccessRelationship>

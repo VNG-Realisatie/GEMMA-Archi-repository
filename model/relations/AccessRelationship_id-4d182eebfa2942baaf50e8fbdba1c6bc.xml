@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-4d182eebfa2942baaf50e8fbdba1c6bc">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="beheren, vastleggen, bepalen"/>
+  <properties
+      key="Onderbouwing"
+      value="Erfgoed Object is het kernobject van de generieke erfgoedentiteiten; Erfgoed- en monumentenbeheer is expliciet verantwoordelijk voor het beheren van erfgoed en monumenten inclusief het vastleggen van erfgoedobjecten. PRIMARY omdat dit de directe kerntaak is van de functie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-f228c9bd-3de0-436b-98a3-d0165932c7a8.xml#id-f228c9bd-3de0-436b-98a3-d0165932c7a8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-73f341fd52d140e2bca31e31ba7ef831.xml#id-73f341fd52d140e2bca31e31ba7ef831"/>
+</archimate:AccessRelationship>

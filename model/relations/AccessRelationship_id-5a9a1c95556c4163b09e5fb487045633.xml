@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-5a9a1c95556c4163b09e5fb487045633">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.82"/>
+  <properties
+      key="Signalen"
+      value="regie, registreren aanmelding, dossiervorming"/>
+  <properties
+      key="Onderbouwing"
+      value="Caseaanmeldingen zijn verzoeken tot toelating die worden geregistreerd als start van een casustraject in sociale teams. Casusregievoering sociaal domein is direct verantwoordelijk voor het verwerken van caseaanmeldingen. PRIMARY op basis van directe initiële creatie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-6ffc6611-e0aa-43a2-85e4-4301cd1bda2f.xml#id-6ffc6611-e0aa-43a2-85e4-4301cd1bda2f"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-b867fe395bf34ba5890c597f912dfc84.xml#id-b867fe395bf34ba5890c597f912dfc84"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-95b71401e8b4484987edbef6d4804684">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.60"/>
+  <properties
+      key="Signalen"
+      value="verwerven, beheren, monitoren"/>
+  <properties
+      key="Onderbouwing"
+      value="Leveranciersbeheer omvat het verwerven en beheren van leveranciers, waarbij prijsafspraken een onderdeel zijn van de leveranciersrelatie. De functie kan prijsafspraken vastleggen als onderdeel van leveranciersbeheer, maar de directe contractuele vastlegging valt primair onder Contractbeheer."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-4ab8bcd5-c298-4a6c-ab56-b14c7b4a80d8.xml#id-4ab8bcd5-c298-4a6c-ab56-b14c7b4a80d8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-8f24aac97145479b84ef112a1a156947.xml#id-8f24aac97145479b84ef112a1a156947"/>
+</archimate:AccessRelationship>

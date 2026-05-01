@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-7f7e020cd24a4053b25711a057ccd061">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.70"/>
+  <properties
+      key="Signalen"
+      value="registreren, vastleggen, beheren"/>
+  <properties
+      key="Onderbouwing"
+      value="Magazijnlocaties zijn de opslagplaatsen voor archeologische vondsten en objecten; Archeologische objectenbeheer registreert en beheert de locaties waar objecten worden opgeslagen. PRIMARY omdat dit onderdeel is van het collectiebeheer van de functie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-bfcd3053-b303-499c-87a1-c5a67583b274.xml#id-bfcd3053-b303-499c-87a1-c5a67583b274"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-1b58fe8137a24c99a585c2fb1a0b648d.xml#id-1b58fe8137a24c99a585c2fb1a0b648d"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-10f59743dc1549a7bf837970bf3e0a17">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.45"/>
+  <properties
+      key="Signalen"
+      value="ondersteuning, begeleiding"/>
+  <properties
+      key="Onderbouwing"
+      value="KNM (Kennis Nederlandse Maatschappij) is een inburgeringscomponent. Zelfredzaamheidsontwikkeling ondersteunt inwoners bij zelfredzaamheid, wat raakvlakken heeft met inburgering. Er is echter geen specifieke inburgeringsfunctie beschikbaar. PRIMARY als beste beschikbare optie bij afwezigheid van een specifieke inburgeringsfunctie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Geen specifieke inburgeringsfunctie beschikbaar; KNM is onderdeel van inburgering (in ontwikkeling) en de relatie met beschikbare functies is indirect."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a2fd-2eda-11e5-1099-005056a83192.xml#id-7be8a2fd-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-3202f88794fd4d7284706cbc2ab82e3f.xml#id-3202f88794fd4d7284706cbc2ab82e3f"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-8a4cd3b571e1407d92284255b98dee00">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.62"/>
+  <properties
+      key="Signalen"
+      value="begeleiding inburgering, registreren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Asielstatushouders worden als inburgeringsplichtige nieuwkomers begeleid en geregistreerd. Zelfredzaamheidsontwikkeling ondersteunt zelfredzaamheid en heeft de meest logische koppeling met inburgeringsbegeleiding. PRIMARY als beste beschikbare functie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a2fd-2eda-11e5-1099-005056a83192.xml#id-7be8a2fd-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-dbf2d0be17614f529f0c14af76d954ac.xml#id-dbf2d0be17614f529f0c14af76d954ac"/>
+</archimate:AccessRelationship>

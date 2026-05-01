@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-e049356b9abb449a871a53be9e586a67">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.70"/>
+  <properties
+      key="Signalen"
+      value="exploiteren, plannen, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Activiteiten zijn menselijke handelingen die in een museumcontext worden georganiseerd; het exploiteren van accommodaties omvat het registreren en plannen van activiteiten. PRIMARY omdat de functie de operationele verantwoordelijkheid heeft voor het organiseren en vastleggen van museumactiviteiten."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580.xml#id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-508b9d3ab714440aaffba900498c4247.xml#id-508b9d3ab714440aaffba900498c4247"/>
+</archimate:AccessRelationship>

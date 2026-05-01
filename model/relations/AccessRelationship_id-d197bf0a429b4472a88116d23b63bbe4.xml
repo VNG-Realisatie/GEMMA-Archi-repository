@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-d197bf0a429b4472a88116d23b63bbe4">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.70"/>
+  <properties
+      key="Signalen"
+      value="registreren, verwerken"/>
+  <properties
+      key="Onderbouwing"
+      value="Toezicht voert toezichtstaken uit en registreert bevindingen op woonoverlastmeldingen, waardoor de melding administratief wordt verwerkt en bijgehouden. Als uitvoerend orgaan dat de melding in behandeling neemt en beoordeelt, is Toezicht PRIMARY voor dit object. Handhaving volgt als vervolgstap."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-aac7ff27-3c79-4234-bf48-1cc00e450553.xml#id-aac7ff27-3c79-4234-bf48-1cc00e450553"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-34a1a9b5c1d0428c90d27d2e0c68a48c.xml#id-34a1a9b5c1d0428c90d27d2e0c68a48c"/>
+</archimate:AccessRelationship>

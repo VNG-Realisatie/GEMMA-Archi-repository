@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-5494b8af6c5541fab6d78843d615d628">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="verwerven, beheren, monitoren leveranciers"/>
+  <properties
+      key="Onderbouwing"
+      value="Een belprovider is een leverancier van mobiele beldiensten ten behoeve van parkeerbetalingen. Leveranciersbeheer is expliciet verantwoordelijk voor het verwerven, beheren en monitoren van leveranciers, waartoe belproviders als contractpartners voor parkeerdiensten behoren. PRIMARY op basis van structureel leveranciersbeheer; geen andere functie heeft een specifiekere administratieve claim op dit object."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-4ab8bcd5-c298-4a6c-ab56-b14c7b4a80d8.xml#id-4ab8bcd5-c298-4a6c-ab56-b14c7b4a80d8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-918d8859e3d144afa86542a86914fefd.xml#id-918d8859e3d144afa86542a86914fefd"/>
+</archimate:AccessRelationship>

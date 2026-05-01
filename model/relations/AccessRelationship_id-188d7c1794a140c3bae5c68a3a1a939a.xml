@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-188d7c1794a140c3bae5c68a3a1a939a">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="beheren, uitvoeren, werkzaamheden, water"/>
+  <properties
+      key="Onderbouwing"
+      value="Een waterobject is een functioneel onafhankelijk stuk water dat permanent met water bedekt is. Waterbeheer beheert en voert werkzaamheden uit rondom water in de openbare ruimte en is daarmee direct verantwoordelijk voor het registreren en beheren van waterobjecten. PRIMARY is gerechtvaardigd als meest specifieke functie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-dea6268f-f96f-4b2d-a4d1-71bb5eb26570.xml#id-dea6268f-f96f-4b2d-a4d1-71bb5eb26570"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-87933945229246549454129b206720b1.xml#id-87933945229246549454129b206720b1"/>
+</archimate:AccessRelationship>

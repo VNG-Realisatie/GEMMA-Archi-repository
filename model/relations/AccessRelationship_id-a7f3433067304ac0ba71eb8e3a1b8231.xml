@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-a7f3433067304ac0ba71eb8e3a1b8231">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.83"/>
+  <properties
+      key="Signalen"
+      value="beheren, waterbeheer, wegenbeheer, werkzaamheden"/>
+  <properties
+      key="Onderbouwing"
+      value="Een overbruggingsobject is onderdeel van een verbinding tussen twee punten gescheiden door water of weg (brug). Beheren fysieke objecten omvat wegenbeheer en waterbeheer als expliciete voorbeelden, waarbij overbruggingsobjecten vallen als kunstwerken in de infrastructuur. PRIMARY is gerechtvaardigd."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-c02372c9-e979-4966-95f6-50d1fa249198.xml#id-c02372c9-e979-4966-95f6-50d1fa249198"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-94420f3d5a43407cb000b86cd8246b96.xml#id-94420f3d5a43407cb000b86cd8246b96"/>
+</archimate:AccessRelationship>

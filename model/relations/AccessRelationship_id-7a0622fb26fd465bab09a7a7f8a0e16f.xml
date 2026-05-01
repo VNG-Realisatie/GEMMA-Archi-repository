@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-7a0622fb26fd465bab09a7a7f8a0e16f">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.50"/>
+  <properties
+      key="Signalen"
+      value="beheren, uitvoeren beheertaken"/>
+  <properties
+      key="Onderbouwing"
+      value="Applicatiebeheer voert beheertaken uit m.b.t. bedrijfsapplicaties en bijbehorende gegevensverzamelingen, waarbij domeinen/taakvelden als categorisatie-eenheden binnen applicaties kunnen worden beheerd. De relatie is indirect maar logisch afleidbaar. SECONDARY omdat organisatiemanagement meer direct verantwoordelijk is voor het structureel vastleggen van domeinen en taakvelden."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Domein/Taakveld is een kennisgebied/activiteitsomschrijving; het beheer ervan kan bij meerdere functies liggen. De relatie met applicatiebeheer is indirect."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-0a5674fa-2a89-4dce-8599-850146a16d2a.xml#id-0a5674fa-2a89-4dce-8599-850146a16d2a"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-a133e82d42224d108adfce21c8025437.xml#id-a133e82d42224d108adfce21c8025437"/>
+</archimate:AccessRelationship>

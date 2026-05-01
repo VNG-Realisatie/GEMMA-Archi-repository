@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-7622a89a47824e9dbbb9983a3aa638dc">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="beheren, verwerken, financiële boekingen"/>
+  <properties
+      key="Onderbouwing"
+      value="Grootboekbeheer beheert de balans en financiële administratie van de organisatie, waarbij batches als verzamelingen van financiële posten worden aangemaakt en verwerkt. Financiële batches zijn instrumenten van automatische verwerking in het grootboek. PRIMARY als meest logische financiële eigenaar van batches als verwerkingseenheden."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-4266ce67-6f7b-44d3-a461-1530ee2cdb12.xml#id-4266ce67-6f7b-44d3-a461-1530ee2cdb12"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-4511fb75bd3542158b7e7962416ed2d9.xml#id-4511fb75bd3542158b7e7962416ed2d9"/>
+</archimate:AccessRelationship>

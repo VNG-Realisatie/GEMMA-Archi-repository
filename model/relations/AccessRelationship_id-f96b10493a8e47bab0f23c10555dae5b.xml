@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-f96b10493a8e47bab0f23c10555dae5b">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.95"/>
+  <properties
+      key="Signalen"
+      value="registreren, beheren, minnelijke regeling, WSNP"/>
+  <properties
+      key="Onderbouwing"
+      value="Het schuldhulptraject is het centrale object van schuldhulpverlening. Schuldhulpverlening is direct en primair verantwoordelijk voor het aanmaken, bijhouden en afsluiten van schuldhulptrajecten. PRIMARY op basis van directe initiële creatie en inhoudelijke eindverantwoordelijkheid als kernfunctie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3850d427-6dce-11e5-1099-005056a83192.xml#id-3850d427-6dce-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-cacf8ee8fe954e0caa86bc665bea50c4.xml#id-cacf8ee8fe954e0caa86bc665bea50c4"/>
+</archimate:AccessRelationship>

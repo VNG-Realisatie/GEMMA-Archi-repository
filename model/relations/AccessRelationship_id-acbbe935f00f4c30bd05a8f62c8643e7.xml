@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-acbbe935f00f4c30bd05a8f62c8643e7">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.70"/>
+  <properties
+      key="Signalen"
+      value="regie, planvorming, inzetten, monitoren"/>
+  <properties
+      key="Onderbouwing"
+      value="Behandeling in de context van Sociale Teams betreft interventies om behandeldoelen te bereiken. Casusregievoering sociaal domein coördineert de inzet van behandelingen en legt deze vast als onderdeel van casemanagement. PRIMARY als de meest specifieke functie die behandelgegevens aanmaakt en beheert in het sociale teams-domein."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-6ffc6611-e0aa-43a2-85e4-4301cd1bda2f.xml#id-6ffc6611-e0aa-43a2-85e4-4301cd1bda2f"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-5b0322d6755a4de1be1d0b61691d5093.xml#id-5b0322d6755a4de1be1d0b61691d5093"/>
+</archimate:AccessRelationship>

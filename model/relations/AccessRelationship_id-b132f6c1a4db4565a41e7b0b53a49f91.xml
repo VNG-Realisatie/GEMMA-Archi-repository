@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-b132f6c1a4db4565a41e7b0b53a49f91">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.40"/>
+  <properties
+      key="Signalen"
+      value="beheren referentiegegevens"/>
+  <properties
+      key="Onderbouwing"
+      value="KadastraleGemeente is een referentiegegeven van het Kadaster. Gegevensmanagement is de meest plausibele interne beheerder van dergelijke referentiegegevens. PRIMARY bij gebrek aan specifiekere kandidaat."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="KadastraleGemeente wordt extern door het Kadaster bepaald; geen interne functie heeft expliciete verantwoordelijkheid voor dit referentieobject."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-6f9c9d87-b7cf-4ddb-b8d6-dd94699df24a.xml#id-6f9c9d87-b7cf-4ddb-b8d6-dd94699df24a"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-4043bb8a5d6447358f7112cb89f523c1.xml#id-4043bb8a5d6447358f7112cb89f523c1"/>
+</archimate:AccessRelationship>

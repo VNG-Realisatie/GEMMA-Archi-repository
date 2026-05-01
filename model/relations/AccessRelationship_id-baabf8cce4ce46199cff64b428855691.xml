@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-baabf8cce4ce46199cff64b428855691">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.60"/>
+  <properties
+      key="Signalen"
+      value="verwerken, muteren"/>
+  <properties
+      key="Onderbouwing"
+      value="Vormacceptatie beoordeelt of een aanvraag voldoet aan formele indieningsvereisten; dit kan leiden tot statuswijzigingen of aanvullingen op de AanvraagOfMelding. Het is een verwerkende stap in de aanvraagketen die schrijfacties op het object impliceert. SECONDARY omdat het geen initiële creatie maar een voortgaande administratieve verwerking betreft."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-a7b38f25-8e28-4e04-94ca-864a950a1d24.xml#id-a7b38f25-8e28-4e04-94ca-864a950a1d24"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-9d03ea8f18564b86b3cd5a42cef83eab.xml#id-9d03ea8f18564b86b3cd5a42cef83eab"/>
+</archimate:AccessRelationship>

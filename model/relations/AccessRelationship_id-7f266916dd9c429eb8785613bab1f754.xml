@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-7f266916dd9c429eb8785613bab1f754">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="beheren, managen"/>
+  <properties
+      key="Onderbouwing"
+      value="Balie beheer is verantwoordelijk voor het managen van mensen en middelen om dienstverlening via balies te bieden; het beheren van balieafspraken als onderdeel van de balieplanning is een logisch onderdeel van deze functie. SECONDARY omdat de directe creatie van individuele afspraken bij Aanmaken c.q. wijzigen klantafspraak ligt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-23f462d2-f915-41b6-9708-fbf1f50e1dba.xml#id-23f462d2-f915-41b6-9708-fbf1f50e1dba"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-3945742e03c246af80f1e0b03d196a35.xml#id-3945742e03c246af80f1e0b03d196a35"/>
+</archimate:AccessRelationship>

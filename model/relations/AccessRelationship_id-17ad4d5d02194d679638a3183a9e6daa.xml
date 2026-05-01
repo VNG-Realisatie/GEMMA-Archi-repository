@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-17ad4d5d02194d679638a3183a9e6daa">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.78"/>
+  <properties
+      key="Signalen"
+      value="beheren balans, financieel administreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Grootboekbeheer beheert de balans van de organisatie, waarbij bankrekeningen als financiële accounts worden geregistreerd en beheerd. Bankrekeningen zijn fundamentele elementen van de financiële administratie die in het grootboek worden bijgehouden. PRIMARY omdat grootboekbeheer de meest directe verantwoordelijkheid heeft voor het registreren en beheren van bankrekeningen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-4266ce67-6f7b-44d3-a461-1530ee2cdb12.xml#id-4266ce67-6f7b-44d3-a461-1530ee2cdb12"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-9caeaa1fa6e54f92b2cbf3fdffa3fcf1.xml#id-9caeaa1fa6e54f92b2cbf3fdffa3fcf1"/>
+</archimate:AccessRelationship>

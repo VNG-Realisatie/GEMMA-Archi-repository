@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-2291d7b545054949a75776ae9dcb2878">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.40"/>
+  <properties
+      key="Signalen"
+      value="verwerken inkomende facturen"/>
+  <properties
+      key="Onderbouwing"
+      value="Crediteurenbeheer verwerkt inkomende facturen waarbij facturen als objecten in het zaaksysteem worden vastgelegd. SECONDARY omdat Object een abstract concept is en de primaire beheerder onduidelijk is."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Object is een abstract RGBZ-concept; de relatie met Crediteurenbeheer is indirect."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-fd61133c-4e55-4bef-8121-30066ce3cdf7.xml#id-fd61133c-4e55-4bef-8121-30066ce3cdf7"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-304126988f7b440983e46385bbc90e1c.xml#id-304126988f7b440983e46385bbc90e1c"/>
+</archimate:AccessRelationship>

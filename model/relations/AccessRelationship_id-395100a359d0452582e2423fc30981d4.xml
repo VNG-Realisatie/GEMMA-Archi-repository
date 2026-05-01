@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-395100a359d0452582e2423fc30981d4">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="beoordelen, vastleggen, maatregelen"/>
+  <properties
+      key="Onderbouwing"
+      value="Medewerkerbeoordeling beoordeelt de prestaties van medewerkers en neemt passende maatregelen, wat direct inhoudt dat beoordelingsdocumenten worden aangemaakt en vastgelegd. De beoordeling is het directe output-object van deze functie. PRIMARY omdat medewerkerbeoordeling de enige functie is die expliciet verantwoordelijk is voor het creëren van beoordelingen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-41fdbd58-6c76-4979-8cfd-457bcc64e964.xml#id-41fdbd58-6c76-4979-8cfd-457bcc64e964"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-5f8782a90db34f2998f1a29ed025c53b.xml#id-5f8782a90db34f2998f1a29ed025c53b"/>
+</archimate:AccessRelationship>

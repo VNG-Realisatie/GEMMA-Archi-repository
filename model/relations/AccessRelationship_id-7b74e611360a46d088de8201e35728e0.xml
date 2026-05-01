@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-7b74e611360a46d088de8201e35728e0">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="vastleggen, opstellen, omgevingsvisie"/>
+  <properties
+      key="Onderbouwing"
+      value="Een omgevingsdocument omvat instrumenten als omgevingsvisie, programma en omgevingsplan. Strategievorming fysieke leefomgeving stelt expliciet de Omgevingsvisie op en legt de ruimtelijke strategie vast; dit is direct een omgevingsdocument. Als de functie die de Omgevingsvisie en daarmee omgevingsdocumenten creëert is PRIMARY gerechtvaardigd."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-e6e8e4b20a524d11b5c87bd859b1462e.xml#id-e6e8e4b20a524d11b5c87bd859b1462e"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-1d37ed4b59e04aebb7fbc827da8ee1b6.xml#id-1d37ed4b59e04aebb7fbc827da8ee1b6"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-e60fee568be74363b03d0a65476935ee">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.55"/>
+  <properties
+      key="Signalen"
+      value="organiseren, verwerken"/>
+  <properties
+      key="Onderbouwing"
+      value="Afvalinzameling kan meldingen ontvangen en verwerken als onderdeel van de operationele afhandeling van inzamelingsverzoeken of -problemen. De functie kan de status of inhoud van een melding bijwerken als onderdeel van haar primaire taak, maar is minder specifiek in meldingsverwerking dan de functie Meldingen openbare ruimte behandeling."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-e79d6415-e641-4eb9-a73e-f5325e5a418c.xml#id-e79d6415-e641-4eb9-a73e-f5325e5a418c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-ed477fdfe4c44c5abd06650d346ebf25.xml#id-ed477fdfe4c44c5abd06650d346ebf25"/>
+</archimate:AccessRelationship>

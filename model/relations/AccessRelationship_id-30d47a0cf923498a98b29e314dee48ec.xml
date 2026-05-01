@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-30d47a0cf923498a98b29e314dee48ec">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="organiseren, beheren, routering"/>
+  <properties
+      key="Onderbouwing"
+      value="Afvalinzameling organiseert de inzameling van afval en bepaalt daarvoor de locaties die worden aangedaan op routes. Het vastleggen en beheren van deze locaties is inhoudelijk de verantwoordelijkheid van de afvalinzamelingsfunctie. Als meest specifieke functie die direct de inzamelingslogistiek vormgeeft, is zij PRIMARY voor dit object."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-e79d6415-e641-4eb9-a73e-f5325e5a418c.xml#id-e79d6415-e641-4eb9-a73e-f5325e5a418c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-a0d0650156a6427f92c1c828d4990438.xml#id-a0d0650156a6427f92c1c828d4990438"/>
+</archimate:AccessRelationship>

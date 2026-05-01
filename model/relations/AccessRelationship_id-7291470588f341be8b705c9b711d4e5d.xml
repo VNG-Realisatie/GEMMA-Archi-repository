@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-7291470588f341be8b705c9b711d4e5d">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="verhuren, beheren, vastgoed"/>
+  <properties
+      key="Onderbouwing"
+      value="Vastgoedbeheer verwerft, richt in, beheert en stoot gebouwen af, waarbij huurders worden geregistreerd als partijen die gemeentelijk vastgoed in gebruik hebben. Het registreren en bijhouden van huurdersinformatie is onderdeel van het vastgoedbeheerdossier. PRIMARY omdat vastgoedbeheer de meest directe verantwoordelijkheid heeft voor het vastleggen en beheren van huurders."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-1af6f4aa-d797-44f5-bfb0-e77229141dfa.xml#id-1af6f4aa-d797-44f5-bfb0-e77229141dfa"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-e393ae34afd34d6f88deadeb1c3b6065.xml#id-e393ae34afd34d6f88deadeb1c3b6065"/>
+</archimate:AccessRelationship>

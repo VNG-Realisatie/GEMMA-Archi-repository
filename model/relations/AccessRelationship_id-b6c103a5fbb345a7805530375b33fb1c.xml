@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-b6c103a5fbb345a7805530375b33fb1c">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.60"/>
+  <properties
+      key="Signalen"
+      value="ondersteunen, administreren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Administratieve ondersteuning ondersteunt bij het plannen en vastleggen van vergadergegevens. SECONDARY in ondersteuning van Besturing als primaire verantwoordelijke."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-590b70e6-93f4-41e8-8b02-e42bf9a17127.xml#id-590b70e6-93f4-41e8-8b02-e42bf9a17127"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-ef2b9179e8bd45298ba91c501c018f84.xml#id-ef2b9179e8bd45298ba91c501c018f84"/>
+</archimate:AccessRelationship>

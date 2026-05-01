@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-5768382132c048b1a9102ca7e3d99e92">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="indienen, registreren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Bij het indienen of wijzigen van een aanvraag wordt de indiener als persoon geregistreerd en administratief vastgelegd. Dit is de meest directe functie die de Indiener als object creëert en muteert. PRIMARY omdat deze functie het initiële registratiemoment van de indiener verzorgt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-24c15ba5-f3ca-4daa-b95d-1353241f6dee.xml#id-24c15ba5-f3ca-4daa-b95d-1353241f6dee"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-8698c723c67743269fc08c9454371585.xml#id-8698c723c67743269fc08c9454371585"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-ff0d8f55ee7c455e902acdd0ddd4bb96">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.60"/>
+  <properties
+      key="Signalen"
+      value="stimuleren, begeleiden, kennis- en vaardighedenontwikkeling, opleidingen"/>
+  <properties
+      key="Onderbouwing"
+      value="Medewerkerontwikkeling stimuleert en begeleidt kennis- en vaardighedenontwikkeling, waarbij onderwijsinstituten worden geselecteerd en vastgelegd als opleidingspartners. Het registreren van onderwijsinstituten is logisch afleidbaar als onderdeel van het organiseren van opleidingstrajecten. PRIMARY als meest logische eigenaar voor het vastleggen van onderwijsinstituten in HR-context."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Onderwijsinstituut is een externe organisatie; geen functie is expliciet verantwoordelijk voor het beheer ervan als zelfstandig bedrijfsobject."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-47c86282-4fce-4b77-96c5-3cc61271d724.xml#id-47c86282-4fce-4b77-96c5-3cc61271d724"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-d3ecc21fe9d945e2a105ef9aa4fd2f33.xml#id-d3ecc21fe9d945e2a105ef9aa4fd2f33"/>
+</archimate:AccessRelationship>

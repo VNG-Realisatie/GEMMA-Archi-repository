@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-a2af0ad5e62244d590f98031a343fdaa">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.88"/>
+  <properties
+      key="Signalen"
+      value="beheren, kabels, leidingen, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Een put is een verticale waterdichte constructie toegepast om leidingen aan te sluiten en toegang te verschaffen voor inspectie. Kabels- en leidingenbeheer beheert gegevens over kabels en leidingen inclusief bijbehorende constructies zoals putten die nodig zijn voor inspectie en toegang. PRIMARY is gerechtvaardigd."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-117db024-9c8d-4ab1-b5ef-cf85b6b2b59c.xml#id-117db024-9c8d-4ab1-b5ef-cf85b6b2b59c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-574fa3f73f364828b5da028ddee9e9da.xml#id-574fa3f73f364828b5da028ddee9e9da"/>
+</archimate:AccessRelationship>

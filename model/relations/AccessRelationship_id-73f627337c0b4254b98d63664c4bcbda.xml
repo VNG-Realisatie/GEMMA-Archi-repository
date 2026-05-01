@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-73f627337c0b4254b98d63664c4bcbda">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="beheren, verlenen vergunningen, parkeervergunning"/>
+  <properties
+      key="Onderbouwing"
+      value="Een parkeervergunning schept een parkeerrecht. Vergunningenbeheer Publieksdiensten legt bij het verlenen van een parkeervergunning ook het bijbehorende parkeerrecht vast. SECONDARY omdat het parkeerrecht ook via betaling (zonder vergunning) ontstaat en daarmee bredere administratieve verwerking vereist die bij Exploiteren van parkeerplaatsen ligt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b7e4786e-cff2-40a8-ac4b-6c48a0abfbe0.xml#id-b7e4786e-cff2-40a8-ac4b-6c48a0abfbe0"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-99bb56f09cd84448b5fd0d19898652a5.xml#id-99bb56f09cd84448b5fd0d19898652a5"/>
+</archimate:AccessRelationship>

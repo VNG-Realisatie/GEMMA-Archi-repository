@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-c8ad603b53974e29b515786e08a633bc">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.92"/>
+  <properties
+      key="Signalen"
+      value="administreren, registreren, bijhouden"/>
+  <properties
+      key="Onderbouwing"
+      value="Leerlingenadministratie is de kernfunctie voor het registreren en beheren van gegevens over leerlingen. Het object 'Leerling' wordt primair aangemaakt en beheerd binnen deze administratieve functie. PRIMARY omdat de functie de initiële creatie en het structurele beheer van leerlinggegevens uitvoert."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-ab46e401-9e45-11e5-11ba-005056a85f9c.xml#id-ab46e401-9e45-11e5-11ba-005056a85f9c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-02e598c278af4227b0efcc526b967ef8.xml#id-02e598c278af4227b0efcc526b967ef8"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-879ada47e0e24e0a84a5039e922ade70">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="registreren, vastleggen, vermogensbepaling"/>
+  <properties
+      key="Onderbouwing"
+      value="Het woningbezit is een relevant vermogenscomponent dat binnen de schuldhulpverlening wordt geregistreerd om de financiële situatie van de cliënt volledig in kaart te brengen. Schuldhulpverlening is inhoudelijk verantwoordelijk voor het vastleggen van dit gegeven als onderdeel van leefsituatiebepaling. PRIMARY op basis van initiële creatie en structureel beheer."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3850d427-6dce-11e5-1099-005056a83192.xml#id-3850d427-6dce-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-98c916948fbf4da39dd6f8e25094a768.xml#id-98c916948fbf4da39dd6f8e25094a768"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-816dccd4675e43b3abfb2dafb16f21bd">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="registreren, verwerken"/>
+  <properties
+      key="Onderbouwing"
+      value="Bij het verwerken van meldingen openbare ruimte worden indieners geregistreerd. SECONDARY omdat de vergunningverleningsfunctie de bredere en meer formele context biedt voor indienerregistratie als PRIMARY."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-a6be6a36-76e5-42ef-a1ba-459de1fd5037.xml#id-a6be6a36-76e5-42ef-a1ba-459de1fd5037"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-8a3897e2e24c4df695caf139a02fb7a9.xml#id-8a3897e2e24c4df695caf139a02fb7a9"/>
+</archimate:AccessRelationship>

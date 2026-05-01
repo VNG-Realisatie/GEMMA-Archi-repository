@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-0e4cb1cdaa6a44acb9a8c31273664a5e">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="onderhouden, registreren, beheren"/>
+  <properties
+      key="Onderbouwing"
+      value="Contactbeheer onderhoudt relaties met klanten en ketenpartners; museumrelaties zijn betrekkingen tussen het museum en personen, wat exact de scope van contactbeheer betreft. PRIMARY omdat Contactbeheer de directe verantwoordelijkheid draagt voor het registreren en onderhouden van relaties."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-ca7deb46-63fb-45e8-abbf-c2d50d52f7a1.xml#id-ca7deb46-63fb-45e8-abbf-c2d50d52f7a1"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-cfe3aadaf54949318f45958b67ac6f25.xml#id-cfe3aadaf54949318f45958b67ac6f25"/>
+</archimate:AccessRelationship>

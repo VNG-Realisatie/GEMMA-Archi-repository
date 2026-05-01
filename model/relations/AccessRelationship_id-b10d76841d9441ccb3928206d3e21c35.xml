@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-b10d76841d9441ccb3928206d3e21c35">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.70"/>
+  <properties
+      key="Signalen"
+      value="matchen, dealmaking, monitoring plaatsing"/>
+  <properties
+      key="Onderbouwing"
+      value="Arbeidsmarktbemiddeling registreert plaatsingsresultaten van werkzoekenden, wat betaald werk als inkomstenbron impliceert. SECONDARY omdat besluitvorming levensonderhoud de primaire inhoudelijke verantwoordelijkheid heeft voor vaststelling van arbeidsinkomsten."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a2f1-2eda-11e5-1099-005056a83192.xml#id-7be8a2f1-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-b7ae700da3f84e3cb132181c52c16b29.xml#id-b7ae700da3f84e3cb132181c52c16b29"/>
+</archimate:AccessRelationship>

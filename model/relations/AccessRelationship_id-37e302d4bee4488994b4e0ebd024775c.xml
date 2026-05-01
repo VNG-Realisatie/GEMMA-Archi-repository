@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-37e302d4bee4488994b4e0ebd024775c">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="vaststelling inkomen, registreren, berekenen"/>
+  <properties
+      key="Onderbouwing"
+      value="Vergoedingen (maaltijden, onkosten, reizen) zijn inkomstencomponenten die bij besluitvorming over levensonderhoud worden vastgesteld en geregistreerd. PRIMARY op basis van inhoudelijke eindverantwoordelijkheid voor inkomstenbepaling bij levensonderhoud."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-6b35af7f-734b-11e5-1099-005056a83192.xml#id-6b35af7f-734b-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-263cac969ed44a8096d1b7e4e37aa331.xml#id-263cac969ed44a8096d1b7e4e37aa331"/>
+</archimate:AccessRelationship>

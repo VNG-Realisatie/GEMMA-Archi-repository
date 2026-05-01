@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-efc5a989f5c7482bb020d4a9bc7cc42f">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="vaststellen, budgetten, financiële doelen"/>
+  <properties
+      key="Onderbouwing"
+      value="Begrotingbeheer stelt de beschikbare financiële middelen en budgetten vast, wat het definiëren van financiële doelstellingen omvat als onderdeel van het begrotingsproces. Doelstellingen zijn inherent aan het begrotingsproces waarbij ambities worden vertaald naar financiële kaders. PRIMARY omdat begrotingbeheer de meest directe verantwoordelijkheid heeft voor het vastleggen van financiële doelstellingen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-fe2b23a7-6efc-47e3-af7b-a4cff0d8b8f2.xml#id-fe2b23a7-6efc-47e3-af7b-a4cff0d8b8f2"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-34baff9c7ed44461a89db1dd76de1647.xml#id-34baff9c7ed44461a89db1dd76de1647"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-43e4bf2867ca4196a7abd39128fe5eb4">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.82"/>
+  <properties
+      key="Signalen"
+      value="publiceren, beheren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Producten en diensten publicatie is expliciet verantwoordelijk voor het publiceren van informatie over producten en diensten die de gemeente levert, inclusief voorwaarden en aanvraagwijze. Dit impliceert het aanmaken en beheren van ProductOfDienst-records. PRIMARY op basis van initiële creatie en structureel beheer van de productcatalogus."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b1351052-301e-44be-b128-771272c1f9e9.xml#id-b1351052-301e-44be-b128-771272c1f9e9"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-9115f08be3b9415cb71c59d2ea879a60.xml#id-9115f08be3b9415cb71c59d2ea879a60"/>
+</archimate:AccessRelationship>

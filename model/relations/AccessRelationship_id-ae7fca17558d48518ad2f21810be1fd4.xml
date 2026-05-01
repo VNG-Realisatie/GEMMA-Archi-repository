@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-ae7fca17558d48518ad2f21810be1fd4">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="verstrekken, registreren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Precariorechten verstrekking is de functie die precariorechten verstrekt; bij het verstrekken wordt de precariobelasting geregistreerd en vastgelegd. Deze functie is de directe creator van het precario-object als administratief gegeven. PRIMARY op basis van initiële creatie en directe inhoudelijke verantwoordelijkheid."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-fa18ba18-7f7a-4f6f-8bdd-3583af9a9b81.xml#id-fa18ba18-7f7a-4f6f-8bdd-3583af9a9b81"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-0f29ba740c5949ef9338a86050b15ddf.xml#id-0f29ba740c5949ef9338a86050b15ddf"/>
+</archimate:AccessRelationship>

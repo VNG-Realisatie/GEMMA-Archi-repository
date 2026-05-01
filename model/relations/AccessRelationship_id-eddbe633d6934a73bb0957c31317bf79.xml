@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-eddbe633d6934a73bb0957c31317bf79">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.62"/>
+  <properties
+      key="Signalen"
+      value="exploiteren, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Bij de exploitatie van museumaccommodaties worden producten (zoals kaartjes, souvenirs, publicaties) aangemaakt en beheerd. PRIMARY omdat geen andere specifiekere functie beschikbaar is voor het registreren van museumproducten."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580.xml#id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-989d8e4ef2d140dc9a04420de3e003b9.xml#id-989d8e4ef2d140dc9a04420de3e003b9"/>
+</archimate:AccessRelationship>

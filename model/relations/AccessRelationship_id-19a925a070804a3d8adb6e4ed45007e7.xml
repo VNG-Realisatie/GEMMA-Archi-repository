@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-19a925a070804a3d8adb6e4ed45007e7">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.60"/>
+  <properties
+      key="Signalen"
+      value="subsidiëren, categoriseren, activiteiten"/>
+  <properties
+      key="Onderbouwing"
+      value="Subsidieverlening Publieksdiensten subsidieert diverse soorten binnengemeentelijke activiteiten, waarbij sectoren als categorisatie-eenheden worden vastgelegd voor het indelen van subsidieactiviteiten. Het definiëren van sectoren in subsidiecontext is logisch afleidbaar. PRIMARY als meest logische eigenaar van het bedrijfsobject Sector in subsidiecontext."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Sector is een vrij generiek categorisatieobject; het is onduidelijk welke functie primair verantwoordelijk is voor het beheer ervan."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-c227565e-0152-4a71-9623-d8e98a8bef0e.xml#id-c227565e-0152-4a71-9623-d8e98a8bef0e"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-2a87e807a2e24ae59272a38e54455c67.xml#id-2a87e807a2e24ae59272a38e54455c67"/>
+</archimate:AccessRelationship>

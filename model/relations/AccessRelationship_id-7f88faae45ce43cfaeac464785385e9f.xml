@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-7f88faae45ce43cfaeac464785385e9f">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="controleren, aanvullen, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Bij het in bewaring nemen van informatieobjecten worden metadata zoals auteursinformatie gecontroleerd, aangevuld en vastgelegd als onderdeel van de voorbereiding voor duurzame opslag. PRIMARY omdat dit de fase is waarin auteursgegevens initieel worden geregistreerd in de archiefdatabase."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-bb90af2f-dba8-436f-b82b-050c0f429ab2.xml#id-bb90af2f-dba8-436f-b82b-050c0f429ab2"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-83ac44f0a0904892b993d1ab22a6ab16.xml#id-83ac44f0a0904892b993d1ab22a6ab16"/>
+</archimate:AccessRelationship>

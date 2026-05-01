@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-4e53d06f0e2847f491f766084fbb340b">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.60"/>
+  <properties
+      key="Signalen"
+      value="beoordeling, vastleggen, toekenning"/>
+  <properties
+      key="Onderbouwing"
+      value="Scores (behaalde punten) worden vastgelegd als onderdeel van de beoordeling voor WMO/Jeugd-voorzieningen. Voorzieningenverstrekking is de meest logische functie die dit type beoordelingsresultaten registreert als basis voor toekenningsbeslissingen. PRIMARY op basis van structureel beheer."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a305-2eda-11e5-1099-005056a83192.xml#id-7be8a305-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-9fce9c001ff649b0b5da1b15d89702ec.xml#id-9fce9c001ff649b0b5da1b15d89702ec"/>
+</archimate:AccessRelationship>

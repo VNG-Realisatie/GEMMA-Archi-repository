@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-4a1504e6a43641cf8b140d00920ad342">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.70"/>
+  <properties
+      key="Signalen"
+      value="inrichten, uitvoeren, plannen, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Agendapunten worden aangemaakt en beheerd als onderdeel van de bestuurlijke besluitvormingscyclus die Besturing uitvoert. Het bepalen en vastleggen van wat in vergaderingen wordt behandeld is inherent aan de besluitvormingsfunctie. PRIMARY omdat Besturing de inhoudelijke verantwoordelijkheid draagt voor de agenda van bestuursvergaderingen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-73ea4c93-80ec-4454-8c21-f9d2a8945829.xml#id-73ea4c93-80ec-4454-8c21-f9d2a8945829"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-0809845f04624451b22e650703828145.xml#id-0809845f04624451b22e650703828145"/>
+</archimate:AccessRelationship>

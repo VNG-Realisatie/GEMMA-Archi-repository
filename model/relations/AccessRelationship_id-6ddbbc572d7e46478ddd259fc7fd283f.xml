@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-6ddbbc572d7e46478ddd259fc7fd283f">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.78"/>
+  <properties
+      key="Signalen"
+      value="aanmaken, wijzigen klantafspraak"/>
+  <properties
+      key="Onderbouwing"
+      value="Aanmaken c.q. wijzigen klantafspraak maakt afspraken aan voor klantcontacten (balieafspraken). Klantcontact omvat zowel werkelijk plaatsgevonden contacten als geplande afspraken. SECONDARY omdat Afhandeling klantcontactmoment de primaire registratie doet van het daadwerkelijke contact."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-42464b2b-6318-443b-9f4b-bbd863cc5601.xml#id-42464b2b-6318-443b-9f4b-bbd863cc5601"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-6dfa4f8a5e154aeda9e94c0f98f56af2.xml#id-6dfa4f8a5e154aeda9e94c0f98f56af2"/>
+</archimate:AccessRelationship>

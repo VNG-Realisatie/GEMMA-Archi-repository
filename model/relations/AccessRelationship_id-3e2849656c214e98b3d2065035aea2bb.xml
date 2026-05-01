@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-3e2849656c214e98b3d2065035aea2bb">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="opleggen verplichte betaling"/>
+  <properties
+      key="Onderbouwing"
+      value="De bedrijfsfunctie Heffing legt verplichte betalingen op, wat directe creatie van een Heffing-object impliceert. SECONDARY omdat Belasting subject- en objectregistratie de bredere registratietaak heeft en als PRIMARY is aangemerkt; Heffing is meer de uitvoerende/opleggende functie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-8d098d96-39e3-4617-8953-5b2665bb7702.xml#id-8d098d96-39e3-4617-8953-5b2665bb7702"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-68bccce27b314b94a022ddd81d517d82.xml#id-68bccce27b314b94a022ddd81d517d82"/>
+</archimate:AccessRelationship>

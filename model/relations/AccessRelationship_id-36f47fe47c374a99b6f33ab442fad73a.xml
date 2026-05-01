@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-36f47fe47c374a99b6f33ab442fad73a">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.70"/>
+  <properties
+      key="Signalen"
+      value="exploiteren, beheren, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Sportmateriaal is onderdeel van de accommodatieexploitatie; het exploiteren van accommodaties omvat het registreren, beheren en administreren van sportmateriaal dat beschikbaar is in de accommodaties. PRIMARY omdat deze functie de directe administratieve verantwoordelijkheid heeft voor het sportmateriaal."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580.xml#id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-795936296fec4ef9926277c98d8ae779.xml#id-795936296fec4ef9926277c98d8ae779"/>
+</archimate:AccessRelationship>

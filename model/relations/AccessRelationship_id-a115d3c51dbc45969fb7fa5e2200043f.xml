@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-a115d3c51dbc45969fb7fa5e2200043f">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="toewijzing, vastleggen, verstrekking"/>
+  <properties
+      key="Onderbouwing"
+      value="Toewijzingen worden door de gemeente naar zorgaanbieders gestuurd als onderdeel van WMO/Jeugd-voorzieningenverstrekking. Voorzieningenverstrekking is direct verantwoordelijk voor het aanmaken en beheren van toewijzingen. PRIMARY op basis van directe initiële creatie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a305-2eda-11e5-1099-005056a83192.xml#id-7be8a305-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-1363c4ebdc3a4456bba93831fe1c1c1e.xml#id-1363c4ebdc3a4456bba93831fe1c1c1e"/>
+</archimate:AccessRelationship>

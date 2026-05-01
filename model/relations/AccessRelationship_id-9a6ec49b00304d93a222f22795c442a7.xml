@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-9a6ec49b00304d93a222f22795c442a7">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.48"/>
+  <properties
+      key="Signalen"
+      value="bijhouding, adresregistratie"/>
+  <properties
+      key="Onderbouwing"
+      value="Onbestemd Adres is waarschijnlijk een adres dat nog niet formeel is aangewezen. Bevolkingsadministratie bijhouding beheert adresgegevens van personen inclusief niet-formele adressen. PRIMARY als meest plausibele beheerder van niet-BAG adressen in de BRP-context."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Onbestemd Adres heeft geen documentatie; het is onduidelijk of dit een BRP-concept of BAG-concept is."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-05ebfe88-2d7a-4093-bb4c-d9371baeb43c.xml#id-05ebfe88-2d7a-4093-bb4c-d9371baeb43c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-7d31688eee4d48f3b13c0a97496a34d8.xml#id-7d31688eee4d48f3b13c0a97496a34d8"/>
+</archimate:AccessRelationship>

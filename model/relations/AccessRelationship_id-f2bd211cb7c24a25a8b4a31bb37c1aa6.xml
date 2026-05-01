@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-f2bd211cb7c24a25a8b4a31bb37c1aa6">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="aanvraag verwerken, vastleggen, verstrekking"/>
+  <properties
+      key="Onderbouwing"
+      value="AOM_AanvraagWmoJeugd betreft een aanvraag voor WMO/Jeugdhulpvoorzieningen. Voorzieningenverstrekking (bijzondere bijstand, subsidies, minimaregelingen) is de meest logische functie die aanvragen registreert en verwerkt in het Generiek Jeugd en Wmo domein. PRIMARY op basis van structureel beheer van aanvraagobjecten."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a305-2eda-11e5-1099-005056a83192.xml#id-7be8a305-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-ed62ea4e53af4b0ea1288a2d35776814.xml#id-ed62ea4e53af4b0ea1288a2d35776814"/>
+</archimate:AccessRelationship>

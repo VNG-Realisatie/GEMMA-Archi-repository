@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-1639a240a3b74f1db2d53bdb87b4b16a">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="registratie, actueel houden"/>
+  <properties
+      key="Onderbouwing"
+      value="Belasting subject- en objectregistratie beheert de gegevens waarop heffingen zijn gebaseerd, waardoor ook heffingsgrondslagen worden vastgelegd en bijgehouden. SECONDARY omdat de directe vaststelling en oplegging bij de functie Heffing ligt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-159f234f-0d4d-41af-8583-808e3fc352da.xml#id-159f234f-0d4d-41af-8583-808e3fc352da"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-a3b8400e391e44d8a396920770a73800.xml#id-a3b8400e391e44d8a396920770a73800"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-35d958234d2d4b12ad715a976d7eb379">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.95"/>
+  <properties
+      key="Signalen"
+      value="vaststellen, beheren, budgetten, financiële middelen"/>
+  <properties
+      key="Onderbouwing"
+      value="Begrotingbeheer stelt de beschikbare financiële middelen en de daaruit voortvloeiende budgetten vast, wat direct het opstellen en beheren van de begroting omvat. De begroting is het kernoutput van begrotingbeheer. PRIMARY omdat begrotingbeheer de enige functie is die expliciet verantwoordelijk is voor het vaststellen en beheren van de begroting."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-fe2b23a7-6efc-47e3-af7b-a4cff0d8b8f2.xml#id-fe2b23a7-6efc-47e3-af7b-a4cff0d8b8f2"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-c585e30c5961486db3e6dd94331f661d.xml#id-c585e30c5961486db3e6dd94331f661d"/>
+</archimate:AccessRelationship>

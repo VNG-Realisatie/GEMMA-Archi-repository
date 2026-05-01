@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-3ca5665e21b246218ebb2b359a2df812">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.88"/>
+  <properties
+      key="Signalen"
+      value="beheren, wegenbeheer, werkzaamheden"/>
+  <properties
+      key="Onderbouwing"
+      value="Een weginrichtingsobject is een ruimtelijk object dat dient voor de inrichting van de openbare weg. Beheren fysieke objecten noemt expliciet wegenbeheer als voorbeeld en is daarmee direct verantwoordelijk voor het registreren en beheren van weginrichtingsobjecten. PRIMARY is gerechtvaardigd."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-c02372c9-e979-4966-95f6-50d1fa249198.xml#id-c02372c9-e979-4966-95f6-50d1fa249198"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-d9fde0c2edae46659880cfe1e4fcb898.xml#id-d9fde0c2edae46659880cfe1e4fcb898"/>
+</archimate:AccessRelationship>

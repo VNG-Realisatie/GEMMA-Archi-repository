@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-490555619f5b4d749d4a00143f070498">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.70"/>
+  <properties
+      key="Signalen"
+      value="opleggen, heffen"/>
+  <properties
+      key="Onderbouwing"
+      value="Heffing omvat het opleggen van precariobelasting als verplichte betaling, waardoor het precario-object administratief wordt aangemaakt of bijgewerkt. SECONDARY omdat de specifieke verstrekking van precariorechten bij Precariorechten verstrekking ligt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-8d098d96-39e3-4617-8953-5b2665bb7702.xml#id-8d098d96-39e3-4617-8953-5b2665bb7702"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-0f29ba740c5949ef9338a86050b15ddf.xml#id-0f29ba740c5949ef9338a86050b15ddf"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-46792fface4a4fe6bd3645e2650574ec">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.92"/>
+  <properties
+      key="Signalen"
+      value="beheren, adressen en gebouwen, BAG"/>
+  <properties
+      key="Onderbouwing"
+      value="De Woonplaats in RSGB is de RSGB-representatie van het BAG-woonplaatsobject. BAG Beheer is de bronbeheerder en heeft WRITE als enige functie die deze gegevens creëert en muteert. PRIMARY als bronfunctie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3c6baa05c6904cfbba03880e2e4c5cd6.xml#id-3c6baa05c6904cfbba03880e2e4c5cd6"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-7ea590485bf04be596da094ae46756d6.xml#id-7ea590485bf04be596da094ae46756d6"/>
+</archimate:AccessRelationship>

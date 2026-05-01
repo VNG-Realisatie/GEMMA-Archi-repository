@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-2ac41f571b9e49ef88ea66a80346a382">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="beheren, vastleggen, administreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Grootboekbeheer beheert de balans van de organisatie en legt financiële mutaties vast als kernactiviteit. Een mutatie is een wijziging van een financiële situatie die direct voortkomt uit het bijhouden van het grootboek. PRIMARY omdat dit de meest directe functie is voor het creëren en registreren van financiële mutaties."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-4266ce67-6f7b-44d3-a461-1530ee2cdb12.xml#id-4266ce67-6f7b-44d3-a461-1530ee2cdb12"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-b7d4d0750f0d4ae3a61c47ea4c2e392e.xml#id-b7d4d0750f0d4ae3a61c47ea4c2e392e"/>
+</archimate:AccessRelationship>

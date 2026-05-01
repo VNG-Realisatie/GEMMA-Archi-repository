@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-070e5f1ec9974ddb80891b8adfd5c1b4">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.92"/>
+  <properties
+      key="Signalen"
+      value="administreren, gegevens medewerkers, arbeidsovereenkomst"/>
+  <properties
+      key="Onderbouwing"
+      value="Medewerkeradministratie administreert gegevens van medewerkers, waarbij dienstverbanden als juridische relaties tussen werkgever en werknemer worden vastgelegd en bijgehouden. Dienstverbanden zijn kernelementen van de medewerkeradministratie. PRIMARY omdat medewerkeradministratie de enige functie is die expliciet verantwoordelijk is voor het administreren van dienstverbanden."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-51a9e46b-44da-46ea-8bf5-ded9a19e6717.xml#id-51a9e46b-44da-46ea-8bf5-ded9a19e6717"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-66f78e6a07cd450eb9c84faee8fa9c10.xml#id-66f78e6a07cd450eb9c84faee8fa9c10"/>
+</archimate:AccessRelationship>

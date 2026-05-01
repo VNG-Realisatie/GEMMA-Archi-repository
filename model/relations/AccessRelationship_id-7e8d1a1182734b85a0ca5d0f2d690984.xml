@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-7e8d1a1182734b85a0ca5d0f2d690984">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.80"/>
+  <properties
+      key="Signalen"
+      value="organiseren, beheren, inzetten"/>
+  <properties
+      key="Onderbouwing"
+      value="Afvalinzameling organiseert de operationele inzet van vuilniswagens en is daarmee verantwoordelijk voor het registreren en beheren van vuilniswagen-gegevens (inzet, routes, status). Als enige functie die direct de inzamelingslogistiek uitvoert, is zij de primaire verantwoordelijke voor dit object."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-e79d6415-e641-4eb9-a73e-f5325e5a418c.xml#id-e79d6415-e641-4eb9-a73e-f5325e5a418c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-c0c37174732c4ecea2db54d0584a36d8.xml#id-c0c37174732c4ecea2db54d0584a36d8"/>
+</archimate:AccessRelationship>

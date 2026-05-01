@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-181314a2d3a94e06abb1e0434c6d2f3d">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="opleggen, vastleggen, opmaken"/>
+  <properties
+      key="Onderbouwing"
+      value="Een procesverbaal in het kader van onderwijs documenteert een overtreding van de leerplichtwet en wordt opgemaakt door de handhavingsfunctie (leerplichtambtenaar). PRIMARY omdat handhaving de functie is die inhoudelijk verantwoordelijk is voor het creëren en vastleggen van dit officiële document."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-020f2f8c-d549-4a95-a2a9-56c1b0a43be8.xml#id-020f2f8c-d549-4a95-a2a9-56c1b0a43be8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-faa9ba5c949f4c6fab087ac40ce8982d.xml#id-faa9ba5c949f4c6fab087ac40ce8982d"/>
+</archimate:AccessRelationship>

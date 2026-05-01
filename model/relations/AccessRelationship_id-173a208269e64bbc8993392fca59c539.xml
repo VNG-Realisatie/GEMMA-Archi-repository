@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-173a208269e64bbc8993392fca59c539">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.80"/>
+  <properties
+      key="Signalen"
+      value="beheren, verlenen, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Vergunningenbeheer evenementen beheert vergunningen voor evenementen, waarbij evenementen als openbare activiteiten worden geregistreerd en beheerd. SECONDARY omdat Toestemmingverlening activiteit fysieke leefomgeving de bredere en meer directe initiator is van het openbare-activiteit-object."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-27112fc9-9263-4c21-95e5-554e41da8e40.xml#id-27112fc9-9263-4c21-95e5-554e41da8e40"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-00d9ab50ad9c4b6e95f6f487a6169881.xml#id-00d9ab50ad9c4b6e95f6f487a6169881"/>
+</archimate:AccessRelationship>

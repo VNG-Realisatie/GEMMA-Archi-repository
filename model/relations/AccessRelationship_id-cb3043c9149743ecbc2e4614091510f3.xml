@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-cb3043c9149743ecbc2e4614091510f3">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="beheren, applicaties, producten"/>
+  <properties
+      key="Onderbouwing"
+      value="Applicatiebeheer voert beheertaken uit m.b.t. bedrijfsapplicaties en bijbehorende gegevensverzamelingen, waarbij ICT-producten worden beheerd en vastgelegd. In ICT-context zijn producten resultaten van processen met economische waarde die door applicatiebeheer worden bijgehouden. PRIMARY als meest logische eigenaar van het object Product in ICT-context."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Product (ICT) is generiek; de exacte functie die primair verantwoordelijk is voor beheer ervan is niet volledig helder uit de beschikbare functiebeschrijvingen."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-0a5674fa-2a89-4dce-8599-850146a16d2a.xml#id-0a5674fa-2a89-4dce-8599-850146a16d2a"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-5ae2792cd95f4f9da048f3f66c0ac39f.xml#id-5ae2792cd95f4f9da048f3f66c0ac39f"/>
+</archimate:AccessRelationship>

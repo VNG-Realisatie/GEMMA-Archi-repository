@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-55e0dd397108476885f2ffa399689fb2">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.55"/>
+  <properties
+      key="Signalen"
+      value="beheren balans, financieel verwerken"/>
+  <properties
+      key="Onderbouwing"
+      value="Offerte is een aanbod van goederen of diensten. Grootboekbeheer verwerkt financiële verplichtingen waaronder offertes die zijn omgezet in opdrachten. SECONDARY omdat de offerte primair wordt aangemaakt door inkoop/aanbesteding functies."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-4266ce67-6f7b-44d3-a461-1530ee2cdb12.xml#id-4266ce67-6f7b-44d3-a461-1530ee2cdb12"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-921423e40bfd46d9b0a1e7656f522be4.xml#id-921423e40bfd46d9b0a1e7656f522be4"/>
+</archimate:AccessRelationship>

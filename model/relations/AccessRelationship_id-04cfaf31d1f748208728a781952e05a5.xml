@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-04cfaf31d1f748208728a781952e05a5">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="stimuleren, begeleiden, kennis- en vaardighedenontwikkeling"/>
+  <properties
+      key="Onderbouwing"
+      value="Medewerkerontwikkeling stimuleert en begeleidt kennis- en vaardighedenontwikkeling, wat het plannen en vastleggen van opleidingen voor medewerkers omvat. Opleidingen worden geregistreerd en beheerd als onderdeel van het ontwikkeltraject van medewerkers. PRIMARY omdat medewerkerontwikkeling de inhoudelijke verantwoordelijkheid draagt voor het vaststellen en beheren van opleidingen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-47c86282-4fce-4b77-96c5-3cc61271d724.xml#id-47c86282-4fce-4b77-96c5-3cc61271d724"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-b31ec7e5bfaf47edac21822ef0432c15.xml#id-b31ec7e5bfaf47edac21822ef0432c15"/>
+</archimate:AccessRelationship>

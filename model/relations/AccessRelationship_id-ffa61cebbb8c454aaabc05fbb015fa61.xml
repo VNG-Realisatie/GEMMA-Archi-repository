@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-ffa61cebbb8c454aaabc05fbb015fa61">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="opleggen, vaststellen, creëren"/>
+  <properties
+      key="Onderbouwing"
+      value="De functie Heffing legt belastingaanslagen op en creëert daarmee vorderingen op belastingplichtigen. Een vordering is een direct gevolg van heffingshandelingen, waardoor Heffing de initiële creator van vorderingen is. PRIMARY op basis van initiële creatie: het opleggen van de heffing genereert de vordering."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-8d098d96-39e3-4617-8953-5b2665bb7702.xml#id-8d098d96-39e3-4617-8953-5b2665bb7702"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-136c9923d8d24b348e9bde64a59d7edc.xml#id-136c9923d8d24b348e9bde64a59d7edc"/>
+</archimate:AccessRelationship>

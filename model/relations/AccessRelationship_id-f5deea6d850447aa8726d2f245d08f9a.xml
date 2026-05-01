@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-f5deea6d850447aa8726d2f245d08f9a">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="exploiteren, registreren, beheren begrafenis"/>
+  <properties
+      key="Onderbouwing"
+      value="Gemeentebegrafenissen worden uitgevoerd en geregistreerd onder verantwoordelijkheid van de functie die begraafplaatsen exploiteert. Exploiteren van begraafplaatsen omvat ondersteunende diensten bij begrafenissen. PRIMARY op basis van directe initiële creatie en inhoudelijke eindverantwoordelijkheid."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-30deba14-c60a-49b2-b6d2-740a6d2539f5.xml#id-30deba14-c60a-49b2-b6d2-740a6d2539f5"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-68085684cee7413c91bc027a0aaade82.xml#id-68085684cee7413c91bc027a0aaade82"/>
+</archimate:AccessRelationship>

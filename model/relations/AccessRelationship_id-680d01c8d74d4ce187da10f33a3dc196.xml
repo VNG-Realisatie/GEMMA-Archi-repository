@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-680d01c8d74d4ce187da10f33a3dc196">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="exploiteren, beheren, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Een sportveld is een kernobject van een sportaccommodatie. Het exploiteren van accommodaties omvat het registreren, beheren en administreren van sportvelden inclusief hun gebruik en toestand. PRIMARY omdat deze functie de directe operationele en administratieve verantwoordelijkheid heeft voor sportvelden."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580.xml#id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-77fb399749f046dd81c4938b462c3c03.xml#id-77fb399749f046dd81c4938b462c3c03"/>
+</archimate:AccessRelationship>

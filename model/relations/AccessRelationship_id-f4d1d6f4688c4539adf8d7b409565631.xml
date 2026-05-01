@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-f4d1d6f4688c4539adf8d7b409565631">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.82"/>
+  <properties
+      key="Signalen"
+      value="beheren verkeersdoorstroming, registreren incidenten, verkeersmaatregelen"/>
+  <properties
+      key="Onderbouwing"
+      value="Verkeerbeheer is de functie die verantwoordelijk is voor het monitoren en beheren van de doorstroming van het verkeer. Een stremming is een blokkade van de doorstroming als gevolg van een incident, en het registreren, beheren en opheffen van stremmingen is een kernactiviteit van Verkeerbeheer. PRIMARY omdat geen andere functie specifieker verantwoordelijk is voor het vastleggen en beheren van verkeersstremmingen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-78c7f400aba04feca562818c4b411625.xml#id-78c7f400aba04feca562818c4b411625"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-18384829879144879bde9d2ab175f2b1.xml#id-18384829879144879bde9d2ab175f2b1"/>
+</archimate:AccessRelationship>

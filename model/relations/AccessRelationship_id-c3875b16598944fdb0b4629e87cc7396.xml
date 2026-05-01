@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-c3875b16598944fdb0b4629e87cc7396">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.58"/>
+  <properties
+      key="Signalen"
+      value="matchen, registreren vacatures, monitoren voortgang"/>
+  <properties
+      key="Onderbouwing"
+      value="Arbeidsmarktbemiddeling registreert vacatures, matcht werkzoekenden aan werkgevers en legt resultaten vast; dit impliceert het aanmaken en muteren van werkgelegenheidsgegevens op operationeel niveau (openstaande vacatures, plaatsingen). SECONDARY omdat de beleidsontwikkeling en strategische registratie van werkgelegenheid als macro-economisch object primair bij Lokale en regionale economische ontwikkeling ligt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a2f1-2eda-11e5-1099-005056a83192.xml#id-7be8a2f1-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-cc06785216494e2e9cd052f35d6bad92.xml#id-cc06785216494e2e9cd052f35d6bad92"/>
+</archimate:AccessRelationship>

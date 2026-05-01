@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-125d86d64f2a481994c1c9fbfebdde50">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.55"/>
+  <properties
+      key="Signalen"
+      value="bepalen structuur, vastleggen functies"/>
+  <properties
+      key="Onderbouwing"
+      value="Organisatiemanagement bepaalt de structuur van de organisatie en de te onderkennen functies en verantwoordelijkheden, wat ook de organisatiestructuur van de raad (inclusief commissies) omvat. SECONDARY omdat Governance inrichting specifieker gericht is op besluitvormingsstructuren."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b41387b8-5f41-4c0f-96b9-ff597340f63a.xml#id-b41387b8-5f41-4c0f-96b9-ff597340f63a"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-02a929666f3a4c08b764b668d126e001.xml#id-02a929666f3a4c08b764b668d126e001"/>
+</archimate:AccessRelationship>

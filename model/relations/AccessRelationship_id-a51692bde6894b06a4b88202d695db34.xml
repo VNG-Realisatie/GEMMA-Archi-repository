@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-a51692bde6894b06a4b88202d695db34">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.80"/>
+  <properties
+      key="Signalen"
+      value="beheren, registreren, gegevensverzamelingen"/>
+  <properties
+      key="Onderbouwing"
+      value="Applicatiebeheer voert beheertaken uit m.b.t. bedrijfsapplicaties en bijbehorende gegevensverzamelingen, inclusief het beheren van logregistraties die applicaties genereren. Logs zijn direct product van applicatiebeheeractiviteiten en worden door applicatiebeheer geconfigureerd en beheerd. PRIMARY omdat applicatiebeheer de meest directe verantwoordelijkheid heeft voor het inrichten en beheren van applicatielogs."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-0a5674fa-2a89-4dce-8599-850146a16d2a.xml#id-0a5674fa-2a89-4dce-8599-850146a16d2a"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-69feddfe7e1245d8af7f537055037cfc.xml#id-69feddfe7e1245d8af7f537055037cfc"/>
+</archimate:AccessRelationship>

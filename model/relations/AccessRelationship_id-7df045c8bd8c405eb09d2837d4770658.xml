@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-7df045c8bd8c405eb09d2837d4770658">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.70"/>
+  <properties
+      key="Signalen"
+      value="exploiteren, vaststellen, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Prijzen voor toegang en producten in een museum worden vastgesteld en geregistreerd als onderdeel van de exploitatie van de accommodatie. PRIMARY omdat Exploiteren van accommodaties de operationele verantwoordelijkheid draagt voor het vaststellen en registreren van prijzen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580.xml#id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-b7354ae1907148788a74ebef8bddf0d8.xml#id-b7354ae1907148788a74ebef8bddf0d8"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-5603d98b2455483cb6b65f4ac42a3422">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.68"/>
+  <properties
+      key="Signalen"
+      value="registreren, beheren, exploiteren"/>
+  <properties
+      key="Onderbouwing"
+      value="Bruiklenen zijn tijdelijke leningen van objecten voor tentoonstellingen in een museum; het exploiteren van museumaccommodaties omvat het registreren en administratief verwerken van bruikleenovereenkomsten. PRIMARY omdat deze functie de operationele en contractuele verantwoordelijkheid draagt voor bruikleenbeheer."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580.xml#id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-07ce9dc2606a490ebcf1d1e1fda0d69c.xml#id-07ce9dc2606a490ebcf1d1e1fda0d69c"/>
+</archimate:AccessRelationship>

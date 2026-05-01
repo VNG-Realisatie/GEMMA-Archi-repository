@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-0cd1538a39794f74871669f6c4b869b0">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.93"/>
+  <properties
+      key="Signalen"
+      value="beheren, IT-infrastructuur, systeemprogrammatuur"/>
+  <properties
+      key="Onderbouwing"
+      value="Systeembeheer voert beheertaken uit m.b.t. IT-infrastructuur, wat het installeren, configureren en beheren van servers als kernactiviteit omvat. Servers zijn fundamentele infrastructuurcomponenten die volledig binnen het domein van systeembeheer vallen. PRIMARY omdat systeembeheer de enige functie is met expliciete verantwoordelijkheid voor IT-infrastructuurbeheer inclusief servers."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b3b4cc7f-ec2d-4cf0-8389-cc4ce7cbce34.xml#id-b3b4cc7f-ec2d-4cf0-8389-cc4ce7cbce34"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-d0e5ecfc0634450abe8f36e23e1bd867.xml#id-d0e5ecfc0634450abe8f36e23e1bd867"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-2c84b10610244714b6fb6f3a4aa12f6a">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.80"/>
+  <properties
+      key="Signalen"
+      value="vastleggen, juridische regel, begrenzing"/>
+  <properties
+      key="Onderbouwing"
+      value="Een idealisatie is de vastlegging van de manier waarop de begrenzing van een locatie voor een juridische regel geïnterpreteerd moet worden. Ontwikkeling AVV fysieke leefomgeving stelt juridische regels en hun locatie-interpretaties vast. Als de functie die juridische regels en hun ruimtelijke begrenzing opstelt en vastlegt is PRIMARY gerechtvaardigd."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-f8a2b585aaba46769072d1a6a39d8d2f.xml#id-f8a2b585aaba46769072d1a6a39d8d2f"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-6dfb83e9413c477fb3d27f491ddd28ea.xml#id-6dfb83e9413c477fb3d27f491ddd28ea"/>
+</archimate:AccessRelationship>

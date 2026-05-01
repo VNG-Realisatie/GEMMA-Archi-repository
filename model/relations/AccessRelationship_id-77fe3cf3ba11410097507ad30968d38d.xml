@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-77fe3cf3ba11410097507ad30968d38d">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="ontwikkelen, gegevensverzamelingen, toepassingsprogrammatuur"/>
+  <properties
+      key="Onderbouwing"
+      value="Applicatie-ontwikkeling ontwikkelt toepassingsprogrammatuur en daarbij benodigde gegevensverzamelingen, wat het ontwerpen en aanmaken van databases omvat. Databases zijn de gegevensverzamelingen die als onderdeel van applicatieontwikkeling worden gecreëerd. PRIMARY omdat applicatie-ontwikkeling databases initieel creëert als onderdeel van de applicatieontwikkeling."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-11d5d01b-b29e-4c94-b139-a8787b08d227.xml#id-11d5d01b-b29e-4c94-b139-a8787b08d227"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-f10802572db04f5090c1a63dab2ff6ea.xml#id-f10802572db04f5090c1a63dab2ff6ea"/>
+</archimate:AccessRelationship>

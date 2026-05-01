@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-857b75643e8b4cd59d40b5e2ce7ae9c6">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="creëren, produceren, genereren"/>
+  <properties
+      key="Onderbouwing"
+      value="Documentcreatie omvat het creëren van documenten en producten; een raadsstuk is een formeel document dat door de gemeenteraad wordt behandeld en dat gecreëerd moet worden voordat het behandeld kan worden. Dit is de meest directe functie voor de initiële creatie van raadsstukken. PRIMARY op basis van initiële creatie van het document."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-6a9cc332-7ab4-4e9d-93f0-fb052c97fd85.xml#id-6a9cc332-7ab4-4e9d-93f0-fb052c97fd85"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-ca5b9d232ec64f779b71278e1ed3f06d.xml#id-ca5b9d232ec64f779b71278e1ed3f06d"/>
+</archimate:AccessRelationship>

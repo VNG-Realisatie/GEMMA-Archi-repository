@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-bebeeb9db4e740a7a5783cdda62c33d2">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.55"/>
+  <properties
+      key="Signalen"
+      value="exploiteren, registreren parkeeracties, voertuiggegevens"/>
+  <properties
+      key="Onderbouwing"
+      value="In de context van parkeren worden voertuiggegevens (kenteken, voertuigtype) geregistreerd en beheerd als onderdeel van de parkeerexploitatie, parkeerschans en vergunningverlening. Exploiteren van parkeerplaatsen is de functie die voertuigregistraties aanmaakt en beheert in het kader van parkeerrecht en naheffingen. PRIMARY als meest logische functie voor dit object in parkeerdomeinen; alternatief is Verkeerbeheer maar dat is minder specifiek voor voertuigregistratie in parkeercontext."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Voertuig als bedrijfsobject is breed; de gemeente registreert voertuigen niet zelfstandig maar verwijst naar kentekenregistraties van de RDW. De WRITE-relatie is contextueel (tijdelijke registratie voor parkeercontrole) en niet een volledige eigendom van het object."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-a3ec498f-cc6b-4eee-b000-16620e3ba437.xml#id-a3ec498f-cc6b-4eee-b000-16620e3ba437"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-4c3b88438e6647de839ed692d4d6bb80.xml#id-4c3b88438e6647de839ed692d4d6bb80"/>
+</archimate:AccessRelationship>

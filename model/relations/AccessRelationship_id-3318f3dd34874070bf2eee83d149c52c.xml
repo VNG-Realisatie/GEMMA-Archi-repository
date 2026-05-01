@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-3318f3dd34874070bf2eee83d149c52c">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="registreren, beheren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Binnen schuldhulpverlening worden contactpersonen van organisaties (schuldeisers, ketenpartners) geregistreerd en beheerd als onderdeel van het uitvoeringsproces. De schuldhulpverlening is de enige functie die inhoudelijk verantwoordelijk is voor het aanleggen en bijhouden van contactgegevens binnen dit beleidsdomein. PRIMARY op basis van structureel beheer en inhoudelijke eindverantwoordelijkheid."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3850d427-6dce-11e5-1099-005056a83192.xml#id-3850d427-6dce-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-512a22b37b2a47f4b345c052e3d9127a.xml#id-512a22b37b2a47f4b345c052e3d9127a"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-fea5d4000ad8471d81101e049ff309d9">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="beheren, beschikbaar stellen gegevens gebruikers, autorisaties"/>
+  <properties
+      key="Onderbouwing"
+      value="Identiteitenbeheer beheert gegevens van gebruikers van IT-voorzieningen. Partij is een bij de BRP bekende partij. Identiteitenbeheer registreert en beheert partijgegevens als onderdeel van gebruikersbeheer. PRIMARY als meest specifieke beheerder van partijidentiteiten."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-4344e524-e01f-4f17-aacb-ac3999f5ded8.xml#id-4344e524-e01f-4f17-aacb-ac3999f5ded8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-f87eed84724a4e29b986d41a2bf7ac98.xml#id-f87eed84724a4e29b986d41a2bf7ac98"/>
+</archimate:AccessRelationship>

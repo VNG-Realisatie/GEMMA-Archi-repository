@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-7e2102549d0645d7a8165dbbeb36d2aa">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="beheren balans, kostensoort, boekingen"/>
+  <properties
+      key="Onderbouwing"
+      value="Grootboekbeheer beheert de balans van de organisatie, waarbij kostenplaatsen als rekeningstructuren worden aangemaakt en beheerd. Kostenplaatsen zijn structuurelementen van het grootboek die door grootboekbeheer worden vastgesteld en beheerd. PRIMARY omdat grootboekbeheer de meest directe verantwoordelijkheid heeft voor het aanmaken en beheren van kostenplaatsen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-4266ce67-6f7b-44d3-a461-1530ee2cdb12.xml#id-4266ce67-6f7b-44d3-a461-1530ee2cdb12"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-d62021a29f294215931b20ab8ef9dc6c.xml#id-d62021a29f294215931b20ab8ef9dc6c"/>
+</archimate:AccessRelationship>

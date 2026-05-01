@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-1e698a6580bd4045b110af02b71800df">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.80"/>
+  <properties
+      key="Signalen"
+      value="bijhouding, registreren, BRP-gegevens bijhouden"/>
+  <properties
+      key="Onderbouwing"
+      value="Een huishouden is een duurzame samenlevingsvorm van één of meer personen die in de BRP wordt bijgehouden op basis van adresgegevens en gezinssamenstelling. Bevolkingsadministratie bijhouding registreert en muteert deze samenlevingsverbanden als onderdeel van de BRP-bijhouding. PRIMARY als de functie met primaire verantwoordelijkheid voor persoonsgebonden registraties."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-05ebfe88-2d7a-4093-bb4c-d9371baeb43c.xml#id-05ebfe88-2d7a-4093-bb4c-d9371baeb43c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-1858728c2d3947359c0246994363064c.xml#id-1858728c2d3947359c0246994363064c"/>
+</archimate:AccessRelationship>

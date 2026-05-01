@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-754d66acc53a44ed84be8ff44fcb2b34">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.42"/>
+  <properties
+      key="Signalen"
+      value="beheren referentiegegevens"/>
+  <properties
+      key="Onderbouwing"
+      value="Nationaliteit als referentielijst bevat gestandaardiseerde nationaliteitscodes. Gegevensmanagement beheert referentielijsten. PRIMARY als meest plausibele interne beheerder, al worden nationaliteitscodes extern bepaald."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Nationaliteitscodes worden extern (internationaal) bepaald; geen interne functie heeft expliciete verantwoordelijkheid voor dit referentieobject."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-6f9c9d87-b7cf-4ddb-b8d6-dd94699df24a.xml#id-6f9c9d87-b7cf-4ddb-b8d6-dd94699df24a"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-7de066e2109a4021af98256783d70525.xml#id-7de066e2109a4021af98256783d70525"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-5e021065fb084a7786fcf4ca49c58f1a">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.58"/>
+  <properties
+      key="Signalen"
+      value="beheren, netinformatie, aanleveren, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="KadastraleOnroerendeZaakAantekening betreft aantekeningen op onroerende zaken die gevolgen hebben voor de uitoefening van rechten. Kabels- en leidingenbeheer legt netinformatie vast over ondergrondse infrastructuur, wat aanleiding kan geven tot aantekeningen op onroerende zaken. PRIMARY als meest specifieke functie die dergelijke registraties aanmaakt in het kader van WIBON/IMKL."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-117db024-9c8d-4ab1-b5ef-cf85b6b2b59c.xml#id-117db024-9c8d-4ab1-b5ef-cf85b6b2b59c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-caf549faeb704673990ce1aee2aed836.xml#id-caf549faeb704673990ce1aee2aed836"/>
+</archimate:AccessRelationship>

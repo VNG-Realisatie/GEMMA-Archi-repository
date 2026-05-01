@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-c0672a24dbdd4906ab9793f769e52e95">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="exploiteren, parkeerrecht verlenen, parkeerplaatsen beheren"/>
+  <properties
+      key="Onderbouwing"
+      value="Een parkeerrecht is het recht dat ontstaat onder bepaalde voorwaarden (betaling, vergunning) om op een aangewezen parkeerplaats te parkeren. Exploiteren van parkeerplaatsen is de functie die parkeerrechten genereert, registreert en beheert als onderdeel van de parkeerexploitatie. PRIMARY op basis van initiële creatie en structureel beheer van parkeerrechten."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-a3ec498f-cc6b-4eee-b000-16620e3ba437.xml#id-a3ec498f-cc6b-4eee-b000-16620e3ba437"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-99bb56f09cd84448b5fd0d19898652a5.xml#id-99bb56f09cd84448b5fd0d19898652a5"/>
+</archimate:AccessRelationship>

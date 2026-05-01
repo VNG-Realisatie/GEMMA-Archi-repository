@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-14e349011e1b4d678697f5780de25dcb">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="registreren, verwerken"/>
+  <properties
+      key="Onderbouwing"
+      value="De functie Leerlingenvervoer ontvangt en registreert klachten die specifiek betrekking hebben op het leerlingenvervoer als onderdeel van haar uitvoeringstaken. SECONDARY omdat de primaire verantwoordelijkheid voor klachtregistratie bij de klachtenafhandelingsfunctie ligt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-ab46e404-9e45-11e5-11ba-005056a85f9c.xml#id-ab46e404-9e45-11e5-11ba-005056a85f9c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-198bab54632f4d279991f0aff413edc6.xml#id-198bab54632f4d279991f0aff413edc6"/>
+</archimate:AccessRelationship>

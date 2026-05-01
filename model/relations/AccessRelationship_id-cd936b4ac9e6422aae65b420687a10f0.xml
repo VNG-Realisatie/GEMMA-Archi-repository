@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-cd936b4ac9e6422aae65b420687a10f0">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="uitwerken, vastleggen, voorschriften"/>
+  <properties
+      key="Onderbouwing"
+      value="Ontwikkeling AVV fysieke leefomgeving werkt ruimtelijke kaders uit waarbij activiteiten worden gedefinieerd en vastgelegd in juridische voorschriften. SECONDARY omdat de primaire registratie van activiteiten plaatsvindt bij het vergunningverleningsproces."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-f8a2b585aaba46769072d1a6a39d8d2f.xml#id-f8a2b585aaba46769072d1a6a39d8d2f"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-b4043e1cd49d4f0ebd518240d88be218.xml#id-b4043e1cd49d4f0ebd518240d88be218"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-d81d6b8178494e54a990c007a20aecd4">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.60"/>
+  <properties
+      key="Signalen"
+      value="ondersteunen, administreren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Administratieve ondersteuning ondersteunt bij het aanleggen en bijhouden van dossiers als onderdeel van administratieve taken in de griffie. SECONDARY omdat het een ondersteunende rol heeft bij dossiervorming."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-590b70e6-93f4-41e8-8b02-e42bf9a17127.xml#id-590b70e6-93f4-41e8-8b02-e42bf9a17127"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-86e675a8de0d4050b96e5d2a8b99fca3.xml#id-86e675a8de0d4050b96e5d2a8b99fca3"/>
+</archimate:AccessRelationship>

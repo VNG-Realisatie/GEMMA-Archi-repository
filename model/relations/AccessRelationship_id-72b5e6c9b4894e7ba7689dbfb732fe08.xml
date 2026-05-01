@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-72b5e6c9b4894e7ba7689dbfb732fe08">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.88"/>
+  <properties
+      key="Signalen"
+      value="organiseren, registreren, bijhouden"/>
+  <properties
+      key="Onderbouwing"
+      value="Het ophaalmoment — een stop die een vuilniswagen maakt tijdens een rit, inclusief gewichtsregistratie — wordt gecreëerd en bijgehouden als directe uitkomst van de afvalinzamelingsoperatie. Afvalinzameling is de enige functie die deze operationele gegevens genereert en vastlegt. Zij is daarmee de primaire en enige relevante schrijver."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-e79d6415-e641-4eb9-a73e-f5325e5a418c.xml#id-e79d6415-e641-4eb9-a73e-f5325e5a418c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-d9cc68d3bbee41e6828c7940b11a05a8.xml#id-d9cc68d3bbee41e6828c7940b11a05a8"/>
+</archimate:AccessRelationship>

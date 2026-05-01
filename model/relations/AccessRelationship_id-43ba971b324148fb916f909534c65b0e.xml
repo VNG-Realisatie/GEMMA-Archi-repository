@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-43ba971b324148fb916f909534c65b0e">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.42"/>
+  <properties
+      key="Signalen"
+      value="beheren balans"/>
+  <properties
+      key="Onderbouwing"
+      value="Bedrijfsproces als object in RGBZ beschrijft reeksen activiteiten die bijdragen aan een resultaat. Geen functie heeft een directe verantwoordelijkheid voor het registreren/beheren van bedrijfsprocessen als object. Grootboekbeheer is de meest structurele beheerder maar de relatie is zwak. PRIMARY bij gebrek aan een betere kandidaat."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Geen functie heeft expliciete verantwoordelijkheid voor Bedrijfsproces als object; dit is een informatiemodel-entiteit die door procesbeheerfuncties beheerd zou moeten worden, maar die ontbreken in de lijst."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-4266ce67-6f7b-44d3-a461-1530ee2cdb12.xml#id-4266ce67-6f7b-44d3-a461-1530ee2cdb12"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-32294a6e55fb4144bc8d6a689cba7418.xml#id-32294a6e55fb4144bc8d6a689cba7418"/>
+</archimate:AccessRelationship>

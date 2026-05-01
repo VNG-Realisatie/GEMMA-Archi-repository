@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-946667cb088f4f6ea2d82e7f49b5aa5d">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.87"/>
+  <properties
+      key="Signalen"
+      value="organiseren, beheren, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Afvalinzameling organiseert de inzameling van afval en beheert daarvoor de containers als kernmiddel. Het registreren, plaatsen, muteren en beheren van containergegevens valt direct onder de verantwoordelijkheid van de afvalinzamelingsfunctie. Zij is de meest specifieke en inhoudelijk verantwoordelijke functie voor dit object."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-e79d6415-e641-4eb9-a73e-f5325e5a418c.xml#id-e79d6415-e641-4eb9-a73e-f5325e5a418c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-a6ff7ae28f0e4fd7808697cddcb731b5.xml#id-a6ff7ae28f0e4fd7808697cddcb731b5"/>
+</archimate:AccessRelationship>

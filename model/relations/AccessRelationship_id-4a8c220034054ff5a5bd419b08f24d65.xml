@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-4a8c220034054ff5a5bd419b08f24d65">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.82"/>
+  <properties
+      key="Signalen"
+      value="verstrekking, besluitvorming, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Voorzieningenverstrekking omvat het verstrekken van bijzondere bijstand, subsidies, kredieten en andere minimaregelingen, waarbij beschikkingen worden opgemaakt en vastgelegd. Een beschikking is het formele besluitdocument dat bij voorzieningenverstrekking wordt gecreëerd. PRIMARY op basis van initiële creatie van de beschikking als direct uitvoeringsresultaat."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a305-2eda-11e5-1099-005056a83192.xml#id-7be8a305-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-3d9b45d27b6840b39b99e8ede85db6f4.xml#id-3d9b45d27b6840b39b99e8ede85db6f4"/>
+</archimate:AccessRelationship>

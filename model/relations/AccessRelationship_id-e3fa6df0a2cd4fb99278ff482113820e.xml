@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-e3fa6df0a2cd4fb99278ff482113820e">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.82"/>
+  <properties
+      key="Signalen"
+      value="verwerken, behandelen, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Meldingen openbare ruimte behandeling is expliciet gericht op het verwerken van meldingen over de openbare ruimte, waaronder afval-gerelateerde meldingen (zoals volle containers of illegale dump). Deze functie registreert en verwerkt de melding als bedrijfsobject inhoudelijk en is daarmee de primaire schrijver. Afvalinzameling handelt naar aanleiding van meldingen, maar verwerkt ze niet als zodanig."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-a6be6a36-76e5-42ef-a1ba-459de1fd5037.xml#id-a6be6a36-76e5-42ef-a1ba-459de1fd5037"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-ed477fdfe4c44c5abd06650d346ebf25.xml#id-ed477fdfe4c44c5abd06650d346ebf25"/>
+</archimate:AccessRelationship>

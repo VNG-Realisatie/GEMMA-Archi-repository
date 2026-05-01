@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-dd3b064d999c408c93fcebbc34f1a4ef">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.97"/>
+  <properties
+      key="Signalen"
+      value="bijhouding, actueel en betrouwbaar houden, bevolkingsregister"/>
+  <properties
+      key="Onderbouwing"
+      value="Een Ingezetene is een individueel menselijk wezen ingeschreven in het Nederlands Bevolkingsregister. Bevolkingsadministratie bijhouding is de enige functie die verantwoordelijk is voor het actueel houden van dit register en dus voor het registreren en muteren van ingezetenen. PRIMARY als enige structurele beheerder."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-05ebfe88-2d7a-4093-bb4c-d9371baeb43c.xml#id-05ebfe88-2d7a-4093-bb4c-d9371baeb43c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-893e61065e3d48c3be5334489de30e6b.xml#id-893e61065e3d48c3be5334489de30e6b"/>
+</archimate:AccessRelationship>

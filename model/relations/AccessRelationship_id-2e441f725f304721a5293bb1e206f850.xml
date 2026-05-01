@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-2e441f725f304721a5293bb1e206f850">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.62"/>
+  <properties
+      key="Signalen"
+      value="opleggen maatregel, toezicht en handhaving"/>
+  <properties
+      key="Onderbouwing"
+      value="Handhaving maakt gebruik van parkeerscans als instrument bij het opleggen van maatregelen (naheffingen, boetes) voor parkeerdelicten. In dit kader worden parkeerscans geregistreerd en verwerkt als onderdeel van het handhavingsproces. SECONDARY omdat de primaire registratie van parkeerscans bij de exploitatiefunctie ligt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-020f2f8c-d549-4a95-a2a9-56c1b0a43be8.xml#id-020f2f8c-d549-4a95-a2a9-56c1b0a43be8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-d1c7859314e947e9a93109636f010548.xml#id-d1c7859314e947e9a93109636f010548"/>
+</archimate:AccessRelationship>

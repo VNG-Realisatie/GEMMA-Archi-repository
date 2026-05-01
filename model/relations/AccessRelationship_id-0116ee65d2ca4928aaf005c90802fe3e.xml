@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-0116ee65d2ca4928aaf005c90802fe3e">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="verlenen, registreren, bevoegd gezag"/>
+  <properties
+      key="Onderbouwing"
+      value="Een uitvoerende instantie is een onderdeel van het bevoegd gezag dat uitvoering geeft aan wetten en besluiten. Toestemmingverlening werkt direct met bevoegd gezag en uitvoerende instanties en registreert welke instantie verantwoordelijk is voor een specifieke vergunning of melding. PRIMARY is gerechtvaardigd als de functie die de uitvoerende instanties operationeel vastlegt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7a1e5935-026e-41ef-be95-d02f2a2a3937.xml#id-7a1e5935-026e-41ef-be95-d02f2a2a3937"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-50644d60ac854b63a2cfa6e5f98deb73.xml#id-50644d60ac854b63a2cfa6e5f98deb73"/>
+</archimate:AccessRelationship>

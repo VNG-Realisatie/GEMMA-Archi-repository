@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-db29367f29c142cab6bd0dc775f491ed">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="verstrekking, beoordeling, vastleggen leefgebied"/>
+  <properties
+      key="Onderbouwing"
+      value="Leefgebieden (gebieden van activiteiten van inwoners) worden vastgelegd als onderdeel van WMO-beoordelingen bij voorzieningenverstrekking. Voorzieningenverstrekking is de meest logische functie die leefgebieden registreert in het Generiek Jeugd en Wmo domein. PRIMARY op basis van structureel beheer."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a305-2eda-11e5-1099-005056a83192.xml#id-7be8a305-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-526be0ce41bf402094501ed02f610c8f.xml#id-526be0ce41bf402094501ed02f610c8f"/>
+</archimate:AccessRelationship>

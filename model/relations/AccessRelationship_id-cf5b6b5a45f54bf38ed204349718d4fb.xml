@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-cf5b6b5a45f54bf38ed204349718d4fb">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="beheren, registreren, administreren"/>
+  <properties
+      key="Onderbouwing"
+      value="BOA's (buitengewone opsporingsambtenaren) worden ingezet in het kader van toezicht en handhaving in het veiligheidsdomein. De functie Toezicht en handhaving veiligheidsdomein is verantwoordelijk voor het inzetten en administreren van BOA's en daarmee voor het beheren van BOA-gegevens. PRIMARY omdat deze functie de inhoudelijke en juridische eindverantwoordelijkheid draagt voor de BOA als functionaris."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-73b339b1-aa26-4282-8556-a497956efd7d.xml#id-73b339b1-aa26-4282-8556-a497956efd7d"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-1e36cf0168b24d5cbacdbe2ac0b363ac.xml#id-1e36cf0168b24d5cbacdbe2ac0b363ac"/>
+</archimate:AccessRelationship>

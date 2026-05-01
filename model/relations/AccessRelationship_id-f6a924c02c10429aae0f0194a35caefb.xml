@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-f6a924c02c10429aae0f0194a35caefb">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.82"/>
+  <properties
+      key="Signalen"
+      value="exploiteren, beheren, parkeerplaatsen, parkeergarages, tijdelijke voorzieningen"/>
+  <properties
+      key="Onderbouwing"
+      value="Een parkeerzone is een afgebakend gebied met specifieke parkeerregels dat direct valt onder de exploitatie en het beheer van parkeerinfrastructuur. Exploiteren van parkeerplaatsen is inhoudelijk verantwoordelijk voor het instellen, wijzigen en beheren van parkeerzones. PRIMARY omdat het de enige functie is met directe verantwoordelijkheid over parkeergebieden en -regels."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-a3ec498f-cc6b-4eee-b000-16620e3ba437.xml#id-a3ec498f-cc6b-4eee-b000-16620e3ba437"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-fd4f700fd21a4e8bbd2a20cf74824599.xml#id-fd4f700fd21a4e8bbd2a20cf74824599"/>
+</archimate:AccessRelationship>

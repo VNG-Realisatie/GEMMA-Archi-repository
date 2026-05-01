@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-4b9f7b8408c8454aa6c7fbcf5c62e5b7">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.62"/>
+  <properties
+      key="Signalen"
+      value="beheren, vastleggen verkeersinfrastructuur"/>
+  <properties
+      key="Onderbouwing"
+      value="Verkeerbeheer is verantwoordelijk voor de verkeersinfrastructuur in de openbare ruimte, waartoe parkeervlakken langs doorgaande wegen behoren. Het aanleggen, wijzigen of verwijderen van parkeervlakken is een onderdeel van verkeersmaatregelen. SECONDARY omdat Exploiteren van parkeerplaatsen de directere beheerfunctie is voor parkeerfaciliteiten."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-78c7f400aba04feca562818c4b411625.xml#id-78c7f400aba04feca562818c4b411625"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-af8dbdbdae3743788e83aa162e43f0ab.xml#id-af8dbdbdae3743788e83aa162e43f0ab"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-e7ed7ec7ca494cdfaed20b0ac7297bce">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.95"/>
+  <properties
+      key="Signalen"
+      value="vaststellen, beheren, budgetten"/>
+  <properties
+      key="Onderbouwing"
+      value="Begrotingbeheer stelt de beschikbare financiële middelen en budgetten vast, wat direct inhoudt dat begrotingsregels worden aangemaakt en beheerd. Begrotingsregels zijn de elementaire eenheden van de begroting die in begrotingbeheer worden gedefinieerd en onderhouden. PRIMARY omdat begrotingbeheer de initiële creatie en het structurele beheer van begrotingsregels verzorgt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-fe2b23a7-6efc-47e3-af7b-a4cff0d8b8f2.xml#id-fe2b23a7-6efc-47e3-af7b-a4cff0d8b8f2"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-036d7ad3033544f5ab0952dedf376c0a.xml#id-036d7ad3033544f5ab0952dedf376c0a"/>
+</archimate:AccessRelationship>

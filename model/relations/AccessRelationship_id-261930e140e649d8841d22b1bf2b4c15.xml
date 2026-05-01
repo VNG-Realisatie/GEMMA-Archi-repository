@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-261930e140e649d8841d22b1bf2b4c15">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.52"/>
+  <properties
+      key="Signalen"
+      value="analyse geografische gegevens, ruimtelijke relaties"/>
+  <properties
+      key="Onderbouwing"
+      value="Geografische analyse kan verkeerstelgegevens genereren of verwerken als onderdeel van ruimtelijke analyses. Verkeerstellingen bevatten geografische componenten (locatie, route) en kunnen worden aangemaakt of verrijkt via geografische analysewerkzaamheden. SECONDARY omdat de primaire registratieverantwoordelijkheid bij Verkeerbeheer ligt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-e5899bdb-414a-4d5b-b59b-d9c95349d5e9.xml#id-e5899bdb-414a-4d5b-b59b-d9c95349d5e9"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-0ea05b9864354f61983c60121f7d8892.xml#id-0ea05b9864354f61983c60121f7d8892"/>
+</archimate:AccessRelationship>

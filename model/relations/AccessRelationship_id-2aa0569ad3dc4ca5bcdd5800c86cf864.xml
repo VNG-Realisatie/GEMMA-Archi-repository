@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-2aa0569ad3dc4ca5bcdd5800c86cf864">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.70"/>
+  <properties
+      key="Signalen"
+      value="registreren, verwerken, beheren"/>
+  <properties
+      key="Onderbouwing"
+      value="Applicatiebeheer beheert bedrijfsapplicaties en gegevensverzamelingen waarbij meldingen (over storingen, wijzigingen) worden geregistreerd en verwerkt als onderdeel van applicatiebeheerprocessen. Meldingen zijn in ICT-context kernobjecten die door applicatiebeheer worden aangemaakt en verwerkt. PRIMARY omdat applicatiebeheer de meest logische eigenaar is van meldingen als ICT-bedrijfsobject."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-0a5674fa-2a89-4dce-8599-850146a16d2a.xml#id-0a5674fa-2a89-4dce-8599-850146a16d2a"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-c59edb32f67046e7bf42ac6693deefc7.xml#id-c59edb32f67046e7bf42ac6693deefc7"/>
+</archimate:AccessRelationship>

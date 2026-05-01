@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-da9fa1931fb845c89349512ad2cb3e92">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.68"/>
+  <properties
+      key="Signalen"
+      value="beheren, installaties, objecten"/>
+  <properties
+      key="Onderbouwing"
+      value="Sensoren zijn meetapparaten die in de openbare ruimte worden geplaatst en beheerd als onderdeel van de fysieke infrastructuur. Beheren fysieke objecten is de meest omvattende functie die verantwoordelijk is voor het beheer van objecten in de openbare ruimte, inclusief installaties en meetapparatuur. PRIMARY is gerechtvaardigd als meest directe beheerfunctie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-c02372c9-e979-4966-95f6-50d1fa249198.xml#id-c02372c9-e979-4966-95f6-50d1fa249198"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-ef80b935abaf441d98d5a244aeff23c9.xml#id-ef80b935abaf441d98d5a244aeff23c9"/>
+</archimate:AccessRelationship>

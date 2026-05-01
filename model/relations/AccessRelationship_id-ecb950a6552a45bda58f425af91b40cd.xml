@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-ecb950a6552a45bda58f425af91b40cd">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.92"/>
+  <properties
+      key="Signalen"
+      value="beheren, adressen en gebouwen, BAG"/>
+  <properties
+      key="Onderbouwing"
+      value="AdresseerbaarObjectAanduiding is een door het gemeentelijke orgaan toegekende aanduiding van BAG-objecten. BAG Beheer is verantwoordelijk voor het toekennen en beheren van deze aanduidingen. PRIMARY als de wettelijk aangewezen BAG-beheerder."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3c6baa05c6904cfbba03880e2e4c5cd6.xml#id-3c6baa05c6904cfbba03880e2e4c5cd6"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-941099970967446e9eec447635449438.xml#id-941099970967446e9eec447635449438"/>
+</archimate:AccessRelationship>

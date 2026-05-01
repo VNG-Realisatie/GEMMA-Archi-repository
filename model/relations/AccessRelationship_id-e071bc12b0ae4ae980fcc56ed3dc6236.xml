@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-e071bc12b0ae4ae980fcc56ed3dc6236">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.95"/>
+  <properties
+      key="Signalen"
+      value="beheren, uitvoeren, werkzaamheden"/>
+  <properties
+      key="Onderbouwing"
+      value="Groenbeheer is de functie die expliciet verantwoordelijk is voor het beheren en uitvoeren van werkzaamheden rondom groenvoorzieningen in de openbare ruimte. Het groenobject is het kleinste functioneel onafhankelijke stuk terrein met aaneengesloten vegetatie, dus direct het object dat bij groenbeheer wordt geregistreerd en beheerd. Groenbeheer is de meest specifieke functie die initieel dit object aanmaakt en structureel beheert, waarmee PRIMARY gerechtvaardigd is."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-208a6246-ebca-456e-820b-ec4c4f6a8803.xml#id-208a6246-ebca-456e-820b-ec4c4f6a8803"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-32764dce50d94982a59c5eb81c289f11.xml#id-32764dce50d94982a59c5eb81c289f11"/>
+</archimate:AccessRelationship>

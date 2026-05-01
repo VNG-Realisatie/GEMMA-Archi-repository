@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-d91acb9ed8d54ee7956be678552913f1">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.80"/>
+  <properties
+      key="Signalen"
+      value="beheren verkeersinfrastructuur, routes, beheer openbare ruimte"/>
+  <properties
+      key="Onderbouwing"
+      value="Verkeerbeheer is verantwoordelijk voor het veilig en bereikbaar houden van het wegennet, waartoe het vaststellen en beheren van strooiroutes (winteronderhoud) behoort. Strooiroutes zijn een instrument van verkeersbeheer om de veiligheid op wegen te waarborgen. PRIMARY omdat geen andere functie specifieker verantwoordelijk is voor het beheren van strooiroutes als onderdeel van wegennetbeheer."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-78c7f400aba04feca562818c4b411625.xml#id-78c7f400aba04feca562818c4b411625"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-36b26225a00a412c95927f44e7ab86fe.xml#id-36b26225a00a412c95927f44e7ab86fe"/>
+</archimate:AccessRelationship>

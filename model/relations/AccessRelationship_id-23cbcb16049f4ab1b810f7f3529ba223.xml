@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-23cbcb16049f4ab1b810f7f3529ba223">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.88"/>
+  <properties
+      key="Signalen"
+      value="bepalen structuur, functies, taken, verantwoordelijkheden"/>
+  <properties
+      key="Onderbouwing"
+      value="Organisatiemanagement bepaalt de structuur van de organisatie en de te onderkennen functies, taken en verantwoordelijkheden, wat direct het definiëren en vastleggen van functies omvat. Functies zijn de kernentiteiten van de organisatiestructuur die door organisatiemanagement worden bepaald. PRIMARY omdat organisatiemanagement de enige functie is die expliciet verantwoordelijk is voor het definiëren van organisatiefuncties."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b41387b8-5f41-4c0f-96b9-ff597340f63a.xml#id-b41387b8-5f41-4c0f-96b9-ff597340f63a"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-491e1f66d2d54049afab4df20916d420.xml#id-491e1f66d2d54049afab4df20916d420"/>
+</archimate:AccessRelationship>

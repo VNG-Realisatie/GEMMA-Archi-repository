@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-b5ecf29bdbe042f3a70c5eb24dcd63a0">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.55"/>
+  <properties
+      key="Signalen"
+      value="begeleiding inburgering, registreren verblijfplaats"/>
+  <properties
+      key="Onderbouwing"
+      value="Verblijfplaats AZC is relevant voor asielstatushouders die inburgeringsplichtig zijn. Zelfredzaamheidsontwikkeling is de meest logische beschikbare functie die inburgeringsgerelateerde verblijfplaatsgegevens registreert. PRIMARY als beste beschikbare optie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Geen specifieke inburgeringsfunctie; relatie is indirect via begeleiding van nieuwkomers."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a2fd-2eda-11e5-1099-005056a83192.xml#id-7be8a2fd-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-ee6ce8f6259945cf8911f088980eabbb.xml#id-ee6ce8f6259945cf8911f088980eabbb"/>
+</archimate:AccessRelationship>

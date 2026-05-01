@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-bf44537ddcd24d629631b6d0b315936e">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="exploiteren, registreren, verwerken"/>
+  <properties
+      key="Onderbouwing"
+      value="Balieverkoop van entreekaarten is een directe transactieregistratie bij de exploitatie van een museumaccommodatie; Exploiteren van accommodaties omvat het aanmaken en registreren van entreekaartverkopen aan de balie. PRIMARY omdat dit een kernoperationele activiteit is bij de exploitatie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580.xml#id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-c0433394540547409a03880f79d97605.xml#id-c0433394540547409a03880f79d97605"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-484a0c7a2ea64851a5025bd3ae083d42">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="subsidiëren, besluit, toekennen"/>
+  <properties
+      key="Onderbouwing"
+      value="Subsidieverlening Publieksdiensten subsidieert binnengemeentelijke activiteiten, waarbij subsidiebeschikkingen worden opgesteld en vastgesteld als formele besluiten over het al dan niet toekennen van subsidies. Subsidiebeschikkingen zijn de directe juridische output van de subsidieverlening. PRIMARY omdat subsidieverlening de enige functie is die subsidiebeschikkingen aanmaakt en vaststelt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-c227565e-0152-4a71-9623-d8e98a8bef0e.xml#id-c227565e-0152-4a71-9623-d8e98a8bef0e"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-bb82faf1c0c84edeb3c51401c9318088.xml#id-bb82faf1c0c84edeb3c51401c9318088"/>
+</archimate:AccessRelationship>

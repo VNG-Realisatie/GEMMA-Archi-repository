@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-48c7f46ed5b7425e9c842eb648e087ca">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="beheren, IT-infrastructuur, configuratie"/>
+  <properties
+      key="Onderbouwing"
+      value="Systeembeheer beheert IT-infrastructuur en systeemprogrammatuur, waarbij linkbare CMDB-items als configuratie-items worden geregistreerd en beheerd. Linkbare CMDB-items zijn onderdeel van de configuratiemanagementdatabase die door systeembeheer wordt bijgehouden. PRIMARY bij gebrek aan een specifiekere functie, met dien verstande dat de notitie 'Niet opnemen' twijfel oproept."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="De documentatie vermeldt 'Niet opnemen' voor dit object, wat erop kan duiden dat dit object buiten scope valt."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b3b4cc7f-ec2d-4cf0-8389-cc4ce7cbce34.xml#id-b3b4cc7f-ec2d-4cf0-8389-cc4ce7cbce34"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-15be5d14dcea4d09a4a303bd15494b95.xml#id-15be5d14dcea4d09a4a303bd15494b95"/>
+</archimate:AccessRelationship>

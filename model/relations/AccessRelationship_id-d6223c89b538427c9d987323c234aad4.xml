@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-d6223c89b538427c9d987323c234aad4">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="beheren, BAG-gebiedsindelingen"/>
+  <properties
+      key="Onderbouwing"
+      value="Wijk is een gebiedsindeling die in de BAG/CBS-context wordt bijgehouden. BAG Beheer is verantwoordelijk voor het beheren van gebiedsindelingen als onderdeel van de topografische/adressenregistratie. PRIMARY als meest specifieke beheerder van geografische indelingen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3c6baa05c6904cfbba03880e2e4c5cd6.xml#id-3c6baa05c6904cfbba03880e2e4c5cd6"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-ec0b2fbb856b48358a0a6773cdfcc4ec.xml#id-ec0b2fbb856b48358a0a6773cdfcc4ec"/>
+</archimate:AccessRelationship>

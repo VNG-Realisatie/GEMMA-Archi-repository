@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-be7da9b3430340a1acf4e234c22b1276">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.78"/>
+  <properties
+      key="Signalen"
+      value="administreren, registreren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Ouder- en verzorgergegevens worden in het kader van de leerlingenadministratie vastgelegd als contactpersoon en wettelijke verantwoordelijke voor de leerling. PRIMARY omdat de leerlingenadministratie de context is waarbinnen dit object wordt gecreëerd en beheerd."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-ab46e401-9e45-11e5-11ba-005056a85f9c.xml#id-ab46e401-9e45-11e5-11ba-005056a85f9c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-a08ae2f00af04a1cbb634d17cdbc4925.xml#id-a08ae2f00af04a1cbb634d17cdbc4925"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-d864d48ad45342f99fe96f24054e5027">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.48"/>
+  <properties
+      key="Signalen"
+      value="begeleiding, inburgering, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="PIP is een object binnen inburgering (in ontwikkeling). Zelfredzaamheidsontwikkeling is de meest logische beschikbare functie met raakvlakken met inburgering. PRIMARY als enige beschikbare optie bij afwezigheid van een specifieke inburgeringsfunctie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="PIP is een specifiek inburgeringsobject zonder gespecificeerde inhoud; geen specifieke inburgeringsfunctie beschikbaar."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a2fd-2eda-11e5-1099-005056a83192.xml#id-7be8a2fd-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-30aaf4ba5a5a467e92333138ae520bd8.xml#id-30aaf4ba5a5a467e92333138ae520bd8"/>
+</archimate:AccessRelationship>

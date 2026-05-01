@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-3fbbe6c19f7146fabdc40c530c5b3610">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.78"/>
+  <properties
+      key="Signalen"
+      value="verstrekking, verwerken declaratie, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Declaraties voor WMO/Jeugd-zorgverlening worden ingediend en verwerkt als onderdeel van voorzieningenverstrekking. Voorzieningenverstrekking is verantwoordelijk voor het registreren van declaraties in het kader van zorglevering. PRIMARY op basis van structureel beheer."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a305-2eda-11e5-1099-005056a83192.xml#id-7be8a305-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-1c4f972076e54273a70f4d73ee02410d.xml#id-1c4f972076e54273a70f4d73ee02410d"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-d5e80cbfddcf44be9d37f65a9e6edcd6">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="ontwerpen, ontwikkelen, ruimtelijke omgeving"/>
+  <properties
+      key="Onderbouwing"
+      value="Ruimtelijke ontwerpen ontwikkelt ontwerpen voor projectmatige uitvoering; plannen voor woningbouw worden ontworpen als onderdeel van deze functie. SECONDARY omdat Ruimtelijke uitvoering de eindverantwoordelijkheid heeft voor planregistratie en -beheer."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-c63b4da2-71fc-4314-8c48-e6eec64993c2.xml#id-c63b4da2-71fc-4314-8c48-e6eec64993c2"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-b455d96b92c24281af36125e8a29f3c3.xml#id-b455d96b92c24281af36125e8a29f3c3"/>
+</archimate:AccessRelationship>

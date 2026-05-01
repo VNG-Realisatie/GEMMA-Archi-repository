@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-677da0a68c83463eb6f58ecd03aa94b7">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="registratie, besluitvorming, behandeling uitvoering"/>
+  <properties
+      key="Onderbouwing"
+      value="Tegenprestaties zijn verplichtingen die tegenover uitkeringsvoorzieningen staan en worden geregistreerd bij uitvoering van werkinstrumenten. Uitvoering instrumenten is direct verantwoordelijk voor het vastleggen van tegenprestatieverplichtingen. PRIMARY op basis van directe uitvoeringsverantwoordelijkheid."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a2f5-2eda-11e5-1099-005056a83192.xml#id-7be8a2f5-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-a33396f1b4284be0ab30c92042a368f3.xml#id-a33396f1b4284be0ab30c92042a368f3"/>
+</archimate:AccessRelationship>

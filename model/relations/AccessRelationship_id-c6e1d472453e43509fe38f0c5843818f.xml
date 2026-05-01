@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-c6e1d472453e43509fe38f0c5843818f">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="managen, gerelateerde projecten, programma"/>
+  <properties
+      key="Onderbouwing"
+      value="Programmabeheer beheert een groep gerelateerde projecten, wat het aanmaken en beheren van programma's als organisatorische kaderstructuren omvat. Programma's zijn de kernentiteiten van programmabeheer. PRIMARY omdat programmabeheer de enige functie is die expliciet verantwoordelijk is voor het beheer van programma's."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-1ad99e29-cd78-40d4-9620-55053ccccbc9.xml#id-1ad99e29-cd78-40d4-9620-55053ccccbc9"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-cabfd1dc01554924aeca197b1f8def72.xml#id-cabfd1dc01554924aeca197b1f8def72"/>
+</archimate:AccessRelationship>

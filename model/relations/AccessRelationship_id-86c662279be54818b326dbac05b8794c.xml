@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-86c662279be54818b326dbac05b8794c">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="opleggen, verwerken"/>
+  <properties
+      key="Onderbouwing"
+      value="Handhaving verwerkt woonoverlastmeldingen door het opleggen van maatregelen en het vastleggen van de handhavingsuitkomsten in de melding. SECONDARY omdat de ontvangst en initiële registratie van de melding een voorafgaande stap is die bij Toezicht of meldingen-ontvangst ligt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-020f2f8c-d549-4a95-a2a9-56c1b0a43be8.xml#id-020f2f8c-d549-4a95-a2a9-56c1b0a43be8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-34a1a9b5c1d0428c90d27d2e0c68a48c.xml#id-34a1a9b5c1d0428c90d27d2e0c68a48c"/>
+</archimate:AccessRelationship>

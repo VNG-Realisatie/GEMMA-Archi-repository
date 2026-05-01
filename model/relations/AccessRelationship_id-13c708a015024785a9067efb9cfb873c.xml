@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-13c708a015024785a9067efb9cfb873c">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.55"/>
+  <properties
+      key="Signalen"
+      value="inrichten, vastleggen, beheren"/>
+  <properties
+      key="Onderbouwing"
+      value="Governance inrichting omvat het inrichten en bewaken van besluitvormingsprocessen en -structuren, waaronder de samenstelling van het college van B&amp;W als bestuursorgaan. Het vastleggen en beheren van collegeleden als deelnemers in deze structuren valt semantisch onder deze functie. PRIMARY op basis van structureel beheer van bestuurssamenstelling als tie-breaker; geen andere functie claimt dit explicieter."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Geen functie in de lijst is expliciet verantwoordelijk voor de registratie van collegeleden; Governance inrichting is de meest plausibele maar onzekere kandidaat."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-11a4c070-7b4f-4ecf-a47b-6574a916319f.xml#id-11a4c070-7b4f-4ecf-a47b-6574a916319f"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-65d53e7928a4458da7bff77f8c68fdd1.xml#id-65d53e7928a4458da7bff77f8c68fdd1"/>
+</archimate:AccessRelationship>

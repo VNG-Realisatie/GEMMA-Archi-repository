@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-ad367a2993fc4bfd8638c7974593fec5">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="beheren, IT-infrastructuur, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Systeembeheer beheert IT-infrastructuur inclusief telefoniesystemen, waarbij telefoniegegevens worden geconfigureerd, geregistreerd en beheerd. Telefoniegegevens zijn onderdeel van de IT-infrastructuur die door systeembeheer wordt onderhouden. PRIMARY omdat systeembeheer de meest directe verantwoordelijkheid heeft voor het beheren van telefoniegegevens als ICT-infrastructuurobject."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b3b4cc7f-ec2d-4cf0-8389-cc4ce7cbce34.xml#id-b3b4cc7f-ec2d-4cf0-8389-cc4ce7cbce34"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-3d1d6e5209df4805813173ae2d769868.xml#id-3d1d6e5209df4805813173ae2d769868"/>
+</archimate:AccessRelationship>

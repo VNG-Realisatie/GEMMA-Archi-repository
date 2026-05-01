@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-e87cd6aded144be7a44f281966cc1038">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.50"/>
+  <properties
+      key="Signalen"
+      value="verwerken, inkomende facturen, producten"/>
+  <properties
+      key="Onderbouwing"
+      value="Crediteurenbeheer verwerkt inkomende facturen voor geleverde producten, waarbij productinformatie wordt geregistreerd als onderdeel van factuurverwerking. De relatie is indirect maar logisch afleidbaar. SECONDARY omdat bestelling meer direct verantwoordelijk is voor het registreren van bestelde producten."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Product (Financien) is een generiek object; de exacte functie die primair verantwoordelijk is voor het beheer ervan in financiële context is niet eenduidig."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-fd61133c-4e55-4bef-8121-30066ce3cdf7.xml#id-fd61133c-4e55-4bef-8121-30066ce3cdf7"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-2808fdb9827f4a7eb076ebebfc4553f6.xml#id-2808fdb9827f4a7eb076ebebfc4553f6"/>
+</archimate:AccessRelationship>

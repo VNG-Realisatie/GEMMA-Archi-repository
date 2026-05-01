@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-0f899c2b361e43ea9ab224b47c1a7813">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.62"/>
+  <properties
+      key="Signalen"
+      value="administreren, vastleggen, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Het registreren van aanwezige deelnemers bij college- en raadsvergaderingen is een typische griffie-administratieve taak. Administratieve ondersteuning biedt ondersteuning bij administratieve taken en legt aanwezigheidsgegevens vast. PRIMARY omdat geen andere functie specifieker de presentielijst/aanwezigheidsregistratie van vergaderdeelnemers beheert."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-590b70e6-93f4-41e8-8b02-e42bf9a17127.xml#id-590b70e6-93f4-41e8-8b02-e42bf9a17127"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-05a2c41bd2464d6587a6047e4f7b5303.xml#id-05a2c41bd2464d6587a6047e4f7b5303"/>
+</archimate:AccessRelationship>

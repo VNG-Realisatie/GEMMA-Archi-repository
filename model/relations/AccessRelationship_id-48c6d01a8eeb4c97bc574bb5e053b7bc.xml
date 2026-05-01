@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-48c6d01a8eeb4c97bc574bb5e053b7bc">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="beheren, vastgoed, locatie"/>
+  <properties
+      key="Onderbouwing"
+      value="Vastgoedbeheer beheert gemeentelijk vastgoed en percelen, waarbij locatieaanduidingen van WOZ-objecten worden bijgehouden als onderdeel van het vastgoeddossier. Locatieaanduidingen zijn kerneigenschappen van vastgoedobjecten in de WOZ-registratie. PRIMARY omdat vastgoedbeheer de meest directe verantwoordelijkheid heeft voor het bijhouden van locatiegegevens van vastgoedobjecten."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-1af6f4aa-d797-44f5-bfb0-e77229141dfa.xml#id-1af6f4aa-d797-44f5-bfb0-e77229141dfa"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-18455b1808674e17a84f5072e725b33d.xml#id-18455b1808674e17a84f5072e725b33d"/>
+</archimate:AccessRelationship>

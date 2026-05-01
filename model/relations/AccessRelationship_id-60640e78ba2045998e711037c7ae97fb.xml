@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-60640e78ba2045998e711037c7ae97fb">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="verwerken beperkingsbesluiten, vastleggen in overkoepelende registratie, WKPB"/>
+  <properties
+      key="Onderbouwing"
+      value="Beperkingenbesluiten beheer verwerkt beperkingsbesluiten op percelen en legt deze vast in de registratie. KadastraleOnroerendeZaak is het object waarop beperkingen worden gelegd. SECONDARY omdat de functie beperkingen registreert op het object maar niet het kadastrale object zelf beheert."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-a4c44a46-6774-4f23-8472-9e491625665a.xml#id-a4c44a46-6774-4f23-8472-9e491625665a"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-13898c7170834e49917d4593061da0f6.xml#id-13898c7170834e49917d4593061da0f6"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-4d5b0a6b853e45799d16f719559bbc7a">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.60"/>
+  <properties
+      key="Signalen"
+      value="beheren, verlenen"/>
+  <properties
+      key="Onderbouwing"
+      value="Vergunningenbeheer Publieksdiensten is verantwoordelijk voor het beheren en verlenen van vergunningen voor diverse lokale activiteiten, waaronder havengebonden vergunningen waarbij vaartuiggegevens worden vastgelegd en beheerd. Als enige functie met expliciete beheertaak over vergunningen in relatie tot objecten als vaartuigen is dit de meest aangewezen PRIMARY. Er is geen specifiekere functie die structureel vaartuiggegevens beheert."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Geen specifieke vaartuigbeheerfunctie aanwezig; de relatie is indirect via vergunningverlening voor havenactiviteiten."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b7e4786e-cff2-40a8-ac4b-6c48a0abfbe0.xml#id-b7e4786e-cff2-40a8-ac4b-6c48a0abfbe0"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-73607a0fb2394aa19e788cfba0c7f259.xml#id-73607a0fb2394aa19e788cfba0c7f259"/>
+</archimate:AccessRelationship>

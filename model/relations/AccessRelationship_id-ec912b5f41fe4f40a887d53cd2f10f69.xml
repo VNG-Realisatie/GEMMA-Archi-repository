@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-ec912b5f41fe4f40a887d53cd2f10f69">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="inrichten, uitvoeren, plannen, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Besturing omvat het inrichten en uitvoeren van besluitvormingsprocessen en -structuren, waaronder het plannen en administreren van vergaderingen. Vergaderingen worden als object gecreëerd en beheerd als onderdeel van de bestuurlijke besluitvormingscyclus. PRIMARY omdat Besturing het meest direct verantwoordelijk is voor de totstandkoming en registratie van vergaderingen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-73ea4c93-80ec-4454-8c21-f9d2a8945829.xml#id-73ea4c93-80ec-4454-8c21-f9d2a8945829"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-ef2b9179e8bd45298ba91c501c018f84.xml#id-ef2b9179e8bd45298ba91c501c018f84"/>
+</archimate:AccessRelationship>

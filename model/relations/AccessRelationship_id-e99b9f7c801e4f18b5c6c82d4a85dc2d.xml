@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-e99b9f7c801e4f18b5c6c82d4a85dc2d">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="verlenen vergunningen, registreren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Horeca vergunningverlening is verantwoordelijk voor het verlenen van vergunningen aan horecaondernemingen waaronder hotels; in dat proces worden gegevens over het hotel (naam, locatie, aard, vergunde activiteiten) aangemaakt en beheerd als onderdeel van de vergunningadministratie. Dit maakt de functie inhoudelijk verantwoordelijk voor de administratieve registratie van het bedrijfsobject Hotel. PRIMARY omdat de vergunningverlening de meest directe aanleiding vormt voor het creëren en muteren van hotelgegevens binnen het economisch domein."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-173177ab-9277-4146-ad60-24159bb6b974.xml#id-173177ab-9277-4146-ad60-24159bb6b974"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-ef68d35e6b504a6492a37bdcc93120b2.xml#id-ef68d35e6b504a6492a37bdcc93120b2"/>
+</archimate:AccessRelationship>

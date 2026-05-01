@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-24f82cd7a426421e8706519515616eca">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="beheren, verlenen"/>
+  <properties
+      key="Onderbouwing"
+      value="Vergunningenbeheer Publieksdiensten beheert vergunningen voor lokale activiteiten en verwerkt daarmee ook VOM-aanvragen. SECONDARY omdat Toestemmingverlening activiteit fysieke leefomgeving de specifiekere en primaire functie is voor VOM."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b7e4786e-cff2-40a8-ac4b-6c48a0abfbe0.xml#id-b7e4786e-cff2-40a8-ac4b-6c48a0abfbe0"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-3d688b90c3324147a987db8e7b2a0cbd.xml#id-3d688b90c3324147a987db8e7b2a0cbd"/>
+</archimate:AccessRelationship>

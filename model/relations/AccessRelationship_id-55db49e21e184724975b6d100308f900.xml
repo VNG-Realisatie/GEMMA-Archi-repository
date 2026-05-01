@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-55db49e21e184724975b6d100308f900">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="exploiteren parkeerplaatsen, registreren parkeeracties, scanauto"/>
+  <properties
+      key="Onderbouwing"
+      value="Een parkeerscan is een waarneming van een parkeeractie door een scanauto, die direct onderdeel is van de parkeerhandhaving en -exploitatie. Exploiteren van parkeerplaatsen omvat het operationeel registreren van parkeeracties via scanauto's. PRIMARY omdat deze functie de enige is met directe operationele verantwoordelijkheid voor het genereren en registreren van parkeerscans."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-a3ec498f-cc6b-4eee-b000-16620e3ba437.xml#id-a3ec498f-cc6b-4eee-b000-16620e3ba437"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-d1c7859314e947e9a93109636f010548.xml#id-d1c7859314e947e9a93109636f010548"/>
+</archimate:AccessRelationship>

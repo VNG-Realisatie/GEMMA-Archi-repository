@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-91c66149dceb433aabaad888b9f8bb94">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.95"/>
+  <properties
+      key="Signalen"
+      value="administreren, gegevens van medewerkers"/>
+  <properties
+      key="Onderbouwing"
+      value="Medewerkeradministratie is expliciet verantwoordelijk voor het administreren van gegevens van medewerkers. Medewerker is het directe object van deze administratie. PRIMARY als de enige functie met expliciete verantwoordelijkheid voor medewerkergegevensbeheer."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-51a9e46b-44da-46ea-8bf5-ded9a19e6717.xml#id-51a9e46b-44da-46ea-8bf5-ded9a19e6717"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-684639d1fa474c16b25dc862f63e357c.xml#id-684639d1fa474c16b25dc862f63e357c"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-ef436dcc62234b7f8787f72f52b3f693">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.62"/>
+  <properties
+      key="Signalen"
+      value="bestellen, goederen, leverancier"/>
+  <properties
+      key="Onderbouwing"
+      value="Bestelling betreft het bestellen van goederen of diensten bij een leverancier, waarbij producten als te leveren items worden gespecificeerd en geregistreerd. Het vastleggen van te bestellen producten is onderdeel van het bestelproces. PRIMARY als meest logische eigenaar van het object Product in financiële context."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Product in financiële context is generiek; meerdere functies kunnen producten registreren."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3c0ab1b3-5beb-4699-a25f-66445d2963c4.xml#id-3c0ab1b3-5beb-4699-a25f-66445d2963c4"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-2808fdb9827f4a7eb076ebebfc4553f6.xml#id-2808fdb9827f4a7eb076ebebfc4553f6"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-de2aa04fe3c645faa8c4a9b432a6e9c7">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.55"/>
+  <properties
+      key="Signalen"
+      value="beheren en verlenen vergunningen, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Vergunningenbeheer Publieksdiensten beheert en verleent vergunningen voor diverse lokale activiteiten, waaronder verkoopactiviteiten; bij vergunningverlening worden gegevens over het vergunde verkooppunt (locatie, type, houder) aangemaakt en bijgehouden. SECONDARY omdat de directe beheerfunctie voor verkooppunten explicieter bij Winkels, markt- en straathandel beheer ligt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b7e4786e-cff2-40a8-ac4b-6c48a0abfbe0.xml#id-b7e4786e-cff2-40a8-ac4b-6c48a0abfbe0"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-4bd05140a4f74503b06be0d1d0be5646.xml#id-4bd05140a4f74503b06be0d1d0be5646"/>
+</archimate:AccessRelationship>

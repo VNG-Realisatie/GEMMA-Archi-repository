@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-67a6390f45984e7d821b8a334a6b401c">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="beheren, verlenen"/>
+  <properties
+      key="Onderbouwing"
+      value="Vergunningenbeheer Publieksdiensten beheert en verleent vergunningen voor lokale activiteiten en kan ook ligplaatsontheffingen administratief beheren. SECONDARY omdat Toestemmingverlening activiteit fysieke leefomgeving de primaire verantwoordelijkheid heeft voor de verlening en registratie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b7e4786e-cff2-40a8-ac4b-6c48a0abfbe0.xml#id-b7e4786e-cff2-40a8-ac4b-6c48a0abfbe0"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-8994225b178d40af90c0f3dd538702f9.xml#id-8994225b178d40af90c0f3dd538702f9"/>
+</archimate:AccessRelationship>

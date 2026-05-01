@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-aeab29ec771441fb9505fb0aa4ee495b">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.45"/>
+  <properties
+      key="Signalen"
+      value="uitvoeren toezicht, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Toezicht voert toezichtstaken uit waarbij video-opnames kunnen worden gemaakt voor bewijs of registratie. PRIMARY als de meest plausibele functie die video-opnames aanmaakt in het kader van toezichtstaken. Relatie is zwak omdat geen functie expliciete video-registratie beschrijft."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Geen functie beschrijft expliciet het maken van video-opnames; Toezicht is de meest logische maar onzekere kandidaat."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-aac7ff27-3c79-4234-bf48-1cc00e450553.xml#id-aac7ff27-3c79-4234-bf48-1cc00e450553"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-0ba38d37b9f344d7b2f17dd4e7e10be4.xml#id-0ba38d37b9f344d7b2f17dd4e7e10be4"/>
+</archimate:AccessRelationship>

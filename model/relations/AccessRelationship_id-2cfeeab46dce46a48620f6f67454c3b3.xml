@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-2cfeeab46dce46a48620f6f67454c3b3">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.92"/>
+  <properties
+      key="Signalen"
+      value="beheren, kabels, leidingen, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Een leidingelement is een object dat bij een leiding behoort. Kabels- en leidingenbeheer beheert expliciet gegevens over kabels en leidingen in de ondergrond conform IMKL. Leidingelementen zijn directe componenten van het leidingennet en vallen volledig binnen de scope van deze beheerfunctie. PRIMARY is evident."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-117db024-9c8d-4ab1-b5ef-cf85b6b2b59c.xml#id-117db024-9c8d-4ab1-b5ef-cf85b6b2b59c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-8f4a65933d004adba58d99db83fd6f69.xml#id-8f4a65933d004adba58d99db83fd6f69"/>
+</archimate:AccessRelationship>

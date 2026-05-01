@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-ee7ec49a289f4ae4befc246efb2b6928">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="beheer bedrijfsgegevens, registreren rechtspersonen"/>
+  <properties
+      key="Onderbouwing"
+      value="NietNatuurlijkPersoon omvat ingeschreven en buitenlandse niet-natuurlijke personen (rechtspersonen). Bedrijfsgegevens beheer registreert bedrijfs- en organisatiegegevens van rechtspersonen. PRIMARY als de meest directe beheerder van organisatiegegevens."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-a9eea8b7-9299-11e5-1099-005056a83192.xml#id-a9eea8b7-9299-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-ebd265354ec1456a8dd6e97cf90d28da.xml#id-ebd265354ec1456a8dd6e97cf90d28da"/>
+</archimate:AccessRelationship>

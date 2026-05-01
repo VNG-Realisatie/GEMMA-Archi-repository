@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-1e554f96de12471596b820a72c787419">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.80"/>
+  <properties
+      key="Signalen"
+      value="verwerven, beheren, contracten vastgoed"/>
+  <properties
+      key="Onderbouwing"
+      value="Vastgoedbeheer beheert gemeentelijk vastgoed en gronden, waarbij pachtrelaties worden geregistreerd en beheerd als onderdeel van het vastgoedportefeuillebeheer. Pachters zijn juridische entiteiten in het vastgoeddossier die door vastgoedbeheer worden bijgehouden. PRIMARY omdat vastgoedbeheer de meest directe verantwoordelijkheid heeft voor het registreren van pachters."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-1af6f4aa-d797-44f5-bfb0-e77229141dfa.xml#id-1af6f4aa-d797-44f5-bfb0-e77229141dfa"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-c7999763b357438881003d5c11a3e9a4.xml#id-c7999763b357438881003d5c11a3e9a4"/>
+</archimate:AccessRelationship>

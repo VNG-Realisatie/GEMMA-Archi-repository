@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-83092575109d48d4af1ae9043d50673c">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.55"/>
+  <properties
+      key="Signalen"
+      value="exploiteren, beheren, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Exploiteren van accommodaties beheert sportaccommodaties (zwembad, sportterreinen) en legt gebruik en bezetting administratief vast, wat indirect schrijfacties op het Sport-object impliceert. SECONDARY omdat de functie breder is dan uitsluitend sport en de directe inhoudelijke verantwoordelijkheid bij Sportstimulering ligt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580.xml#id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-e22c6afc76e940a59c54e23521bd8ded.xml#id-e22c6afc76e940a59c54e23521bd8ded"/>
+</archimate:AccessRelationship>

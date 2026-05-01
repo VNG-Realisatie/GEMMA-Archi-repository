@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-f292bd625c8e4b318b1a69900e916830">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="aanmaken, wijzigen, muteren"/>
+  <properties
+      key="Onderbouwing"
+      value="Het aanmaken en wijzigen van klantafspraken leidt direct tot het creëren en muteren van de Afspraakstatus, aangezien de status onlosmakelijk verbonden is met de levenscyclus van de afspraak (gepland, verschenen, niet verschenen, geannuleerd etc.). PRIMARY op basis van initiële creatie en structurele verantwoordelijkheid voor statusbeheer van afspraken."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-42464b2b-6318-443b-9f4b-bbd863cc5601.xml#id-42464b2b-6318-443b-9f4b-bbd863cc5601"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-bc08b22341f547c4b33a89c5a402caa0.xml#id-bc08b22341f547c4b33a89c5a402caa0"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-2ee672fbff98435db6abbe6bf7707132">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="registreren, beheren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Reserveringen zijn vooraf besproken plaatsen in een museum of accommodatie; het exploiteren van accommodaties omvat het aanmaken en beheren van reserveringen. PRIMARY omdat deze functie de directe operationele verantwoordelijkheid heeft voor het registreren van reserveringen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580.xml#id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-33669701f5a34d00944ebe27e6733002.xml#id-33669701f5a34d00944ebe27e6733002"/>
+</archimate:AccessRelationship>

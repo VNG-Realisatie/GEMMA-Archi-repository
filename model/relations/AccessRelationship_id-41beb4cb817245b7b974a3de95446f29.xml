@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-41beb4cb817245b7b974a3de95446f29">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.82"/>
+  <properties
+      key="Signalen"
+      value="uitwerken, vastleggen, regels, realisatiebeleid"/>
+  <properties
+      key="Onderbouwing"
+      value="Een toepasbare regel is een regelbeheerobject met een koppeling aan samenhangende regels voor het doen van afleidingen (bijv. vergunningplichtigheid). Ontwikkeling realisatiebeleid fysieke leefomgeving werkt uitvoeringskaders uit waarbij toepasbare regels worden gedefinieerd voor de uitvoering van omgevingsprocessen. PRIMARY is gerechtvaardigd."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-5e62786ef1f4433dac9f176bc0e67cbf.xml#id-5e62786ef1f4433dac9f176bc0e67cbf"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-9cae3767e574444c891b678da8a6e7eb.xml#id-9cae3767e574444c891b678da8a6e7eb"/>
+</archimate:AccessRelationship>

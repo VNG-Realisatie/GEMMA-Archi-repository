@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-27d1b8086fea475ba91fc2522d2f1f51">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.75"/>
+  <properties
+      key="Signalen"
+      value="exploiteren, aanmaken, registreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Entreekaarten worden aangemaakt en geregistreerd als onderdeel van de exploitatie van museumaccommodaties. PRIMARY omdat het aanmaken en uitgeven van entreekaarten een kernactiviteit is bij de exploitatie van een museum."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580.xml#id-3d9e85b8-7b5f-41e4-b1ce-08e06ce9e580"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-bfab854112d4421487acf213f16a9957.xml#id-bfab854112d4421487acf213f16a9957"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-0aa5ed1bee8e4a9eac8f8bd2d5b02002">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="subsidiëren, beheren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Subsidieverlening Publieksdiensten subsidieert diverse soorten binnengemeentelijke activiteiten, waarbij rapportagemomenten worden vastgesteld als onderdeel van de subsidieverantwoording. Rapportagemomenten worden in het kader van subsidies gedefinieerd en vastgelegd. PRIMARY als meest logische eigenaar van rapportagemomenten in subsidiecontext."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Rapportagemomenten kunnen ook door subsidieontvangers worden aangeleverd; de vraag is wie ze initieel vastlegt."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-c227565e-0152-4a71-9623-d8e98a8bef0e.xml#id-c227565e-0152-4a71-9623-d8e98a8bef0e"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-243424ef853e490fbf492cb659967a83.xml#id-243424ef853e490fbf492cb659967a83"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-49576c42b226459693b05c13f7409794">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.92"/>
+  <properties
+      key="Signalen"
+      value="beheren balans, kostensoort, grootboek"/>
+  <properties
+      key="Onderbouwing"
+      value="Grootboekbeheer beheert de balans van de organisatie, waarbij hoofdrekeningen (kostensoorten) worden aangemaakt en beheerd als structuurelementen van het grootboek. Hoofdrekeningen zijn de basisindeling van het grootboek die door grootboekbeheer worden vastgesteld. PRIMARY omdat grootboekbeheer de enige functie is met expliciete verantwoordelijkheid voor het beheer van het grootboek en zijn structuurelementen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-4266ce67-6f7b-44d3-a461-1530ee2cdb12.xml#id-4266ce67-6f7b-44d3-a461-1530ee2cdb12"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-3248109be7e14cbd8ca9042d3d7cbc20.xml#id-3248109be7e14cbd8ca9042d3d7cbc20"/>
+</archimate:AccessRelationship>

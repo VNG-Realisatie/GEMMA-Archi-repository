@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-73b36d527e5e49ce88c8a1fc7ad57b73">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="administreren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Medewerkeradministratie administreert gegevens van medewerkers, waarbij disciplinaire maatregelen worden vastgelegd als onderdeel van het personeelsdossier. SECONDARY omdat medewerkerbeoordeling de meer directe verantwoordelijkheid heeft voor het nemen en registreren van maatregelen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Disciplinaire maatregelen kunnen zowel door medewerkeradministratie (vastlegging) als door medewerkerbeoordeling (besluit) worden verwerkt."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-51a9e46b-44da-46ea-8bf5-ded9a19e6717.xml#id-51a9e46b-44da-46ea-8bf5-ded9a19e6717"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-ccc25032650a444891e646060b73d286.xml#id-ccc25032650a444891e646060b73d286"/>
+</archimate:AccessRelationship>

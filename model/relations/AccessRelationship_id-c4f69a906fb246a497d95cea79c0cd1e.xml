@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-c4f69a906fb246a497d95cea79c0cd1e">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.58"/>
+  <properties
+      key="Signalen"
+      value="begeleiding inburgering, registreren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Gezinsmigranten en overige migranten zijn inburgeringsplichtige personen die worden begeleid en geregistreerd. Zelfredzaamheidsontwikkeling is de meest logische beschikbare functie met raakvlakken met inburgeringsbegeleiding. PRIMARY als beste beschikbare optie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Geen specifieke inburgeringsfunctie beschikbaar; relatie is indirect via zelfredzaamheidsbegeleiding."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7be8a2fd-2eda-11e5-1099-005056a83192.xml#id-7be8a2fd-2eda-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-9b6512dd1f9d4080b43df7386ed1e71b.xml#id-9b6512dd1f9d4080b43df7386ed1e71b"/>
+</archimate:AccessRelationship>

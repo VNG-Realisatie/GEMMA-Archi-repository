@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-7c5dc2a0578340f8bbce093d128f3a18">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="beheren, registreren, applicaties"/>
+  <properties
+      key="Onderbouwing"
+      value="Applicatiebeheer voert beheertaken uit m.b.t. bedrijfsapplicaties, waarbij storingen worden geregistreerd, bijgehouden en opgelost als onderdeel van het incident management. Het vastleggen en beheren van storingen is een kernactiviteit van applicatiebeheer. PRIMARY omdat applicatiebeheer de meest directe verantwoordelijkheid heeft voor het registreren en verwerken van applicatiestoringen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-0a5674fa-2a89-4dce-8599-850146a16d2a.xml#id-0a5674fa-2a89-4dce-8599-850146a16d2a"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-8fe07c7bec9d427d96653e89a2f5d918.xml#id-8fe07c7bec9d427d96653e89a2f5d918"/>
+</archimate:AccessRelationship>

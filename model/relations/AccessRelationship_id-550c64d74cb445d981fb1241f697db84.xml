@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-550c64d74cb445d981fb1241f697db84">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.93"/>
+  <properties
+      key="Signalen"
+      value="vaststellen, formatieplaatsen, budgetten"/>
+  <properties
+      key="Onderbouwing"
+      value="Formatieplanning stelt vast welke budgetten en formatieplaatsen beschikbaar zijn voor organisatorische eenheden, wat direct inhoudt dat formatieplaatsen worden aangemaakt en beheerd. Formatieplaatsen zijn de kernentiteiten van de formatieplanningsfunctie. PRIMARY omdat formatieplanning de enige functie is die expliciet verantwoordelijk is voor het vaststellen van formatieplaatsen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-c5386283-a205-4dcc-8fc2-86eacf506f92.xml#id-c5386283-a205-4dcc-8fc2-86eacf506f92"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-00017d398aca4156a661d31bee9a3f97.xml#id-00017d398aca4156a661d31bee9a3f97"/>
+</archimate:AccessRelationship>

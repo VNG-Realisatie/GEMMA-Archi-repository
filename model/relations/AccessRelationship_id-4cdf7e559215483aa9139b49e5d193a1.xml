@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-4cdf7e559215483aa9139b49e5d193a1">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.68"/>
+  <properties
+      key="Signalen"
+      value="beheren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Erfgoed- en monumentenbeheer registreert historische personen als onderdeel van de erfgoeddocumentatie. PRIMARY omdat geen andere functie specifieker verantwoordelijk is voor het registreren van historische personen in de erfgoedcontext."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-f228c9bd-3de0-436b-98a3-d0165932c7a8.xml#id-f228c9bd-3de0-436b-98a3-d0165932c7a8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-89febda784e54e878c216a63957d2b37.xml#id-89febda784e54e878c216a63957d2b37"/>
+</archimate:AccessRelationship>

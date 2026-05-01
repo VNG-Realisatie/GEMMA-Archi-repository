@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-c867955dbafe45c08929e91b44f1c10b">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="aanbesteden, classificeren, EU-regelgeving"/>
+  <properties
+      key="Onderbouwing"
+      value="Aanbesteding omvat het conform wetgeving aanbesteden van opdrachten, waarbij CPV-codes als verplichte EU-classificaties worden toegewezen en vastgelegd bij aanbestedingen. Het registreren van CPV-codes is een verplicht onderdeel van het aanbestedingsproces. PRIMARY omdat aanbesteding de enige functie is die CPV-codes toepast en vastlegt in aanbestedingsprocedures."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-f023811a-174a-46b5-bee8-c1aca37b7dc7.xml#id-f023811a-174a-46b5-bee8-c1aca37b7dc7"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-92ac733d0aa94fe498d57e08720f9a10.xml#id-92ac733d0aa94fe498d57e08720f9a10"/>
+</archimate:AccessRelationship>

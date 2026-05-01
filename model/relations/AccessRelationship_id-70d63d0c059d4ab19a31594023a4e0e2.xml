@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-70d63d0c059d4ab19a31594023a4e0e2">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.40"/>
+  <properties
+      key="Signalen"
+      value="beheren referentiegegevens"/>
+  <properties
+      key="Onderbouwing"
+      value="Provincie is een referentiegegeven. Gegevensmanagement beheert referentiegegevens als onderdeel van gegevensbeheer. PRIMARY bij gebrek aan specifiekere kandidaat, al worden provinciegegevens extern bepaald."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Provinciegegevens worden extern bepaald; geen interne functie heeft expliciete verantwoordelijkheid voor dit referentieobject."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-6f9c9d87-b7cf-4ddb-b8d6-dd94699df24a.xml#id-6f9c9d87-b7cf-4ddb-b8d6-dd94699df24a"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-5656432c8f7a48678e5a7a70a5eb92b8.xml#id-5656432c8f7a48678e5a7a70a5eb92b8"/>
+</archimate:AccessRelationship>

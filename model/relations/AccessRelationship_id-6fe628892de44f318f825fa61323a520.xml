@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-6fe628892de44f318f825fa61323a520">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="registreren oplossing, herfinanciering, betalingsregeling, schuldbemiddeling, saneringskrediet"/>
+  <properties
+      key="Onderbouwing"
+      value="De Oplossing is het centrale uitvoeringsresultaat van schuldhulpverlening met submodules voor herfinanciering, betalingsregeling, saneringskrediet en schuldbemiddeling. Schuldhulpverlening is direct verantwoordelijk voor het aanmaken en beheren van oplossingsplannen. PRIMARY op basis van directe initiële creatie en inhoudelijke eindverantwoordelijkheid."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3850d427-6dce-11e5-1099-005056a83192.xml#id-3850d427-6dce-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-604a0c99e53a4c799646b9c17df64d1b.xml#id-604a0c99e53a4c799646b9c17df64d1b"/>
+</archimate:AccessRelationship>

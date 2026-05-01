@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-a8b1b5f2e2bf45799d83e5f73dd3c701">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.58"/>
+  <properties
+      key="Signalen"
+      value="registreren, vastleggen archeologische objecten"/>
+  <properties
+      key="Onderbouwing"
+      value="Archeologische objectenbeheer registreert archeologische onderzoeken en legt objecten vast. Foto's worden gebruikt om archeologische vondsten te documenteren. PRIMARY als meest specifieke functie die foto's vastlegt als onderdeel van objectregistratie. Twijfel over of dit de meest representatieve functie is."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-bfcd3053-b303-499c-87a1-c5a67583b274.xml#id-bfcd3053-b303-499c-87a1-c5a67583b274"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-fe76805c83c2422ba3e676f9f4bcf786.xml#id-fe76805c83c2422ba3e676f9f4bcf786"/>
+</archimate:AccessRelationship>

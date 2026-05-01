@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-ac6f4c46eaca4e0287556b2aa00621a6">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.85"/>
+  <properties
+      key="Signalen"
+      value="aanbesteden, uitnodigen, offerte indienen"/>
+  <properties
+      key="Onderbouwing"
+      value="Aanbesteding omvat het aanbesteden van opdrachten waarbij bedrijven een offerte kunnen indienen, wat het opstellen en verzenden van uitnodigingen aan potentiële leveranciers omvat. Uitnodigingen zijn directe documenten in het aanbestedingsproces. PRIMARY omdat aanbesteding de functie is die uitnodigingen voor aanbestedingen aanmaakt en verstuurt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-f023811a-174a-46b5-bee8-c1aca37b7dc7.xml#id-f023811a-174a-46b5-bee8-c1aca37b7dc7"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-2fde380801744da68f3e0689587fd1f4.xml#id-2fde380801744da68f3e0689587fd1f4"/>
+</archimate:AccessRelationship>

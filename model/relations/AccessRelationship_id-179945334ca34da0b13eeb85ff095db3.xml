@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-179945334ca34da0b13eeb85ff095db3">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="verwerven, inrichten, beheren gebouwen en terreinen"/>
+  <properties
+      key="Onderbouwing"
+      value="BenoemdObject omvat gebouwde objecten en benoemde terreinen. Vastgoedbeheer beheert gebouwen en vergelijkbare objecten. PRIMARY als de meest relevante beheerder van benoemde objecten in de vastgoedcontext."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-1af6f4aa-d797-44f5-bfb0-e77229141dfa.xml#id-1af6f4aa-d797-44f5-bfb0-e77229141dfa"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-e6f7f63e80f14c2194fefe8f3795e656.xml#id-e6f7f63e80f14c2194fefe8f3795e656"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-95a8038959fd4367bcee15c4479a3ec8">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="beheren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Historische rollen zijn rollen waarvan informatie beschikbaar is uit het verleden en worden gedocumenteerd als onderdeel van de erfgoedregistratie; Erfgoed- en monumentenbeheer legt deze vast. PRIMARY omdat geen andere functie specifieker verantwoordelijk is voor dit object."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-f228c9bd-3de0-436b-98a3-d0165932c7a8.xml#id-f228c9bd-3de0-436b-98a3-d0165932c7a8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-a3046dd30c744e18abb6e242e95ab60f.xml#id-a3046dd30c744e18abb6e242e95ab60f"/>
+</archimate:AccessRelationship>

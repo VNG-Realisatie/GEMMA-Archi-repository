@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-c908b283379249ab9682beb13b84fe25">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.93"/>
+  <properties
+      key="Signalen"
+      value="registreren, opstellen plan van aanpak, minnelijke regeling"/>
+  <properties
+      key="Onderbouwing"
+      value="Het Plan van Aanpak is een kernproduct van schuldhulpverlening dat de hulpvraag, voorgestelde ondersteuning en voorwaarden beschrijft. Schuldhulpverlening is direct verantwoordelijk voor het opstellen en beheren van het plan van aanpak. PRIMARY op basis van directe initiële creatie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-3850d427-6dce-11e5-1099-005056a83192.xml#id-3850d427-6dce-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-66e5cd17507d45c58ef0c0d68a01ca91.xml#id-66e5cd17507d45c58ef0c0d68a01ca91"/>
+</archimate:AccessRelationship>

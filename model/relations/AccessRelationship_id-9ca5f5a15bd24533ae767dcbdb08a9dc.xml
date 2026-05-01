@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-9ca5f5a15bd24533ae767dcbdb08a9dc">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.72"/>
+  <properties
+      key="Signalen"
+      value="invorderen, registreren terugvordering"/>
+  <properties
+      key="Onderbouwing"
+      value="Invordering uitkering verwerkt gegevens over teveel uitbetaalde uitkeringen, wat mutaties op uitkeringsgegevens impliceert. SECONDARY omdat besluitvorming levensonderhoud de primaire verantwoordelijkheid heeft voor het vaststellen van uitkeringen."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-920b527e-5d3a-11e5-1099-005056a83192.xml#id-920b527e-5d3a-11e5-1099-005056a83192"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-f6b960de22884aeab7f2fafe9eb60f8c.xml#id-f6b960de22884aeab7f2fafe9eb60f8c"/>
+</archimate:AccessRelationship>

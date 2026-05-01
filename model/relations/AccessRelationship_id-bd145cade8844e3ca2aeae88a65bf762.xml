@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-bd145cade8844e3ca2aeae88a65bf762">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.78"/>
+  <properties
+      key="Signalen"
+      value="exploiteren, beheren parkeerplaatsen, parkeergarages"/>
+  <properties
+      key="Onderbouwing"
+      value="Exploiteren van parkeerplaatsen is direct verantwoordelijk voor het registreren en beheren van parkeervlakken, parkeergarages en tijdelijke parkeervoorzieningen. Een parkeervlak is een kernobject in de exploitatie van parkeerinfrastructuur. PRIMARY op basis van structureel beheer en inhoudelijke eindverantwoordelijkheid voor parkeerinfrastructurobjecten."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-a3ec498f-cc6b-4eee-b000-16620e3ba437.xml#id-a3ec498f-cc6b-4eee-b000-16620e3ba437"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-af8dbdbdae3743788e83aa162e43f0ab.xml#id-af8dbdbdae3743788e83aa162e43f0ab"/>
+</archimate:AccessRelationship>

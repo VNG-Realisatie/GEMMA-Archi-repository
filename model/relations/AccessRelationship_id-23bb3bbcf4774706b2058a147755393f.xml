@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-23bb3bbcf4774706b2058a147755393f">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.50"/>
+  <properties
+      key="Signalen"
+      value="beheren, administreren"/>
+  <properties
+      key="Onderbouwing"
+      value="Grootboekbeheer administreert de bezittingen en financiële processen van de organisatie, waarbij werkorders als financiële opdrachten worden verwerkt en geregistreerd. De relatie is indirect maar logisch afleidbaar. SECONDARY omdat werkorders primair worden aangemaakt door de functie die de activiteit opdraagt."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Werkorders worden door meerdere functies aangemaakt; de financiële verwerking ervan is een secundaire activiteit."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-4266ce67-6f7b-44d3-a461-1530ee2cdb12.xml#id-4266ce67-6f7b-44d3-a461-1530ee2cdb12"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-b19cbd61d2d14b9799f84e79075ad12c.xml#id-b19cbd61d2d14b9799f84e79075ad12c"/>
+</archimate:AccessRelationship>

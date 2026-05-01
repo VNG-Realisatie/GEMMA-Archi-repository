@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-01f5056da6ef42babe52070c6c9f7c6d">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.87"/>
+  <properties
+      key="Signalen"
+      value="registreren, verwerken, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Ziekmeldingen voor leerlingenvervoer worden ontvangen en verwerkt als onderdeel van de uitvoering van het leerlingenvervoer. PRIMARY omdat de functie Leerlingenvervoer de enige aangewezen functie is voor het registreren en verwerken van ziekmeldingen die betrekking hebben op dit specifieke domein."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-ab46e404-9e45-11e5-11ba-005056a85f9c.xml#id-ab46e404-9e45-11e5-11ba-005056a85f9c"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-164cc1fbe6e846f98cb6ff70e5923b5e.xml#id-164cc1fbe6e846f98cb6ff70e5923b5e"/>
+</archimate:AccessRelationship>

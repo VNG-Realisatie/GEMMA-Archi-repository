@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-635b75086eae42f7b2c3f04f987d1fb9">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.90"/>
+  <properties
+      key="Signalen"
+      value="beheren, IT-infrastructuur"/>
+  <properties
+      key="Onderbouwing"
+      value="Systeembeheer voert beheertaken uit m.b.t. IT-infrastructuur, systeemprogrammatuur en applicaties, waarbij netwerkcomponenten worden geconfigureerd, geregistreerd en beheerd. Netwerkcomponenten zijn infrastructuuronderdelen die direct onder systeembeheer vallen. PRIMARY omdat systeembeheer de enige functie is die verantwoordelijk is voor het beheer van IT-infrastructuurcomponenten zoals netwerkcomponenten."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-b3b4cc7f-ec2d-4cf0-8389-cc4ce7cbce34.xml#id-b3b4cc7f-ec2d-4cf0-8389-cc4ce7cbce34"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-62c9a0e2d75743acb6627b5a9200e4ef.xml#id-62c9a0e2d75743acb6627b5a9200e4ef"/>
+</archimate:AccessRelationship>

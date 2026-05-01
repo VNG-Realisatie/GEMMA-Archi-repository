@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-3c007e8bc9a64262a076d7bb33e92a0e">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.55"/>
+  <properties
+      key="Signalen"
+      value="registreren, hoeveelheid en doel tijd"/>
+  <properties
+      key="Onderbouwing"
+      value="Tijdregistratie registreert de hoeveelheid en het doel waar tijd aan is besteed, wat direct betrekking heeft op tijdsperioden. SECONDARY omdat Ziekte- en verlofadministratie als PRIMARY is aangemerkt; Tijdregistratie legt werkperioden vast maar beheert Periode als object minder structureel."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-55d4bd65-900c-4790-acd2-5cd3da36e8e6.xml#id-55d4bd65-900c-4790-acd2-5cd3da36e8e6"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-b40b567a0b2b42fc9a12177e11128dcd.xml#id-b40b567a0b2b42fc9a12177e11128dcd"/>
+</archimate:AccessRelationship>

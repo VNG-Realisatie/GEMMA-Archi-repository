@@ -1,0 +1,30 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-1317ba8a3281458ab37b64f86dcd6a86">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.40"/>
+  <properties
+      key="Signalen"
+      value="vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="Toestemmingverlening past heffingsverordeningen toe maar is niet verantwoordelijk voor het opstellen of wijzigen ervan. De relatie is zwak en indirect. SECONDARY als enige aanvullende kandidaat naast de primaire beheerder."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="ja"/>
+  <properties
+      key="Twijfelbron"
+      value="Heffingsverordeningen worden vastgesteld door bestuur/raad en beheerd door een beleidsfunctie, niet door een uitvoerende vergunningfunctie."/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-7a1e5935-026e-41ef-be95-d02f2a2a3937.xml#id-7a1e5935-026e-41ef-be95-d02f2a2a3937"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-b5f50c54f1cf45b8b7b61a5929035919.xml#id-b5f50c54f1cf45b8b7b61a5929035919"/>
+</archimate:AccessRelationship>

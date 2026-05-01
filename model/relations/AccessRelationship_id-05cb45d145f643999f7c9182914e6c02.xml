@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-05cb45d145f643999f7c9182914e6c02">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.93"/>
+  <properties
+      key="Signalen"
+      value="financieel administreren, bezittingen, organisatie"/>
+  <properties
+      key="Onderbouwing"
+      value="Activabeheer omvat het financieel administreren van de bezittingen van de organisatie, wat direct het registreren en bijhouden van activa als bezittingen op de boekhoudkundige balans omvat. Activa zijn de kernentiteiten van activabeheer. PRIMARY omdat activabeheer de enige functie is die expliciet verantwoordelijk is voor het financieel administreren van activa."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-e6c81951-4f98-44f2-9d11-3690ca76deb3.xml#id-e6c81951-4f98-44f2-9d11-3690ca76deb3"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-3861e3def6e946a59ef7c258310b5b4f.xml#id-3861e3def6e946a59ef7c258310b5b4f"/>
+</archimate:AccessRelationship>

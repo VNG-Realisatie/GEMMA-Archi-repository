@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-ddf0d852bb23433c85212ec24238f4ed">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.92"/>
+  <properties
+      key="Signalen"
+      value="bepalen zelfredzaamheid, vastleggen, toekennen waarden"/>
+  <properties
+      key="Onderbouwing"
+      value="Zelfredzaamheidbepaling heeft als expliciete taak het bepalen van de mate van zelfredzaamheid van een klant. De zelfredzaamheidmatrix is het instrument waarbij aan elf levensdomeinen zelfredzaamheidswaarden worden toegekend. Zelfredzaamheidbepaling is direct verantwoordelijk voor het invullen en beheren van de zelfredzaamheidmatrix. PRIMARY op basis van directe initiële creatie."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-f0b9f592-cd0a-4687-b84f-6187617aa841.xml#id-f0b9f592-cd0a-4687-b84f-6187617aa841"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-294a0b0241324962965b85a768741a7b.xml#id-294a0b0241324962965b85a768741a7b"/>
+</archimate:AccessRelationship>

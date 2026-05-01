@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (primair)"
+    id="id-36d770e64782483eb1a78935dbbfa817">
+  <properties
+      key="Rol"
+      value="PRIMARY"/>
+  <properties
+      key="Confidence"
+      value="0.78"/>
+  <properties
+      key="Signalen"
+      value="registreren, vastleggen"/>
+  <properties
+      key="Onderbouwing"
+      value="In de archeologische context is een locatie de specifieke vindplaats van onderzoek; Archeologische objectenbeheer registreert locaties als onderdeel van de documentatie van onderzoeken en vondsten. PRIMARY omdat de functie de directe registratieverantwoordelijkheid draagt voor archeologische locaties."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-bfcd3053-b303-499c-87a1-c5a67583b274.xml#id-bfcd3053-b303-499c-87a1-c5a67583b274"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-ca8dca9d4b3843e79ff232dec7b4c005.xml#id-ca8dca9d4b3843e79ff232dec7b4c005"/>
+</archimate:AccessRelationship>

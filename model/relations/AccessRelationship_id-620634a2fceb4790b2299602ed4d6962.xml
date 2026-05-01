@@ -1,0 +1,27 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="beheerd (secundair)"
+    id="id-620634a2fceb4790b2299602ed4d6962">
+  <properties
+      key="Rol"
+      value="SECONDARY"/>
+  <properties
+      key="Confidence"
+      value="0.65"/>
+  <properties
+      key="Signalen"
+      value="ondersteunen, administreren, vastleggen, beheren"/>
+  <properties
+      key="Onderbouwing"
+      value="Administratieve ondersteuning draagt bij aan het registreren en beheren van agendapunten voor vergaderingen. In griffie-context is agendabeheer een typische administratieve ondersteuningstask. SECONDARY omdat Besturing de inhoudelijke eindverantwoordelijkheid heeft."/>
+  <properties
+      key="LOW_CONFIDENCE"
+      value="nee"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-590b70e6-93f4-41e8-8b02-e42bf9a17127.xml#id-590b70e6-93f4-41e8-8b02-e42bf9a17127"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-0809845f04624451b22e650703828145.xml#id-0809845f04624451b22e650703828145"/>
+</archimate:AccessRelationship>
