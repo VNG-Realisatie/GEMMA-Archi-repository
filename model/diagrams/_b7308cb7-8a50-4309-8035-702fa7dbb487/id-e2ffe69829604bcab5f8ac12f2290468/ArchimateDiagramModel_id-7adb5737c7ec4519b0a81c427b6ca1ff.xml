@@ -64,10 +64,10 @@
           href="AggregationRelationship_id-20a03380ece24cd29c4787e7b639fd03.xml#id-20a03380ece24cd29c4787e7b639fd03"/>
     </sourceConnections>
     <bounds
-        x="1198"
-        y="1150"
+        x="1100"
+        y="1120"
         width="500"
-        height="770"/>
+        height="860"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-2beb751ca17145ef8196a127938010ec"
@@ -78,8 +78,8 @@
         textAlignment="1"
         type="1">
       <bounds
-          x="90"
-          y="620"
+          x="50"
+          y="370"
           width="400"
           height="100"/>
       <archimateElement
@@ -96,8 +96,8 @@
         textAlignment="1"
         type="1">
       <bounds
-          x="90"
-          y="290"
+          x="50"
+          y="490"
           width="400"
           height="100"/>
       <archimateElement
@@ -114,8 +114,8 @@
         textAlignment="1"
         type="1">
       <bounds
-          x="90"
-          y="510"
+          x="50"
+          y="710"
           width="400"
           height="100"/>
       <archimateElement
@@ -132,8 +132,8 @@
         textAlignment="1"
         type="1">
       <bounds
-          x="90"
-          y="180"
+          x="50"
+          y="230"
           width="400"
           height="100"/>
       <archimateElement
@@ -150,8 +150,8 @@
         textAlignment="1"
         type="1">
       <bounds
-          x="90"
-          y="400"
+          x="50"
+          y="600"
           width="400"
           height="100"/>
       <archimateElement
@@ -168,8 +168,8 @@
         textAlignment="1"
         type="1">
       <bounds
-          x="90"
-          y="70"
+          x="50"
+          y="120"
           width="400"
           height="100"/>
       <archimateElement
@@ -179,55 +179,6 @@
     <archimateElement
         xsi:type="archimate:Grouping"
         href="Grouping_id-c1b9e7ce-e544-4b26-8816-cac3e6973cf7.xml#id-c1b9e7ce-e544-4b26-8816-cac3e6973cf7"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-3e771bb0500d4ef0a87d36e90f3df40d"
-      textAlignment="1">
-    <features
-        name="labelExpression"
-        value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-5da536bb9c2c4e2cb4b6a4a6cc133878"
-        source="id-3e771bb0500d4ef0a87d36e90f3df40d"
-        target="id-4593126e98f64afeaf65931160357690">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-6eb13fc2d2c24bd2bd62942355348deb.xml#id-6eb13fc2d2c24bd2bd62942355348deb"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-b2bdfa50f08746448b9b0329d1086d0a"
-        source="id-3e771bb0500d4ef0a87d36e90f3df40d"
-        target="id-defc7bdbcd7247209916e3599191270a">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-fba269272193489bb1991981464d50ea.xml#id-fba269272193489bb1991981464d50ea"/>
-    </sourceConnections>
-    <bounds
-        x="100"
-        y="1230"
-        width="631"
-        height="170"/>
-    <children
-        xsi:type="archimate:DiagramModelReference"
-        id="id-b5120b76cfc945a995b6b844cd3a23b3">
-      <features
-          name="labelExpression"
-          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-      <bounds
-          x="300"
-          y="40"
-          width="200"
-          height="111"/>
-      <referencedModel
-          xsi:type="archimate:ArchimateDiagramModel"
-          href="ArchimateDiagramModel_id-56a7581f8584418886517ed48d955ff4.xml#id-56a7581f8584418886517ed48d955ff4"/>
-    </children>
-    <archimateElement
-        xsi:type="archimate:Grouping"
-        href="Grouping_id-20f6e282033a4ff68251798cd65012f8.xml#id-20f6e282033a4ff68251798cd65012f8"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -255,10 +206,28 @@
           href="AggregationRelationship_id-d5ebe0d888444d0283aed6fcc5655a32.xml#id-d5ebe0d888444d0283aed6fcc5655a32"/>
     </sourceConnections>
     <bounds
-        x="1298"
-        y="2310"
-        width="400"
-        height="140"/>
+        x="1100"
+        y="2080"
+        width="500"
+        height="180"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-1bc1084e4a5740bd83160adf63b64a53"
+        targetConnections="id-47e23d20f5d3474aa2cb9c6f39659586"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+        fontColor="#000000"
+        lineColor="#000000"
+        textAlignment="1"
+        fillColor="#f6f6f6">
+      <bounds
+          x="60"
+          y="40"
+          width="400"
+          height="100"/>
+      <archimateElement
+          xsi:type="archimate:Grouping"
+          href="Grouping_id-0df0d0d473e7465ebd030087278fd241.xml#id-0df0d0d473e7465ebd030087278fd241"/>
+    </children>
     <archimateElement
         xsi:type="archimate:Grouping"
         href="Grouping_id-d8a772549b13409695368e1e309f158b.xml#id-d8a772549b13409695368e1e309f158b"/>
@@ -272,7 +241,7 @@
       lineColor="#000000"
       fillColor="#fff29b">
     <bounds
-        x="1317"
+        x="1100"
         y="2517"
         width="130"
         height="60"/>
@@ -289,7 +258,7 @@
       lineColor="#000000"
       fillColor="#fff29b">
     <bounds
-        x="1317"
+        x="1100"
         y="2610"
         width="130"
         height="60"/>
@@ -306,7 +275,7 @@
       lineColor="#000000"
       fillColor="#fff29b">
     <bounds
-        x="1317"
+        x="1100"
         y="2704"
         width="130"
         height="60"/>
@@ -323,7 +292,7 @@
       lineColor="#000000"
       fillColor="#fff29b">
     <bounds
-        x="1317"
+        x="1100"
         y="2797"
         width="130"
         height="60"/>
@@ -340,7 +309,7 @@
       lineColor="#000000"
       fillColor="#fff29b">
     <bounds
-        x="1317"
+        x="1100"
         y="2890"
         width="130"
         height="60"/>
@@ -357,7 +326,7 @@
       lineColor="#000000"
       fillColor="#fff29b">
     <bounds
-        x="1317"
+        x="1100"
         y="2988"
         width="130"
         height="60"/>
@@ -374,853 +343,13 @@
       lineColor="#000000"
       fillColor="#fff29b">
     <bounds
-        x="1317"
+        x="1100"
         y="3090"
         width="130"
         height="60"/>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-b276b675-727f-4ce1-bdb2-060ba77abdad.xml#id-b276b675-727f-4ce1-bdb2-060ba77abdad"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-465a4ea2ca844c888e9407944a90d352"
-      textAlignment="1">
-    <features
-        name="labelExpression"
-        value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-1c7168404d0240d4a3773aa3bb2390cd"
-        source="id-465a4ea2ca844c888e9407944a90d352"
-        target="id-51ec0de7cbf140f1bd822c253f8f775e">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-695bcd0d69bf47688a542d89c8f6e63b.xml#id-695bcd0d69bf47688a542d89c8f6e63b"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-e074efcf16fa40199be402e9c6a42e65"
-        source="id-465a4ea2ca844c888e9407944a90d352"
-        target="id-fb36c342e11647bbb2e2f70103e9350d">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-b1e06e2a90134cf5be058dc8ae6c2e37.xml#id-b1e06e2a90134cf5be058dc8ae6c2e37"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-4d6a0c9ca8db4b39b231750b9f6f045a"
-        source="id-465a4ea2ca844c888e9407944a90d352"
-        target="id-ded4494bbdb7414eb22025a6e5b86cf2">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-759a098275b34ab689c0cd0ec4d049dc.xml#id-759a098275b34ab689c0cd0ec4d049dc"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-5d107eda4e0840a6b597be3bedf333d9"
-        source="id-465a4ea2ca844c888e9407944a90d352"
-        target="id-c3ba986fb02a440e886035d3aefecea2">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-b1af4d85b8664b55a2a79d88e0d98512.xml#id-b1af4d85b8664b55a2a79d88e0d98512"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-dd81fd8405cb4e7bb64bb270418c87dd"
-        source="id-465a4ea2ca844c888e9407944a90d352"
-        target="id-74ad8e51e32a4f1db0af77d76a0f29de">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-9fad7097bb1946bcaa6a5fab8534f9e8.xml#id-9fad7097bb1946bcaa6a5fab8534f9e8"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-43a221f230f14e8a9714a95a89efb961"
-        source="id-465a4ea2ca844c888e9407944a90d352"
-        target="id-160eb9ae891f49d6b18ebccb0a1f5683">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-f8c1b8da6f304ea59fa0afe472d6491c.xml#id-f8c1b8da6f304ea59fa0afe472d6491c"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-0ab1f87e4a2543a59290411aaa7e9616"
-        source="id-465a4ea2ca844c888e9407944a90d352"
-        target="id-1b792c4411e04703843813dce9f0462a">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-4fd03770440d4432a153e94e16f67465.xml#id-4fd03770440d4432a153e94e16f67465"/>
-    </sourceConnections>
-    <bounds
-        x="90"
-        y="2980"
-        width="490"
-        height="1250"/>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-51ec0de7cbf140f1bd822c253f8f775e"
-        targetConnections="id-1c7168404d0240d4a3773aa3bb2390cd"
-        textAlignment="1">
-      <features
-          name="labelExpression"
-          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-7c4495927ceb40b2840b033c0e0775ea"
-          source="id-51ec0de7cbf140f1bd822c253f8f775e"
-          target="id-55cd19aaaa0042e5a217e794395c9707">
-        <archimateRelationship
-            xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_id-7b2593d54d4e41428027060e3347b900.xml#id-7b2593d54d4e41428027060e3347b900"/>
-      </sourceConnections>
-      <bounds
-          x="40"
-          y="382"
-          width="400"
-          height="120"/>
-      <archimateElement
-          xsi:type="archimate:Grouping"
-          href="Grouping_id-777dcf19c2a94229b49a63719122de4c.xml#id-777dcf19c2a94229b49a63719122de4c"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-fb36c342e11647bbb2e2f70103e9350d"
-        targetConnections="id-e074efcf16fa40199be402e9c6a42e65"
-        textAlignment="1">
-      <features
-          name="labelExpression"
-          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-cd1a6655ed3a425394c65f212bdd0a8b"
-          source="id-fb36c342e11647bbb2e2f70103e9350d"
-          target="id-1e177e3c1c324eb48e8159c4f710a47d">
-        <archimateRelationship
-            xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_id-1bf1292b035041aead0447febba03ea2.xml#id-1bf1292b035041aead0447febba03ea2"/>
-      </sourceConnections>
-      <bounds
-          x="40"
-          y="238"
-          width="400"
-          height="120"/>
-      <archimateElement
-          xsi:type="archimate:Grouping"
-          href="Grouping_id-f8651b71187641f5b8ca5953e4f6a770.xml#id-f8651b71187641f5b8ca5953e4f6a770"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-ded4494bbdb7414eb22025a6e5b86cf2"
-        targetConnections="id-4d6a0c9ca8db4b39b231750b9f6f045a"
-        textAlignment="1">
-      <features
-          name="labelExpression"
-          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-077dff90ae6f44879074f4d0b9fe073b"
-          source="id-ded4494bbdb7414eb22025a6e5b86cf2"
-          target="id-e4e2ff203c314c7ab2f10fea2772f5d6">
-        <archimateRelationship
-            xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_id-ee18ef1d8b3f4501ae0581756abb101f.xml#id-ee18ef1d8b3f4501ae0581756abb101f"/>
-      </sourceConnections>
-      <bounds
-          x="40"
-          y="510"
-          width="400"
-          height="120"/>
-      <archimateElement
-          xsi:type="archimate:Grouping"
-          href="Grouping_id-6729ece297404a30b419cb9b7518a450.xml#id-6729ece297404a30b419cb9b7518a450"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-c3ba986fb02a440e886035d3aefecea2"
-        targetConnections="id-5d107eda4e0840a6b597be3bedf333d9"
-        textAlignment="1">
-      <features
-          name="labelExpression"
-          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-7519162d41c84bc899db325a13ed7b59"
-          source="id-c3ba986fb02a440e886035d3aefecea2"
-          target="id-920c4a417c7849cf997098db31f979ad">
-        <archimateRelationship
-            xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_id-78cf604eb9594edf85d82bcbae2b9ae2.xml#id-78cf604eb9594edf85d82bcbae2b9ae2"/>
-      </sourceConnections>
-      <bounds
-          x="48"
-          y="958"
-          width="400"
-          height="120"/>
-      <archimateElement
-          xsi:type="archimate:Grouping"
-          href="Grouping_id-b33238bc05a6497d9d3cf1481d4b5285.xml#id-b33238bc05a6497d9d3cf1481d4b5285"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-74ad8e51e32a4f1db0af77d76a0f29de"
-        targetConnections="id-dd81fd8405cb4e7bb64bb270418c87dd"
-        textAlignment="1">
-      <features
-          name="labelExpression"
-          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-98a924f38a2b4cbba3b0de21bc60b370"
-          source="id-74ad8e51e32a4f1db0af77d76a0f29de"
-          target="id-6601a725daf445d289cbf44a517293f3">
-        <archimateRelationship
-            xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_id-d2440aabcbad48ffb091030ee4966c8c.xml#id-d2440aabcbad48ffb091030ee4966c8c"/>
-      </sourceConnections>
-      <bounds
-          x="40"
-          y="660"
-          width="400"
-          height="120"/>
-      <archimateElement
-          xsi:type="archimate:Grouping"
-          href="Grouping_id-a73461ce73fc4862825e8c50b6e0658a.xml#id-a73461ce73fc4862825e8c50b6e0658a"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-160eb9ae891f49d6b18ebccb0a1f5683"
-        targetConnections="id-43a221f230f14e8a9714a95a89efb961"
-        textAlignment="1">
-      <features
-          name="labelExpression"
-          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-dae322c0d2b34b2ab0d8ed509f1829fd"
-          source="id-160eb9ae891f49d6b18ebccb0a1f5683"
-          target="id-8df4ae8b877f466ebadf4314675050a6">
-        <archimateRelationship
-            xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_id-5dffd98c300d4c34bd8be7ed9c27eabc.xml#id-5dffd98c300d4c34bd8be7ed9c27eabc"/>
-      </sourceConnections>
-      <bounds
-          x="48"
-          y="798"
-          width="400"
-          height="120"/>
-      <archimateElement
-          xsi:type="archimate:Grouping"
-          href="Grouping_id-1071807470c549e99d3811f9faf1b653.xml#id-1071807470c549e99d3811f9faf1b653"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-1b792c4411e04703843813dce9f0462a"
-        targetConnections="id-0ab1f87e4a2543a59290411aaa7e9616"
-        textAlignment="1">
-      <features
-          name="labelExpression"
-          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-71950ab9382f412282796772974a6428"
-          source="id-1b792c4411e04703843813dce9f0462a"
-          target="id-8be1ceda0e8c40fa96ccfa54324084c6">
-        <archimateRelationship
-            xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_id-29a9a3d4fccd455c9302d5abb848b5e5.xml#id-29a9a3d4fccd455c9302d5abb848b5e5"/>
-      </sourceConnections>
-      <bounds
-          x="40"
-          y="1110"
-          width="400"
-          height="120"/>
-      <archimateElement
-          xsi:type="archimate:Grouping"
-          href="Grouping_id-0c59e57c77174aef919b6e57853c2df4.xml#id-0c59e57c77174aef919b6e57853c2df4"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelReference"
-        id="id-00c927647c09458ea3f0a3dd1adc0b7b">
-      <features
-          name="labelExpression"
-          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-      <bounds
-          x="48"
-          y="120"
-          width="344"
-          height="55"/>
-      <referencedModel
-          xsi:type="archimate:ArchimateDiagramModel"
-          href="ArchimateDiagramModel_id-123355daaee4455fbdbffefe921aa087.xml#id-123355daaee4455fbdbffefe921aa087"/>
-    </children>
-    <archimateElement
-        xsi:type="archimate:Grouping"
-        href="Grouping_id-7b126495f32640dd970dbfc8a7c6cfc8.xml#id-7b126495f32640dd970dbfc8a7c6cfc8"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-837604cdb21d40d4a4c21dd334b38c17"
-      textAlignment="1">
-    <features
-        name="labelExpression"
-        value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-ac3d36687d8b49c2b8d36e9031559c8a"
-        source="id-837604cdb21d40d4a4c21dd334b38c17"
-        target="id-4f7f6c18438a4746bbd130acdc8b37cc">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-4e4ef70a91ee445381cd73c3b6462ed3.xml#id-4e4ef70a91ee445381cd73c3b6462ed3"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-bd8bc4d3950448e7b7817cea2a9a8e9d"
-        source="id-837604cdb21d40d4a4c21dd334b38c17"
-        target="id-6594f53d0cb645ee8b6bb002f7b8739d">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-e69ad18eae4a4fad8ecce48a8b290072.xml#id-e69ad18eae4a4fad8ecce48a8b290072"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-2c56dbeba0d54763b7e47ce0b94a47db"
-        source="id-837604cdb21d40d4a4c21dd334b38c17"
-        target="id-970901948d9f4d9d95311724538eaa9e">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-9c4abc1971ac4e1e908bde6fdfab1c28.xml#id-9c4abc1971ac4e1e908bde6fdfab1c28"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-b2c8db7326134ea8acfc9df06d095288"
-        source="id-837604cdb21d40d4a4c21dd334b38c17"
-        target="id-9a17dca689ad40eba200a64d6e958ea5">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-f6d5a833962247d9a9a5f6efac2ba730.xml#id-f6d5a833962247d9a9a5f6efac2ba730"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-f2823a071e8b4f01ab6ffa785542e605"
-        source="id-837604cdb21d40d4a4c21dd334b38c17"
-        target="id-7a607d6d07494ca59558f21fec3cf6eb">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-d5fa8cf22f944457b8d30c82927ddb8b.xml#id-d5fa8cf22f944457b8d30c82927ddb8b"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-e38380590b6948df8fec645d955f08f1"
-        source="id-837604cdb21d40d4a4c21dd334b38c17"
-        target="id-610e30330d3c47c3aaa976b6ef164866">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-4f073f1172e74862a39c194b6d920b7a.xml#id-4f073f1172e74862a39c194b6d920b7a"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-6869b08f88ec441f9eb47eb5ed797da5"
-        source="id-837604cdb21d40d4a4c21dd334b38c17"
-        target="id-3aa9bad669f243c6aaff3fdf68b7a9c0">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-77efc7c093fe491188d590f04f2ab550.xml#id-77efc7c093fe491188d590f04f2ab550"/>
-    </sourceConnections>
-    <bounds
-        x="90"
-        y="2770"
-        width="389"
-        height="179"/>
-    <children
-        xsi:type="archimate:DiagramModelReference"
-        id="id-42dd65bca60f4fe488793952b14b8b77">
-      <bounds
-          x="50"
-          y="110"
-          width="301"
-          height="55"/>
-      <referencedModel
-          xsi:type="archimate:ArchimateDiagramModel"
-          href="ArchimateDiagramModel_id-5eba8ca36c9c42709455b9cfb2d1edaf.xml#id-5eba8ca36c9c42709455b9cfb2d1edaf"/>
-    </children>
-    <archimateElement
-        xsi:type="archimate:Grouping"
-        href="Grouping_id-b1c95d39b734476eb5a089a130ed3c49.xml#id-b1c95d39b734476eb5a089a130ed3c49"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-1562197b6b9f40ffb5f61c4fe59af98c"
-      textAlignment="1">
-    <features
-        name="labelExpression"
-        value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-defc623b42934bdfaf02ebb3fe1444a3"
-        source="id-1562197b6b9f40ffb5f61c4fe59af98c"
-        target="id-ca220a7b760d426e8b6be88e8195fa95">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-c53a56daa0594a868c8f8f2a803cfa6c.xml#id-c53a56daa0594a868c8f8f2a803cfa6c"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-1b495bc3d17b45ea9df88a0dd808af84"
-        source="id-1562197b6b9f40ffb5f61c4fe59af98c"
-        target="id-ab856ab907704891a9ae3de6e7a5eea3">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-7c15842f0ca34ad7ad97f8995f8b5503.xml#id-7c15842f0ca34ad7ad97f8995f8b5503"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-a9b28c7ac9ca40e3a68deb5119312537"
-        source="id-1562197b6b9f40ffb5f61c4fe59af98c"
-        target="id-35cbab9c596f46bb99b7b0d511375333">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-3aafc496827b41b4a9213710c2b3448f.xml#id-3aafc496827b41b4a9213710c2b3448f"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-f8b6f1a918ac4a76abf738f37db169dc"
-        source="id-1562197b6b9f40ffb5f61c4fe59af98c"
-        target="id-2159b9a64d6442609aae90a5d672387d">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-48400bd509fc4fc0a1edf32178edef4a.xml#id-48400bd509fc4fc0a1edf32178edef4a"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-b08be0a3ee7144639e6ccbe1125c6a9a"
-        source="id-1562197b6b9f40ffb5f61c4fe59af98c"
-        target="id-9f43fc7e48af4485bd03a50e699b8719">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-48d70a3301c34de6a856bf0dd38e3de4.xml#id-48d70a3301c34de6a856bf0dd38e3de4"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-bed6ffbe635543ae999ca175a89be7ee"
-        source="id-1562197b6b9f40ffb5f61c4fe59af98c"
-        target="id-3c2fee89a80b47edbc01361f6c16c771">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-33be46bc9839457c8789bd42d23963ca.xml#id-33be46bc9839457c8789bd42d23963ca"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-a1301e2c8ba440679792c563cbbc9b86"
-        source="id-1562197b6b9f40ffb5f61c4fe59af98c"
-        target="id-53fb4d6741ae4fdbb1d98d3ea6a1bd2d">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-8e7d37acf83741d8bc3dcf63876532eb.xml#id-8e7d37acf83741d8bc3dcf63876532eb"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-312181b5cce848ce8f0868e388828564"
-        source="id-1562197b6b9f40ffb5f61c4fe59af98c"
-        target="id-9f59ae10ef504200a795ee5b41489f16">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-08cc677daac24e6aa0a6f010a5a9701b.xml#id-08cc677daac24e6aa0a6f010a5a9701b"/>
-    </sourceConnections>
-    <bounds
-        x="100"
-        y="1460"
-        width="420"
-        height="1248"/>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-ca220a7b760d426e8b6be88e8195fa95"
-        targetConnections="id-defc623b42934bdfaf02ebb3fe1444a3"
-        fontColor="#000000"
-        lineColor="#000000"
-        textAlignment="1">
-      <features
-          name="labelExpression"
-          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-68e3a410e342452b83a03eb498497001"
-          source="id-ca220a7b760d426e8b6be88e8195fa95"
-          target="id-defc7bdbcd7247209916e3599191270a">
-        <archimateRelationship
-            xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_id-c80a4ecdb5994eb288a7881f0d900b36.xml#id-c80a4ecdb5994eb288a7881f0d900b36"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-158dfc8043134116a07dbf34f9434f7e"
-          source="id-ca220a7b760d426e8b6be88e8195fa95"
-          target="id-8e46428f8648485ea19eab2b6a89896c">
-        <archimateRelationship
-            xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_id-dab41d87dd4f46749942fa6aad3afe10.xml#id-dab41d87dd4f46749942fa6aad3afe10"/>
-      </sourceConnections>
-      <bounds
-          x="20"
-          y="950"
-          width="350"
-          height="100"/>
-      <archimateElement
-          xsi:type="archimate:Grouping"
-          href="Grouping_id-0565cca379d4438f8809a3e04c5a4ad0.xml#id-0565cca379d4438f8809a3e04c5a4ad0"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-ab856ab907704891a9ae3de6e7a5eea3"
-        targetConnections="id-1b495bc3d17b45ea9df88a0dd808af84"
-        font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
-        fontColor="#000000"
-        lineColor="#000000"
-        textAlignment="1">
-      <features
-          name="labelExpression"
-          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-6e3714eb80484cc7aaf346f094502a40"
-          source="id-ab856ab907704891a9ae3de6e7a5eea3"
-          target="id-defc7bdbcd7247209916e3599191270a">
-        <archimateRelationship
-            xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_id-3558b5eacce14f9b96c9492348e802d3.xml#id-3558b5eacce14f9b96c9492348e802d3"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-4f67cbdc8b9041bc8a9b458c8509e8ba"
-          source="id-ab856ab907704891a9ae3de6e7a5eea3"
-          target="id-a1e07baf864a4151aa153e915fe4f05c">
-        <archimateRelationship
-            xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_id-b2587fe3ad554615ba80147c0f892c12.xml#id-b2587fe3ad554615ba80147c0f892c12"/>
-      </sourceConnections>
-      <bounds
-          x="23"
-          y="470"
-          width="350"
-          height="100"/>
-      <archimateElement
-          xsi:type="archimate:Grouping"
-          href="Grouping_id-9a0dd9ed04ca4fafae2ca158050fd04e.xml#id-9a0dd9ed04ca4fafae2ca158050fd04e"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-35cbab9c596f46bb99b7b0d511375333"
-        targetConnections="id-a9b28c7ac9ca40e3a68deb5119312537"
-        fontColor="#000000"
-        lineColor="#000000"
-        textAlignment="1">
-      <features
-          name="labelExpression"
-          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-84e000c17e42429ea2e750520cd70167"
-          source="id-35cbab9c596f46bb99b7b0d511375333"
-          target="id-0842ee270e0c4dbfa8ef1c1c35ce8122">
-        <archimateRelationship
-            xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_id-8427cd0a9f36427580dc0d73f752c8bb.xml#id-8427cd0a9f36427580dc0d73f752c8bb"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-828fdb99e44e4733970cbc4e0845132d"
-          source="id-35cbab9c596f46bb99b7b0d511375333"
-          target="id-defc7bdbcd7247209916e3599191270a">
-        <archimateRelationship
-            xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_id-657b5f5059cb4787964cbb292537df4a.xml#id-657b5f5059cb4787964cbb292537df4a"/>
-      </sourceConnections>
-      <bounds
-          x="20"
-          y="840"
-          width="350"
-          height="100"/>
-      <archimateElement
-          xsi:type="archimate:Grouping"
-          href="Grouping_id-7abe92f1748a4b6f8e02d2cc7c3a4acb.xml#id-7abe92f1748a4b6f8e02d2cc7c3a4acb"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-2159b9a64d6442609aae90a5d672387d"
-        targetConnections="id-f8b6f1a918ac4a76abf738f37db169dc"
-        fontColor="#000000"
-        lineColor="#000000"
-        textAlignment="1">
-      <features
-          name="labelExpression"
-          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-8ccc19ca561c4d9ea589932d35a379c1"
-          source="id-2159b9a64d6442609aae90a5d672387d"
-          target="id-2517fdf63de14865a5aa37e465653361">
-        <archimateRelationship
-            xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_id-20c2e103da2441c9ad8d031b62c14ebd.xml#id-20c2e103da2441c9ad8d031b62c14ebd"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-7b1d0e8040e34a2a86c94a29cf13e8ee"
-          source="id-2159b9a64d6442609aae90a5d672387d"
-          target="id-defc7bdbcd7247209916e3599191270a">
-        <archimateRelationship
-            xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_id-c05e657d7b864191adbc9b9e997a4861.xml#id-c05e657d7b864191adbc9b9e997a4861"/>
-      </sourceConnections>
-      <bounds
-          x="23"
-          y="590"
-          width="350"
-          height="100"/>
-      <archimateElement
-          xsi:type="archimate:Grouping"
-          href="Grouping_id-2fade8b76f404d959f1e61815e209358.xml#id-2fade8b76f404d959f1e61815e209358"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-9f43fc7e48af4485bd03a50e699b8719"
-        targetConnections="id-b08be0a3ee7144639e6ccbe1125c6a9a"
-        fontColor="#000000"
-        lineColor="#000000"
-        textAlignment="1">
-      <features
-          name="labelExpression"
-          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-65397ab05b9e4bca8ded0fd5ded1b1c4"
-          source="id-9f43fc7e48af4485bd03a50e699b8719"
-          target="id-defc7bdbcd7247209916e3599191270a">
-        <archimateRelationship
-            xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_id-4036a9f1ef6e4673b68a93b08410c528.xml#id-4036a9f1ef6e4673b68a93b08410c528"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-b7d0c6aa015e4143a91c6d2bd6b4ff48"
-          source="id-9f43fc7e48af4485bd03a50e699b8719"
-          target="id-ff9bb962fcd146699db2097dcfea1694">
-        <archimateRelationship
-            xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_id-a9a6f035970d4cebb294adb9d0947942.xml#id-a9a6f035970d4cebb294adb9d0947942"/>
-      </sourceConnections>
-      <bounds
-          x="20"
-          y="1100"
-          width="350"
-          height="100"/>
-      <archimateElement
-          xsi:type="archimate:Grouping"
-          href="Grouping_id-3348e8cacca4425083b9038dc83197b4.xml#id-3348e8cacca4425083b9038dc83197b4"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-3c2fee89a80b47edbc01361f6c16c771"
-        targetConnections="id-bed6ffbe635543ae999ca175a89be7ee"
-        fontColor="#000000"
-        lineColor="#000000"
-        textAlignment="1">
-      <features
-          name="labelExpression"
-          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-e5a899feef0346f89c2a0fee6c52ee81"
-          source="id-3c2fee89a80b47edbc01361f6c16c771"
-          target="id-defc7bdbcd7247209916e3599191270a">
-        <archimateRelationship
-            xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_id-3d1fe48f895443bca0e7d72676df141e.xml#id-3d1fe48f895443bca0e7d72676df141e"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-bacc7074f9c74e6381b2c7523876b2e1"
-          source="id-3c2fee89a80b47edbc01361f6c16c771"
-          target="id-2beb751ca17145ef8196a127938010ec">
-        <archimateRelationship
-            xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_id-0bac3e7ecfd74f6e8456e9ff7ef23608.xml#id-0bac3e7ecfd74f6e8456e9ff7ef23608"/>
-      </sourceConnections>
-      <bounds
-          x="20"
-          y="720"
-          width="350"
-          height="100"/>
-      <archimateElement
-          xsi:type="archimate:Grouping"
-          href="Grouping_id-6f2f98e8bf9b4c1184c22019341f7e4d.xml#id-6f2f98e8bf9b4c1184c22019341f7e4d"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelReference"
-        id="id-d10dd0afdec4427388a7d8aef6cab762">
-      <features
-          name="labelExpression"
-          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-      <bounds
-          x="33"
-          y="142"
-          width="208"
-          height="55"/>
-      <referencedModel
-          xsi:type="archimate:ArchimateDiagramModel"
-          href="ArchimateDiagramModel_id-e3defc7db98b4103aab7af54eb1b86b4.xml#id-e3defc7db98b4103aab7af54eb1b86b4"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-53fb4d6741ae4fdbb1d98d3ea6a1bd2d"
-        targetConnections="id-a1301e2c8ba440679792c563cbbc9b86"
-        textAlignment="1">
-      <features
-          name="labelExpression"
-          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-733eb25efa054c44a2b5e26d03241765"
-          source="id-53fb4d6741ae4fdbb1d98d3ea6a1bd2d"
-          target="id-ebc2421cd652412bb7fde2bd541d388d">
-        <archimateRelationship
-            xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_id-64c8ceee21e34997ba9f5e93aae25589.xml#id-64c8ceee21e34997ba9f5e93aae25589"/>
-      </sourceConnections>
-      <bounds
-          x="33"
-          y="220"
-          width="350"
-          height="100"/>
-      <archimateElement
-          xsi:type="archimate:Grouping"
-          href="Grouping_id-2d0a8cfc58da40ff895d9de39401a614.xml#id-2d0a8cfc58da40ff895d9de39401a614"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-9f59ae10ef504200a795ee5b41489f16"
-        targetConnections="id-312181b5cce848ce8f0868e388828564"
-        textAlignment="1">
-      <features
-          name="labelExpression"
-          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-ce250c2889044a9d9a353eab0404ec19"
-          source="id-9f59ae10ef504200a795ee5b41489f16"
-          target="id-defc7bdbcd7247209916e3599191270a">
-        <archimateRelationship
-            xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_id-e898e327ed954ddb9d8e88806c700497.xml#id-e898e327ed954ddb9d8e88806c700497"/>
-      </sourceConnections>
-      <bounds
-          x="33"
-          y="340"
-          width="350"
-          height="100"/>
-      <archimateElement
-          xsi:type="archimate:Grouping"
-          href="Grouping_id-0ba636e3963f4a789aef3bd95c81f6a6.xml#id-0ba636e3963f4a789aef3bd95c81f6a6"/>
-    </children>
-    <archimateElement
-        xsi:type="archimate:Grouping"
-        href="Grouping_id-85e399bfe4ee4fedbf37ad6a80c64fb1.xml#id-85e399bfe4ee4fedbf37ad6a80c64fb1"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-55cd19aaaa0042e5a217e794395c9707"
-      targetConnections="id-7c4495927ceb40b2840b033c0e0775ea"
-      fontColor="#000000"
-      lineColor="#000000"
-      textAlignment="1">
-    <features
-        name="labelExpression"
-        value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-    <bounds
-        x="822"
-        y="3414"
-        width="231"
-        height="51"/>
-    <archimateElement
-        xsi:type="archimate:Grouping"
-        href="Grouping_id-73062ba8-a696-4f78-b9cd-d1086507f4f8.xml#id-73062ba8-a696-4f78-b9cd-d1086507f4f8"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-e4e2ff203c314c7ab2f10fea2772f5d6"
-      targetConnections="id-077dff90ae6f44879074f4d0b9fe073b"
-      fontColor="#000000"
-      lineColor="#000000"
-      textAlignment="1">
-    <features
-        name="labelExpression"
-        value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-    <bounds
-        x="822"
-        y="3552"
-        width="231"
-        height="51"/>
-    <archimateElement
-        xsi:type="archimate:Grouping"
-        href="Grouping_id-1a20351b-cb51-4b5e-83c2-c25011378024.xml#id-1a20351b-cb51-4b5e-83c2-c25011378024"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-8be1ceda0e8c40fa96ccfa54324084c6"
-      targetConnections="id-71950ab9382f412282796772974a6428"
-      fontColor="#000000"
-      lineColor="#000000"
-      textAlignment="1">
-    <features
-        name="labelExpression"
-        value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-    <bounds
-        x="822"
-        y="4162"
-        width="231"
-        height="51"/>
-    <archimateElement
-        xsi:type="archimate:Grouping"
-        href="Grouping_id-01b08387-6b83-4588-907d-e002ca88334f.xml#id-01b08387-6b83-4588-907d-e002ca88334f"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-8df4ae8b877f466ebadf4314675050a6"
-      targetConnections="id-dae322c0d2b34b2ab0d8ed509f1829fd"
-      fontColor="#000000"
-      lineColor="#000000"
-      textAlignment="1">
-    <features
-        name="labelExpression"
-        value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-    <bounds
-        x="822"
-        y="3830"
-        width="231"
-        height="51"/>
-    <archimateElement
-        xsi:type="archimate:Grouping"
-        href="Grouping_id-4d65e4a6-1cbb-438f-99f9-f84770cf60ae.xml#id-4d65e4a6-1cbb-438f-99f9-f84770cf60ae"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-6601a725daf445d289cbf44a517293f3"
-      targetConnections="id-98a924f38a2b4cbba3b0de21bc60b370"
-      fontColor="#000000"
-      lineColor="#000000"
-      textAlignment="1">
-    <features
-        name="labelExpression"
-        value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-    <bounds
-        x="822"
-        y="3702"
-        width="231"
-        height="51"/>
-    <archimateElement
-        xsi:type="archimate:Grouping"
-        href="Grouping_id-9219feb8-d58c-40c7-990f-ce5fbb2a8880.xml#id-9219feb8-d58c-40c7-990f-ce5fbb2a8880"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -1233,32 +362,13 @@
         name="labelExpression"
         value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
     <bounds
-        x="822"
-        y="3280"
+        x="1100"
+        y="3210"
         width="231"
         height="51"/>
     <archimateElement
         xsi:type="archimate:Grouping"
         href="Grouping_id-32fe79dd-1e19-4dc0-8018-1ed28ef5abe3.xml#id-32fe79dd-1e19-4dc0-8018-1ed28ef5abe3"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-920c4a417c7849cf997098db31f979ad"
-      targetConnections="id-7519162d41c84bc899db325a13ed7b59"
-      fontColor="#000000"
-      lineColor="#000000"
-      textAlignment="1">
-    <features
-        name="labelExpression"
-        value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
-    <bounds
-        x="822"
-        y="3990"
-        width="231"
-        height="51"/>
-    <archimateElement
-        xsi:type="archimate:Grouping"
-        href="Grouping_id-bb4253a5-24b4-414c-beac-eba1d8c2e1b6.xml#id-bb4253a5-24b4-414c-beac-eba1d8c2e1b6"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -1270,31 +380,13 @@
       textAlignment="1"
       type="1">
     <bounds
-        x="1840"
-        y="2240"
+        x="1100"
+        y="2300"
         width="400"
         height="100"/>
     <archimateElement
         xsi:type="archimate:Grouping"
         href="Grouping_id-32fe79dd-1e19-4dc0-8018-1ed28ef5abe3.xml#id-32fe79dd-1e19-4dc0-8018-1ed28ef5abe3"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-1bc1084e4a5740bd83160adf63b64a53"
-      targetConnections="id-47e23d20f5d3474aa2cb9c6f39659586"
-      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
-      fontColor="#000000"
-      lineColor="#000000"
-      textAlignment="1"
-      fillColor="#f6f6f6">
-    <bounds
-        x="1835"
-        y="2388"
-        width="409"
-        height="100"/>
-    <archimateElement
-        xsi:type="archimate:Grouping"
-        href="Grouping_id-0df0d0d473e7465ebd030087278fd241.xml#id-0df0d0d473e7465ebd030087278fd241"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelGroup"
@@ -1307,19 +399,19 @@
     <bounds
         x="50"
         y="30"
-        width="1561"
-        height="860"/>
+        width="911"
+        height="4521"/>
     <children
         xsi:type="archimate:DiagramModelNote"
         id="id-fe172ac62f49496cae7618c3e59fee13"
         font="1|Segoe UI Symbol|11.0|0|GTK|1|"
         textAlignment="1"
-        content="View recipe worden gebruikt door het Views script voor het genereren van de GEMMA (basis)views.&#xA;&#xA;Een view recipe is een grouping die het volgende defininieerd:&#xA;- naam van de view => de view neemt de naam van de grouping over&#xA;- start of current selection => de view recipe heeft relaties naar de in de view op te nemen elementen&#xA;- view template => view-reference naar het te gebruiken view template">
+        content="View recipe worden gebruikt door het Views script voor het genereren van de GEMMA (basis)views.&#xA;&#xA;Een view recipe is een grouping die het volgende defininieerd:&#xA;- naam van de view => de view neemt de naam van de grouping over&#xA;- start of current selection => de view recipe heeft relaties naar de in de view op te nemen elementen&#xA;- view template => view-reference naar het te gebruiken view template&#xA;- view object id => een stabiel id voor de te genereren views&#xA;&#xA;Selecteer een view recipe en open dan het scripte _gui of _view_recipe_generate ">
       <bounds
           x="30"
           y="50"
-          width="919"
-          height="171"/>
+          width="851"
+          height="281"/>
     </children>
     <children
         xsi:type="archimate:DiagramModelNote"
@@ -1339,8 +431,8 @@
           source="id-0a841f894f08425baedf1336cb458c10"
           target="id-29a99044601a42c7a3f67a1bc824bc50"/>
       <bounds
-          x="512"
-          y="720"
+          x="482"
+          y="850"
           width="234"
           height="81"/>
     </children>
@@ -1380,8 +472,8 @@
             href="AggregationRelationship_id-c2be346b01c54543a907e19bebdec692.xml#id-c2be346b01c54543a907e19bebdec692"/>
       </sourceConnections>
       <bounds
-          x="120"
-          y="390"
+          x="90"
+          y="520"
           width="701"
           height="301"/>
       <children
@@ -1450,8 +542,8 @@
           source="id-f120ac7086834c1397be9e6326bb2444"
           target="id-c18dd859b0e34601812eba4cb3519acc"/>
       <bounds
-          x="120"
-          y="250"
+          x="90"
+          y="380"
           width="249"
           height="91"/>
     </children>
@@ -1459,22 +551,1091 @@
         xsi:type="archimate:DiagramModelNote"
         id="id-6e72f2549ab946adab8541bfb23bda76"
         textAlignment="1"
-        content="Te gebruiken View template. Staat hier als documentatie, is gedefinieerd in de preset">
+        content="Te gebruiken View template. &#xA;Als je een view recipe gebruikt als selectie dan gebruikt de preset deze view template">
       <sourceConnections
           id="id-3d3911d775624c33b46d0bcecbc5c441"
           source="id-6e72f2549ab946adab8541bfb23bda76"
           target="id-3e9ca4979cd244469539244808f955e3"/>
       <bounds
-          x="885"
-          y="420"
-          width="185"
-          height="80"/>
+          x="400"
+          y="380"
+          width="316"
+          height="91"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-3e771bb0500d4ef0a87d36e90f3df40d"
+        textAlignment="1">
+      <features
+          name="labelExpression"
+          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-5da536bb9c2c4e2cb4b6a4a6cc133878"
+          source="id-3e771bb0500d4ef0a87d36e90f3df40d"
+          target="id-4593126e98f64afeaf65931160357690">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-6eb13fc2d2c24bd2bd62942355348deb.xml#id-6eb13fc2d2c24bd2bd62942355348deb"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-b2bdfa50f08746448b9b0329d1086d0a"
+          source="id-3e771bb0500d4ef0a87d36e90f3df40d"
+          target="id-defc7bdbcd7247209916e3599191270a">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-fba269272193489bb1991981464d50ea.xml#id-fba269272193489bb1991981464d50ea"/>
+      </sourceConnections>
+      <bounds
+          x="100"
+          y="1100"
+          width="631"
+          height="170"/>
+      <children
+          xsi:type="archimate:DiagramModelReference"
+          id="id-b5120b76cfc945a995b6b844cd3a23b3">
+        <features
+            name="labelExpression"
+            value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+        <bounds
+            x="280"
+            y="30"
+            width="269"
+            height="111"/>
+        <referencedModel
+            xsi:type="archimate:ArchimateDiagramModel"
+            href="ArchimateDiagramModel_id-56a7581f8584418886517ed48d955ff4.xml#id-56a7581f8584418886517ed48d955ff4"/>
+      </children>
+      <archimateElement
+          xsi:type="archimate:Grouping"
+          href="Grouping_id-20f6e282033a4ff68251798cd65012f8.xml#id-20f6e282033a4ff68251798cd65012f8"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-465a4ea2ca844c888e9407944a90d352"
+        textAlignment="1">
+      <features
+          name="labelExpression"
+          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-1c7168404d0240d4a3773aa3bb2390cd"
+          source="id-465a4ea2ca844c888e9407944a90d352"
+          target="id-51ec0de7cbf140f1bd822c253f8f775e">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-695bcd0d69bf47688a542d89c8f6e63b.xml#id-695bcd0d69bf47688a542d89c8f6e63b"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-e074efcf16fa40199be402e9c6a42e65"
+          source="id-465a4ea2ca844c888e9407944a90d352"
+          target="id-fb36c342e11647bbb2e2f70103e9350d">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-b1e06e2a90134cf5be058dc8ae6c2e37.xml#id-b1e06e2a90134cf5be058dc8ae6c2e37"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-4d6a0c9ca8db4b39b231750b9f6f045a"
+          source="id-465a4ea2ca844c888e9407944a90d352"
+          target="id-ded4494bbdb7414eb22025a6e5b86cf2">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-759a098275b34ab689c0cd0ec4d049dc.xml#id-759a098275b34ab689c0cd0ec4d049dc"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-5d107eda4e0840a6b597be3bedf333d9"
+          source="id-465a4ea2ca844c888e9407944a90d352"
+          target="id-c3ba986fb02a440e886035d3aefecea2">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-b1af4d85b8664b55a2a79d88e0d98512.xml#id-b1af4d85b8664b55a2a79d88e0d98512"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-dd81fd8405cb4e7bb64bb270418c87dd"
+          source="id-465a4ea2ca844c888e9407944a90d352"
+          target="id-74ad8e51e32a4f1db0af77d76a0f29de">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-9fad7097bb1946bcaa6a5fab8534f9e8.xml#id-9fad7097bb1946bcaa6a5fab8534f9e8"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-43a221f230f14e8a9714a95a89efb961"
+          source="id-465a4ea2ca844c888e9407944a90d352"
+          target="id-160eb9ae891f49d6b18ebccb0a1f5683">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-f8c1b8da6f304ea59fa0afe472d6491c.xml#id-f8c1b8da6f304ea59fa0afe472d6491c"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-0ab1f87e4a2543a59290411aaa7e9616"
+          source="id-465a4ea2ca844c888e9407944a90d352"
+          target="id-1b792c4411e04703843813dce9f0462a">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-4fd03770440d4432a153e94e16f67465.xml#id-4fd03770440d4432a153e94e16f67465"/>
+      </sourceConnections>
+      <bounds
+          x="90"
+          y="2900"
+          width="490"
+          height="1250"/>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-51ec0de7cbf140f1bd822c253f8f775e"
+          targetConnections="id-1c7168404d0240d4a3773aa3bb2390cd"
+          textAlignment="1">
+        <features
+            name="labelExpression"
+            value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-7c4495927ceb40b2840b033c0e0775ea"
+            source="id-51ec0de7cbf140f1bd822c253f8f775e"
+            target="id-55cd19aaaa0042e5a217e794395c9707">
+          <archimateRelationship
+              xsi:type="archimate:AggregationRelationship"
+              href="AggregationRelationship_id-7b2593d54d4e41428027060e3347b900.xml#id-7b2593d54d4e41428027060e3347b900"/>
+        </sourceConnections>
+        <bounds
+            x="40"
+            y="382"
+            width="400"
+            height="120"/>
+        <archimateElement
+            xsi:type="archimate:Grouping"
+            href="Grouping_id-777dcf19c2a94229b49a63719122de4c.xml#id-777dcf19c2a94229b49a63719122de4c"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-fb36c342e11647bbb2e2f70103e9350d"
+          targetConnections="id-e074efcf16fa40199be402e9c6a42e65"
+          textAlignment="1">
+        <features
+            name="labelExpression"
+            value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-cd1a6655ed3a425394c65f212bdd0a8b"
+            source="id-fb36c342e11647bbb2e2f70103e9350d"
+            target="id-1e177e3c1c324eb48e8159c4f710a47d">
+          <archimateRelationship
+              xsi:type="archimate:AggregationRelationship"
+              href="AggregationRelationship_id-1bf1292b035041aead0447febba03ea2.xml#id-1bf1292b035041aead0447febba03ea2"/>
+        </sourceConnections>
+        <bounds
+            x="40"
+            y="238"
+            width="400"
+            height="120"/>
+        <archimateElement
+            xsi:type="archimate:Grouping"
+            href="Grouping_id-f8651b71187641f5b8ca5953e4f6a770.xml#id-f8651b71187641f5b8ca5953e4f6a770"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-ded4494bbdb7414eb22025a6e5b86cf2"
+          targetConnections="id-4d6a0c9ca8db4b39b231750b9f6f045a"
+          textAlignment="1">
+        <features
+            name="labelExpression"
+            value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-077dff90ae6f44879074f4d0b9fe073b"
+            source="id-ded4494bbdb7414eb22025a6e5b86cf2"
+            target="id-e4e2ff203c314c7ab2f10fea2772f5d6">
+          <archimateRelationship
+              xsi:type="archimate:AggregationRelationship"
+              href="AggregationRelationship_id-ee18ef1d8b3f4501ae0581756abb101f.xml#id-ee18ef1d8b3f4501ae0581756abb101f"/>
+        </sourceConnections>
+        <bounds
+            x="40"
+            y="510"
+            width="400"
+            height="120"/>
+        <archimateElement
+            xsi:type="archimate:Grouping"
+            href="Grouping_id-6729ece297404a30b419cb9b7518a450.xml#id-6729ece297404a30b419cb9b7518a450"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-c3ba986fb02a440e886035d3aefecea2"
+          targetConnections="id-5d107eda4e0840a6b597be3bedf333d9"
+          textAlignment="1">
+        <features
+            name="labelExpression"
+            value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-7519162d41c84bc899db325a13ed7b59"
+            source="id-c3ba986fb02a440e886035d3aefecea2"
+            target="id-920c4a417c7849cf997098db31f979ad">
+          <archimateRelationship
+              xsi:type="archimate:AggregationRelationship"
+              href="AggregationRelationship_id-78cf604eb9594edf85d82bcbae2b9ae2.xml#id-78cf604eb9594edf85d82bcbae2b9ae2"/>
+        </sourceConnections>
+        <bounds
+            x="48"
+            y="958"
+            width="400"
+            height="120"/>
+        <archimateElement
+            xsi:type="archimate:Grouping"
+            href="Grouping_id-b33238bc05a6497d9d3cf1481d4b5285.xml#id-b33238bc05a6497d9d3cf1481d4b5285"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-74ad8e51e32a4f1db0af77d76a0f29de"
+          targetConnections="id-dd81fd8405cb4e7bb64bb270418c87dd"
+          textAlignment="1">
+        <features
+            name="labelExpression"
+            value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-98a924f38a2b4cbba3b0de21bc60b370"
+            source="id-74ad8e51e32a4f1db0af77d76a0f29de"
+            target="id-6601a725daf445d289cbf44a517293f3">
+          <archimateRelationship
+              xsi:type="archimate:AggregationRelationship"
+              href="AggregationRelationship_id-d2440aabcbad48ffb091030ee4966c8c.xml#id-d2440aabcbad48ffb091030ee4966c8c"/>
+        </sourceConnections>
+        <bounds
+            x="40"
+            y="660"
+            width="400"
+            height="120"/>
+        <archimateElement
+            xsi:type="archimate:Grouping"
+            href="Grouping_id-a73461ce73fc4862825e8c50b6e0658a.xml#id-a73461ce73fc4862825e8c50b6e0658a"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-160eb9ae891f49d6b18ebccb0a1f5683"
+          targetConnections="id-43a221f230f14e8a9714a95a89efb961"
+          textAlignment="1">
+        <features
+            name="labelExpression"
+            value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-dae322c0d2b34b2ab0d8ed509f1829fd"
+            source="id-160eb9ae891f49d6b18ebccb0a1f5683"
+            target="id-8df4ae8b877f466ebadf4314675050a6">
+          <archimateRelationship
+              xsi:type="archimate:AggregationRelationship"
+              href="AggregationRelationship_id-5dffd98c300d4c34bd8be7ed9c27eabc.xml#id-5dffd98c300d4c34bd8be7ed9c27eabc"/>
+        </sourceConnections>
+        <bounds
+            x="48"
+            y="798"
+            width="400"
+            height="120"/>
+        <archimateElement
+            xsi:type="archimate:Grouping"
+            href="Grouping_id-1071807470c549e99d3811f9faf1b653.xml#id-1071807470c549e99d3811f9faf1b653"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-1b792c4411e04703843813dce9f0462a"
+          targetConnections="id-0ab1f87e4a2543a59290411aaa7e9616"
+          textAlignment="1">
+        <features
+            name="labelExpression"
+            value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-71950ab9382f412282796772974a6428"
+            source="id-1b792c4411e04703843813dce9f0462a"
+            target="id-8be1ceda0e8c40fa96ccfa54324084c6">
+          <archimateRelationship
+              xsi:type="archimate:AggregationRelationship"
+              href="AggregationRelationship_id-29a9a3d4fccd455c9302d5abb848b5e5.xml#id-29a9a3d4fccd455c9302d5abb848b5e5"/>
+        </sourceConnections>
+        <bounds
+            x="40"
+            y="1110"
+            width="400"
+            height="120"/>
+        <archimateElement
+            xsi:type="archimate:Grouping"
+            href="Grouping_id-0c59e57c77174aef919b6e57853c2df4.xml#id-0c59e57c77174aef919b6e57853c2df4"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelReference"
+          id="id-00c927647c09458ea3f0a3dd1adc0b7b">
+        <features
+            name="labelExpression"
+            value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+        <bounds
+            x="48"
+            y="120"
+            width="344"
+            height="55"/>
+        <referencedModel
+            xsi:type="archimate:ArchimateDiagramModel"
+            href="ArchimateDiagramModel_id-123355daaee4455fbdbffefe921aa087.xml#id-123355daaee4455fbdbffefe921aa087"/>
+      </children>
+      <archimateElement
+          xsi:type="archimate:Grouping"
+          href="Grouping_id-7b126495f32640dd970dbfc8a7c6cfc8.xml#id-7b126495f32640dd970dbfc8a7c6cfc8"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-1562197b6b9f40ffb5f61c4fe59af98c"
+        textAlignment="1">
+      <features
+          name="labelExpression"
+          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-defc623b42934bdfaf02ebb3fe1444a3"
+          source="id-1562197b6b9f40ffb5f61c4fe59af98c"
+          target="id-ca220a7b760d426e8b6be88e8195fa95">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-c53a56daa0594a868c8f8f2a803cfa6c.xml#id-c53a56daa0594a868c8f8f2a803cfa6c"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-1b495bc3d17b45ea9df88a0dd808af84"
+          source="id-1562197b6b9f40ffb5f61c4fe59af98c"
+          target="id-ab856ab907704891a9ae3de6e7a5eea3">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-7c15842f0ca34ad7ad97f8995f8b5503.xml#id-7c15842f0ca34ad7ad97f8995f8b5503"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-a9b28c7ac9ca40e3a68deb5119312537"
+          source="id-1562197b6b9f40ffb5f61c4fe59af98c"
+          target="id-35cbab9c596f46bb99b7b0d511375333">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-3aafc496827b41b4a9213710c2b3448f.xml#id-3aafc496827b41b4a9213710c2b3448f"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-f8b6f1a918ac4a76abf738f37db169dc"
+          source="id-1562197b6b9f40ffb5f61c4fe59af98c"
+          target="id-2159b9a64d6442609aae90a5d672387d">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-48400bd509fc4fc0a1edf32178edef4a.xml#id-48400bd509fc4fc0a1edf32178edef4a"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-b08be0a3ee7144639e6ccbe1125c6a9a"
+          source="id-1562197b6b9f40ffb5f61c4fe59af98c"
+          target="id-9f43fc7e48af4485bd03a50e699b8719">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-48d70a3301c34de6a856bf0dd38e3de4.xml#id-48d70a3301c34de6a856bf0dd38e3de4"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-bed6ffbe635543ae999ca175a89be7ee"
+          source="id-1562197b6b9f40ffb5f61c4fe59af98c"
+          target="id-3c2fee89a80b47edbc01361f6c16c771">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-33be46bc9839457c8789bd42d23963ca.xml#id-33be46bc9839457c8789bd42d23963ca"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-a1301e2c8ba440679792c563cbbc9b86"
+          source="id-1562197b6b9f40ffb5f61c4fe59af98c"
+          target="id-53fb4d6741ae4fdbb1d98d3ea6a1bd2d">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-8e7d37acf83741d8bc3dcf63876532eb.xml#id-8e7d37acf83741d8bc3dcf63876532eb"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-312181b5cce848ce8f0868e388828564"
+          source="id-1562197b6b9f40ffb5f61c4fe59af98c"
+          target="id-9f59ae10ef504200a795ee5b41489f16">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-08cc677daac24e6aa0a6f010a5a9701b.xml#id-08cc677daac24e6aa0a6f010a5a9701b"/>
+      </sourceConnections>
+      <bounds
+          x="100"
+          y="1320"
+          width="420"
+          height="1320"/>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-ca220a7b760d426e8b6be88e8195fa95"
+          targetConnections="id-defc623b42934bdfaf02ebb3fe1444a3"
+          fontColor="#000000"
+          lineColor="#000000"
+          textAlignment="1">
+        <features
+            name="labelExpression"
+            value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-68e3a410e342452b83a03eb498497001"
+            source="id-ca220a7b760d426e8b6be88e8195fa95"
+            target="id-defc7bdbcd7247209916e3599191270a">
+          <archimateRelationship
+              xsi:type="archimate:AggregationRelationship"
+              href="AggregationRelationship_id-c80a4ecdb5994eb288a7881f0d900b36.xml#id-c80a4ecdb5994eb288a7881f0d900b36"/>
+        </sourceConnections>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-158dfc8043134116a07dbf34f9434f7e"
+            source="id-ca220a7b760d426e8b6be88e8195fa95"
+            target="id-8e46428f8648485ea19eab2b6a89896c">
+          <archimateRelationship
+              xsi:type="archimate:AggregationRelationship"
+              href="AggregationRelationship_id-dab41d87dd4f46749942fa6aad3afe10.xml#id-dab41d87dd4f46749942fa6aad3afe10"/>
+        </sourceConnections>
+        <bounds
+            x="20"
+            y="950"
+            width="350"
+            height="100"/>
+        <archimateElement
+            xsi:type="archimate:Grouping"
+            href="Grouping_id-0565cca379d4438f8809a3e04c5a4ad0.xml#id-0565cca379d4438f8809a3e04c5a4ad0"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-ab856ab907704891a9ae3de6e7a5eea3"
+          targetConnections="id-1b495bc3d17b45ea9df88a0dd808af84"
+          font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+          fontColor="#000000"
+          lineColor="#000000"
+          textAlignment="1">
+        <features
+            name="labelExpression"
+            value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-6e3714eb80484cc7aaf346f094502a40"
+            source="id-ab856ab907704891a9ae3de6e7a5eea3"
+            target="id-defc7bdbcd7247209916e3599191270a">
+          <archimateRelationship
+              xsi:type="archimate:AggregationRelationship"
+              href="AggregationRelationship_id-3558b5eacce14f9b96c9492348e802d3.xml#id-3558b5eacce14f9b96c9492348e802d3"/>
+        </sourceConnections>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-4f67cbdc8b9041bc8a9b458c8509e8ba"
+            source="id-ab856ab907704891a9ae3de6e7a5eea3"
+            target="id-a1e07baf864a4151aa153e915fe4f05c">
+          <archimateRelationship
+              xsi:type="archimate:AggregationRelationship"
+              href="AggregationRelationship_id-b2587fe3ad554615ba80147c0f892c12.xml#id-b2587fe3ad554615ba80147c0f892c12"/>
+        </sourceConnections>
+        <bounds
+            x="23"
+            y="470"
+            width="350"
+            height="100"/>
+        <archimateElement
+            xsi:type="archimate:Grouping"
+            href="Grouping_id-9a0dd9ed04ca4fafae2ca158050fd04e.xml#id-9a0dd9ed04ca4fafae2ca158050fd04e"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-35cbab9c596f46bb99b7b0d511375333"
+          targetConnections="id-a9b28c7ac9ca40e3a68deb5119312537"
+          fontColor="#000000"
+          lineColor="#000000"
+          textAlignment="1">
+        <features
+            name="labelExpression"
+            value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-84e000c17e42429ea2e750520cd70167"
+            source="id-35cbab9c596f46bb99b7b0d511375333"
+            target="id-0842ee270e0c4dbfa8ef1c1c35ce8122">
+          <archimateRelationship
+              xsi:type="archimate:AggregationRelationship"
+              href="AggregationRelationship_id-8427cd0a9f36427580dc0d73f752c8bb.xml#id-8427cd0a9f36427580dc0d73f752c8bb"/>
+        </sourceConnections>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-828fdb99e44e4733970cbc4e0845132d"
+            source="id-35cbab9c596f46bb99b7b0d511375333"
+            target="id-defc7bdbcd7247209916e3599191270a">
+          <archimateRelationship
+              xsi:type="archimate:AggregationRelationship"
+              href="AggregationRelationship_id-657b5f5059cb4787964cbb292537df4a.xml#id-657b5f5059cb4787964cbb292537df4a"/>
+        </sourceConnections>
+        <bounds
+            x="20"
+            y="840"
+            width="350"
+            height="100"/>
+        <archimateElement
+            xsi:type="archimate:Grouping"
+            href="Grouping_id-7abe92f1748a4b6f8e02d2cc7c3a4acb.xml#id-7abe92f1748a4b6f8e02d2cc7c3a4acb"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-2159b9a64d6442609aae90a5d672387d"
+          targetConnections="id-f8b6f1a918ac4a76abf738f37db169dc"
+          fontColor="#000000"
+          lineColor="#000000"
+          textAlignment="1">
+        <features
+            name="labelExpression"
+            value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-8ccc19ca561c4d9ea589932d35a379c1"
+            source="id-2159b9a64d6442609aae90a5d672387d"
+            target="id-2517fdf63de14865a5aa37e465653361">
+          <archimateRelationship
+              xsi:type="archimate:AggregationRelationship"
+              href="AggregationRelationship_id-20c2e103da2441c9ad8d031b62c14ebd.xml#id-20c2e103da2441c9ad8d031b62c14ebd"/>
+        </sourceConnections>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-7b1d0e8040e34a2a86c94a29cf13e8ee"
+            source="id-2159b9a64d6442609aae90a5d672387d"
+            target="id-defc7bdbcd7247209916e3599191270a">
+          <archimateRelationship
+              xsi:type="archimate:AggregationRelationship"
+              href="AggregationRelationship_id-c05e657d7b864191adbc9b9e997a4861.xml#id-c05e657d7b864191adbc9b9e997a4861"/>
+        </sourceConnections>
+        <bounds
+            x="23"
+            y="590"
+            width="350"
+            height="100"/>
+        <archimateElement
+            xsi:type="archimate:Grouping"
+            href="Grouping_id-2fade8b76f404d959f1e61815e209358.xml#id-2fade8b76f404d959f1e61815e209358"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-9f43fc7e48af4485bd03a50e699b8719"
+          targetConnections="id-b08be0a3ee7144639e6ccbe1125c6a9a"
+          fontColor="#000000"
+          lineColor="#000000"
+          textAlignment="1">
+        <features
+            name="labelExpression"
+            value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-65397ab05b9e4bca8ded0fd5ded1b1c4"
+            source="id-9f43fc7e48af4485bd03a50e699b8719"
+            target="id-defc7bdbcd7247209916e3599191270a">
+          <archimateRelationship
+              xsi:type="archimate:AggregationRelationship"
+              href="AggregationRelationship_id-4036a9f1ef6e4673b68a93b08410c528.xml#id-4036a9f1ef6e4673b68a93b08410c528"/>
+        </sourceConnections>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-b7d0c6aa015e4143a91c6d2bd6b4ff48"
+            source="id-9f43fc7e48af4485bd03a50e699b8719"
+            target="id-ff9bb962fcd146699db2097dcfea1694">
+          <archimateRelationship
+              xsi:type="archimate:AggregationRelationship"
+              href="AggregationRelationship_id-a9a6f035970d4cebb294adb9d0947942.xml#id-a9a6f035970d4cebb294adb9d0947942"/>
+        </sourceConnections>
+        <bounds
+            x="20"
+            y="1100"
+            width="350"
+            height="100"/>
+        <archimateElement
+            xsi:type="archimate:Grouping"
+            href="Grouping_id-3348e8cacca4425083b9038dc83197b4.xml#id-3348e8cacca4425083b9038dc83197b4"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-3c2fee89a80b47edbc01361f6c16c771"
+          targetConnections="id-bed6ffbe635543ae999ca175a89be7ee"
+          fontColor="#000000"
+          lineColor="#000000"
+          textAlignment="1">
+        <features
+            name="labelExpression"
+            value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-e5a899feef0346f89c2a0fee6c52ee81"
+            source="id-3c2fee89a80b47edbc01361f6c16c771"
+            target="id-defc7bdbcd7247209916e3599191270a">
+          <archimateRelationship
+              xsi:type="archimate:AggregationRelationship"
+              href="AggregationRelationship_id-3d1fe48f895443bca0e7d72676df141e.xml#id-3d1fe48f895443bca0e7d72676df141e"/>
+        </sourceConnections>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-bacc7074f9c74e6381b2c7523876b2e1"
+            source="id-3c2fee89a80b47edbc01361f6c16c771"
+            target="id-2beb751ca17145ef8196a127938010ec">
+          <archimateRelationship
+              xsi:type="archimate:AggregationRelationship"
+              href="AggregationRelationship_id-0bac3e7ecfd74f6e8456e9ff7ef23608.xml#id-0bac3e7ecfd74f6e8456e9ff7ef23608"/>
+        </sourceConnections>
+        <bounds
+            x="20"
+            y="720"
+            width="350"
+            height="100"/>
+        <archimateElement
+            xsi:type="archimate:Grouping"
+            href="Grouping_id-6f2f98e8bf9b4c1184c22019341f7e4d.xml#id-6f2f98e8bf9b4c1184c22019341f7e4d"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelReference"
+          id="id-d10dd0afdec4427388a7d8aef6cab762">
+        <features
+            name="labelExpression"
+            value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+        <bounds
+            x="33"
+            y="142"
+            width="340"
+            height="55"/>
+        <referencedModel
+            xsi:type="archimate:ArchimateDiagramModel"
+            href="ArchimateDiagramModel_id-e3defc7db98b4103aab7af54eb1b86b4.xml#id-e3defc7db98b4103aab7af54eb1b86b4"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-53fb4d6741ae4fdbb1d98d3ea6a1bd2d"
+          targetConnections="id-a1301e2c8ba440679792c563cbbc9b86"
+          textAlignment="1">
+        <features
+            name="labelExpression"
+            value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-733eb25efa054c44a2b5e26d03241765"
+            source="id-53fb4d6741ae4fdbb1d98d3ea6a1bd2d"
+            target="id-ebc2421cd652412bb7fde2bd541d388d">
+          <archimateRelationship
+              xsi:type="archimate:AggregationRelationship"
+              href="AggregationRelationship_id-64c8ceee21e34997ba9f5e93aae25589.xml#id-64c8ceee21e34997ba9f5e93aae25589"/>
+        </sourceConnections>
+        <bounds
+            x="20"
+            y="1220"
+            width="350"
+            height="100"/>
+        <archimateElement
+            xsi:type="archimate:Grouping"
+            href="Grouping_id-2d0a8cfc58da40ff895d9de39401a614.xml#id-2d0a8cfc58da40ff895d9de39401a614"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-9f59ae10ef504200a795ee5b41489f16"
+          targetConnections="id-312181b5cce848ce8f0868e388828564"
+          textAlignment="1">
+        <features
+            name="labelExpression"
+            value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-ce250c2889044a9d9a353eab0404ec19"
+            source="id-9f59ae10ef504200a795ee5b41489f16"
+            target="id-defc7bdbcd7247209916e3599191270a">
+          <archimateRelationship
+              xsi:type="archimate:AggregationRelationship"
+              href="AggregationRelationship_id-e898e327ed954ddb9d8e88806c700497.xml#id-e898e327ed954ddb9d8e88806c700497"/>
+        </sourceConnections>
+        <bounds
+            x="23"
+            y="340"
+            width="350"
+            height="100"/>
+        <archimateElement
+            xsi:type="archimate:Grouping"
+            href="Grouping_id-0ba636e3963f4a789aef3bd95c81f6a6.xml#id-0ba636e3963f4a789aef3bd95c81f6a6"/>
+      </children>
+      <archimateElement
+          xsi:type="archimate:Grouping"
+          href="Grouping_id-85e399bfe4ee4fedbf37ad6a80c64fb1.xml#id-85e399bfe4ee4fedbf37ad6a80c64fb1"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-837604cdb21d40d4a4c21dd334b38c17"
+        textAlignment="1">
+      <features
+          name="labelExpression"
+          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-ac3d36687d8b49c2b8d36e9031559c8a"
+          source="id-837604cdb21d40d4a4c21dd334b38c17"
+          target="id-4f7f6c18438a4746bbd130acdc8b37cc">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-4e4ef70a91ee445381cd73c3b6462ed3.xml#id-4e4ef70a91ee445381cd73c3b6462ed3"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-bd8bc4d3950448e7b7817cea2a9a8e9d"
+          source="id-837604cdb21d40d4a4c21dd334b38c17"
+          target="id-6594f53d0cb645ee8b6bb002f7b8739d">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-e69ad18eae4a4fad8ecce48a8b290072.xml#id-e69ad18eae4a4fad8ecce48a8b290072"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-2c56dbeba0d54763b7e47ce0b94a47db"
+          source="id-837604cdb21d40d4a4c21dd334b38c17"
+          target="id-970901948d9f4d9d95311724538eaa9e">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-9c4abc1971ac4e1e908bde6fdfab1c28.xml#id-9c4abc1971ac4e1e908bde6fdfab1c28"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-b2c8db7326134ea8acfc9df06d095288"
+          source="id-837604cdb21d40d4a4c21dd334b38c17"
+          target="id-9a17dca689ad40eba200a64d6e958ea5">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-f6d5a833962247d9a9a5f6efac2ba730.xml#id-f6d5a833962247d9a9a5f6efac2ba730"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-f2823a071e8b4f01ab6ffa785542e605"
+          source="id-837604cdb21d40d4a4c21dd334b38c17"
+          target="id-7a607d6d07494ca59558f21fec3cf6eb">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-d5fa8cf22f944457b8d30c82927ddb8b.xml#id-d5fa8cf22f944457b8d30c82927ddb8b"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-e38380590b6948df8fec645d955f08f1"
+          source="id-837604cdb21d40d4a4c21dd334b38c17"
+          target="id-610e30330d3c47c3aaa976b6ef164866">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-4f073f1172e74862a39c194b6d920b7a.xml#id-4f073f1172e74862a39c194b6d920b7a"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-6869b08f88ec441f9eb47eb5ed797da5"
+          source="id-837604cdb21d40d4a4c21dd334b38c17"
+          target="id-3aa9bad669f243c6aaff3fdf68b7a9c0">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-77efc7c093fe491188d590f04f2ab550.xml#id-77efc7c093fe491188d590f04f2ab550"/>
+      </sourceConnections>
+      <bounds
+          x="90"
+          y="2690"
+          width="389"
+          height="179"/>
+      <children
+          xsi:type="archimate:DiagramModelReference"
+          id="id-42dd65bca60f4fe488793952b14b8b77">
+        <bounds
+            x="50"
+            y="110"
+            width="301"
+            height="55"/>
+        <referencedModel
+            xsi:type="archimate:ArchimateDiagramModel"
+            href="ArchimateDiagramModel_id-5eba8ca36c9c42709455b9cfb2d1edaf.xml#id-5eba8ca36c9c42709455b9cfb2d1edaf"/>
+      </children>
+      <archimateElement
+          xsi:type="archimate:Grouping"
+          href="Grouping_id-b1c95d39b734476eb5a089a130ed3c49.xml#id-b1c95d39b734476eb5a089a130ed3c49"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-4f8c8a4e92c64efd80f4862c543c64d1"
+        textAlignment="1">
+      <features
+          name="labelExpression"
+          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-546b9fb8ce294bc298b63ea60fef929d"
+          source="id-4f8c8a4e92c64efd80f4862c543c64d1"
+          target="id-b1aa43c28c2b4778ad6aeede9f0ba035">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-58ddca5351f54879836aea0f7a3af024.xml#id-58ddca5351f54879836aea0f7a3af024"/>
+      </sourceConnections>
+      <bounds
+          x="100"
+          y="4240"
+          width="400"
+          height="120"/>
+      <children
+          xsi:type="archimate:DiagramModelReference"
+          id="id-35864ce0124b41a08422ef20c135d24c">
+        <bounds
+            x="130"
+            y="55"
+            width="241"
+            height="55"/>
+        <referencedModel
+            xsi:type="archimate:ArchimateDiagramModel"
+            href="ArchimateDiagramModel_id-aaa6b08ec1a84ea88a00abf71a945667.xml#id-aaa6b08ec1a84ea88a00abf71a945667"/>
+      </children>
+      <archimateElement
+          xsi:type="archimate:Grouping"
+          href="Grouping_id-1eee7819b0994ec996ef51d82c84d0d4.xml#id-1eee7819b0994ec996ef51d82c84d0d4"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-12cfa12f86144c94810c733e0dce2de8"
+        textAlignment="1">
+      <features
+          name="labelExpression"
+          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-bc91386b5c134c5a9ca441744a6d716d"
+          source="id-12cfa12f86144c94810c733e0dce2de8"
+          target="id-43bd46182efe4104877742b5226df8c8">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-f6d7ecacc24c45fcbd2f12af1098f963.xml#id-f6d7ecacc24c45fcbd2f12af1098f963"/>
+      </sourceConnections>
+      <bounds
+          x="100"
+          y="4390"
+          width="400"
+          height="120"/>
+      <archimateElement
+          xsi:type="archimate:Grouping"
+          href="Grouping_id-a034a251b84c43d7bfc9badec6fef6f9.xml#id-a034a251b84c43d7bfc9badec6fef6f9"/>
     </children>
   </children>
-  <properties
-      key="Viewtype"
-      value="View template"/>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-62b07ff447cf447ea6de90eeb506ea3a"
+      textAlignment="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-6e6e4683b6ca41f8826250cd702de590"
+        source="id-62b07ff447cf447ea6de90eeb506ea3a"
+        target="id-8df4ae8b877f466ebadf4314675050a6">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-2781eb18-b9c9-4064-a39c-66548654fd3d.xml#id-2781eb18-b9c9-4064-a39c-66548654fd3d"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-8b7c149085db48639a29ebcb53e38326"
+        source="id-62b07ff447cf447ea6de90eeb506ea3a"
+        target="id-6601a725daf445d289cbf44a517293f3">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-d48d179d-ffca-44be-90d6-ed2d8630ed95.xml#id-d48d179d-ffca-44be-90d6-ed2d8630ed95"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-7c14af5f27244b1c8a95a9e24b9cc4e4"
+        source="id-62b07ff447cf447ea6de90eeb506ea3a"
+        target="id-e4e2ff203c314c7ab2f10fea2772f5d6">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-76733cec-d0c9-43ed-a18f-c027ab726306.xml#id-76733cec-d0c9-43ed-a18f-c027ab726306"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-d7b8de2be4e14a9d9cc61d134e3b078c"
+        source="id-62b07ff447cf447ea6de90eeb506ea3a"
+        target="id-55cd19aaaa0042e5a217e794395c9707">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-ac94ee2f-c6db-488c-bbf4-267bd6686e61.xml#id-ac94ee2f-c6db-488c-bbf4-267bd6686e61"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-b2dddeee1ea64d2ea70b09d616589bcf"
+        source="id-62b07ff447cf447ea6de90eeb506ea3a"
+        target="id-8be1ceda0e8c40fa96ccfa54324084c6">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-20a03380ece24cd29c4787e7b639fd03.xml#id-20a03380ece24cd29c4787e7b639fd03"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-b3dcdcf75caa4c4a8cb67de79f00b09f"
+        source="id-62b07ff447cf447ea6de90eeb506ea3a"
+        target="id-920c4a417c7849cf997098db31f979ad">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-7f93ab31-382e-4c5a-9a41-9623627d1066.xml#id-7f93ab31-382e-4c5a-9a41-9623627d1066"/>
+    </sourceConnections>
+    <bounds
+        x="1100"
+        y="3330"
+        width="500"
+        height="860"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-6601a725daf445d289cbf44a517293f3"
+        targetConnections="id-98a924f38a2b4cbba3b0de21bc60b370 id-8b7c149085db48639a29ebcb53e38326"
+        fontColor="#000000"
+        lineColor="#000000"
+        textAlignment="1">
+      <features
+          name="labelExpression"
+          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+      <bounds
+          x="57"
+          y="352"
+          width="231"
+          height="51"/>
+      <archimateElement
+          xsi:type="archimate:Grouping"
+          href="Grouping_id-9219feb8-d58c-40c7-990f-ce5fbb2a8880.xml#id-9219feb8-d58c-40c7-990f-ce5fbb2a8880"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-920c4a417c7849cf997098db31f979ad"
+        targetConnections="id-7519162d41c84bc899db325a13ed7b59 id-b3dcdcf75caa4c4a8cb67de79f00b09f"
+        fontColor="#000000"
+        lineColor="#000000"
+        textAlignment="1">
+      <features
+          name="labelExpression"
+          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+      <bounds
+          x="57"
+          y="640"
+          width="231"
+          height="51"/>
+      <archimateElement
+          xsi:type="archimate:Grouping"
+          href="Grouping_id-bb4253a5-24b4-414c-beac-eba1d8c2e1b6.xml#id-bb4253a5-24b4-414c-beac-eba1d8c2e1b6"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-8df4ae8b877f466ebadf4314675050a6"
+        targetConnections="id-dae322c0d2b34b2ab0d8ed509f1829fd id-6e6e4683b6ca41f8826250cd702de590"
+        fontColor="#000000"
+        lineColor="#000000"
+        textAlignment="1">
+      <features
+          name="labelExpression"
+          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+      <bounds
+          x="57"
+          y="480"
+          width="231"
+          height="51"/>
+      <archimateElement
+          xsi:type="archimate:Grouping"
+          href="Grouping_id-4d65e4a6-1cbb-438f-99f9-f84770cf60ae.xml#id-4d65e4a6-1cbb-438f-99f9-f84770cf60ae"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-e4e2ff203c314c7ab2f10fea2772f5d6"
+        targetConnections="id-077dff90ae6f44879074f4d0b9fe073b id-7c14af5f27244b1c8a95a9e24b9cc4e4"
+        fontColor="#000000"
+        lineColor="#000000"
+        textAlignment="1">
+      <features
+          name="labelExpression"
+          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+      <bounds
+          x="57"
+          y="202"
+          width="231"
+          height="51"/>
+      <archimateElement
+          xsi:type="archimate:Grouping"
+          href="Grouping_id-1a20351b-cb51-4b5e-83c2-c25011378024.xml#id-1a20351b-cb51-4b5e-83c2-c25011378024"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-8be1ceda0e8c40fa96ccfa54324084c6"
+        targetConnections="id-71950ab9382f412282796772974a6428 id-b2dddeee1ea64d2ea70b09d616589bcf"
+        fontColor="#000000"
+        lineColor="#000000"
+        textAlignment="1">
+      <features
+          name="labelExpression"
+          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+      <bounds
+          x="60"
+          y="760"
+          width="231"
+          height="51"/>
+      <archimateElement
+          xsi:type="archimate:Grouping"
+          href="Grouping_id-01b08387-6b83-4588-907d-e002ca88334f.xml#id-01b08387-6b83-4588-907d-e002ca88334f"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-55cd19aaaa0042e5a217e794395c9707"
+        targetConnections="id-7c4495927ceb40b2840b033c0e0775ea id-d7b8de2be4e14a9d9cc61d134e3b078c"
+        fontColor="#000000"
+        lineColor="#000000"
+        textAlignment="1">
+      <features
+          name="labelExpression"
+          value="${name}&#xA;&#xA;View recipe: ${property:View recipe}&#xA;Folder: $mfolder{name}"/>
+      <bounds
+          x="57"
+          y="64"
+          width="231"
+          height="51"/>
+      <archimateElement
+          xsi:type="archimate:Grouping"
+          href="Grouping_id-73062ba8-a696-4f78-b9cd-d1086507f4f8.xml#id-73062ba8-a696-4f78-b9cd-d1086507f4f8"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-c1b9e7ce-e544-4b26-8816-cac3e6973cf7.xml#id-c1b9e7ce-e544-4b26-8816-cac3e6973cf7"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-b1aa43c28c2b4778ad6aeede9f0ba035"
+      targetConnections="id-546b9fb8ce294bc298b63ea60fef929d"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      fontColor="#000000"
+      lineColor="#000000"
+      textAlignment="1"
+      fillColor="#f6f6f6">
+    <bounds
+        x="1100"
+        y="4257"
+        width="400"
+        height="100"/>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-0df0d0d473e7465ebd030087278fd241.xml#id-0df0d0d473e7465ebd030087278fd241"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-43bd46182efe4104877742b5226df8c8"
+      targetConnections="id-bc91386b5c134c5a9ca441744a6d716d"
+      textAlignment="1">
+    <bounds
+        x="1100"
+        y="4390"
+        width="200"
+        height="125"/>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-a839b11313a848b2aafbd42cc23b2ab0.xml#id-a839b11313a848b2aafbd42cc23b2ab0"/>
+  </children>
   <properties
       key="Object ID"
       value="dafef9d0-444e-4e2a-bdd8-8bb84c43e3d9"/>
+  <properties
+      key="Viewtype"
+      value="View template"/>
 </archimate:ArchimateDiagramModel>
